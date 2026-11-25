@@ -1,0 +1,2121 @@
+{
+  "schemaVersion": 1,
+  "scope": "Documentation generated from current verified source_index/symbols; Java bytes were not edited.",
+  "classes": 130,
+  "sourceLines": 50666,
+  "sourceMethodConstructorDeclarations": 1311,
+  "sourceFields": 2322,
+  "resourceFiles": 239,
+  "resourceBytes": 541878,
+  "lineEndingNormalization": "CRLF to LF for source checksum comparison",
+  "sourceSha256": {
+    "source/src/main/java/main/CanvasAdapter.java": "c5e283ee08f06847ac9725d8fcb80a9134eef6c2ff1ed04430632c80a9b7f1d7",
+    "source/src/main/java/main/GameCanvas.java": "81bc8d02200737b273d2f03cfa2881e18c6875076845e11e77db745415bad7e6",
+    "source/src/main/java/main/GameMidlet.java": "56d3d4e59c32f06b418e9f8bb95d31224bfb1a463621ff7c12c7c22b969cbcb7",
+    "source/src/main/java/main/MotherCanvas.java": "d03de4f8220a4a3e6a38e705624b1092412978f1d1ea95bb1f80380629d9eed4",
+    "source/src/main/java/nso/AnimateEffect.java": "339230b00b565eeea533b8fc1e76e606176b269f236694aec31d0e9c2c122c1d",
+    "source/src/main/java/nso/AnimationAction.java": "8c6864cec572f72ac33e946bea6c16b97b51dc9e63a3aa032882953ae4b7452a",
+    "source/src/main/java/nso/Arrow.java": "0da56156bf3b4a29b0075f38fa202e138536c2f82c7bd4514efce76a95619a91",
+    "source/src/main/java/nso/Arrowpaint.java": "274b5a2d0faad207a32521636b330e76f04ab2351691de46e0c658dda05a951f",
+    "source/src/main/java/nso/BuNhin.java": "a4abf4e3130ea7149ef8df55d6490cefa2881df29eda96862553bab449b7006d",
+    "source/src/main/java/nso/Char.java": "cee351d735b9ff23ed2a104a02247bdf7e57e5a1004bf4658b4687ff57c99d8c",
+    "source/src/main/java/nso/CharPartInfo.java": "9fc6e636b043e2f226ed1469dffb475b255f55aa6133b2089e859b34c2052600",
+    "source/src/main/java/nso/ChatManager.java": "dea1e9e410ef2d2a8f1fb1416769b602b0a6c1a148f8211e157eb513947d470c",
+    "source/src/main/java/nso/ChatPopup.java": "3b3e1f1c840bcd81aad4dc827e995c2f910d145864fac5f9cf4b0ec2b723ed82",
+    "source/src/main/java/nso/ChatTab.java": "2ddef8c517d9d3f88bf2b444a2882b104c04076bc592434aa83cbb80cb05dcc0",
+    "source/src/main/java/nso/ChatTextField.java": "40d977a8bb8822e824d5c20ef83ae2ac86769dfd72c7899b6ac8142640f605e8",
+    "source/src/main/java/nso/Clan.java": "ff4e5c46cc27c6e47f9728268b1768b838a0a05ee6b4e79e9f1398ffc6b64493",
+    "source/src/main/java/nso/Clan_ThanThu.java": "2b31a8eb27a161f08681fdf12a29bf10f0cee7a7ca1fe015b21c39f4a2b60396",
+    "source/src/main/java/nso/Command.java": "3e5defa12bd48376243d03371dccb7950872c09ea3c91fd901bd357b7e676d82",
+    "source/src/main/java/nso/ConnectionTimeout.java": "c7866e27be73735bcf842429ae1580ff6195321856e637a144343a9d95877258",
+    "source/src/main/java/nso/Controller.java": "514f3cbe165b21c8020166d1435c24c983e49012b565876c9fe7d92cf79654a2",
+    "source/src/main/java/nso/CreateCharScr.java": "eabc0f0cc1698dbb60976985f493a66c96cd980d3283725ba5543a2845abe936",
+    "source/src/main/java/nso/DataSkillEff.java": "7d7355abdd1ee5287ea84da080b15f9a96a925fb6d3c4f8bba1f0238c3f3d51d",
+    "source/src/main/java/nso/Dialog.java": "dd7d2849d41ac1ad7bc45d2e8bb9f53aabfeed92a2b5a1a7b4fb72c61b094b53",
+    "source/src/main/java/nso/Domsang.java": "22c1aeebf6c1ba9766239396f8316d37109bc9d21e83d51997b3d2a639309f34",
+    "source/src/main/java/nso/DunItem.java": "0bc7b1e94cc1788042840beba631b89dc66d46edb382b3b41168b6394b449832",
+    "source/src/main/java/nso/EffAtutoTemp.java": "396fa698f6f9ebac82614b83e7c36bdd26efb70028d9eaf3db039ef989b2b2cd",
+    "source/src/main/java/nso/Effect.java": "daa8f3a53e32f39656609dad7c1b50cee19dba59b811e3431827ebbdcb575526",
+    "source/src/main/java/nso/Effect2.java": "6953068d24eea012af7399ce8e883115375a80a33c7db083d565b5c9a9e10952",
+    "source/src/main/java/nso/EffectAuto.java": "8d830569fa9b4a64f03e8bab3d1fc6f08883fd0c341199ed8965a0d7ad945cbb",
+    "source/src/main/java/nso/EffectCharPaint.java": "36c7978a358e3b044ea2ea6bf0e4943ca85c298c2c9c33fc2fff6393bffe2fd8",
+    "source/src/main/java/nso/EffectInfoPaint.java": "cbacf2460a4507b6d228a9c9b28ade9adca8bca1cff1134d19895c96e07d5b17",
+    "source/src/main/java/nso/EffectPaint.java": "3107a0bf690b3801b781ac257c543f27ee266dd05a07258c217cd12e982d610d",
+    "source/src/main/java/nso/EffectTemplate.java": "2c4987fb01200166cbbc93ab96f3dea13428bcda69e8bc113dc60b1efa7db869",
+    "source/src/main/java/nso/EggMonters.java": "684f4b5aa700b0b694fe2cf8e7323c84f147bbb577a1c3f6b64b574918e3817f",
+    "source/src/main/java/nso/EmptyAnimationAction.java": "c6711197d48c40abe63daa3b2c218309e1817e97a04d41567a5fe90c18534c58",
+    "source/src/main/java/nso/EPosition.java": "e993c9aa8fb95df69484110777456894bf6b6002fb9ca3f7cc85ebd7cbe8f996",
+    "source/src/main/java/nso/Frame.java": "58be00381112d364318a45415016b3c39e81482834d692ac44fb7dd7809fb891",
+    "source/src/main/java/nso/FrameEff.java": "464084a5fae041e89e04ca10fe389d90f42d3240d85bc874f50d870c7b6a1792",
+    "source/src/main/java/nso/FrameImage.java": "8ac22912bd486ef3b976710ea31bca50f807e7b3d4e452669626d752d409a692",
+    "source/src/main/java/nso/Friend.java": "5964ba0b72b0b2718284bff03e031d100ac66df2d115266518f59a95608c8747",
+    "source/src/main/java/nso/GameData.java": "2c6699a18b589bc5e9c529ec105066c6bfc694161206ba13173781dc991cf07a",
+    "source/src/main/java/nso/GameScr.java": "883d21c041f8b2c29463dedb42e541bc367ef0f56f6289a6dbea068f327481bd",
+    "source/src/main/java/nso/IActionListener.java": "5be512a54305d008d021fc481d92ebf76b1e82f182eee5d2b0644d75cda25314",
+    "source/src/main/java/nso/ImageIcon.java": "637d097a5b6c9ed57977e4d342e097bae7af38f6378e41f8fac51fc55bed1889",
+    "source/src/main/java/nso/ImageInfo.java": "4adcd9294d86feb9a3e9676935df7995647c8aecf8028a11a2ce485ddaef9c7e",
+    "source/src/main/java/nso/Info.java": "86cfc1e31d6f7880020409d5a88349b8ac3e6fb149a8b1c39fbcd40e6498357a",
+    "source/src/main/java/nso/InfoDlg.java": "5aceee1fdbd33556f069f8f9ed7cd1889d257cd290e764c702eaf0aedca07c63",
+    "source/src/main/java/nso/InfoItem.java": "a1ae59042ecb707080319d8e2576cf73a7a665cd5406cfa2aac27f51c61a0633",
+    "source/src/main/java/nso/InfoMe.java": "f474eb258cf358a02d415b973cf72760a80e3d780702c41ed504f86f2c548a23",
+    "source/src/main/java/nso/Input2Dlg.java": "5f4b8f7b844895c4b9a1d03dd7210da0b461914ed01f26ad2b9ebc726f3e11bd",
+    "source/src/main/java/nso/InputDlg.java": "349bedc5c645b2870fe85ce92ee45de5be60910b04c1a0ccd8dbbae715137c1d",
+    "source/src/main/java/nso/Item.java": "4b232065b916dfb9d904e39ca36e6674fb1d9dbd739230106088de83ddd093d3",
+    "source/src/main/java/nso/ItemMap.java": "e790fdaca3cb57132b5217c4daa46aaa62277568bf02b9b696fc534998e792d1",
+    "source/src/main/java/nso/ItemOption.java": "fc5dc2eef7908e70385fcb52e673db545f43da1beb84768013822cbf08f727c9",
+    "source/src/main/java/nso/ItemOptionTemplate.java": "8d0bec357bbe600e063541e5b3c30b3a5f711a2c1d3b6836cc523095cd66a333",
+    "source/src/main/java/nso/ItemStands.java": "e76aa61573272c46e8952974e9425ab1c52c81ace21cc508cc49ba9c07a10a27",
+    "source/src/main/java/nso/ItemTemplate.java": "43e6d883673f61aa2943917878a9cc2c05e7492ac1094c0730e2c4bdb4c02d59",
+    "source/src/main/java/nso/ItemTemplates.java": "1fe6ca6cd487848ae6584937065cfe0273010478688011614582412eed8aa3b2",
+    "source/src/main/java/nso/ItemTree.java": "fe47a672e95aa7c66f0113f9a12ad5fdbce267f4ad13d99f6e7467da47f3d2f9",
+    "source/src/main/java/nso/LanguageScr.java": "47ebfc54fa9fa03e1d0efc5dd7ca81e06333cd4391faa0bf4a5b5b97423cf1f6",
+    "source/src/main/java/nso/Lanterns.java": "f6749377fa5d55c6a034f49d2105b69a405376d8793d28fcf3dc717a483f981e",
+    "source/src/main/java/nso/Lightning.java": "59bdd091acefbd79937b8936f9c36429855e4ba58de1b18816cad421fd09f07d",
+    "source/src/main/java/nso/LoginScr.java": "5f4c698ba823f02ec8253499c8ae456a0781e1b8134f64b41afa350446ff72a8",
+    "source/src/main/java/nso/MainObject.java": "27f294859a49d7b71506eeb7a5f004e9eaf320ece5821043b921f83e07e44a97",
+    "source/src/main/java/nso/MapScr.java": "ac6d690f5bb175da150d7221d57b2740a40c52029330d7a8d676102b4295b48b",
+    "source/src/main/java/nso/Member.java": "0303ee2984a4c8007058363b1cd61b9d7ed1dea00463ecb9ef3cd0c7e36bcad2",
+    "source/src/main/java/nso/Menu.java": "ec40280598592a8a7c705b532ff6563f35a8f2e9625bb7cdd3b94677502af21b",
+    "source/src/main/java/nso/Message.java": "9b41f207aafd4f8470dba876af0f486c18f4d63453fd3f5e47094027b701ddaf",
+    "source/src/main/java/nso/mFont.java": "ded2dfdb9841f0f2b4eb536ad4446e90d9b91c780887fb992d56e051de07d9c2",
+    "source/src/main/java/nso/mGraphics.java": "7f8a81da58300d2ce418f8acd7b82aff3fa8c24f11479d57170b355df44af2ea",
+    "source/src/main/java/nso/mHashtable.java": "11e3dd436c1565d17b92101e289304ac7ad17dab2d71527d6a9e2b2f0144fdee",
+    "source/src/main/java/nso/Mob.java": "4d3df1d23e970f734b5692942a3972b7919d84cf5445d2384d233cb3a698c9b0",
+    "source/src/main/java/nso/MobAttack.java": "ca59c85621e9a5d71baefa8c0b9cd00d3f0a79b0adff7707830d1345c85f46f0",
+    "source/src/main/java/nso/MobSoul.java": "2f4f49edd2c2bf4c758f5607c83f2302d018761047ac305fc6c34e4bdf0d3a4a",
+    "source/src/main/java/nso/MobTemplate.java": "ce55cea6c66cf3ef58358c5306886b0629c2029a989bbeef6809e478f76af13d",
+    "source/src/main/java/nso/MonsterDart.java": "6255d3bf427ab725a2ccd41383c738371c581e1c82c1dff933290d1967e53b7a",
+    "source/src/main/java/nso/MovePoint.java": "8dc1e4fa3a1be8dfa8055f28c7b6c6181fefa0015f24379a2822cd90af73b03f",
+    "source/src/main/java/nso/mResources.java": "0de03b0d47cd5b7c83bf828deb860ef22397379b5fe69bf5d0a26721da6aacb4",
+    "source/src/main/java/nso/mScreen.java": "32bc130f4a652dc78c1d9324db4e0e365825d0a243b32f539fdbf537ea2ede97",
+    "source/src/main/java/nso/MsgDlg.java": "bffd27cc92ccc8554282026f4820a8bf7acecae6ee9ad40fdd77131e79bcc2e0",
+    "source/src/main/java/nso/MyImage.java": "81763356028e5e444db4574fb7c3ac717f81c4c1984a0ade81a9f6a9c34badc6",
+    "source/src/main/java/nso/MyVector.java": "190a0f946edbc4404d8f9c66d4529772483c5fa2b14eb9ffeb1cbfdd36b1dae5",
+    "source/src/main/java/nso/NativeTextBoxListener.java": "4284dc6507444b8a20d296e538039c17d9eb77bf344b184bed94a49bef49000d",
+    "source/src/main/java/nso/NClass.java": "de9117745150bf5bbdea4c890c7cf70233691a5eeb0ac634fe7b9b01fa3ae77f",
+    "source/src/main/java/nso/NinjaUtil.java": "386062e6b1ddd9d20d761185af685b8f456ef8c4184e73dd1f9b0879b1306701",
+    "source/src/main/java/nso/Npc.java": "df037eb491b3f4fe6ba0b32a20e09dc4c6c7fc30aa7488522907368d905af626",
+    "source/src/main/java/nso/NpcTemplate.java": "857f6bff6ebca18620023c84f88b72ec7567021dc177964f62b3141b8771a227",
+    "source/src/main/java/nso/PacketBuffer.java": "fd7e0bf37180789d26e1e7388be90a12e9a504bd86a99234a7201d87dea0c5b8",
+    "source/src/main/java/nso/Paint.java": "5eba555c516b78f359ec09cd505c7ca0aa1f0e7edadc82e18f11acbcf1560c3c",
+    "source/src/main/java/nso/Part.java": "8cd72a76d1e0e27d3f11c064614c1fd2364068d5e92d94900adf52c9757cf342",
+    "source/src/main/java/nso/PartFrame.java": "e52e82f058d856f9e99bc48759c23f52a634a4fa55aec49a1d4ec1c67385dec5",
+    "source/src/main/java/nso/PartImage.java": "83e543d89bf48e0057f13d4486ec3126f8b25fcc6fb5c8556770264130264612",
+    "source/src/main/java/nso/Party.java": "fe772a5759dc07fa8c92a60b8cb60374a6d796db722f5b827415f6865e4cae29",
+    "source/src/main/java/nso/Position.java": "6ff2573d9ffeef43b776dc43e8c05c538a79b19bacbaaf843a21f0d2d905459c",
+    "source/src/main/java/nso/Ranked.java": "0b8bd2430973f23cfa8cff9cbb60deb1791cefcd2c6dd49fff7b5bcbd2a8cd0a",
+    "source/src/main/java/nso/Readmsg.java": "ad84d1fc2d26b7182d488586f93f3a881c70cf177d39101eae1c0907c260bb2f",
+    "source/src/main/java/nso/RegisterScr.java": "2cdaf35e20052a1f05a9ddc8d83a01d0c4fda51a4ef854ba91dbaf1bf6be9f25",
+    "source/src/main/java/nso/Res.java": "34c8a851a7101250cd58f9559641a2690411f91316d3fd120971b369aba01d11",
+    "source/src/main/java/nso/RMS.java": "600a8dde7845c2ecd02ee46ba9188c589c1003fb6ed9a2b3916c23a198a790e4",
+    "source/src/main/java/nso/Scroll.java": "481b5d66495f1e8c5693a48e975cd448973dc036077f9296deb138d7b2371a27",
+    "source/src/main/java/nso/ScrollResult.java": "76bae9b72b99f6d1dbffd06f0b25da82d13cdb1dbbcc2015b02ee68e166c7e6d",
+    "source/src/main/java/nso/SelectCharScr.java": "fb67fdfa4d02fb2e0535d18eac01e6b26465ca5d348492b42e32bbed4d2bea1f",
+    "source/src/main/java/nso/SelectServerScr.java": "9c6099beccefe63626588cbdd5fb3593486a8c948fe1cbbac703e364904b5b2a",
+    "source/src/main/java/nso/ServerEffect.java": "e650f9adf34be8fde0c48fb33c7aca0a23b003a187fcfcb16007606d8a1b4fda",
+    "source/src/main/java/nso/Service.java": "48869f3d3b686becd1ac7f364f51bb45e1679a64c23c9fcf427b51a1796aa655",
+    "source/src/main/java/nso/Session_ME.java": "b65de6fd58fce4b60cfd7f5eb17a69868d82ddea39a45f0d71a00652ea8accb5",
+    "source/src/main/java/nso/SessionConnector.java": "16b41187a84186275bfdbcf053bf837f9b1161d51ea657305a529a118d08d73b",
+    "source/src/main/java/nso/SessionReceiver.java": "898c984ccdb095737fe0f26502b9ed2344e71289389d054cb03a3aebf90a79f1",
+    "source/src/main/java/nso/SessionSender.java": "f7786f463d31dfb28b9070ae09b699db2a5c251e9670b209e21962e27e20c744",
+    "source/src/main/java/nso/Set.java": "4a5c98303c4ab5a27ee67962c86daffead5430c56bc19a525db4d5b80716c4bf",
+    "source/src/main/java/nso/Skill.java": "29e5beba969cb0315783fbbb2c0ba36167f3fe824d6c23dcfb195c04f78899d3",
+    "source/src/main/java/nso/SkillInfoPaint.java": "c35f7fa39c9cacdc72d27059b7a86225c3493f9fec6b8dbe077cde62a2ec97ee",
+    "source/src/main/java/nso/SkillOption.java": "40c3b79bb700738a09ac3487c00da78de076d7f094449a6000eabb9c01f0155b",
+    "source/src/main/java/nso/SkillOptionTemplate.java": "9df05982f3b0d4147a07a8bf9b08c7f153b71012abf9cbe4f0975c09cb7b30b7",
+    "source/src/main/java/nso/SkillPaint.java": "80413fd888d06e9eccaf22b4871468fb61f9ffa460ccf4ece097233eeaa81f4b",
+    "source/src/main/java/nso/Skills.java": "e0aeaa50ed6e9b280dd7af092a8ff132a3fd076f554fb86dbb2ebcd3625dcdf2",
+    "source/src/main/java/nso/SkillTemplate.java": "0b026025c198948656b2f385e8579cab05fee014819873392bbc877f0e0bcb7f",
+    "source/src/main/java/nso/SmallImage.java": "c741e5d6a6398f0a2a8cba31927273ed3fdea9c5061ef67b4f7c0f92f8bbf5e6",
+    "source/src/main/java/nso/SMS.java": "c9dd5f7a14804101c44c6a665587cf377c5a0808391a67262163f3f72c411c0b",
+    "source/src/main/java/nso/SmsSender.java": "25983ce889650af99e06ffa5389e63034c6e07209e4fc2d90bfaa2c480356eaa",
+    "source/src/main/java/nso/SplashScr.java": "b8383e654ae8f7d0f30762353ac724405ba6a77429bd586a4b2bec2b858406e5",
+    "source/src/main/java/nso/StaticObj.java": "dbb02bbdab66e41a750827255591e91b70154a4af45de0a52d239c166fa4d0d1",
+    "source/src/main/java/nso/StringHashtable.java": "df96d1f3af3c99bcafadae9cb9fe91d75d9430588bd5e5032067a9d5a49e2f51",
+    "source/src/main/java/nso/Task.java": "aa7d5f012676a4736d3c082084d36f6ce4f2441320286616a7a074044b56b07a",
+    "source/src/main/java/nso/TaskOrder.java": "3ace27bc37dbae4f39ef64274b731bfae1914f913e04eae62daa7aeef0997fe8",
+    "source/src/main/java/nso/TField.java": "a18764d44664e70377a97cf3152da6ab0ece7650421dc8c0c9b602b834e4a34a",
+    "source/src/main/java/nso/TileMap.java": "d51632eec432a068f2387a7b8cb6082f91e7d0031b12738c78544ad9913f1938",
+    "source/src/main/java/nso/TimecountDown.java": "5b1c357bdcf681236489be64cae4859fa4f0fa79cfcecec7bc146d69289f251c",
+    "source/src/main/java/nso/Timer.java": "1228230ccb73f8ffe58409677ead3d7ea403d21e7b8617ab902df700ade193c9",
+    "source/src/main/java/nso/Waypoint.java": "037756d57ecd32a3318c793af2f7629c0246758b6a047d587782d5caa9e1f920"
+  },
+  "catalog": [
+    {
+      "mapped": "nso/AnimateEffect",
+      "original": "az",
+      "file": "source/src/main/java/nso/AnimateEffect.java",
+      "lines": 142,
+      "sourceDeclarations": 4,
+      "fields": 7,
+      "role": "Đối tượng animation effect với update/paint.",
+      "header": "public final class AnimateEffect extends Effect2",
+      "group": "Hiệu ứng và animation",
+      "methods": [
+        "paint",
+        "update",
+        "rndPos"
+      ]
+    },
+    {
+      "mapped": "nso/AnimationAction",
+      "original": "bo",
+      "file": "source/src/main/java/nso/AnimationAction.java",
+      "lines": 7,
+      "sourceDeclarations": 1,
+      "fields": 0,
+      "role": "Base action của animation.",
+      "header": "public class AnimationAction",
+      "group": "Hiệu ứng và animation",
+      "methods": []
+    },
+    {
+      "mapped": "nso/DataSkillEff",
+      "original": "y",
+      "file": "source/src/main/java/nso/DataSkillEff.java",
+      "lines": 571,
+      "sourceDeclarations": 14,
+      "fields": 35,
+      "role": "Dữ liệu frame, vị trí và cập nhật effect kỹ năng.",
+      "header": "public final class DataSkillEff",
+      "group": "Hiệu ứng và animation",
+      "methods": [
+        "loadnew",
+        "loadData",
+        "setTypeEff",
+        "vector2arr",
+        "isHavedata",
+        "paintBottomEff_new"
+      ]
+    },
+    {
+      "mapped": "nso/Domsang",
+      "original": "v",
+      "file": "source/src/main/java/nso/Domsang.java",
+      "lines": 59,
+      "sourceDeclarations": 3,
+      "fields": 5,
+      "role": "Hiệu ứng vị trí có update/paint.",
+      "header": "public final class Domsang",
+      "group": "Hiệu ứng và animation",
+      "methods": [
+        "update",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/EffAtutoTemp",
+      "original": "cc",
+      "file": "source/src/main/java/nso/EffAtutoTemp.java",
+      "lines": 17,
+      "sourceDeclarations": 1,
+      "fields": 5,
+      "role": "Dữ liệu có các field `imginfo`, `frameEffAuto`, `frameRunning`, `timerequest`.",
+      "header": "public final class EffAtutoTemp",
+      "group": "Hiệu ứng và animation",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Effect",
+      "original": "m",
+      "file": "source/src/main/java/nso/Effect.java",
+      "lines": 21,
+      "sourceDeclarations": 1,
+      "fields": 5,
+      "role": "Dữ liệu và thao tác effect.",
+      "header": "public final class Effect",
+      "group": "Hiệu ứng và animation",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Effect2",
+      "original": "au",
+      "file": "source/src/main/java/nso/Effect2.java",
+      "lines": 19,
+      "sourceDeclarations": 3,
+      "fields": 4,
+      "role": "Base effect với hợp đồng update/paint.",
+      "header": "public abstract class Effect2",
+      "group": "Hiệu ứng và animation",
+      "methods": [
+        "update",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/EffectAuto",
+      "original": "bl",
+      "file": "source/src/main/java/nso/EffectAuto.java",
+      "lines": 220,
+      "sourceDeclarations": 10,
+      "fields": 12,
+      "role": "Effect theo dữ liệu/frame và vòng đời tự cập nhật.",
+      "header": "public final class EffectAuto extends Effect2",
+      "group": "Hiệu ứng và animation",
+      "methods": [
+        "addEffectAuto",
+        "getTemplate",
+        "paint",
+        "update",
+        "reciveData",
+        "creatDataEffauto"
+      ]
+    },
+    {
+      "mapped": "nso/EffectCharPaint",
+      "original": "g",
+      "file": "source/src/main/java/nso/EffectCharPaint.java",
+      "lines": 11,
+      "sourceDeclarations": 1,
+      "fields": 2,
+      "role": "Dữ liệu effect gắn với nhân vật.",
+      "header": "public final class EffectCharPaint",
+      "group": "Hiệu ứng và animation",
+      "methods": []
+    },
+    {
+      "mapped": "nso/EffectInfoPaint",
+      "original": "di",
+      "file": "source/src/main/java/nso/EffectInfoPaint.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Thông tin vẽ effect.",
+      "header": "public final class EffectInfoPaint",
+      "group": "Hiệu ứng và animation",
+      "methods": []
+    },
+    {
+      "mapped": "nso/EffectPaint",
+      "original": "be",
+      "file": "source/src/main/java/nso/EffectPaint.java",
+      "lines": 21,
+      "sourceDeclarations": 2,
+      "fields": 5,
+      "role": "Dữ liệu frame/ảnh để vẽ effect.",
+      "header": "public final class EffectPaint",
+      "group": "Hiệu ứng và animation",
+      "methods": [
+        "getImgId"
+      ]
+    },
+    {
+      "mapped": "nso/EffectTemplate",
+      "original": "dj",
+      "file": "source/src/main/java/nso/EffectTemplate.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Template effect.",
+      "header": "public final class EffectTemplate",
+      "group": "Hiệu ứng và animation",
+      "methods": []
+    },
+    {
+      "mapped": "nso/EmptyAnimationAction",
+      "original": "bj",
+      "file": "source/src/main/java/nso/EmptyAnimationAction.java",
+      "lines": 7,
+      "sourceDeclarations": 1,
+      "fields": 0,
+      "role": "Biến thể action có constructor rỗng đang được giữ theo baseline.",
+      "header": "final class EmptyAnimationAction extends AnimationAction",
+      "group": "Hiệu ứng và animation",
+      "methods": []
+    },
+    {
+      "mapped": "nso/FrameEff",
+      "original": "ai",
+      "file": "source/src/main/java/nso/FrameEff.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 2,
+      "role": "Dữ liệu frame effect.",
+      "header": "public final class FrameEff",
+      "group": "Hiệu ứng và animation",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Lightning",
+      "original": "c",
+      "file": "source/src/main/java/nso/Lightning.java",
+      "lines": 240,
+      "sourceDeclarations": 5,
+      "fields": 11,
+      "role": "Hiệu ứng Lightning và các điểm/frame để vẽ.",
+      "header": "public final class Lightning extends Effect2",
+      "group": "Hiệu ứng và animation",
+      "methods": [
+        "addLight",
+        "setInfo",
+        "update",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/ServerEffect",
+      "original": "ap",
+      "file": "source/src/main/java/nso/ServerEffect.java",
+      "lines": 103,
+      "sourceDeclarations": 7,
+      "fields": 8,
+      "role": "Effect có điểm gọi/tham số liên quan dữ liệu server.",
+      "header": "public final class ServerEffect extends Effect2",
+      "group": "Hiệu ứng và animation",
+      "methods": [
+        "addServerEffect",
+        "addServerEffectWithTime",
+        "paint",
+        "update"
+      ]
+    },
+    {
+      "mapped": "main/CanvasAdapter",
+      "original": "main/c",
+      "file": "source/src/main/java/main/CanvasAdapter.java",
+      "lines": 21,
+      "sourceDeclarations": 7,
+      "fields": 0,
+      "role": "Hợp đồng callback paint/key/pointer giữa Canvas và game.",
+      "header": "public abstract class CanvasAdapter",
+      "group": "Khởi động và canvas",
+      "methods": [
+        "paint",
+        "keyPressed",
+        "keyReleased",
+        "pointerDragged",
+        "pointerPressed",
+        "pointerReleased"
+      ]
+    },
+    {
+      "mapped": "main/GameCanvas",
+      "original": "main/a",
+      "file": "source/src/main/java/main/GameCanvas.java",
+      "lines": 1630,
+      "sourceDeclarations": 44,
+      "fields": 91,
+      "role": "Loop 40 ms, input, screen/dialog/menu, background và tiện ích chung.",
+      "header": "public final class GameCanvas extends CanvasAdapter implements IActionListener, Runnable",
+      "group": "Khởi động và canvas",
+      "methods": [
+        "gI",
+        "connect",
+        "initGameCanvas",
+        "startGameLoop",
+        "run",
+        "updateBallEffect"
+      ]
+    },
+    {
+      "mapped": "main/GameMidlet",
+      "original": "main/GameMidlet",
+      "file": "source/src/main/java/main/GameMidlet.java",
+      "lines": 264,
+      "sourceDeclarations": 14,
+      "fields": 20,
+      "role": "MIDlet entry, Display, server list và cache danh sách server.",
+      "header": "public class GameMidlet extends MIDlet",
+      "group": "Khởi động và canvas",
+      "methods": [
+        "destroyApp",
+        "pauseApp",
+        "startApp",
+        "exit",
+        "openUrlAndExit",
+        "readFileText"
+      ]
+    },
+    {
+      "mapped": "main/MotherCanvas",
+      "original": "main/b",
+      "file": "source/src/main/java/main/MotherCanvas.java",
+      "lines": 82,
+      "sourceDeclarations": 10,
+      "fields": 6,
+      "role": "Canvas MIDP thật; chuyển paint/key/pointer sang adapter.",
+      "header": "public final class MotherCanvas extends Canvas",
+      "group": "Khởi động và canvas",
+      "methods": [
+        "setCanvasAdapter",
+        "paint",
+        "keyPressed",
+        "keyReleased",
+        "pointerDragged",
+        "pointerPressed"
+      ]
+    },
+    {
+      "mapped": "nso/Arrowpaint",
+      "original": "bx",
+      "file": "source/src/main/java/nso/Arrowpaint.java",
+      "lines": 15,
+      "sourceDeclarations": 1,
+      "fields": 1,
+      "role": "Dữ liệu vẽ mũi tên.",
+      "header": "public final class Arrowpaint",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Clan",
+      "original": "r",
+      "file": "source/src/main/java/nso/Clan.java",
+      "lines": 79,
+      "sourceDeclarations": 2,
+      "fields": 16,
+      "role": "Dữ liệu clan.",
+      "header": "public final class Clan",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "writeLog"
+      ]
+    },
+    {
+      "mapped": "nso/Clan_ThanThu",
+      "original": "o",
+      "file": "source/src/main/java/nso/Clan_ThanThu.java",
+      "lines": 37,
+      "sourceDeclarations": 1,
+      "fields": 10,
+      "role": "Dữ liệu thần thú clan.",
+      "header": "public final class Clan_ThanThu",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/DunItem",
+      "original": "dv",
+      "file": "source/src/main/java/nso/DunItem.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Dữ liệu có các field `id`, `name1`, `name2`.",
+      "header": "public final class DunItem",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/EPosition",
+      "original": "ba",
+      "file": "source/src/main/java/nso/EPosition.java",
+      "lines": 28,
+      "sourceDeclarations": 3,
+      "fields": 5,
+      "role": "Dữ liệu vị trí dùng trong effect/game.",
+      "header": "public final class EPosition",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Friend",
+      "original": "cz",
+      "file": "source/src/main/java/nso/Friend.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 2,
+      "role": "Dữ liệu bạn bè.",
+      "header": "public final class Friend",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Item",
+      "original": "by",
+      "file": "source/src/main/java/nso/Item.java",
+      "lines": 231,
+      "sourceDeclarations": 23,
+      "fields": 21,
+      "role": "Vật phẩm instance, chỉ số/trang bị và thao tác liên quan.",
+      "header": "public final class Item",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "clone",
+        "viewNext",
+        "isTypeBody",
+        "isTypeMounts",
+        "isTypeNgocKham",
+        "getExpiresString"
+      ]
+    },
+    {
+      "mapped": "nso/ItemOption",
+      "original": "cg",
+      "file": "source/src/main/java/nso/ItemOption.java",
+      "lines": 58,
+      "sourceDeclarations": 5,
+      "fields": 3,
+      "role": "Giá trị option của vật phẩm.",
+      "header": "public final class ItemOption",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "getOptionString",
+        "getValuePercent",
+        "getOptionShopString"
+      ]
+    },
+    {
+      "mapped": "nso/ItemOptionTemplate",
+      "original": "do",
+      "file": "source/src/main/java/nso/ItemOptionTemplate.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Template option vật phẩm.",
+      "header": "public final class ItemOptionTemplate",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/ItemStands",
+      "original": "bu",
+      "file": "source/src/main/java/nso/ItemStands.java",
+      "lines": 17,
+      "sourceDeclarations": 1,
+      "fields": 5,
+      "role": "Dữ liệu item trong giao diện/đối tượng ItemStands.",
+      "header": "public final class ItemStands",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/ItemTemplate",
+      "original": "bz",
+      "file": "source/src/main/java/nso/ItemTemplate.java",
+      "lines": 34,
+      "sourceDeclarations": 1,
+      "fields": 9,
+      "role": "Dữ liệu template vật phẩm.",
+      "header": "public final class ItemTemplate",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/ItemTemplates",
+      "original": "e",
+      "file": "source/src/main/java/nso/ItemTemplates.java",
+      "lines": 21,
+      "sourceDeclarations": 4,
+      "fields": 1,
+      "role": "Bảng template vật phẩm và truy xuất theo ID.",
+      "header": "public final class ItemTemplates",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "add",
+        "get",
+        "getIcon"
+      ]
+    },
+    {
+      "mapped": "nso/MainObject",
+      "original": "as",
+      "file": "source/src/main/java/nso/MainObject.java",
+      "lines": 53,
+      "sourceDeclarations": 4,
+      "fields": 1,
+      "role": "Dữ liệu có các field `vecEFfect`.",
+      "header": "public class MainObject",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "paintTopDataEff",
+        "paintBottomDataEff",
+        "updateDataEff"
+      ]
+    },
+    {
+      "mapped": "nso/Member",
+      "original": "bn",
+      "file": "source/src/main/java/nso/Member.java",
+      "lines": 48,
+      "sourceDeclarations": 1,
+      "fields": 7,
+      "role": "Dữ liệu thành viên.",
+      "header": "public final class Member",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/MobTemplate",
+      "original": "a",
+      "file": "source/src/main/java/nso/MobTemplate.java",
+      "lines": 39,
+      "sourceDeclarations": 1,
+      "fields": 15,
+      "role": "Template mob.",
+      "header": "public final class MobTemplate",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/NClass",
+      "original": "cx",
+      "file": "source/src/main/java/nso/NClass.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Dữ liệu lớp nhân vật.",
+      "header": "public final class NClass",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/NpcTemplate",
+      "original": "bi",
+      "file": "source/src/main/java/nso/NpcTemplate.java",
+      "lines": 19,
+      "sourceDeclarations": 1,
+      "fields": 6,
+      "role": "Template NPC.",
+      "header": "public final class NpcTemplate",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Party",
+      "original": "db",
+      "file": "source/src/main/java/nso/Party.java",
+      "lines": 98,
+      "sourceDeclarations": 4,
+      "fields": 7,
+      "role": "Dữ liệu party.",
+      "header": "public final class Party",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "refreshAll",
+        "clear"
+      ]
+    },
+    {
+      "mapped": "nso/Position",
+      "original": "ck",
+      "file": "source/src/main/java/nso/Position.java",
+      "lines": 26,
+      "sourceDeclarations": 2,
+      "fields": 6,
+      "role": "Dữ liệu tọa độ/vị trí.",
+      "header": "public final class Position",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Ranked",
+      "original": "cf",
+      "file": "source/src/main/java/nso/Ranked.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Dữ liệu xếp hạng.",
+      "header": "public final class Ranked",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Set",
+      "original": "k",
+      "file": "source/src/main/java/nso/Set.java",
+      "lines": 14,
+      "sourceDeclarations": 0,
+      "fields": 5,
+      "role": "Dữ liệu thời gian và tọa độ mob/char.",
+      "header": "public final class Set",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Skill",
+      "original": "z",
+      "file": "source/src/main/java/nso/Skill.java",
+      "lines": 52,
+      "sourceDeclarations": 3,
+      "fields": 12,
+      "role": "Skill instance, hồi chiêu và dữ liệu hiển thị.",
+      "header": "public final class Skill",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "paint",
+        "isCooldown"
+      ]
+    },
+    {
+      "mapped": "nso/SkillInfoPaint",
+      "original": "ar",
+      "file": "source/src/main/java/nso/SkillInfoPaint.java",
+      "lines": 33,
+      "sourceDeclarations": 1,
+      "fields": 13,
+      "role": "Thông tin frame vẽ kỹ năng.",
+      "header": "public final class SkillInfoPaint",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/SkillOption",
+      "original": "cr",
+      "file": "source/src/main/java/nso/SkillOption.java",
+      "lines": 25,
+      "sourceDeclarations": 2,
+      "fields": 3,
+      "role": "Giá trị option của skill.",
+      "header": "public final class SkillOption",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "getOptionString"
+      ]
+    },
+    {
+      "mapped": "nso/SkillOptionTemplate",
+      "original": "cm",
+      "file": "source/src/main/java/nso/SkillOptionTemplate.java",
+      "lines": 11,
+      "sourceDeclarations": 1,
+      "fields": 2,
+      "role": "Template option của skill.",
+      "header": "public final class SkillOptionTemplate",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/SkillPaint",
+      "original": "n",
+      "file": "source/src/main/java/nso/SkillPaint.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Dữ liệu vẽ kỹ năng.",
+      "header": "public final class SkillPaint",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/SkillTemplate",
+      "original": "j",
+      "file": "source/src/main/java/nso/SkillTemplate.java",
+      "lines": 21,
+      "sourceDeclarations": 1,
+      "fields": 7,
+      "role": "Template kỹ năng.",
+      "header": "public final class SkillTemplate",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Skills",
+      "original": "bc",
+      "file": "source/src/main/java/nso/Skills.java",
+      "lines": 17,
+      "sourceDeclarations": 3,
+      "fields": 1,
+      "role": "Bảng skill và truy xuất theo ID.",
+      "header": "public final class Skills",
+      "group": "Model và dữ liệu",
+      "methods": [
+        "add",
+        "get"
+      ]
+    },
+    {
+      "mapped": "nso/Task",
+      "original": "h",
+      "file": "source/src/main/java/nso/Task.java",
+      "lines": 25,
+      "sourceDeclarations": 1,
+      "fields": 6,
+      "role": "Dữ liệu nhiệm vụ.",
+      "header": "public final class Task",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/TaskOrder",
+      "original": "av",
+      "file": "source/src/main/java/nso/TaskOrder.java",
+      "lines": 28,
+      "sourceDeclarations": 1,
+      "fields": 7,
+      "role": "Dữ liệu bước/thứ tự nhiệm vụ.",
+      "header": "public final class TaskOrder",
+      "group": "Model và dữ liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/CreateCharScr",
+      "original": "bh",
+      "file": "source/src/main/java/nso/CreateCharScr.java",
+      "lines": 235,
+      "sourceDeclarations": 8,
+      "fields": 11,
+      "role": "Màn tạo nhân vật.",
+      "header": "public final class CreateCharScr extends mScreen implements IActionListener",
+      "group": "Màn hình",
+      "methods": [
+        "gI",
+        "switchToMe",
+        "keyPress",
+        "update",
+        "updateKey",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/GameScr",
+      "original": "dg",
+      "file": "source/src/main/java/nso/GameScr.java",
+      "lines": 17216,
+      "sourceDeclarations": 365,
+      "fields": 455,
+      "role": "Màn chơi: camera, đối tượng, combat, UI và render.",
+      "header": "public final class GameScr extends mScreen implements IActionListener",
+      "group": "Màn hình",
+      "methods": [
+        "getMaxExp",
+        "resetAllvector",
+        "loadSkillShortcut",
+        "loadSkillShortcutNhanban",
+        "onOSkill",
+        "onKSkill"
+      ]
+    },
+    {
+      "mapped": "nso/LanguageScr",
+      "original": "l",
+      "file": "source/src/main/java/nso/LanguageScr.java",
+      "lines": 131,
+      "sourceDeclarations": 8,
+      "fields": 5,
+      "role": "Screen ngôn ngữ.",
+      "header": "public final class LanguageScr extends mScreen implements IActionListener",
+      "group": "Màn hình",
+      "methods": [
+        "switchToMe",
+        "paint",
+        "saveLanguageID",
+        "loadLanguageID",
+        "update",
+        "updateKey"
+      ]
+    },
+    {
+      "mapped": "nso/LoginScr",
+      "original": "dc",
+      "file": "source/src/main/java/nso/LoginScr.java",
+      "lines": 591,
+      "sourceDeclarations": 12,
+      "fields": 25,
+      "role": "Form đăng nhập, nhập liệu và các command liên quan.",
+      "header": "public final class LoginScr extends mScreen implements IActionListener",
+      "group": "Màn hình",
+      "methods": [
+        "switchToMe",
+        "mgI",
+        "doSetGPRS",
+        "doRegister",
+        "update",
+        "keyPress"
+      ]
+    },
+    {
+      "mapped": "nso/MapScr",
+      "original": "q",
+      "file": "source/src/main/java/nso/MapScr.java",
+      "lines": 466,
+      "sourceDeclarations": 9,
+      "fields": 34,
+      "role": "Giao diện map.",
+      "header": "public final class MapScr extends mScreen implements IActionListener",
+      "group": "Màn hình",
+      "methods": [
+        "resetCMLim",
+        "gI",
+        "switchToMe",
+        "unLoad",
+        "paint",
+        "updateKey"
+      ]
+    },
+    {
+      "mapped": "nso/RegisterScr",
+      "original": "ao",
+      "file": "source/src/main/java/nso/RegisterScr.java",
+      "lines": 156,
+      "sourceDeclarations": 7,
+      "fields": 12,
+      "role": "Form đăng ký tài khoản.",
+      "header": "public final class RegisterScr extends mScreen implements IActionListener",
+      "group": "Màn hình",
+      "methods": [
+        "update",
+        "keyPress",
+        "updateKey",
+        "paint",
+        "switchToMe",
+        "perform"
+      ]
+    },
+    {
+      "mapped": "nso/SelectCharScr",
+      "original": "u",
+      "file": "source/src/main/java/nso/SelectCharScr.java",
+      "lines": 229,
+      "sourceDeclarations": 8,
+      "fields": 20,
+      "role": "Màn chọn nhân vật.",
+      "header": "public final class SelectCharScr extends mScreen implements IActionListener",
+      "group": "Màn hình",
+      "methods": [
+        "gI",
+        "doSelect",
+        "updateKey",
+        "update",
+        "switchToMe",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/SelectServerScr",
+      "original": "co",
+      "file": "source/src/main/java/nso/SelectServerScr.java",
+      "lines": 349,
+      "sourceDeclarations": 11,
+      "fields": 17,
+      "role": "Chọn server, đọc thông tin server và xử lý action.",
+      "header": "public final class SelectServerScr extends mScreen implements IActionListener",
+      "group": "Màn hình",
+      "methods": [
+        "loadIP",
+        "loadInfoIp",
+        "switchToMe",
+        "paint",
+        "update",
+        "updateKey"
+      ]
+    },
+    {
+      "mapped": "nso/SplashScr",
+      "original": "cj",
+      "file": "source/src/main/java/nso/SplashScr.java",
+      "lines": 24,
+      "sourceDeclarations": 2,
+      "fields": 1,
+      "role": "Screen khởi động và chuyển trạng thái ban đầu.",
+      "header": "public final class SplashScr extends mScreen",
+      "group": "Màn hình",
+      "methods": [
+        "update"
+      ]
+    },
+    {
+      "mapped": "nso/mScreen",
+      "original": "ag",
+      "file": "source/src/main/java/nso/mScreen.java",
+      "lines": 152,
+      "sourceDeclarations": 9,
+      "fields": 7,
+      "role": "Base màn hình: chuyển screen, update, input và paint.",
+      "header": "public class mScreen",
+      "group": "Màn hình",
+      "methods": [
+        "switchToMe",
+        "unLoad",
+        "initPos",
+        "keyPress",
+        "update",
+        "updateKey"
+      ]
+    },
+    {
+      "mapped": "nso/ConnectionTimeout",
+      "original": "dt",
+      "file": "source/src/main/java/nso/ConnectionTimeout.java",
+      "lines": 24,
+      "sourceDeclarations": 2,
+      "fields": 0,
+      "role": "Runnable timeout liên quan quá trình kết nối.",
+      "header": "final class ConnectionTimeout implements Runnable",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "run"
+      ]
+    },
+    {
+      "mapped": "nso/Controller",
+      "original": "an",
+      "file": "source/src/main/java/nso/Controller.java",
+      "lines": 5007,
+      "sourceDeclarations": 27,
+      "fields": 2,
+      "role": "Dispatch message và parse dữ liệu server vào model/UI.",
+      "header": "public final class Controller",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "gI",
+        "onConnectionError",
+        "requestItemPlayer",
+        "viewItemAuction",
+        "onMessage",
+        "createItem"
+      ]
+    },
+    {
+      "mapped": "nso/Message",
+      "original": "ce",
+      "file": "source/src/main/java/nso/Message.java",
+      "lines": 60,
+      "sourceDeclarations": 7,
+      "fields": 5,
+      "role": "Command và buffer payload; cung cấp reader/writer/cleanup.",
+      "header": "public final class Message",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "getData",
+        "reader",
+        "writer",
+        "cleanup"
+      ]
+    },
+    {
+      "mapped": "nso/PacketBuffer",
+      "original": "cp",
+      "file": "source/src/main/java/nso/PacketBuffer.java",
+      "lines": 11,
+      "sourceDeclarations": 1,
+      "fields": 1,
+      "role": "Buffer byte và thao tác đọc dữ liệu theo source.",
+      "header": "public final class PacketBuffer",
+      "group": "Mạng, message và SMS",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Readmsg",
+      "original": "da",
+      "file": "source/src/main/java/nso/Readmsg.java",
+      "lines": 122,
+      "sourceDeclarations": 2,
+      "fields": 0,
+      "role": "Đọc nhánh thông tin vĩ thú và dữ liệu countdown.",
+      "header": "public final class Readmsg",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "onVithuInfo"
+      ]
+    },
+    {
+      "mapped": "nso/SMS",
+      "original": "f",
+      "file": "source/src/main/java/nso/SMS.java",
+      "lines": 16,
+      "sourceDeclarations": 3,
+      "fields": 0,
+      "role": "Điểm gọi gửi SMS và khởi động đường kết nối theo source.",
+      "header": "public final class SMS",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "sendSMS",
+        "startConnectionThread"
+      ]
+    },
+    {
+      "mapped": "nso/Service",
+      "original": "dq",
+      "file": "source/src/main/java/nso/Service.java",
+      "lines": 1990,
+      "sourceDeclarations": 151,
+      "fields": 4,
+      "role": "Dựng payload gửi cho các thao tác game.",
+      "header": "public final class Service",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "gI",
+        "messageNotLogin",
+        "messageNotMap",
+        "messageSubCommand",
+        "setClientType",
+        "login"
+      ]
+    },
+    {
+      "mapped": "nso/SessionConnector",
+      "original": "bs",
+      "file": "source/src/main/java/nso/SessionConnector.java",
+      "lines": 50,
+      "sourceDeclarations": 2,
+      "fields": 2,
+      "role": "Runnable mở kết nối, khởi động stream/thread và gửi handshake.",
+      "header": "final class SessionConnector implements Runnable",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "run"
+      ]
+    },
+    {
+      "mapped": "nso/SessionReceiver",
+      "original": "dn",
+      "file": "source/src/main/java/nso/SessionReceiver.java",
+      "lines": 95,
+      "sourceDeclarations": 3,
+      "fields": 1,
+      "role": "Runnable đọc command/length/payload, key và dispatch message.",
+      "header": "final class SessionReceiver implements Runnable",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "run",
+        "getKey"
+      ]
+    },
+    {
+      "mapped": "nso/SessionSender",
+      "original": "aq",
+      "file": "source/src/main/java/nso/SessionSender.java",
+      "lines": 34,
+      "sourceDeclarations": 2,
+      "fields": 1,
+      "role": "Runnable lấy message đã xếp hàng và gửi sau handshake.",
+      "header": "final class SessionSender implements Runnable",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "run"
+      ]
+    },
+    {
+      "mapped": "nso/Session_ME",
+      "original": "dh",
+      "file": "source/src/main/java/nso/Session_ME.java",
+      "lines": 192,
+      "sourceDeclarations": 17,
+      "fields": 21,
+      "role": "Singleton socket session, stream, queue và key XOR.",
+      "header": "public final class Session_ME",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "gI",
+        "isConnected",
+        "setHandler",
+        "connect",
+        "sendMessage",
+        "doSendMessage"
+      ]
+    },
+    {
+      "mapped": "nso/SmsSender",
+      "original": "du",
+      "file": "source/src/main/java/nso/SmsSender.java",
+      "lines": 40,
+      "sourceDeclarations": 2,
+      "fields": 5,
+      "role": "Runnable gửi tin nhắn qua WMA, gọi command kết quả.",
+      "header": "final class SmsSender implements Runnable",
+      "group": "Mạng, message và SMS",
+      "methods": [
+        "run"
+      ]
+    },
+    {
+      "mapped": "nso/Arrow",
+      "original": "ax",
+      "file": "source/src/main/java/nso/Arrow.java",
+      "lines": 133,
+      "sourceDeclarations": 4,
+      "fields": 14,
+      "role": "Đối tượng mũi tên, update và paint.",
+      "header": "public final class Arrow",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "update",
+        "endMe",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/BuNhin",
+      "original": "dk",
+      "file": "source/src/main/java/nso/BuNhin.java",
+      "lines": 18,
+      "sourceDeclarations": 1,
+      "fields": 4,
+      "role": "Đối tượng bù nhìn và dữ liệu của nó.",
+      "header": "public final class BuNhin",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Char",
+      "original": "bp",
+      "file": "source/src/main/java/nso/Char.java",
+      "lines": 8860,
+      "sourceDeclarations": 130,
+      "fields": 277,
+      "role": "State, chỉ số, di chuyển, skill/effect và render nhân vật.",
+      "header": "public class Char extends MainObject",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "getdxSkill",
+        "getdySkill",
+        "getSys",
+        "getSpeed",
+        "isUseLongRangeWeapon",
+        "getMyChar"
+      ]
+    },
+    {
+      "mapped": "nso/EggMonters",
+      "original": "bt",
+      "file": "source/src/main/java/nso/EggMonters.java",
+      "lines": 39,
+      "sourceDeclarations": 2,
+      "fields": 6,
+      "role": "Dữ liệu có các field `x`, `y`, `frame`, `status`.",
+      "header": "public final class EggMonters",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "isPaint"
+      ]
+    },
+    {
+      "mapped": "nso/ItemMap",
+      "original": "dl",
+      "file": "source/src/main/java/nso/ItemMap.java",
+      "lines": 51,
+      "sourceDeclarations": 3,
+      "fields": 10,
+      "role": "Vật phẩm nằm trên map.",
+      "header": "public final class ItemMap",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "setPoint"
+      ]
+    },
+    {
+      "mapped": "nso/ItemTree",
+      "original": "ca",
+      "file": "source/src/main/java/nso/ItemTree.java",
+      "lines": 31,
+      "sourceDeclarations": 3,
+      "fields": 3,
+      "role": "Đối tượng ItemTree có dữ liệu/vẽ riêng.",
+      "header": "public final class ItemTree",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "getImageFromHash",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/Lanterns",
+      "original": "ac",
+      "file": "source/src/main/java/nso/Lanterns.java",
+      "lines": 20,
+      "sourceDeclarations": 1,
+      "fields": 5,
+      "role": "Dữ liệu có các field `x`, `y`, `dy`, `yStart`.",
+      "header": "public final class Lanterns",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Mob",
+      "original": "ci",
+      "file": "source/src/main/java/nso/Mob.java",
+      "lines": 2025,
+      "sourceDeclarations": 28,
+      "fields": 58,
+      "role": "Dữ liệu, trạng thái, cập nhật và render quái.",
+      "header": "public final class Mob extends MainObject",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "updateMobAttack",
+        "setInjure",
+        "setAttack",
+        "updateInjure",
+        "updateTypeMobAttk",
+        "getDistance"
+      ]
+    },
+    {
+      "mapped": "nso/MobAttack",
+      "original": "al",
+      "file": "source/src/main/java/nso/MobAttack.java",
+      "lines": 70,
+      "sourceDeclarations": 1,
+      "fields": 10,
+      "role": "Dữ liệu/cập nhật đòn tấn công của mob.",
+      "header": "public final class MobAttack",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "update"
+      ]
+    },
+    {
+      "mapped": "nso/MobSoul",
+      "original": "bk",
+      "file": "source/src/main/java/nso/MobSoul.java",
+      "lines": 125,
+      "sourceDeclarations": 4,
+      "fields": 11,
+      "role": "Đối tượng MobSoul có update/paint.",
+      "header": "public final class MobSoul",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "update",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/MonsterDart",
+      "original": "dp",
+      "file": "source/src/main/java/nso/MonsterDart.java",
+      "lines": 328,
+      "sourceDeclarations": 7,
+      "fields": 24,
+      "role": "Đạn/phi tiêu từ mob và logic frame liên quan.",
+      "header": "public final class MonsterDart extends Effect2",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "setAngle",
+        "addMonsterDart",
+        "update",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/MovePoint",
+      "original": "cd",
+      "file": "source/src/main/java/nso/MovePoint.java",
+      "lines": 21,
+      "sourceDeclarations": 2,
+      "fields": 3,
+      "role": "Điểm di chuyển.",
+      "header": "public final class MovePoint",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Npc",
+      "original": "cy",
+      "file": "source/src/main/java/nso/Npc.java",
+      "lines": 113,
+      "sourceDeclarations": 4,
+      "fields": 2,
+      "role": "Thực thể NPC kế thừa Char, update/paint và tương tác.",
+      "header": "public final class Npc extends Char",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": [
+        "clearEffTask",
+        "update",
+        "paint"
+      ]
+    },
+    {
+      "mapped": "nso/Waypoint",
+      "original": "ah",
+      "file": "source/src/main/java/nso/Waypoint.java",
+      "lines": 19,
+      "sourceDeclarations": 1,
+      "fields": 4,
+      "role": "Dữ liệu cổng/vùng chuyển map.",
+      "header": "public final class Waypoint",
+      "group": "Nhân vật, quái và đối tượng map",
+      "methods": []
+    },
+    {
+      "mapped": "nso/MyVector",
+      "original": "aa",
+      "file": "source/src/main/java/nso/MyVector.java",
+      "lines": 33,
+      "sourceDeclarations": 7,
+      "fields": 0,
+      "role": "Lớp chứa dữ liệu dựa trên Vector.",
+      "header": "public final class MyVector extends Vector",
+      "group": "Tiện ích và lưu trữ",
+      "methods": [
+        "addElement",
+        "elementAt",
+        "removeAllElements",
+        "removeElement",
+        "insertElementAt",
+        "removeElementAt"
+      ]
+    },
+    {
+      "mapped": "nso/NinjaUtil",
+      "original": "at",
+      "file": "source/src/main/java/nso/NinjaUtil.java",
+      "lines": 156,
+      "sourceDeclarations": 12,
+      "fields": 1,
+      "role": "Tiện ích được các class game gọi.",
+      "header": "public final class NinjaUtil",
+      "group": "Tiện ích và lưu trữ",
+      "methods": [
+        "randomNumber",
+        "random",
+        "readByteArray_Int",
+        "readByteArray",
+        "replace",
+        "numberToString"
+      ]
+    },
+    {
+      "mapped": "nso/RMS",
+      "original": "w",
+      "file": "source/src/main/java/nso/RMS.java",
+      "lines": 102,
+      "sourceDeclarations": 10,
+      "fields": 0,
+      "role": "Wrapper RecordStore cho byte/int/string/ảnh.",
+      "header": "public final class RMS",
+      "group": "Tiện ích và lưu trữ",
+      "methods": [
+        "saveRMS",
+        "loadRMS",
+        "saveRMSInt",
+        "saveRMSString",
+        "loadRMSString",
+        "loadRMSInt"
+      ]
+    },
+    {
+      "mapped": "nso/Res",
+      "original": "am",
+      "file": "source/src/main/java/nso/Res.java",
+      "lines": 211,
+      "sourceDeclarations": 15,
+      "fields": 4,
+      "role": "Toán, random, tách chuỗi, khoảng cách và countdown.",
+      "header": "public final class Res",
+      "group": "Tiện ích và lưu trữ",
+      "methods": [
+        "init",
+        "sin",
+        "cos",
+        "angle",
+        "fixangle",
+        "xetVX"
+      ]
+    },
+    {
+      "mapped": "nso/StaticObj",
+      "original": "ch",
+      "file": "source/src/main/java/nso/StaticObj.java",
+      "lines": 27,
+      "sourceDeclarations": 1,
+      "fields": 10,
+      "role": "Dữ liệu/hằng dùng chung.",
+      "header": "public final class StaticObj",
+      "group": "Tiện ích và lưu trữ",
+      "methods": []
+    },
+    {
+      "mapped": "nso/StringHashtable",
+      "original": "bm",
+      "file": "source/src/main/java/nso/StringHashtable.java",
+      "lines": 25,
+      "sourceDeclarations": 5,
+      "fields": 0,
+      "role": "Bảng tra với key String.",
+      "header": "public final class StringHashtable extends Hashtable",
+      "group": "Tiện ích và lưu trữ",
+      "methods": [
+        "put",
+        "clear",
+        "remove",
+        "get"
+      ]
+    },
+    {
+      "mapped": "nso/mHashtable",
+      "original": "cq",
+      "file": "source/src/main/java/nso/mHashtable.java",
+      "lines": 23,
+      "sourceDeclarations": 4,
+      "fields": 1,
+      "role": "Lớp chứa dữ liệu dựa trên Hashtable.",
+      "header": "public final class mHashtable",
+      "group": "Tiện ích và lưu trữ",
+      "methods": [
+        "get",
+        "equals",
+        "put"
+      ]
+    },
+    {
+      "mapped": "nso/mResources",
+      "original": "df",
+      "file": "source/src/main/java/nso/mResources.java",
+      "lines": 2072,
+      "sourceDeclarations": 3,
+      "fields": 508,
+      "role": "Chuỗi giao diện và dữ liệu ngôn ngữ.",
+      "header": "public final class mResources",
+      "group": "Tiện ích và lưu trữ",
+      "methods": [
+        "loadLanguage",
+        "replace"
+      ]
+    },
+    {
+      "mapped": "nso/ChatManager",
+      "original": "bg",
+      "file": "source/src/main/java/nso/ChatManager.java",
+      "lines": 129,
+      "sourceDeclarations": 15,
+      "fields": 8,
+      "role": "Quản lý dữ liệu/tab chat.",
+      "header": "public final class ChatManager",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "switchToNextTab",
+        "switchToPreviousTab",
+        "switchToTab",
+        "switchToLastTab",
+        "gI",
+        "findTab"
+      ]
+    },
+    {
+      "mapped": "nso/ChatPopup",
+      "original": "cb",
+      "file": "source/src/main/java/nso/ChatPopup.java",
+      "lines": 112,
+      "sourceDeclarations": 6,
+      "fields": 13,
+      "role": "Bong bóng/nội dung chat có vòng đời và paint.",
+      "header": "public final class ChatPopup extends Effect2 implements IActionListener",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "addChatPopupMultiLine",
+        "addChatPopup",
+        "update",
+        "paint",
+        "perform"
+      ]
+    },
+    {
+      "mapped": "nso/ChatTab",
+      "original": "bq",
+      "file": "source/src/main/java/nso/ChatTab.java",
+      "lines": 55,
+      "sourceDeclarations": 5,
+      "fields": 3,
+      "role": "Dữ liệu một tab chat.",
+      "header": "public final class ChatTab",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "addChat",
+        "clear",
+        "addInfo"
+      ]
+    },
+    {
+      "mapped": "nso/ChatTextField",
+      "original": "aw",
+      "file": "source/src/main/java/nso/ChatTextField.java",
+      "lines": 92,
+      "sourceDeclarations": 6,
+      "fields": 9,
+      "role": "Ô nhập và gửi chat.",
+      "header": "public final class ChatTextField implements IActionListener",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "gI",
+        "startChat",
+        "showChat",
+        "paint",
+        "perform"
+      ]
+    },
+    {
+      "mapped": "nso/Command",
+      "original": "bd",
+      "file": "source/src/main/java/nso/Command.java",
+      "lines": 118,
+      "sourceDeclarations": 9,
+      "fields": 13,
+      "role": "Nhãn/action, đối tượng xử lý và vẽ nút/lệnh.",
+      "header": "public final class Command",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "performAction",
+        "paint",
+        "input",
+        "updatePointer"
+      ]
+    },
+    {
+      "mapped": "nso/Dialog",
+      "original": "i",
+      "file": "source/src/main/java/nso/Dialog.java",
+      "lines": 87,
+      "sourceDeclarations": 4,
+      "fields": 3,
+      "role": "Base dialog và các hook input/update/paint.",
+      "header": "public abstract class Dialog",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "paint",
+        "keyPress",
+        "update"
+      ]
+    },
+    {
+      "mapped": "nso/IActionListener",
+      "original": "cs",
+      "file": "source/src/main/java/nso/IActionListener.java",
+      "lines": 6,
+      "sourceDeclarations": 1,
+      "fields": 0,
+      "role": "Interface nhận action từ command.",
+      "header": "public interface IActionListener",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "perform"
+      ]
+    },
+    {
+      "mapped": "nso/Info",
+      "original": "x",
+      "file": "source/src/main/java/nso/Info.java",
+      "lines": 152,
+      "sourceDeclarations": 4,
+      "fields": 8,
+      "role": "Thông tin hiển thị dùng chung.",
+      "header": "public final class Info",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "paint",
+        "update",
+        "addInfo"
+      ]
+    },
+    {
+      "mapped": "nso/InfoDlg",
+      "original": "b",
+      "file": "source/src/main/java/nso/InfoDlg.java",
+      "lines": 69,
+      "sourceDeclarations": 6,
+      "fields": 5,
+      "role": "Overlay thông tin/chờ với thời hạn.",
+      "header": "public final class InfoDlg",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "show",
+        "showWait",
+        "paint",
+        "hide"
+      ]
+    },
+    {
+      "mapped": "nso/InfoItem",
+      "original": "cw",
+      "file": "source/src/main/java/nso/InfoItem.java",
+      "lines": 22,
+      "sourceDeclarations": 2,
+      "fields": 3,
+      "role": "Dữ liệu một mục thông tin.",
+      "header": "public final class InfoItem",
+      "group": "UI, chat và nhập liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/InfoMe",
+      "original": "ae",
+      "file": "source/src/main/java/nso/InfoMe.java",
+      "lines": 174,
+      "sourceDeclarations": 7,
+      "fields": 8,
+      "role": "Thông tin/hiển thị liên quan người chơi.",
+      "header": "public final class InfoMe",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "paint",
+        "update",
+        "addInfo",
+        "canMergeString",
+        "isEmpty"
+      ]
+    },
+    {
+      "mapped": "nso/Input2Dlg",
+      "original": "de",
+      "file": "source/src/main/java/nso/Input2Dlg.java",
+      "lines": 123,
+      "sourceDeclarations": 7,
+      "fields": 7,
+      "role": "Dialog nhập hai trường text.",
+      "header": "public final class Input2Dlg extends Dialog implements IActionListener",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "setTitle",
+        "show",
+        "paint",
+        "keyPress",
+        "update",
+        "perform"
+      ]
+    },
+    {
+      "mapped": "nso/InputDlg",
+      "original": "p",
+      "file": "source/src/main/java/nso/InputDlg.java",
+      "lines": 66,
+      "sourceDeclarations": 5,
+      "fields": 3,
+      "role": "Dialog nhập một trường text.",
+      "header": "public final class InputDlg extends Dialog",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "show",
+        "paint",
+        "keyPress",
+        "update"
+      ]
+    },
+    {
+      "mapped": "nso/Menu",
+      "original": "ds",
+      "file": "source/src/main/java/nso/Menu.java",
+      "lines": 407,
+      "sourceDeclarations": 6,
+      "fields": 30,
+      "role": "Danh sách command, lựa chọn, cuộn và vẽ menu.",
+      "header": "public final class Menu implements IActionListener",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "startAt",
+        "updateMenuKey",
+        "paintMenu",
+        "moveCamera",
+        "perform"
+      ]
+    },
+    {
+      "mapped": "nso/MsgDlg",
+      "original": "br",
+      "file": "source/src/main/java/nso/MsgDlg.java",
+      "lines": 87,
+      "sourceDeclarations": 5,
+      "fields": 5,
+      "role": "Dialog thông báo/chờ.",
+      "header": "public final class MsgDlg extends Dialog",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "pleasewait",
+        "setInfo",
+        "paint",
+        "update"
+      ]
+    },
+    {
+      "mapped": "nso/NativeTextBoxListener",
+      "original": "bb",
+      "file": "source/src/main/java/nso/NativeTextBoxListener.java",
+      "lines": 26,
+      "sourceDeclarations": 2,
+      "fields": 2,
+      "role": "Nối callback text box MIDP với text field game.",
+      "header": "final class NativeTextBoxListener implements CommandListener",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "commandAction"
+      ]
+    },
+    {
+      "mapped": "nso/Scroll",
+      "original": "bw",
+      "file": "source/src/main/java/nso/Scroll.java",
+      "lines": 350,
+      "sourceDeclarations": 8,
+      "fields": 25,
+      "role": "State và tính toán cuộn/hit input.",
+      "header": "public final class Scroll",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "clear",
+        "setClip",
+        "updateKey",
+        "updatecm",
+        "setStyle",
+        "moveTo"
+      ]
+    },
+    {
+      "mapped": "nso/ScrollResult",
+      "original": "cn",
+      "file": "source/src/main/java/nso/ScrollResult.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Kết quả thao tác scroll.",
+      "header": "public final class ScrollResult",
+      "group": "UI, chat và nhập liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/TField",
+      "original": "ad",
+      "file": "source/src/main/java/nso/TField.java",
+      "lines": 407,
+      "sourceDeclarations": 16,
+      "fields": 33,
+      "role": "Text field: nội dung, con trỏ, input và paint.",
+      "header": "public final class TField implements IActionListener",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "showNativeTextBox",
+        "setNormal",
+        "clear",
+        "setOffset",
+        "keyPressedAscii",
+        "keyPressed"
+      ]
+    },
+    {
+      "mapped": "nso/TimecountDown",
+      "original": "s",
+      "file": "source/src/main/java/nso/TimecountDown.java",
+      "lines": 92,
+      "sourceDeclarations": 4,
+      "fields": 6,
+      "role": "Dữ liệu countdown, update và paint.",
+      "header": "public final class TimecountDown",
+      "group": "UI, chat và nhập liệu",
+      "methods": [
+        "paint",
+        "update",
+        "converSecon2hours"
+      ]
+    },
+    {
+      "mapped": "nso/Timer",
+      "original": "bf",
+      "file": "source/src/main/java/nso/Timer.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Action được thực hiện theo thời gian trong loop.",
+      "header": "public final class Timer",
+      "group": "UI, chat và nhập liệu",
+      "methods": []
+    },
+    {
+      "mapped": "nso/CharPartInfo",
+      "original": "dm",
+      "file": "source/src/main/java/nso/CharPartInfo.java",
+      "lines": 176,
+      "sourceDeclarations": 2,
+      "fields": 12,
+      "role": "Thông tin part của nhân vật.",
+      "header": "public final class CharPartInfo",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": [
+        "doSetInfo"
+      ]
+    },
+    {
+      "mapped": "nso/Frame",
+      "original": "ct",
+      "file": "source/src/main/java/nso/Frame.java",
+      "lines": 17,
+      "sourceDeclarations": 1,
+      "fields": 5,
+      "role": "Dữ liệu frame.",
+      "header": "public final class Frame",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": []
+    },
+    {
+      "mapped": "nso/FrameImage",
+      "original": "aj",
+      "file": "source/src/main/java/nso/FrameImage.java",
+      "lines": 36,
+      "sourceDeclarations": 2,
+      "fields": 6,
+      "role": "Vẽ sprite nhiều frame.",
+      "header": "public final class FrameImage",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": [
+        "drawFrame"
+      ]
+    },
+    {
+      "mapped": "nso/GameData",
+      "original": "cu",
+      "file": "source/src/main/java/nso/GameData.java",
+      "lines": 62,
+      "sourceDeclarations": 3,
+      "fields": 3,
+      "role": "Cache icon/byte data; thử RMS/resource và yêu cầu server.",
+      "header": "public final class GameData",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": [
+        "getImgIcon",
+        "setImgIcon"
+      ]
+    },
+    {
+      "mapped": "nso/ImageIcon",
+      "original": "d",
+      "file": "source/src/main/java/nso/ImageIcon.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 2,
+      "role": "Dữ liệu ảnh/icon và trạng thái thời gian liên quan.",
+      "header": "public final class ImageIcon",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": []
+    },
+    {
+      "mapped": "nso/ImageInfo",
+      "original": "cv",
+      "file": "source/src/main/java/nso/ImageInfo.java",
+      "lines": 15,
+      "sourceDeclarations": 1,
+      "fields": 4,
+      "role": "Thông tin/metadata ảnh.",
+      "header": "public final class ImageInfo",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": []
+    },
+    {
+      "mapped": "nso/MyImage",
+      "original": "ak",
+      "file": "source/src/main/java/nso/MyImage.java",
+      "lines": 15,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Dữ liệu có các field `img`, `timerequest`, `timeUse`.",
+      "header": "public final class MyImage",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": []
+    },
+    {
+      "mapped": "nso/Paint",
+      "original": "ay",
+      "file": "source/src/main/java/nso/Paint.java",
+      "lines": 198,
+      "sourceDeclarations": 10,
+      "fields": 7,
+      "role": "Các hàm vẽ khung và thành phần UI.",
+      "header": "public final class Paint",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": [
+        "paintCmdBar",
+        "paintCommandBarBackground",
+        "paintInputTf",
+        "paintInputTf_new",
+        "paintInputDlg",
+        "paintFrame"
+      ]
+    },
+    {
+      "mapped": "nso/Part",
+      "original": "dr",
+      "file": "source/src/main/java/nso/Part.java",
+      "lines": 21,
+      "sourceDeclarations": 1,
+      "fields": 1,
+      "role": "Dữ liệu part dùng để ghép hình nhân vật.",
+      "header": "public final class Part",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": []
+    },
+    {
+      "mapped": "nso/PartFrame",
+      "original": "cl",
+      "file": "source/src/main/java/nso/PartFrame.java",
+      "lines": 20,
+      "sourceDeclarations": 1,
+      "fields": 5,
+      "role": "Dữ liệu frame của part.",
+      "header": "public final class PartFrame",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": []
+    },
+    {
+      "mapped": "nso/PartImage",
+      "original": "bv",
+      "file": "source/src/main/java/nso/PartImage.java",
+      "lines": 13,
+      "sourceDeclarations": 1,
+      "fields": 3,
+      "role": "Dữ liệu một ảnh part.",
+      "header": "public final class PartImage",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": []
+    },
+    {
+      "mapped": "nso/SmallImage",
+      "original": "ab",
+      "file": "source/src/main/java/nso/SmallImage.java",
+      "lines": 185,
+      "sourceDeclarations": 12,
+      "fields": 7,
+      "role": "Ảnh nhỏ/atlas, cache theo ID và vẽ region.",
+      "header": "public final class SmallImage",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": [
+        "checkTimeUseImg",
+        "freeBig",
+        "loadBigImage",
+        "init",
+        "readImage",
+        "reciveImage"
+      ]
+    },
+    {
+      "mapped": "nso/TileMap",
+      "original": "af",
+      "file": "source/src/main/java/nso/TileMap.java",
+      "lines": 711,
+      "sourceDeclarations": 20,
+      "fields": 51,
+      "role": "Map, tile, vật cản và tài nguyên nền.",
+      "header": "public final class TileMap",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": [
+        "setPosMiniMap",
+        "updateMiniMap",
+        "updateCmMiniMap",
+        "freeTileImage",
+        "loadTileImage",
+        "loadMap"
+      ]
+    },
+    {
+      "mapped": "nso/mFont",
+      "original": "dd",
+      "file": "source/src/main/java/nso/mFont.java",
+      "lines": 199,
+      "sourceDeclarations": 9,
+      "fields": 27,
+      "role": "Font bitmap, đo chữ, vẽ chữ và chia dòng.",
+      "header": "public final class mFont",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": [
+        "reloadImage",
+        "freeImage",
+        "getHeight",
+        "getWidth",
+        "drawString",
+        "splitFontVector"
+      ]
+    },
+    {
+      "mapped": "nso/mGraphics",
+      "original": "t",
+      "file": "source/src/main/java/nso/mGraphics.java",
+      "lines": 112,
+      "sourceDeclarations": 16,
+      "fields": 2,
+      "role": "Wrapper Graphics: draw, clip, translate, màu và zoom.",
+      "header": "public final class mGraphics",
+      "group": "Đồ họa, font và tài nguyên",
+      "methods": [
+        "drawImage",
+        "drawLine",
+        "drawRect",
+        "drawRegion",
+        "drawRoundRect",
+        "fillRect"
+      ]
+    }
+  ]
+}

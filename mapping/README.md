@@ -12,3 +12,5 @@
 `reference_proposal` là tên đề xuất theo vai trò trong DLL tham chiếu; `behavioral_name` mô tả hành vi thấy trong Java. Chúng không phải bằng chứng đã tìm lại tên nguyên thủy trước obfuscation. Slot local bytecode có thể được tái sử dụng; tên local gốc không có trong metadata đầu vào.
 
 Đường dẫn source được đổi sang bố cục mới; định danh gốc, descriptor và bằng chứng đối chiếu được giữ lại. Xem `../reports/VERIFICATION.md` để phân biệt kiểm tra đợt đổi tên với các giới hạn của quá trình tái dựng ban đầu.
+
+Nếu đọc trực tiếp trên GitHub, [API reference](../docs/API_REFERENCE.md) có đầy đủ 1.311 khai báo method/constructor và [field reference](../docs/FIELD_REFERENCE.md) có 2.322 field, liên kết tới đúng dòng Java. [Hướng dẫn mapping/kiểm chứng](../docs/MAPPING_AND_VERIFICATION.md) giải thích vì sao số method input, declaration source và method compiler sinh ra không phải cùng một số đếm.

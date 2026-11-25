@@ -2,6 +2,8 @@
 
 Project Eclipse **NinjaSchool-251** chứa 130 file Java, 239 tài nguyên khóa theo hash và script build/run/debug, theo cùng bố cục với project `D:\NRO`.
 
+Đây là hướng dẫn nhanh khi đang đứng trong thư mục `source`. [README gốc](../README.md) có danh mục đủ 130 file và giải thích từng module. Xem thêm [build/debug chi tiết](../docs/BUILD_AND_DEBUG.md), [kiến trúc](../docs/ARCHITECTURE.md), [mạng](../docs/NETWORK.md), [tài nguyên](../docs/RESOURCES.md), [API](../docs/API_REFERENCE.md) và [field](../docs/FIELD_REFERENCE.md).
+
 ## Build
 
 Cần **JDK 17**. Script dùng JDK được truyền bằng `-JavaHome`, JDK cục bộ `toolchain/java`, `JAVA_HOME` hoặc `java` trong PATH. JDK/binary không được commit.
@@ -14,6 +16,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\run.ps1
 `prepare.ps1` tải ECJ/API/MicroEmulator theo URL và SHA-256 trong `config/dependencies.lock.json`. Tài nguyên chỉ được nhập từ đúng JAR có hash tương ứng `config/resources.lock.json`; không sửa JAR đầu vào. Sau lần nhập đầu tiên, không cần `-OriginalJar` nữa. Khi thư viện/tài nguyên đã có, build không cần tải mạng.
 
 Release ở `dist/`; debug có local-variable metadata ở `debug-dist/`. Cả hai đều là classfile **45.3**, dùng source Java 1.3, boot API CLDC/MIDP/WMA. API và emulator không được chèn vào JAR game.
+
+Manifest hiện giữ `MIDlet-Version: 1.0.0` và CLDC-1.0 theo bản đầu vào; chuỗi `2.5.1` được các màn hình truyền khi login là version nghiệp vụ riêng. API dùng để compile là CLDC 1.1/MIDP 2.0/WMA, không tự đổi metadata manifest.
 
 ## Eclipse và debug
 
