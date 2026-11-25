@@ -1,0 +1,3694 @@
+{
+  "classes": [],
+  "methods": [],
+  "fields": [
+    {
+      "original": "ab.cS",
+      "owner": "nso/SmallImage",
+      "old": "field_c_a858da07",
+      "new": "x",
+      "reference": "SmallImage.x",
+      "reason": "Sprite rectangle constructor and rendering arguments."
+    },
+    {
+      "original": "ab.dS",
+      "owner": "nso/SmallImage",
+      "old": "field_d_2ac05335",
+      "new": "y",
+      "reference": "SmallImage.y",
+      "reason": "Sprite rectangle constructor and rendering arguments."
+    },
+    {
+      "original": "ab.eS",
+      "owner": "nso/SmallImage",
+      "old": "field_e_858ad41d",
+      "new": "w",
+      "reference": "SmallImage.w",
+      "reason": "Sprite rectangle constructor and rendering arguments."
+    },
+    {
+      "original": "ab.fS",
+      "owner": "nso/SmallImage",
+      "old": "field_f_914da1c4",
+      "new": "h",
+      "reference": "SmallImage.h",
+      "reason": "Sprite rectangle constructor and rendering arguments."
+    },
+    {
+      "original": "ad.eZ",
+      "owner": "nso/TField",
+      "old": "field_e_81d3d481",
+      "new": "isFocus",
+      "reference": "TField.isFocus",
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.mZ",
+      "owner": "nso/TField",
+      "old": "field_m_7be771ab",
+      "new": "unusedInputFlag",
+      "reference": null,
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.nI",
+      "owner": "nso/TField",
+      "old": "field_n_f1d17a7a",
+      "new": "typeXpeed",
+      "reference": "TField.typeXpeed",
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.pI",
+      "owner": "nso/TField",
+      "old": "field_p_7a8a8435",
+      "new": "CARET_HEIGHT",
+      "reference": "TField.CARET_HEIGHT",
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.gLjava/lang/String;",
+      "owner": "nso/TField",
+      "old": "field_g_72da061a",
+      "new": "title_Null",
+      "reference": "TField.title_Null",
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.wI",
+      "owner": "nso/TField",
+      "old": "field_w_326c2ea9",
+      "new": "counter",
+      "reference": "TField.counter",
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.zI",
+      "owner": "nso/TField",
+      "old": "field_z_303cb9bf",
+      "new": "lastKey",
+      "reference": "TField.lastKey",
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.BI",
+      "owner": "nso/TField",
+      "old": "field_B_d9118ef2",
+      "new": "indexOfActiveChar",
+      "reference": "TField.indexOfActiveChar",
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.EI",
+      "owner": "nso/TField",
+      "old": "field_E_65f3b964",
+      "new": "unusedTypingModeAreaWidth",
+      "reference": null,
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.FI",
+      "owner": "nso/TField",
+      "old": "field_F_70f41339",
+      "new": "mode",
+      "reference": "TField.mode",
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.iLjavax/microedition/lcdui/Canvas;",
+      "owner": "nso/TField",
+      "old": "field_i_d72b009d",
+      "new": "returnCanvas",
+      "reference": null,
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "ad.jLjavax/microedition/midlet/MIDlet;",
+      "owner": "nso/TField",
+      "old": "field_j_5bcdd7be",
+      "new": "midlet",
+      "reference": null,
+      "reason": "Focus, caret, multi-tap mode and Java ME TextBox return path."
+    },
+    {
+      "original": "af.bI",
+      "owner": "nso/TileMap",
+      "old": "field_b_9642c971",
+      "new": "tmh",
+      "reference": "TileMap.tmh",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.ELjavax/microedition/lcdui/Image;",
+      "owner": "nso/TileMap",
+      "old": "field_E_17b62d77",
+      "new": "imgTile",
+      "reference": null,
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.FLjavax/microedition/lcdui/Image;",
+      "owner": "nso/TileMap",
+      "old": "field_F_8fd3390c",
+      "new": "imgTileSmall",
+      "reference": "TileMap.imgTileSmall",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.ILjavax/microedition/lcdui/Image;",
+      "owner": "nso/TileMap",
+      "old": "field_I_d54d13dd",
+      "new": "imgWaterflow",
+      "reference": "TileMap.imgWaterflow",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.JLjavax/microedition/lcdui/Image;",
+      "owner": "nso/TileMap",
+      "old": "field_J_07bff752",
+      "new": "imgLeaf",
+      "reference": "TileMap.imgLeaf",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.KLjavax/microedition/lcdui/Image;",
+      "owner": "nso/TileMap",
+      "old": "field_K_79a48e99",
+      "new": "imgflowRiver",
+      "reference": "TileMap.imgflowRiver",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.LI",
+      "owner": "nso/TileMap",
+      "old": "field_L_5cf53666",
+      "new": "bx",
+      "reference": "TileMap.bx",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.MI",
+      "owner": "nso/TileMap",
+      "old": "field_M_5d2fb6e6",
+      "new": "dbx",
+      "reference": "TileMap.dbx",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.NI",
+      "owner": "nso/TileMap",
+      "old": "field_N_9b235cbc",
+      "new": "fx",
+      "reference": "TileMap.fx",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.OI",
+      "owner": "nso/TileMap",
+      "old": "field_O_5d171b3c",
+      "new": "dfx",
+      "reference": "TileMap.dfx",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.RI",
+      "owner": "nso/TileMap",
+      "old": "field_R_1c8ac90e",
+      "new": "cmdyMini",
+      "reference": "TileMap.cmdyMini",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.SI",
+      "owner": "nso/TileMap",
+      "old": "field_S_91d06e41",
+      "new": "cmvyMini",
+      "reference": "TileMap.cmvyMini",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.VI",
+      "owner": "nso/TileMap",
+      "old": "field_V_46800add",
+      "new": "cmdxMini",
+      "reference": "TileMap.cmdxMini",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.WI",
+      "owner": "nso/TileMap",
+      "old": "field_W_3dc4af15",
+      "new": "cmvxMini",
+      "reference": "TileMap.cmvxMini",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.rI",
+      "owner": "nso/TileMap",
+      "old": "field_r_1a5ccbcd",
+      "new": "posMiniMapX",
+      "reference": "TileMap.posMiniMapX",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.sI",
+      "owner": "nso/TileMap",
+      "old": "field_s_0ad62619",
+      "new": "posMiniMapY",
+      "reference": "TileMap.posMiniMapY",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.vLbm;",
+      "owner": "nso/TileMap",
+      "old": "field_v_de786db4",
+      "new": "locationStand",
+      "reference": "TileMap.locationStand",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.wLbm;",
+      "owner": "nso/TileMap",
+      "old": "field_w_ddb4b69a",
+      "new": "itemMap",
+      "reference": "TileMap.itemMap",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.yI",
+      "owner": "nso/TileMap",
+      "old": "field_y_b5505b5e",
+      "new": "gssx",
+      "reference": "TileMap.gssx",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.zI",
+      "owner": "nso/TileMap",
+      "old": "field_z_d1775ee5",
+      "new": "gssxe",
+      "reference": "TileMap.gssxe",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.AI",
+      "owner": "nso/TileMap",
+      "old": "field_A_20c9b840",
+      "new": "gssy",
+      "reference": "TileMap.gssy",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.BI",
+      "owner": "nso/TileMap",
+      "old": "field_B_22696cd8",
+      "new": "gssye",
+      "reference": "TileMap.gssye",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.CI",
+      "owner": "nso/TileMap",
+      "old": "field_C_eaf32aa6",
+      "new": "countx",
+      "reference": "TileMap.countx",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "af.DI",
+      "owner": "nso/TileMap",
+      "old": "field_D_934d709e",
+      "new": "county",
+      "reference": "TileMap.county",
+      "reason": "Tile sheet paths, minimap bounds and camera interpolation."
+    },
+    {
+      "original": "ai.aLaa;",
+      "owner": "nso/FrameEff",
+      "old": "field_a_1191e245",
+      "new": "listPartTop",
+      "reference": "FrameEff.listPartTop",
+      "reason": "Frame constructor top/bottom lists and paint order."
+    },
+    {
+      "original": "ai.bLaa;",
+      "owner": "nso/FrameEff",
+      "old": "field_b_b5a3d9bc",
+      "new": "listPartBottom",
+      "reference": "FrameEff.listPartBottom",
+      "reason": "Frame constructor top/bottom lists and paint order."
+    },
+    {
+      "original": "aj.aI",
+      "owner": "nso/FrameImage",
+      "old": "field_a_bcce9883",
+      "new": "frameWidth",
+      "reference": "FrameImage.frameWidth",
+      "reason": "Frame slicing dimensions and count."
+    },
+    {
+      "original": "aj.bI",
+      "owner": "nso/FrameImage",
+      "old": "field_b_3779f454",
+      "new": "frameHeight",
+      "reference": "FrameImage.frameHeight",
+      "reason": "Frame slicing dimensions and count."
+    },
+    {
+      "original": "aj.cI",
+      "owner": "nso/FrameImage",
+      "old": "field_c_4718f45b",
+      "new": "nFrame",
+      "reference": "FrameImage.nFrame",
+      "reason": "Frame slicing dimensions and count."
+    },
+    {
+      "original": "ao.gI",
+      "owner": "nso/RegisterScr",
+      "old": "field_g_3dba5cd8",
+      "new": "wC",
+      "reference": "RegisterScr.wC",
+      "reason": "Register form text-field width and horizontal placement."
+    },
+    {
+      "original": "ao.hI",
+      "owner": "nso/RegisterScr",
+      "old": "field_h_3c28c7e9",
+      "new": "xT",
+      "reference": "RegisterScr.xT",
+      "reason": "Register form text-field width and horizontal placement."
+    },
+    {
+      "original": "aq.aLdh;",
+      "owner": "nso/SessionSender",
+      "old": "field_a_7a155a1c",
+      "new": "session",
+      "reference": null,
+      "reason": "Sender retains the Session_ME supplied to its constructor."
+    },
+    {
+      "original": "aw.cLdg;",
+      "owner": "nso/ChatTextField",
+      "old": "field_c_968a6ebb",
+      "new": "parentScreen",
+      "reference": "ChatTextField.parentScreen",
+      "reason": "Chat callbacks go to the GameScr assigned by startChat."
+    },
+    {
+      "original": "az.eLaj;",
+      "owner": "nso/AnimateEffect",
+      "old": "field_e_38efcc32",
+      "new": "img",
+      "reference": "AnimateEffect.img",
+      "reason": "Snow and leaf image paths and frame sheets."
+    },
+    {
+      "original": "az.fLaj;",
+      "owner": "nso/AnimateEffect",
+      "old": "field_f_9f4240e3",
+      "new": "imgSnow",
+      "reference": "AnimateEffect.imgSnow",
+      "reason": "Snow and leaf image paths and frame sheets."
+    },
+    {
+      "original": "az.gLjavax/microedition/lcdui/Image;",
+      "owner": "nso/AnimateEffect",
+      "old": "field_g_2b4a45e5",
+      "new": "imgTuyet",
+      "reference": "AnimateEffect.imgTuyet",
+      "reason": "Snow and leaf image paths and frame sheets."
+    },
+    {
+      "original": "az.hLjavax/microedition/lcdui/Image;",
+      "owner": "nso/AnimateEffect",
+      "old": "field_h_02050dcf",
+      "new": "imgCoBay",
+      "reference": "AnimateEffect.imgCoBay",
+      "reason": "Snow and leaf image paths and frame sheets."
+    },
+    {
+      "original": "ba.dB",
+      "owner": "nso/EPosition",
+      "old": "field_d_5a004c08",
+      "new": "count",
+      "reference": "EPosition.count",
+      "reason": "Lightning particle animation counter wraps at twelve."
+    },
+    {
+      "original": "bb.aLad;",
+      "owner": "nso/NativeTextBoxListener",
+      "old": "field_a_abd30295",
+      "new": "textField",
+      "reference": null,
+      "reason": "Native TextBox listener copies text to the owning TField."
+    },
+    {
+      "original": "bb.bLjavax/microedition/lcdui/TextBox;",
+      "owner": "nso/NativeTextBoxListener",
+      "old": "field_b_b76c7eee",
+      "new": "textBox",
+      "reference": null,
+      "reason": "Native TextBox listener copies text to the owning TField."
+    },
+    {
+      "original": "bd.lLjavax/microedition/lcdui/Image;",
+      "owner": "nso/Command",
+      "old": "field_l_ff2cc55e",
+      "new": "back",
+      "reference": "Command.back",
+      "reason": "Command image declaration and drawing uses."
+    },
+    {
+      "original": "bd.mLjavax/microedition/lcdui/Image;",
+      "owner": "nso/Command",
+      "old": "field_m_1112802a",
+      "new": "focus",
+      "reference": "Command.focus",
+      "reason": "Command image declaration and drawing uses."
+    },
+    {
+      "original": "bd.eLjavax/microedition/lcdui/Image;",
+      "owner": "nso/Command",
+      "old": "field_e_3f00986b",
+      "new": "img",
+      "reference": "Command.img",
+      "reason": "Command image declaration and drawing uses."
+    },
+    {
+      "original": "bg.bI",
+      "owner": "nso/ChatManager",
+      "old": "field_b_e46735f7",
+      "new": "currentTabIndex",
+      "reference": "ChatManager.currentTabIndex",
+      "reason": "Next/previous/current chat-tab index."
+    },
+    {
+      "original": "bp.cmI",
+      "owner": "nso/Char",
+      "old": "field_cm_4261ac3e",
+      "new": "tickEffWolf",
+      "reference": "Char.tickEffWolf",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.cnI",
+      "owner": "nso/Char",
+      "old": "field_cn_15e60f1e",
+      "new": "timeBocdau",
+      "reference": "Char.timeBocdau",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.sI",
+      "owner": "nso/Char",
+      "old": "field_s_5a7c7cfd",
+      "new": "cBonusSpeed",
+      "reference": "Char.cBonusSpeed",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.uI",
+      "owner": "nso/Char",
+      "old": "field_u_5a1a4203",
+      "new": "cdame",
+      "reference": "Char.cdame",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.vI",
+      "owner": "nso/Char",
+      "old": "field_v_4ad2e100",
+      "new": "cdameDown",
+      "reference": "Char.cdameDown",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.csI",
+      "owner": "nso/Char",
+      "old": "field_cs_4ccf3039",
+      "new": "cyStartFall",
+      "reference": "Char.cyStartFall",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.EJ",
+      "owner": "nso/Char",
+      "old": "field_E_ca8ef2a0",
+      "new": "cExpR",
+      "reference": "Char.cExpR",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.HI",
+      "owner": "nso/Char",
+      "old": "field_H_a9b895bc",
+      "new": "pointUydanh",
+      "reference": "Char.pointUydanh",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.II",
+      "owner": "nso/Char",
+      "old": "field_I_45ba8af8",
+      "new": "pointNon",
+      "reference": "Char.pointNon",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.JI",
+      "owner": "nso/Char",
+      "old": "field_J_9b8934f4",
+      "new": "pointVukhi",
+      "reference": "Char.pointVukhi",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.KI",
+      "owner": "nso/Char",
+      "old": "field_K_3b875836",
+      "new": "pointAo",
+      "reference": "Char.pointAo",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.LI",
+      "owner": "nso/Char",
+      "old": "field_L_1840dcaf",
+      "new": "pointLien",
+      "reference": "Char.pointLien",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.MI",
+      "owner": "nso/Char",
+      "old": "field_M_f2a562db",
+      "new": "pointGangtay",
+      "reference": "Char.pointGangtay",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.NI",
+      "owner": "nso/Char",
+      "old": "field_N_cb916e83",
+      "new": "pointNhan",
+      "reference": "Char.pointNhan",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.OI",
+      "owner": "nso/Char",
+      "old": "field_O_697807cb",
+      "new": "pointQuan",
+      "reference": "Char.pointQuan",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.PI",
+      "owner": "nso/Char",
+      "old": "field_P_27eb2eed",
+      "new": "pointNgocboi",
+      "reference": "Char.pointNgocboi",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.QI",
+      "owner": "nso/Char",
+      "old": "field_Q_e39e74b5",
+      "new": "pointGiay",
+      "reference": "Char.pointGiay",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.RI",
+      "owner": "nso/Char",
+      "old": "field_R_9db5fdd3",
+      "new": "pointPhu",
+      "reference": "Char.pointPhu",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.SI",
+      "owner": "nso/Char",
+      "old": "field_S_b7d09d3a",
+      "new": "pointTinhTu",
+      "reference": "Char.pointTinhTu",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.TI",
+      "owner": "nso/Char",
+      "old": "field_T_2ef0351f",
+      "new": "countFinishDay",
+      "reference": "Char.countFinishDay",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.UI",
+      "owner": "nso/Char",
+      "old": "field_U_94dba1f2",
+      "new": "countLoopBoos",
+      "reference": "Char.countLoopBoos",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.VI",
+      "owner": "nso/Char",
+      "old": "field_V_8293d0c3",
+      "new": "limitTiemnangso",
+      "reference": "Char.limitTiemnangso",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.WI",
+      "owner": "nso/Char",
+      "old": "field_W_87e848c6",
+      "new": "limitKynangso",
+      "reference": "Char.limitKynangso",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.XI",
+      "owner": "nso/Char",
+      "old": "field_X_5e45637a",
+      "new": "limitPhongLoi",
+      "reference": "Char.limitPhongLoi",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.YI",
+      "owner": "nso/Char",
+      "old": "field_Y_c4dcfe13",
+      "new": "limitBangHoa",
+      "reference": "Char.limitBangHoa",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.ZI",
+      "owner": "nso/Char",
+      "old": "field_Z_b6570cf6",
+      "new": "countPB",
+      "reference": "Char.countPB",
+      "reason": "Character animation, stat packet order and labelled information rows."
+    },
+    {
+      "original": "bp.alZ",
+      "owner": "nso/Char",
+      "old": "field_al_c8adad21",
+      "new": "isAttack",
+      "reference": "Char.isAttack",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cuZ",
+      "owner": "nso/Char",
+      "old": "field_cu_b6dd5003",
+      "new": "isAttFly",
+      "reference": "Char.isAttFly",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cvI",
+      "owner": "nso/Char",
+      "old": "field_cv_9ee81733",
+      "new": "tick",
+      "reference": "Char.tick",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.aGS",
+      "owner": "nso/Char",
+      "old": "field_aG_01a0c857",
+      "new": "cResFire",
+      "reference": "Char.cResFire",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.aHS",
+      "owner": "nso/Char",
+      "old": "field_aH_a1dfbfdd",
+      "new": "cResIce",
+      "reference": "Char.cResIce",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.aIS",
+      "owner": "nso/Char",
+      "old": "field_aI_1f4a0c17",
+      "new": "cResWind",
+      "reference": "Char.cResWind",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.aKS",
+      "owner": "nso/Char",
+      "old": "field_aK_b4a4b54b",
+      "new": "cExactly",
+      "reference": "Char.cExactly",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.aLS",
+      "owner": "nso/Char",
+      "old": "field_aL_e38432cb",
+      "new": "cFatal",
+      "reference": "Char.cFatal",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.aOS",
+      "owner": "nso/Char",
+      "old": "field_aO_acca4b6f",
+      "new": "cReactDame",
+      "reference": "Char.cReactDame",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.aPS",
+      "owner": "nso/Char",
+      "old": "field_aP_681051ac",
+      "new": "sysUp",
+      "reference": "Char.sysUp",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.aQS",
+      "owner": "nso/Char",
+      "old": "field_aQ_ddd8577b",
+      "new": "sysDown",
+      "reference": "Char.sysDown",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.czI",
+      "owner": "nso/Char",
+      "old": "field_cz_66b12f5d",
+      "new": "tickEffmoto",
+      "reference": "Char.tickEffmoto",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cBJ",
+      "owner": "nso/Char",
+      "old": "field_cB_1d4ec725",
+      "new": "lastTimeUseSkill",
+      "reference": "Char.lastTimeUseSkill",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.bBI",
+      "owner": "nso/Char",
+      "old": "field_bB_436d23a0",
+      "new": "cxSend",
+      "reference": "Char.cxSend",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cFI",
+      "owner": "nso/Char",
+      "old": "field_cF_a1a6e809",
+      "new": "count",
+      "reference": "Char.count",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cGZ",
+      "owner": "nso/Char",
+      "old": "field_cG_0af24f7c",
+      "new": "isEffBatTu",
+      "reference": "Char.isEffBatTu",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cHJ",
+      "owner": "nso/Char",
+      "old": "field_cH_2d17877a",
+      "new": "lastUseHP",
+      "reference": "Char.lastUseHP",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cIJ",
+      "owner": "nso/Char",
+      "old": "field_cI_09f7a053",
+      "new": "timeSendmove",
+      "reference": "Char.timeSendmove",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cKI",
+      "owner": "nso/Char",
+      "old": "field_cK_31323000",
+      "new": "cX0",
+      "reference": "Char.cX0",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cLI",
+      "owner": "nso/Char",
+      "old": "field_cL_26af6d9e",
+      "new": "cY0",
+      "reference": "Char.cY0",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cOJ",
+      "owner": "nso/Char",
+      "old": "field_cO_604eb8a4",
+      "new": "currMove",
+      "reference": "Char.currMove",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cPZ",
+      "owner": "nso/Char",
+      "old": "field_cP_90e606a9",
+      "new": "isLastMove",
+      "reference": "Char.isLastMove",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cTI",
+      "owner": "nso/Char",
+      "old": "field_cT_405fa8b3",
+      "new": "indexEff",
+      "reference": "Char.indexEff",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cULg;",
+      "owner": "nso/Char",
+      "old": "field_cU_489c01a8",
+      "new": "eff",
+      "reference": "Char.eff",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.cZI",
+      "owner": "nso/Char",
+      "old": "field_cZ_fb3b28af",
+      "new": "dx0",
+      "reference": "Char.dx0",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.daI",
+      "owner": "nso/Char",
+      "old": "field_da_70ecf440",
+      "new": "dx1",
+      "reference": "Char.dx1",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.dbI",
+      "owner": "nso/Char",
+      "old": "field_db_e9bf875c",
+      "new": "dx2",
+      "reference": "Char.dx2",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.dcI",
+      "owner": "nso/Char",
+      "old": "field_dc_6314cc9d",
+      "new": "dy0",
+      "reference": "Char.dy0",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.ddI",
+      "owner": "nso/Char",
+      "old": "field_dd_ea026565",
+      "new": "dy1",
+      "reference": "Char.dy1",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.deI",
+      "owner": "nso/Char",
+      "old": "field_de_d2b7f0c0",
+      "new": "dy2",
+      "reference": "Char.dy2",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.dsI",
+      "owner": "nso/Char",
+      "old": "field_ds_4c68ad50",
+      "new": "dy",
+      "reference": "Char.dy",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.dtI",
+      "owner": "nso/Char",
+      "old": "field_dt_0f8a69a8",
+      "new": "hdx",
+      "reference": "Char.hdx",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.duI",
+      "owner": "nso/Char",
+      "old": "field_du_a4dbfff3",
+      "new": "hdy",
+      "reference": "Char.hdy",
+      "reason": "Stand/fall and auto-buff logic, resistance packet rows, send positions and effect offsets."
+    },
+    {
+      "original": "bp.dwI",
+      "owner": "nso/Char",
+      "old": "field_dw_d1966770",
+      "new": "FrameName",
+      "reference": "Char.FrameName",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dxI",
+      "owner": "nso/Char",
+      "old": "field_dx_586f29f3",
+      "new": "fName",
+      "reference": "Char.fName",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dyI",
+      "owner": "nso/Char",
+      "old": "field_dy_eb5aecd2",
+      "new": "FrameRank",
+      "reference": "Char.FrameRank",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dzI",
+      "owner": "nso/Char",
+      "old": "field_dz_2aa7e804",
+      "new": "fRank",
+      "reference": "Char.fRank",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dBI",
+      "owner": "nso/Char",
+      "old": "field_dB_6a2ad606",
+      "new": "fMatNa",
+      "reference": "Char.fMatNa",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dCI",
+      "owner": "nso/Char",
+      "old": "field_dC_44c53243",
+      "new": "FrameBienHinh",
+      "reference": "Char.FrameBienHinh",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dDI",
+      "owner": "nso/Char",
+      "old": "field_dD_358de210",
+      "new": "fBienhinh",
+      "reference": "Char.fBienhinh",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dEI",
+      "owner": "nso/Char",
+      "old": "field_dE_fca1115a",
+      "new": "FrameWeaPone",
+      "reference": "Char.FrameWeaPone",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dFI",
+      "owner": "nso/Char",
+      "old": "field_dF_90876fb9",
+      "new": "fWeapone",
+      "reference": "Char.fWeapone",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dGI",
+      "owner": "nso/Char",
+      "old": "field_dG_568b2821",
+      "new": "FrameSusan",
+      "reference": "Char.FrameSusan",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dHI",
+      "owner": "nso/Char",
+      "old": "field_dH_65fcacaa",
+      "new": "fsusan",
+      "reference": "Char.fsusan",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dII",
+      "owner": "nso/Char",
+      "old": "field_dI_ba42f7bc",
+      "new": "FrameLeg",
+      "reference": "Char.FrameLeg",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dJI",
+      "owner": "nso/Char",
+      "old": "field_dJ_ea244dce",
+      "new": "fLeg",
+      "reference": "Char.fLeg",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dKI",
+      "owner": "nso/Char",
+      "old": "field_dK_a9c94080",
+      "new": "FrameBody",
+      "reference": "Char.FrameBody",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dLI",
+      "owner": "nso/Char",
+      "old": "field_dL_630c16e3",
+      "new": "fBody",
+      "reference": "Char.fBody",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dMI",
+      "owner": "nso/Char",
+      "old": "field_dM_2179acb1",
+      "new": "FrameHair",
+      "reference": "Char.FrameHair",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dNI",
+      "owner": "nso/Char",
+      "old": "field_dN_03700941",
+      "new": "fHair",
+      "reference": "Char.fHair",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dTI",
+      "owner": "nso/Char",
+      "old": "field_dT_a4046fc0",
+      "new": "FramePP",
+      "reference": "Char.FramePP",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dUI",
+      "owner": "nso/Char",
+      "old": "field_dU_6a50ff00",
+      "new": "fPP",
+      "reference": "Char.fPP",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.dZI",
+      "owner": "nso/Char",
+      "old": "field_dZ_402a17f1",
+      "new": "fhorsetrangbi",
+      "reference": "Char.fhorsetrangbi",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.ea[S",
+      "owner": "nso/Char",
+      "old": "field_ea_dc5d1b9a",
+      "new": "fRun_PP",
+      "reference": "Char.fRun_PP",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.ebI",
+      "owner": "nso/Char",
+      "old": "field_eb_2cfba168",
+      "new": "FbodyUI",
+      "reference": "Char.FbodyUI",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.ecI",
+      "owner": "nso/Char",
+      "old": "field_ec_a4708525",
+      "new": "FlegUI",
+      "reference": "Char.FlegUI",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.edI",
+      "owner": "nso/Char",
+      "old": "field_ed_fd391555",
+      "new": "fHeadUI",
+      "reference": "Char.fHeadUI",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.eeI",
+      "owner": "nso/Char",
+      "old": "field_ee_143bf79f",
+      "new": "fPPUI",
+      "reference": "Char.fPPUI",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.efB",
+      "owner": "nso/Char",
+      "old": "field_ef_0fec8b1d",
+      "new": "fWeaponUI",
+      "reference": "Char.fWeaponUI",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.egB",
+      "owner": "nso/Char",
+      "old": "field_eg_8be721e8",
+      "new": "fMatNaUI",
+      "reference": "Char.fMatNaUI",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.cjZ",
+      "owner": "nso/Char",
+      "old": "field_cj_946e1015",
+      "new": "isDirtyPostion",
+      "reference": "Char.isDirtyPostion",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.ekI",
+      "owner": "nso/Char",
+      "old": "field_ek_b342e037",
+      "new": "EffdefautX",
+      "reference": "Char.EffdefautX",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.elI",
+      "owner": "nso/Char",
+      "old": "field_el_76eba573",
+      "new": "EffdefautY",
+      "reference": "Char.EffdefautY",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.emI",
+      "owner": "nso/Char",
+      "old": "field_em_838dfdeb",
+      "new": "EffdefautX1",
+      "reference": "Char.EffdefautX1",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bp.enI",
+      "owner": "nso/Char",
+      "old": "field_en_b5b220dd",
+      "new": "EffdefautY1",
+      "reference": "Char.EffdefautY1",
+      "reason": "Equipment effect IDs, frame getters, thirty-frame banks and matching UI drawing routines."
+    },
+    {
+      "original": "bs.aLjava/lang/String;",
+      "owner": "nso/SessionConnector",
+      "old": "field_a_8661dbb1",
+      "new": "connectionUrl",
+      "reference": null,
+      "reason": "Connection worker constructor URL and owning session."
+    },
+    {
+      "original": "bs.bLdh;",
+      "owner": "nso/SessionConnector",
+      "old": "field_b_7945f08d",
+      "new": "session",
+      "reference": null,
+      "reason": "Connection worker constructor URL and owning session."
+    },
+    {
+      "original": "bw.cI",
+      "owner": "nso/Scroll",
+      "old": "field_c_7864a90e",
+      "new": "xPos",
+      "reference": "Scroll.xPos",
+      "reason": "Scroll geometry, held-pointer timer and selected grid cell."
+    },
+    {
+      "original": "bw.dI",
+      "owner": "nso/Scroll",
+      "old": "field_d_970e36a8",
+      "new": "yPos",
+      "reference": "Scroll.yPos",
+      "reason": "Scroll geometry, held-pointer timer and selected grid cell."
+    },
+    {
+      "original": "bw.qI",
+      "owner": "nso/Scroll",
+      "old": "field_q_8fc5d16f",
+      "new": "pointerDownTime",
+      "reference": "Scroll.pointerDownTime",
+      "reason": "Scroll geometry, held-pointer timer and selected grid cell."
+    },
+    {
+      "original": "bw.wI",
+      "owner": "nso/Scroll",
+      "old": "field_w_fa454038",
+      "new": "selectedItem",
+      "reference": "Scroll.selectedItem",
+      "reason": "Scroll geometry, held-pointer timer and selected grid cell."
+    },
+    {
+      "original": "bw.xI",
+      "owner": "nso/Scroll",
+      "old": "field_x_f61e1352",
+      "new": "ITEM_PER_LINE",
+      "reference": "Scroll.ITEM_PER_LINE",
+      "reason": "Scroll geometry, held-pointer timer and selected grid cell."
+    },
+    {
+      "original": "c.lI",
+      "owner": "nso/Lightning",
+      "old": "field_l_b9bd23fa",
+      "new": "tick",
+      "reference": "Lightning.tick",
+      "reason": "Lightning expiry, colour cycle and segment draw count."
+    },
+    {
+      "original": "c.mI",
+      "owner": "nso/Lightning",
+      "old": "field_m_caa4fcc0",
+      "new": "cou",
+      "reference": "Lightning.cou",
+      "reason": "Lightning expiry, colour cycle and segment draw count."
+    },
+    {
+      "original": "c.nI",
+      "owner": "nso/Lightning",
+      "old": "field_n_88666b61",
+      "new": "dem",
+      "reference": "Lightning.dem",
+      "reason": "Lightning expiry, colour cycle and segment draw count."
+    },
+    {
+      "original": "ce.bLjava/io/ByteArrayOutputStream;",
+      "owner": "nso/Message",
+      "old": "field_b_8133e122",
+      "new": "outputBuffer",
+      "reference": null,
+      "reason": "Byte-array stream constructors and packet payload extraction."
+    },
+    {
+      "original": "ce.dLjava/io/ByteArrayInputStream;",
+      "owner": "nso/Message",
+      "old": "field_d_4fa190b6",
+      "new": "inputBuffer",
+      "reference": null,
+      "reason": "Byte-array stream constructors and packet payload extraction."
+    },
+    {
+      "original": "ci.FI",
+      "owner": "nso/Mob",
+      "old": "field_F_2f6e2047",
+      "new": "dirV",
+      "reference": "Mob.dirV",
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "ci.yLbp;",
+      "owner": "nso/Mob",
+      "old": "field_y_b3e55e4e",
+      "new": "interestChar",
+      "reference": "Mob.interestChar",
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "ci.TZ",
+      "owner": "nso/Mob",
+      "old": "field_T_51507e74",
+      "new": "removeWhenDie",
+      "reference": "Mob.removeWhenDie",
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "ci.UJ",
+      "owner": "nso/Mob",
+      "old": "field_U_52ed6cf8",
+      "new": "timeCurrent",
+      "reference": "Mob.timeCurrent",
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "ci.VZ",
+      "owner": "nso/Mob",
+      "old": "field_V_2d2910ac",
+      "new": "isright",
+      "reference": "Mob.isright",
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "ci.WZ",
+      "owner": "nso/Mob",
+      "old": "field_W_7e2ca314",
+      "new": "isleft",
+      "reference": "Mob.isleft",
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "ci.ae[[B",
+      "owner": "nso/Mob",
+      "old": "field_ae_5cc0c803",
+      "new": "idframeAppear",
+      "reference": "Mob.idframeAppear",
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "ci.af[[B",
+      "owner": "nso/Mob",
+      "old": "field_af_5016b510",
+      "new": "idframeDisappear",
+      "reference": "Mob.idframeDisappear",
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "ci.agI",
+      "owner": "nso/Mob",
+      "old": "field_ag_9364f7e6",
+      "new": "bossMoveFrameIndex",
+      "reference": null,
+      "reason": "Mob movement direction, lifetime, interested attacker and animation frame lookups."
+    },
+    {
+      "original": "cj.aI",
+      "owner": "nso/SplashScr",
+      "old": "field_a_13d7f4a9",
+      "new": "splashScrStat",
+      "reference": "SplashScr.splashScrStat",
+      "reason": "Startup delay counter before opening the server screen."
+    },
+    {
+      "original": "co.rLbd;",
+      "owner": "nso/SelectServerScr",
+      "old": "field_r_5a5ddb5e",
+      "new": "cmdChoiMoi",
+      "reference": "SelectServerScr.cmdChoiMoi",
+      "reason": "Select-server command action IDs 1000, 1001, 1003, 1002 and 20100."
+    },
+    {
+      "original": "co.sLbd;",
+      "owner": "nso/SelectServerScr",
+      "old": "field_s_3931b83f",
+      "new": "cmdDoiTaiKhoan",
+      "reference": "SelectServerScr.cmdDoiTaiKhoan",
+      "reason": "Select-server command action IDs 1000, 1001, 1003, 1002 and 20100."
+    },
+    {
+      "original": "co.tLbd;",
+      "owner": "nso/SelectServerScr",
+      "old": "field_t_de32b84d",
+      "new": "cmdChoiTiep",
+      "reference": "SelectServerScr.cmdChoiTiep",
+      "reason": "Select-server command action IDs 1000, 1001, 1003, 1002 and 20100."
+    },
+    {
+      "original": "co.uLbd;",
+      "owner": "nso/SelectServerScr",
+      "old": "field_u_563b7260",
+      "new": "cmdChonServer",
+      "reference": "SelectServerScr.cmdChonServer",
+      "reason": "Select-server command action IDs 1000, 1001, 1003, 1002 and 20100."
+    },
+    {
+      "original": "co.vLbd;",
+      "owner": "nso/SelectServerScr",
+      "old": "field_v_0ef7fc1b",
+      "new": "cmdUpdLinkSv",
+      "reference": "SelectServerScr.cmdUpdLinkSv",
+      "reason": "Select-server command action IDs 1000, 1001, 1003, 1002 and 20100."
+    },
+    {
+      "original": "cp.a[B",
+      "owner": "nso/PacketBuffer",
+      "old": "field_a_5c1802c5",
+      "new": "data",
+      "reference": null,
+      "reason": "Cached effect packet byte payload."
+    },
+    {
+      "original": "cq.aLjava/util/Hashtable;",
+      "owner": "nso/mHashtable",
+      "old": "field_a_14c4167e",
+      "new": "h",
+      "reference": "mHashtable.h",
+      "reason": "Hashtable backing store used by all wrapper operations."
+    },
+    {
+      "original": "dc.rI",
+      "owner": "nso/LoginScr",
+      "old": "field_r_f88c06ef",
+      "new": "defYL",
+      "reference": "LoginScr.defYL",
+      "reason": "Login form placement, logo motion and password recovery input."
+    },
+    {
+      "original": "dc.xLbd;",
+      "owner": "nso/LoginScr",
+      "old": "field_x_8dc50d7b",
+      "new": "cmdFogetPass",
+      "reference": "LoginScr.cmdFogetPass",
+      "reason": "Login form placement, logo motion and password recovery input."
+    },
+    {
+      "original": "dc.AI",
+      "owner": "nso/LoginScr",
+      "old": "field_A_0e02b66b",
+      "new": "tipid",
+      "reference": "LoginScr.tipid",
+      "reason": "Login form placement, logo motion and password recovery input."
+    },
+    {
+      "original": "dc.CI",
+      "owner": "nso/LoginScr",
+      "old": "field_C_3836c727",
+      "new": "logoVelocity",
+      "reference": null,
+      "reason": "Login form placement, logo motion and password recovery input."
+    },
+    {
+      "original": "dc.EI",
+      "owner": "nso/LoginScr",
+      "old": "field_E_03c68d74",
+      "new": "logoDirection",
+      "reference": null,
+      "reason": "Login form placement, logo motion and password recovery input."
+    },
+    {
+      "original": "dc.bZ",
+      "owner": "nso/LoginScr",
+      "old": "field_b_4441db75",
+      "new": "isLoggingIn",
+      "reference": "LoginScr.isLoggingIn",
+      "reason": "Login form placement, logo motion and password recovery input."
+    },
+    {
+      "original": "dc.FLjava/lang/String;",
+      "owner": "nso/LoginScr",
+      "old": "field_F_e06c9ab0",
+      "new": "recoveryAccount",
+      "reference": null,
+      "reason": "Login form placement, logo motion and password recovery input."
+    },
+    {
+      "original": "dd.uI",
+      "owner": "nso/mFont",
+      "old": "field_u_7f73bd72",
+      "new": "space",
+      "reference": "mFont.space",
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.vI",
+      "owner": "nso/mFont",
+      "old": "field_v_6be9228c",
+      "new": "height",
+      "reference": "mFont.height",
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.xLjava/lang/String;",
+      "owner": "nso/mFont",
+      "old": "field_x_ae045351",
+      "new": "strFont",
+      "reference": "mFont.strFont",
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.zLjava/lang/String;",
+      "owner": "nso/mFont",
+      "old": "field_z_dd817ec9",
+      "new": "FONT_CHARACTERS",
+      "reference": null,
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.fLdd;",
+      "owner": "nso/mFont",
+      "old": "field_f_ececa2aa",
+      "new": "tahoma_7b_green",
+      "reference": "mFont.tahoma_7b_green",
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.qLdd;",
+      "owner": "nso/mFont",
+      "old": "field_q_788ea123",
+      "new": "number_red",
+      "reference": "mFont.number_red",
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.rLdd;",
+      "owner": "nso/mFont",
+      "old": "field_r_aac77c87",
+      "new": "number_green",
+      "reference": "mFont.number_green",
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.sLdd;",
+      "owner": "nso/mFont",
+      "old": "field_s_8a0a1cb7",
+      "new": "number_white",
+      "reference": "mFont.number_white",
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.tLdd;",
+      "owner": "nso/mFont",
+      "old": "field_t_f3c3fb06",
+      "new": "number_orange",
+      "reference": "mFont.number_orange",
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "dd.ALjava/lang/String;",
+      "owner": "nso/mFont",
+      "old": "field_A_8d25c643",
+      "new": "fontImagePath",
+      "reference": null,
+      "reason": "Glyph spacing/height, character atlas, font resource paths and number colours."
+    },
+    {
+      "original": "df.aI",
+      "owner": "nso/mResources",
+      "old": "field_a_d5c14fb2",
+      "new": "languageID",
+      "reference": "mResources.languageID",
+      "reason": "Vietnamese/English literal assignments and their labelled UI uses."
+    },
+    {
+      "original": "df.A[Ljava/lang/String;",
+      "owner": "nso/mResources",
+      "old": "field_A_86bf1929",
+      "new": "tips",
+      "reference": "mResources.tips",
+      "reason": "Vietnamese/English literal assignments and their labelled UI uses."
+    },
+    {
+      "original": "df.abLjava/lang/String;",
+      "owner": "nso/mResources",
+      "old": "field_ab_05195f7e",
+      "new": "CONTINUE",
+      "reference": "mResources.CONTINUE",
+      "reason": "Vietnamese/English literal assignments and their labelled UI uses."
+    },
+    {
+      "original": "df.cF[Ljava/lang/String;",
+      "owner": "nso/mResources",
+      "old": "field_cF_37d12828",
+      "new": "TITLEELITESHOP",
+      "reference": "mResources.TITLEELITESHOP",
+      "reason": "Vietnamese/English literal assignments and their labelled UI uses."
+    },
+    {
+      "original": "df.dcLjava/lang/String;",
+      "owner": "nso/mResources",
+      "old": "field_dc_acc54ab4",
+      "new": "ADD",
+      "reference": "mResources.ADD",
+      "reason": "Vietnamese/English literal assignments and their labelled UI uses."
+    },
+    {
+      "original": "df.dS[Ljava/lang/String;",
+      "owner": "nso/mResources",
+      "old": "field_dS_1e6a8af0",
+      "new": "inforMe",
+      "reference": "mResources.inforMe",
+      "reason": "Vietnamese/English literal assignments and their labelled UI uses."
+    },
+    {
+      "original": "df.hhLjava/lang/String;",
+      "owner": "nso/mResources",
+      "old": "field_hh_45f4fcb2",
+      "new": "NEW_PASS",
+      "reference": "mResources.NEW_PASS",
+      "reason": "Vietnamese/English literal assignments and their labelled UI uses."
+    },
+    {
+      "original": "dh.bZ",
+      "owner": "nso/Session_ME",
+      "old": "field_b_7d3d0fb5",
+      "new": "unusedSessionFlag",
+      "reference": null,
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.qLjava/io/DataOutputStream;",
+      "owner": "nso/Session_ME",
+      "old": "field_q_5b7489e4",
+      "new": "dos",
+      "reference": "Session_ME.dos",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.cLjava/io/DataInputStream;",
+      "owner": "nso/Session_ME",
+      "old": "field_c_04c4dfde",
+      "new": "dis",
+      "reference": "Session_ME.dis",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.dLan;",
+      "owner": "nso/Session_ME",
+      "old": "field_d_7829e119",
+      "new": "messageHandler",
+      "reference": "Session_ME.messageHandler",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.eLjavax/microedition/io/SocketConnection;",
+      "owner": "nso/Session_ME",
+      "old": "field_e_c2638441",
+      "new": "sc",
+      "reference": "Session_ME.sc",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.fZ",
+      "owner": "nso/Session_ME",
+      "old": "field_f_aac11bae",
+      "new": "connected",
+      "reference": "Session_ME.connected",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.gZ",
+      "owner": "nso/Session_ME",
+      "old": "field_g_cbdfc689",
+      "new": "connecting",
+      "reference": "Session_ME.connecting",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.rLaq;",
+      "owner": "nso/Session_ME",
+      "old": "field_r_70a9ed10",
+      "new": "sender",
+      "reference": "Session_ME.sender",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.hLjava/lang/Thread;",
+      "owner": "nso/Session_ME",
+      "old": "field_h_6f98ef2e",
+      "new": "initThread",
+      "reference": "Session_ME.initThread",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.iLjava/lang/Thread;",
+      "owner": "nso/Session_ME",
+      "old": "field_i_af9ed020",
+      "new": "collectorThread",
+      "reference": "Session_ME.collectorThread",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.jI",
+      "owner": "nso/Session_ME",
+      "old": "field_j_36cf55be",
+      "new": "sendByteCount",
+      "reference": "Session_ME.sendByteCount",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.kI",
+      "owner": "nso/Session_ME",
+      "old": "field_k_086cd93d",
+      "new": "recvByteCount",
+      "reference": "Session_ME.recvByteCount",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.lZ",
+      "owner": "nso/Session_ME",
+      "old": "field_l_08ffacf7",
+      "new": "getKeyComplete",
+      "reference": "Session_ME.getKeyComplete",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.m[B",
+      "owner": "nso/Session_ME",
+      "old": "field_m_d5dea6ea",
+      "new": "key",
+      "reference": "Session_ME.key",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.sB",
+      "owner": "nso/Session_ME",
+      "old": "field_s_a19686be",
+      "new": "curR",
+      "reference": "Session_ME.curR",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.tB",
+      "owner": "nso/Session_ME",
+      "old": "field_t_48d16534",
+      "new": "curW",
+      "reference": "Session_ME.curW",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.nJ",
+      "owner": "nso/Session_ME",
+      "old": "field_n_2fbe18ae",
+      "new": "timeConnected",
+      "reference": "Session_ME.timeConnected",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.pZ",
+      "owner": "nso/Session_ME",
+      "old": "field_p_a279b745",
+      "new": "isCancel",
+      "reference": "Session_ME.isCancel",
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dh.uLaa;",
+      "owner": "nso/Session_ME",
+      "old": "field_u_a8aae82a",
+      "new": "sendQueue",
+      "reference": null,
+      "reason": "Socket streams, connection lifecycle, XOR cursors and the sender's outgoing queue."
+    },
+    {
+      "original": "dn.aLdh;",
+      "owner": "nso/SessionReceiver",
+      "old": "field_a_13a84b4b",
+      "new": "session",
+      "reference": null,
+      "reason": "Receiver retains the session whose socket it reads."
+    },
+    {
+      "original": "dp.eI",
+      "owner": "nso/MonsterDart",
+      "old": "field_e_88af0467",
+      "new": "angle",
+      "reference": "MonsterDart.angle",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.fI",
+      "owner": "nso/MonsterDart",
+      "old": "field_f_b025be4e",
+      "new": "vx",
+      "reference": "MonsterDart.vx",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.gI",
+      "owner": "nso/MonsterDart",
+      "old": "field_g_7324af5b",
+      "new": "vy",
+      "reference": "MonsterDart.vy",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.hS",
+      "owner": "nso/MonsterDart",
+      "old": "field_h_14cf6580",
+      "new": "va",
+      "reference": "MonsterDart.va",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.kI",
+      "owner": "nso/MonsterDart",
+      "old": "field_k_b170c41d",
+      "new": "life",
+      "reference": "MonsterDart.life",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.lZ",
+      "owner": "nso/MonsterDart",
+      "old": "field_l_f8c04328",
+      "new": "isSpeedUp",
+      "reference": "MonsterDart.isSpeedUp",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.xI",
+      "owner": "nso/MonsterDart",
+      "old": "field_x_30ab8f81",
+      "new": "frame",
+      "reference": "MonsterDart.frame",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.yI",
+      "owner": "nso/MonsterDart",
+      "old": "field_y_2e67cb52",
+      "new": "index",
+      "reference": "MonsterDart.index",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.A[I",
+      "owner": "nso/MonsterDart",
+      "old": "field_A_42d4d06e",
+      "new": "TRANSFORM",
+      "reference": "MonsterDart.TRANSFORM",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "dp.B[I",
+      "owner": "nso/MonsterDart",
+      "old": "field_B_4bd5be9f",
+      "new": "ARROWINDEX",
+      "reference": "MonsterDart.ARROWINDEX",
+      "reason": "Dart trigonometry, sixty-tick lifetime and orientation/frame tables."
+    },
+    {
+      "original": "ds.aZ",
+      "owner": "nso/Menu",
+      "old": "field_a_a65869f4",
+      "new": "showMenu",
+      "reference": "Menu.showMenu",
+      "reason": "Menu state, target/current Y, total menu width, close handling and button textures."
+    },
+    {
+      "original": "ds.hI",
+      "owner": "nso/Menu",
+      "old": "field_h_ce782649",
+      "new": "menuY",
+      "reference": "Menu.menuY",
+      "reason": "Menu state, target/current Y, total menu width, close handling and button textures."
+    },
+    {
+      "original": "ds.kI",
+      "owner": "nso/Menu",
+      "old": "field_k_14247b13",
+      "new": "renderY",
+      "reference": null,
+      "reason": "Menu state, target/current Y, total menu width, close handling and button textures."
+    },
+    {
+      "original": "ds.rLbd;",
+      "owner": "nso/Menu",
+      "old": "field_r_04012e67",
+      "new": "center",
+      "reference": "Menu.center",
+      "reason": "Menu state, target/current Y, total menu width, close handling and button textures."
+    },
+    {
+      "original": "ds.sLjavax/microedition/lcdui/Image;",
+      "owner": "nso/Menu",
+      "old": "field_s_b31b1241",
+      "new": "imgButton",
+      "reference": null,
+      "reason": "Menu state, target/current Y, total menu width, close handling and button textures."
+    },
+    {
+      "original": "ds.tLjavax/microedition/lcdui/Image;",
+      "owner": "nso/Menu",
+      "old": "field_t_fe97d7f0",
+      "new": "imgButtonFocus",
+      "reference": null,
+      "reason": "Menu state, target/current Y, total menu width, close handling and button textures."
+    },
+    {
+      "original": "ds.cZ",
+      "owner": "nso/Menu",
+      "old": "field_c_f80d701a",
+      "new": "disableClose",
+      "reference": "Menu.disableClose",
+      "reason": "Menu state, target/current Y, total menu width, close handling and button textures."
+    },
+    {
+      "original": "ds.uI",
+      "owner": "nso/Menu",
+      "old": "field_u_bf447d5c",
+      "new": "w",
+      "reference": "Menu.w",
+      "reason": "Menu state, target/current Y, total menu width, close handling and button textures."
+    },
+    {
+      "original": "du.aLjava/lang/String;",
+      "owner": "nso/SmsSender",
+      "old": "field_a_b77a9f54",
+      "new": "smsUrl",
+      "reference": null,
+      "reason": "WMA destination, SMS payload and success/failure callbacks."
+    },
+    {
+      "original": "du.bLjava/lang/String;",
+      "owner": "nso/SmsSender",
+      "old": "field_b_d1a7ad3d",
+      "new": "messageText",
+      "reference": null,
+      "reason": "WMA destination, SMS payload and success/failure callbacks."
+    },
+    {
+      "original": "du.cLjava/lang/String;",
+      "owner": "nso/SmsSender",
+      "old": "field_c_17d7e968",
+      "new": "recipient",
+      "reference": null,
+      "reason": "WMA destination, SMS payload and success/failure callbacks."
+    },
+    {
+      "original": "du.dLbd;",
+      "owner": "nso/SmsSender",
+      "old": "field_d_8ea351b5",
+      "new": "onSuccess",
+      "reference": null,
+      "reason": "WMA destination, SMS payload and success/failure callbacks."
+    },
+    {
+      "original": "du.eLbd;",
+      "owner": "nso/SmsSender",
+      "old": "field_e_c7587aae",
+      "new": "onFailure",
+      "reference": null,
+      "reason": "WMA destination, SMS payload and success/failure callbacks."
+    },
+    {
+      "original": "main/a.bLjavax/microedition/lcdui/Image;",
+      "owner": "main/GameCanvas",
+      "old": "field_b_be2c27e4",
+      "new": "testCapcha",
+      "reference": "GameCanvas.testCapcha",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.cZ",
+      "owner": "main/GameCanvas",
+      "old": "field_c_5301d42b",
+      "new": "isMoveNumberPad",
+      "reference": "GameCanvas.isMoveNumberPad",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.mZ",
+      "owner": "main/GameCanvas",
+      "old": "field_m_7c75d588",
+      "new": "bRun",
+      "reference": "GameCanvas.bRun",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aa[Z",
+      "owner": "main/GameCanvas",
+      "old": "field_aa_2499ffd9",
+      "new": "keyReleasedz",
+      "reference": "GameCanvas.keyReleasedz",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.ab[Lck;",
+      "owner": "main/GameCanvas",
+      "old": "field_ab_da517b1b",
+      "new": "arrPos",
+      "reference": "GameCanvas.arrPos",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.yZ",
+      "owner": "main/GameCanvas",
+      "old": "field_y_b9e341e3",
+      "new": "isEff1",
+      "reference": "GameCanvas.isEff1",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.zZ",
+      "owner": "main/GameCanvas",
+      "old": "field_z_4489a858",
+      "new": "isEff2",
+      "reference": "GameCanvas.isEff2",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.acJ",
+      "owner": "main/GameCanvas",
+      "old": "field_ac_4c8adce2",
+      "new": "timeTickEff1",
+      "reference": "GameCanvas.timeTickEff1",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.adJ",
+      "owner": "main/GameCanvas",
+      "old": "field_ad_a8a8012b",
+      "new": "timeTickEff2",
+      "reference": "GameCanvas.timeTickEff2",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aeZ",
+      "owner": "main/GameCanvas",
+      "old": "field_ae_7e6dad44",
+      "new": "isBlackBerry",
+      "reference": null,
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.ahI",
+      "owner": "main/GameCanvas",
+      "old": "field_ah_b022f64f",
+      "new": "curPos",
+      "reference": "GameCanvas.curPos",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.Q[Ljavax/microedition/lcdui/Image;",
+      "owner": "main/GameCanvas",
+      "old": "field_Q_4abd173e",
+      "new": "imgBorder",
+      "reference": "GameCanvas.imgBorder",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.RI",
+      "owner": "main/GameCanvas",
+      "old": "field_R_272487e8",
+      "new": "borderCornerWidth",
+      "reference": null,
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.SI",
+      "owner": "main/GameCanvas",
+      "old": "field_S_4116e222",
+      "new": "borderCornerHeight",
+      "reference": null,
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.UI",
+      "owner": "main/GameCanvas",
+      "old": "field_U_33f336b9",
+      "new": "keyAsciiPress",
+      "reference": "GameCanvas.keyAsciiPress",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aA[I",
+      "owner": "main/GameCanvas",
+      "old": "field_aA_539bafd7",
+      "new": "dustX",
+      "reference": "GameCanvas.dustX",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aB[I",
+      "owner": "main/GameCanvas",
+      "old": "field_aB_9385d8bb",
+      "new": "dustY",
+      "reference": "GameCanvas.dustY",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aC[I",
+      "owner": "main/GameCanvas",
+      "old": "field_aC_27b902a3",
+      "new": "dustState",
+      "reference": "GameCanvas.dustState",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aD[I",
+      "owner": "main/GameCanvas",
+      "old": "field_aD_775966fd",
+      "new": "wsX",
+      "reference": "GameCanvas.wsX",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aE[I",
+      "owner": "main/GameCanvas",
+      "old": "field_aE_633cc64b",
+      "new": "wsY",
+      "reference": "GameCanvas.wsY",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aF[I",
+      "owner": "main/GameCanvas",
+      "old": "field_aF_1b5f9764",
+      "new": "wsState",
+      "reference": "GameCanvas.wsState",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aG[Ljavax/microedition/lcdui/Image;",
+      "owner": "main/GameCanvas",
+      "old": "field_aG_4ab0b414",
+      "new": "imgWS",
+      "reference": "GameCanvas.imgWS",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aHLjavax/microedition/lcdui/Image;",
+      "owner": "main/GameCanvas",
+      "old": "field_aH_052bb681",
+      "new": "imgShuriken",
+      "reference": "GameCanvas.imgShuriken",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.WZ",
+      "owner": "main/GameCanvas",
+      "old": "field_W_e2eae5f2",
+      "new": "isKiemduyet_info",
+      "reference": "GameCanvas.isKiemduyet_info",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.XLjavax/microedition/lcdui/Image;",
+      "owner": "main/GameCanvas",
+      "old": "field_X_f39ea179",
+      "new": "imgPlus12",
+      "reference": "GameCanvas.imgPlus12",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.Z[Ljavax/microedition/lcdui/Image;",
+      "owner": "main/GameCanvas",
+      "old": "field_Z_e393dd96",
+      "new": "imghealth",
+      "reference": "GameCanvas.imghealth",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aKI",
+      "owner": "main/GameCanvas",
+      "old": "field_aK_f7161ecc",
+      "new": "xKd",
+      "reference": "GameCanvas.xKd",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aLI",
+      "owner": "main/GameCanvas",
+      "old": "field_aL_16ec36ae",
+      "new": "yKd",
+      "reference": "GameCanvas.yKd",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/a.aMI",
+      "owner": "main/GameCanvas",
+      "old": "field_aM_2dbd7681",
+      "new": "wStr",
+      "reference": "GameCanvas.wStr",
+      "reason": "Game loop, keyboard state, timed effects, platform detection and image resource uses."
+    },
+    {
+      "original": "main/b.bLmain/c;",
+      "owner": "main/MotherCanvas",
+      "old": "field_b_2af9877e",
+      "new": "canvasAdapter",
+      "reference": null,
+      "reason": "Canvas adapter callbacks and virtual dimensions under integer zoom."
+    },
+    {
+      "original": "main/b.cI",
+      "owner": "main/MotherCanvas",
+      "old": "field_c_bfb30ff9",
+      "new": "zoomLevel",
+      "reference": "MotherCanvas.zoomLevel",
+      "reason": "Canvas adapter callbacks and virtual dimensions under integer zoom."
+    },
+    {
+      "original": "main/b.dI",
+      "owner": "main/MotherCanvas",
+      "old": "field_d_273cfa6e",
+      "new": "newWidth",
+      "reference": "MotherCanvas.newWidth",
+      "reason": "Canvas adapter callbacks and virtual dimensions under integer zoom."
+    },
+    {
+      "original": "main/b.eI",
+      "owner": "main/MotherCanvas",
+      "old": "field_e_3f865d4c",
+      "new": "newHeight",
+      "reference": "MotherCanvas.newHeight",
+      "reason": "Canvas adapter callbacks and virtual dimensions under integer zoom."
+    },
+    {
+      "original": "main/b.fZ",
+      "owner": "main/MotherCanvas",
+      "old": "field_f_5a51e1c6",
+      "new": "disableZoom",
+      "reference": null,
+      "reason": "Canvas adapter callbacks and virtual dimensions under integer zoom."
+    },
+    {
+      "original": "main/GameMidlet.bB",
+      "owner": "main/GameMidlet",
+      "old": "field_b_a466dfde",
+      "new": "indexClient",
+      "reference": "GameMidlet.indexClient",
+      "reason": "MIDlet startup, provider.txt, language mode and GPS packet argument order."
+    },
+    {
+      "original": "main/GameMidlet.eB",
+      "owner": "main/GameMidlet",
+      "old": "field_e_606d589d",
+      "new": "userProvider",
+      "reference": "GameMidlet.userProvider",
+      "reason": "MIDlet startup, provider.txt, language mode and GPS packet argument order."
+    },
+    {
+      "original": "main/GameMidlet.rLmain/a;",
+      "owner": "main/GameMidlet",
+      "old": "field_r_32c973d0",
+      "new": "gameCanvas",
+      "reference": null,
+      "reason": "MIDlet startup, provider.txt, language mode and GPS packet argument order."
+    },
+    {
+      "original": "main/GameMidlet.iZ",
+      "owner": "main/GameMidlet",
+      "old": "field_i_8a124b70",
+      "new": "isWorldver",
+      "reference": "GameMidlet.isWorldver",
+      "reason": "MIDlet startup, provider.txt, language mode and GPS packet argument order."
+    },
+    {
+      "original": "main/GameMidlet.jLjava/lang/String;",
+      "owner": "main/GameMidlet",
+      "old": "field_j_85f966ae",
+      "new": "latitude",
+      "reference": "GameMidlet.latitude",
+      "reason": "MIDlet startup, provider.txt, language mode and GPS packet argument order."
+    },
+    {
+      "original": "main/GameMidlet.kLjava/lang/String;",
+      "owner": "main/GameMidlet",
+      "old": "field_k_1aff0c30",
+      "new": "longitude",
+      "reference": "GameMidlet.longitude",
+      "reason": "MIDlet startup, provider.txt, language mode and GPS packet argument order."
+    },
+    {
+      "original": "r.jLjava/lang/String;",
+      "owner": "nso/Clan",
+      "old": "field_j_0354af7d",
+      "new": "main_name",
+      "reference": "Clan.main_name",
+      "reason": "Clan leader UTF field displayed beside the clan-leader label."
+    },
+    {
+      "original": "t.aLjavax/microedition/lcdui/Graphics;",
+      "owner": "nso/mGraphics",
+      "old": "field_a_b66aa5dd",
+      "new": "graphics",
+      "reference": null,
+      "reason": "Java ME graphics delegate and integer asset scaling."
+    },
+    {
+      "original": "t.bI",
+      "owner": "nso/mGraphics",
+      "old": "field_b_025202c3",
+      "new": "zoomLevel",
+      "reference": "mGraphics.zoomLevel",
+      "reason": "Java ME graphics delegate and integer asset scaling."
+    },
+    {
+      "original": "u.zI",
+      "owner": "nso/SelectCharScr",
+      "old": "field_z_deae7cb3",
+      "new": "moveUp",
+      "reference": "SelectCharScr.moveUp",
+      "reason": "Preserved upper/lower opening offsets initialized around screen centre."
+    },
+    {
+      "original": "u.AI",
+      "owner": "nso/SelectCharScr",
+      "old": "field_A_d3ffe239",
+      "new": "moveDow",
+      "reference": "SelectCharScr.moveDow",
+      "reason": "Preserved upper/lower opening offsets initialized around screen centre."
+    },
+    {
+      "original": "x.eI",
+      "owner": "nso/Info",
+      "old": "field_e_4a402a56",
+      "new": "p2",
+      "reference": "Info.p2",
+      "reason": "Info scrolling delay counter reset at each animation state."
+    },
+    {
+      "original": "y.eS",
+      "owner": "nso/DataSkillEff",
+      "old": "field_e_1596176b",
+      "new": "idEff",
+      "reference": "DataSkillEff.idEff",
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "y.fZ",
+      "owner": "nso/DataSkillEff",
+      "old": "field_f_9e53e590",
+      "new": "isHead",
+      "reference": "DataSkillEff.isHead",
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "y.ALaa;",
+      "owner": "nso/DataSkillEff",
+      "old": "field_A_f387a2f6",
+      "new": "actorFrameBuffer",
+      "reference": null,
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "y.BLaa;",
+      "owner": "nso/DataSkillEff",
+      "old": "field_B_d6800754",
+      "new": "standFrameBuffer",
+      "reference": null,
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "y.CLaa;",
+      "owner": "nso/DataSkillEff",
+      "old": "field_C_3eaf7f6c",
+      "new": "moveFrameBuffer",
+      "reference": null,
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "y.DLaa;",
+      "owner": "nso/DataSkillEff",
+      "old": "field_D_5fffc840",
+      "new": "jumpFrameBuffer",
+      "reference": null,
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "y.ELaa;",
+      "owner": "nso/DataSkillEff",
+      "old": "field_E_d5458e25",
+      "new": "fallFrameBuffer",
+      "reference": null,
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "y.FLaa;",
+      "owner": "nso/DataSkillEff",
+      "old": "field_F_92eb807b",
+      "new": "charOffsetXBuffer",
+      "reference": null,
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "y.GLaa;",
+      "owner": "nso/DataSkillEff",
+      "old": "field_G_080d45be",
+      "new": "charOffsetYBuffer",
+      "reference": null,
+      "reason": "Effect identifier, layer flag and buffers converted into named animation arrays."
+    },
+    {
+      "original": "dg.cqI",
+      "owner": "nso/GameScr",
+      "old": "field_cq_98eee84c",
+      "new": "gssw",
+      "reference": "GameScr.gssw",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.crI",
+      "owner": "nso/GameScr",
+      "old": "field_cr_7825af81",
+      "new": "gssh",
+      "reference": "GameScr.gssh",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.hI",
+      "owner": "nso/GameScr",
+      "old": "field_h_305f8e98",
+      "new": "gW6",
+      "reference": "GameScr.gW6",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.ctI",
+      "owner": "nso/GameScr",
+      "old": "field_ct_9c1b25a2",
+      "new": "cmdx",
+      "reference": "GameScr.cmdx",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cuI",
+      "owner": "nso/GameScr",
+      "old": "field_cu_0cfa6cff",
+      "new": "cmdy",
+      "reference": "GameScr.cmdy",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cvI",
+      "owner": "nso/GameScr",
+      "old": "field_cv_5556468d",
+      "new": "cmvx",
+      "reference": "GameScr.cmvx",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cwI",
+      "owner": "nso/GameScr",
+      "old": "field_cw_7aea3770",
+      "new": "cmvy",
+      "reference": "GameScr.cmvy",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cxI",
+      "owner": "nso/GameScr",
+      "old": "field_cx_e9e32cbf",
+      "new": "cmxLim",
+      "reference": "GameScr.cmxLim",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cyI",
+      "owner": "nso/GameScr",
+      "old": "field_cy_1dfe6545",
+      "new": "cmyLim",
+      "reference": "GameScr.cmyLim",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.uI",
+      "owner": "nso/GameScr",
+      "old": "field_u_b9a75974",
+      "new": "gssy",
+      "reference": "GameScr.gssy",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.vI",
+      "owner": "nso/GameScr",
+      "old": "field_v_cef3b70e",
+      "new": "gssxe",
+      "reference": "GameScr.gssxe",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.czLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_cz_b7dd2fe8",
+      "new": "cmdBag",
+      "reference": "GameScr.cmdBag",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cALbd;",
+      "owner": "nso/GameScr",
+      "old": "field_cA_eba222ba",
+      "new": "cmdSkill",
+      "reference": "GameScr.cmdSkill",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cBLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_cB_313aaca1",
+      "new": "cmdTiemnang",
+      "reference": "GameScr.cmdTiemnang",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cCLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_cC_4551738d",
+      "new": "cmdtrangbi",
+      "reference": "GameScr.cmdtrangbi",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cDLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_cD_84372947",
+      "new": "cmdInfo",
+      "reference": "GameScr.cmdInfo",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cFLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_cF_4273a9c6",
+      "new": "cmdBijuu",
+      "reference": "GameScr.cmdBijuu",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cHI",
+      "owner": "nso/GameScr",
+      "old": "field_cH_27acf8c6",
+      "new": "idTypeTask",
+      "reference": "GameScr.idTypeTask",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cIZ",
+      "owner": "nso/GameScr",
+      "old": "field_cI_fb54b4c5",
+      "new": "isShortcut",
+      "reference": "GameScr.isShortcut",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.cJLaa;",
+      "owner": "nso/GameScr",
+      "old": "field_cJ_2e95c508",
+      "new": "vLanterns",
+      "reference": "GameScr.vLanterns",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.bo[[B",
+      "owner": "nso/GameScr",
+      "old": "field_bo_d6bdd389",
+      "new": "tasks",
+      "reference": "GameScr.tasks",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.bqB",
+      "owner": "nso/GameScr",
+      "old": "field_bq_31e6c9dd",
+      "new": "vcData",
+      "reference": "GameScr.vcData",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.buB",
+      "owner": "nso/GameScr",
+      "old": "field_bu_631750b7",
+      "new": "vsData",
+      "reference": "GameScr.vsData",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.bvB",
+      "owner": "nso/GameScr",
+      "old": "field_bv_f5351e0c",
+      "new": "vsMap",
+      "reference": "GameScr.vsMap",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.bwB",
+      "owner": "nso/GameScr",
+      "old": "field_bw_696bdaf3",
+      "new": "vsSkill",
+      "reference": "GameScr.vsSkill",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.bxB",
+      "owner": "nso/GameScr",
+      "old": "field_bx_c13c1b1a",
+      "new": "vsItem",
+      "reference": "GameScr.vsItem",
+      "reason": "Viewport tile bounds, camera movement, menu action IDs and data version protocol."
+    },
+    {
+      "original": "dg.eeLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_ee_59584962",
+      "new": "imgTopBar",
+      "reference": "GameScr.imgTopBar",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.efLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_ef_0b5a3774",
+      "new": "imgTransparent",
+      "reference": null,
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.ehLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_eh_63b15ede",
+      "new": "imgArrow2",
+      "reference": "GameScr.imgArrow2",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.eiLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_ei_921aecf0",
+      "new": "imgChat",
+      "reference": "GameScr.imgChat",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.ejLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_ej_6b0c3d0e",
+      "new": "imgMenu",
+      "reference": "GameScr.imgMenu",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.ekLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_ek_2265f1b0",
+      "new": "imgFocus",
+      "reference": "GameScr.imgFocus",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.elLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_el_6e24263b",
+      "new": "imgButton",
+      "reference": "GameScr.imgButton",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.emLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_em_0f17d4b7",
+      "new": "imgButton2",
+      "reference": "GameScr.imgButton2",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.enLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_en_0f67c6a3",
+      "new": "imgHpp",
+      "reference": "GameScr.imgHpp",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.eoLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_eo_df22d906",
+      "new": "imgMpp",
+      "reference": "GameScr.imgMpp",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.epLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_ep_663049bb",
+      "new": "imgRight",
+      "reference": "GameScr.imgRight",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.eqLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_eq_9f284920",
+      "new": "imgRight2",
+      "reference": "GameScr.imgRight2",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.erLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_er_59b63efc",
+      "new": "imgSkill",
+      "reference": "GameScr.imgSkill",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.byLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_by_76805635",
+      "new": "imgTf",
+      "reference": "GameScr.imgTf",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bzLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bz_ed9b353d",
+      "new": "imgMapBorder",
+      "reference": "GameScr.imgMapBorder",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bALjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bA_41bde359",
+      "new": "imgLbtn",
+      "reference": "GameScr.imgLbtn",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bBLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bB_6956e44c",
+      "new": "imgLbtnFocus",
+      "reference": "GameScr.imgLbtnFocus",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.esLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_es_40519e3a",
+      "new": "imgSelect",
+      "reference": "GameScr.imgSelect",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bCLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bC_5471c0d3",
+      "new": "imgMatcho",
+      "reference": "GameScr.imgMatcho",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bDLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bD_1ab30872",
+      "new": "imgFiremoto",
+      "reference": "GameScr.imgFiremoto",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bRLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bR_d4ec8a98",
+      "new": "imgEggMonters",
+      "reference": "GameScr.imgEggMonters",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bSLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bS_42a163e9",
+      "new": "imgEffMob",
+      "reference": "GameScr.imgEffMob",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bTLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bT_e0ea0e69",
+      "new": "imgEffMob1",
+      "reference": "GameScr.imgEffMob1",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bULjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bU_b7274514",
+      "new": "imgEffMob2",
+      "reference": "GameScr.imgEffMob2",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bVLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bV_bc04d0e8",
+      "new": "imgEffMob3",
+      "reference": "GameScr.imgEffMob3",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.bWLjavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_bW_75c86136",
+      "new": "imgsmokeFollow",
+      "reference": "GameScr.imgsmokeFollow",
+      "reason": "Exact image resource paths and matching image/layer drawing roles."
+    },
+    {
+      "original": "dg.etB",
+      "owner": "nso/GameScr",
+      "old": "field_et_5c007565",
+      "new": "typeViewInfo",
+      "reference": "GameScr.typeViewInfo",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eu[I",
+      "owner": "nso/GameScr",
+      "old": "field_eu_cec376fa",
+      "new": "xM",
+      "reference": "GameScr.xM",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.ev[I",
+      "owner": "nso/GameScr",
+      "old": "field_ev_69ce3910",
+      "new": "yM",
+      "reference": "GameScr.yM",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eBLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_eB_3a9c2224",
+      "new": "cmdPotentialAdd",
+      "reference": "GameScr.cmdPotentialAdd",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eCLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_eC_eb996086",
+      "new": "cmdSkillUp",
+      "reference": "GameScr.cmdSkillUp",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eDLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_eD_28e9296a",
+      "new": "cmdAddFriend",
+      "reference": "GameScr.cmdAddFriend",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eELbd;",
+      "owner": "nso/GameScr",
+      "old": "field_eE_eba46654",
+      "new": "cmdBijuuAddPoint",
+      "reference": "GameScr.cmdBijuuAddPoint",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eFLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_eF_c8e68d68",
+      "new": "cmdBijuuSkillUp",
+      "reference": "GameScr.cmdBijuuSkillUp",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eGB",
+      "owner": "nso/GameScr",
+      "old": "field_eG_89339dc3",
+      "new": "menuCooldown",
+      "reference": null,
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eHJ",
+      "owner": "nso/GameScr",
+      "old": "field_eH_c6f86e21",
+      "new": "lastFire",
+      "reference": "GameScr.lastFire",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eII",
+      "owner": "nso/GameScr",
+      "old": "field_eI_449e96cb",
+      "new": "nSkill",
+      "reference": "GameScr.nSkill",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eKJ",
+      "owner": "nso/GameScr",
+      "old": "field_eK_7b4cd28f",
+      "new": "lastSendUpdatePostion",
+      "reference": "GameScr.lastSendUpdatePostion",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eLI",
+      "owner": "nso/GameScr",
+      "old": "field_eL_47dbfa97",
+      "new": "runArrow",
+      "reference": "GameScr.runArrow",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eMI",
+      "owner": "nso/GameScr",
+      "old": "field_eM_4133da04",
+      "new": "hMiniMap",
+      "reference": "GameScr.hMiniMap",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eNI",
+      "owner": "nso/GameScr",
+      "old": "field_eN_a173e896",
+      "new": "yTouchBar",
+      "reference": "GameScr.yTouchBar",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eUI",
+      "owner": "nso/GameScr",
+      "old": "field_eU_4c0f6203",
+      "new": "xF",
+      "reference": "GameScr.xF",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eYI",
+      "owner": "nso/GameScr",
+      "old": "field_eY_4946c48b",
+      "new": "xHP",
+      "reference": "GameScr.xHP",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.eZI",
+      "owner": "nso/GameScr",
+      "old": "field_eZ_89d427a8",
+      "new": "yHP",
+      "reference": "GameScr.yHP",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fcI",
+      "owner": "nso/GameScr",
+      "old": "field_fc_95dc3f2a",
+      "new": "xTG",
+      "reference": "GameScr.xTG",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fdI",
+      "owner": "nso/GameScr",
+      "old": "field_fd_acbbd57d",
+      "new": "yTG",
+      "reference": "GameScr.yTG",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fiI",
+      "owner": "nso/GameScr",
+      "old": "field_fi_5d1114ed",
+      "new": "padSkill",
+      "reference": "GameScr.padSkill",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.ft[I",
+      "owner": "nso/GameScr",
+      "old": "field_ft_c10a19fc",
+      "new": "splashF",
+      "reference": "GameScr.splashF",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fwI",
+      "owner": "nso/GameScr",
+      "old": "field_fw_d8aacff1",
+      "new": "cmdBarX",
+      "reference": "GameScr.cmdBarX",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fyI",
+      "owner": "nso/GameScr",
+      "old": "field_fy_c36971c9",
+      "new": "cmdBarW",
+      "reference": "GameScr.cmdBarW",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fzI",
+      "owner": "nso/GameScr",
+      "old": "field_fz_5ff3033b",
+      "new": "cmdBarLeftWidth",
+      "reference": null,
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fAI",
+      "owner": "nso/GameScr",
+      "old": "field_fA_73fa692c",
+      "new": "cmdBarRightWidth",
+      "reference": null,
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fBI",
+      "owner": "nso/GameScr",
+      "old": "field_fB_77055662",
+      "new": "cmdBarFillWidth",
+      "reference": null,
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fHI",
+      "owner": "nso/GameScr",
+      "old": "field_fH_c17a4255",
+      "new": "mpBarHeight",
+      "reference": null,
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fI[Ljavax/microedition/lcdui/Image;",
+      "owner": "nso/GameScr",
+      "old": "field_fI_bb74c42b",
+      "new": "imgCmdBar",
+      "reference": null,
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fKZ",
+      "owner": "nso/GameScr",
+      "old": "field_fK_018eeea7",
+      "new": "unusedInterfaceFlag",
+      "reference": null,
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fM[Ljava/lang/String;",
+      "owner": "nso/GameScr",
+      "old": "field_fM_8b1d070f",
+      "new": "arrClanInfo",
+      "reference": "GameScr.arrClanInfo",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fN[Ljava/lang/String;",
+      "owner": "nso/GameScr",
+      "old": "field_fN_bf9978fd",
+      "new": "arrClanDongGop",
+      "reference": "GameScr.arrClanDongGop",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fOI",
+      "owner": "nso/GameScr",
+      "old": "field_fO_8d79a877",
+      "new": "indexTiemNang",
+      "reference": "GameScr.indexTiemNang",
+      "reason": "HUD resource geometry, command callbacks, update timestamps and clan/potential panels."
+    },
+    {
+      "original": "dg.fPLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fP_b4d5ba2c",
+      "new": "cmdGiaoDoMoveOut",
+      "reference": "GameScr.cmdGiaoDoMoveOut",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.fSLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fS_1a5a97e2",
+      "new": "cmdKhamNgocMoveOut_Ngoc",
+      "reference": "GameScr.cmdKhamNgocMoveOut_Ngoc",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.fTLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fT_75e23c45",
+      "new": "cmdKhamNgocMoveOut_Item",
+      "reference": "GameScr.cmdKhamNgocMoveOut_Item",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.fULbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fU_e2713fd2",
+      "new": "cmdKhamNgocMoveOut_Stone",
+      "reference": "GameScr.cmdKhamNgocMoveOut_Stone",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.fVLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fV_486de4e3",
+      "new": "cmdUpgradeMoveOut",
+      "reference": "GameScr.cmdUpgradeMoveOut",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.fWLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fW_69cb18d4",
+      "new": "cmdConvertMoveOut",
+      "reference": "GameScr.cmdConvertMoveOut",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.fXLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fX_182c0a10",
+      "new": "cmdSplitMoveOut",
+      "reference": "GameScr.cmdSplitMoveOut",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.fYLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fY_f170e8b2",
+      "new": "cmdTradeSendMoney",
+      "reference": "GameScr.cmdTradeSendMoney",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.fZLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_fZ_ff3c8cd1",
+      "new": "cmdTradeMoveOut",
+      "reference": "GameScr.cmdTradeMoveOut",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.gaLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_ga_fd8dfcd6",
+      "new": "cmdTradeViewItemInfo",
+      "reference": "GameScr.cmdTradeViewItemInfo",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.gbLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gb_8a916799",
+      "new": "cmdTradeSelectItem",
+      "reference": "GameScr.cmdTradeSelectItem",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.gcLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gc_56cecb74",
+      "new": "cmdTradeSelectInBag",
+      "reference": "GameScr.cmdTradeSelectInBag",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.gdLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gd_d8284494",
+      "new": "cmdTradeSelectInList",
+      "reference": "GameScr.cmdTradeSelectInList",
+      "reason": "Unique Command action IDs and inventory/trade action handlers."
+    },
+    {
+      "original": "dg.gfLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gf_6c48a1b9",
+      "new": "cmdEliteShopBuy",
+      "reference": "GameScr.cmdEliteShopBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.ggLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gg_d6ab3c49",
+      "new": "cmdEliteShopView",
+      "reference": "GameScr.cmdEliteShopView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.ghLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gh_62c44c27",
+      "new": "cmdStoreBuy",
+      "reference": "GameScr.cmdStoreBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.giLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gi_25f3a0bd",
+      "new": "cmdStoreView",
+      "reference": "GameScr.cmdStoreView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gjLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gj_a059e425",
+      "new": "cmdClanStoreBuy",
+      "reference": "GameScr.cmdClanStoreBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gkLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gk_b1d12d68",
+      "new": "cmdClanStoreView",
+      "reference": "GameScr.cmdClanStoreView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.glLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gl_005ba79c",
+      "new": "cmdStoreLockBuy",
+      "reference": "GameScr.cmdStoreLockBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gmLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gm_0d9de42f",
+      "new": "cmdStoreLockView",
+      "reference": "GameScr.cmdStoreLockView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gnLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gn_20626f61",
+      "new": "cmdStoreFashionBuy",
+      "reference": "GameScr.cmdStoreFashionBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.goLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_go_03f22020",
+      "new": "cmdStoreFashionView",
+      "reference": "GameScr.cmdStoreFashionView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gpLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gp_5d77c32e",
+      "new": "cmdNonNamBuy",
+      "reference": "GameScr.cmdNonNamBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gqLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gq_b62aed6d",
+      "new": "cmdNonNamView",
+      "reference": "GameScr.cmdNonNamView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.grLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gr_8449f6e5",
+      "new": "cmdNonNuBuy",
+      "reference": "GameScr.cmdNonNuBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gsLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gs_0b16b42d",
+      "new": "cmdNonNuView",
+      "reference": "GameScr.cmdNonNuView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gtLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gt_2cd40eb5",
+      "new": "cmdAoNamBuy",
+      "reference": "GameScr.cmdAoNamBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.guLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gu_c8646905",
+      "new": "cmdAoNamView",
+      "reference": "GameScr.cmdAoNamView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gvLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gv_7c2cfb85",
+      "new": "cmdAoNuBuy",
+      "reference": "GameScr.cmdAoNuBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gwLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gw_7224cbfc",
+      "new": "cmdAoNuView",
+      "reference": "GameScr.cmdAoNuView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gxLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gx_f9c58033",
+      "new": "cmdGangTayNamBuy",
+      "reference": "GameScr.cmdGangTayNamBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gyLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gy_1b1bd36d",
+      "new": "cmdGangTayNamView",
+      "reference": "GameScr.cmdGangTayNamView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gzLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gz_e7789189",
+      "new": "cmdGangTayNuBuy",
+      "reference": "GameScr.cmdGangTayNuBuy",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gALbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gA_e6518f81",
+      "new": "cmdGangTayNuView",
+      "reference": "GameScr.cmdGangTayNuView",
+      "reason": "Shop Command action IDs, item category arrays and corresponding CLR commands."
+    },
+    {
+      "original": "dg.gFI",
+      "owner": "nso/GameScr",
+      "old": "field_gF_9d4e76d4",
+      "new": "scrollOffset",
+      "reference": null,
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gGI",
+      "owner": "nso/GameScr",
+      "old": "field_gG_fdfd5d06",
+      "new": "scrollTarget",
+      "reference": null,
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gHI",
+      "owner": "nso/GameScr",
+      "old": "field_gH_2dcd751c",
+      "new": "scrollRemainder",
+      "reference": null,
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gII",
+      "owner": "nso/GameScr",
+      "old": "field_gI_0d38206d",
+      "new": "scrollVelocity",
+      "reference": null,
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gN[[I",
+      "owner": "nso/GameScr",
+      "old": "field_gN_9bed72f8",
+      "new": "colorBorder",
+      "reference": "GameScr.colorBorder",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gO[I",
+      "owner": "nso/GameScr",
+      "old": "field_gO_c0156c85",
+      "new": "size",
+      "reference": "GameScr.size",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gULbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gU_930d6df5",
+      "new": "cmdBagUseItem",
+      "reference": "GameScr.cmdBagUseItem",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gWLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gW_7a95666a",
+      "new": "cmdItemInfoClose",
+      "reference": "GameScr.cmdItemInfoClose",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gXLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gX_4b88d3b3",
+      "new": "cmdBagThrowItem",
+      "reference": "GameScr.cmdBagThrowItem",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gYLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gY_1e5a9097",
+      "new": "cmdBagSplitItem",
+      "reference": "GameScr.cmdBagSplitItem",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.gZLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_gZ_7b09c19f",
+      "new": "cmdBagViewItemInfo",
+      "reference": "GameScr.cmdBagViewItemInfo",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.haLbd;",
+      "owner": "nso/GameScr",
+      "old": "field_ha_0e1d3f49",
+      "new": "cmdBagSelectItem",
+      "reference": "GameScr.cmdBagSelectItem",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.hcI",
+      "owner": "nso/GameScr",
+      "old": "field_hc_a1318782",
+      "new": "cardReportStep",
+      "reference": null,
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.hgI",
+      "owner": "nso/GameScr",
+      "old": "field_hg_f4820edc",
+      "new": "index",
+      "reference": "GameScr.index",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.hh[I",
+      "owner": "nso/GameScr",
+      "old": "field_hh_821fd279",
+      "new": "fardistandsX",
+      "reference": "GameScr.fardistandsX",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.hi[I",
+      "owner": "nso/GameScr",
+      "old": "field_hi_41aadca4",
+      "new": "fardistandsY",
+      "reference": "GameScr.fardistandsY",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.hjZ",
+      "owner": "nso/GameScr",
+      "old": "field_hj_d8f00ade",
+      "new": "isItemNearMe",
+      "reference": "GameScr.isItemNearMe",
+      "reason": "Fixed-point scrolling, border palette, bag command action IDs, card report steps and target search."
+    },
+    {
+      "original": "dg.hkS",
+      "owner": "nso/GameScr",
+      "old": "field_hk_dde731c9",
+      "new": "timeLucky_Draw",
+      "reference": "GameScr.timeLucky_Draw",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hmS",
+      "owner": "nso/GameScr",
+      "old": "field_hm_abcd3e5d",
+      "new": "numPlayerLucky_Draw",
+      "reference": "GameScr.numPlayerLucky_Draw",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hoLjava/lang/String;",
+      "owner": "nso/GameScr",
+      "old": "field_ho_571a7998",
+      "new": "totalMoneyLucky_Draw",
+      "reference": "GameScr.totalMoneyLucky_Draw",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hqLjava/lang/String;",
+      "owner": "nso/GameScr",
+      "old": "field_hq_0cfc44f9",
+      "new": "winnerInfoLucky_Draw",
+      "reference": "GameScr.winnerInfoLucky_Draw",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hrLjava/lang/String;",
+      "owner": "nso/GameScr",
+      "old": "field_hr_c880d05f",
+      "new": "myMoneyLucky_Draw",
+      "reference": "GameScr.myMoneyLucky_Draw",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hsJ",
+      "owner": "nso/GameScr",
+      "old": "field_hs_74f87972",
+      "new": "timeStart",
+      "reference": "GameScr.timeStart",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.htZ",
+      "owner": "nso/GameScr",
+      "old": "field_ht_b71be862",
+      "new": "isRefresh",
+      "reference": "GameScr.isRefresh",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hwB",
+      "owner": "nso/GameScr",
+      "old": "field_hw_567338b7",
+      "new": "indexThanThu",
+      "reference": "GameScr.indexThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hyI",
+      "owner": "nso/GameScr",
+      "old": "field_hy_59d0c79d",
+      "new": "xThanThu",
+      "reference": "GameScr.xThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hzI",
+      "owner": "nso/GameScr",
+      "old": "field_hz_8b723bc3",
+      "new": "yThanThu",
+      "reference": "GameScr.yThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hAI",
+      "owner": "nso/GameScr",
+      "old": "field_hA_22dcefcc",
+      "new": "wThanThu",
+      "reference": "GameScr.wThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hBI",
+      "owner": "nso/GameScr",
+      "old": "field_hB_207aef98",
+      "new": "hThanThu",
+      "reference": "GameScr.hThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hCI",
+      "owner": "nso/GameScr",
+      "old": "field_hC_c7907079",
+      "new": "xExpThanThu",
+      "reference": "GameScr.xExpThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hDI",
+      "owner": "nso/GameScr",
+      "old": "field_hD_6f725710",
+      "new": "yExpThanThu",
+      "reference": "GameScr.yExpThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hEI",
+      "owner": "nso/GameScr",
+      "old": "field_hE_66ea49a5",
+      "new": "wExpThanThu",
+      "reference": "GameScr.wExpThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hFI",
+      "owner": "nso/GameScr",
+      "old": "field_hF_54dd919c",
+      "new": "hExpThanThu",
+      "reference": "GameScr.hExpThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hGI",
+      "owner": "nso/GameScr",
+      "old": "field_hG_04eb6b44",
+      "new": "xSelectThanThu",
+      "reference": "GameScr.xSelectThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hHI",
+      "owner": "nso/GameScr",
+      "old": "field_hH_ea3fba96",
+      "new": "ySelectThanThu",
+      "reference": "GameScr.ySelectThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hJI",
+      "owner": "nso/GameScr",
+      "old": "field_hJ_a4091706",
+      "new": "xRecThanThu",
+      "reference": "GameScr.xRecThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hKI",
+      "owner": "nso/GameScr",
+      "old": "field_hK_177b92dc",
+      "new": "yRecThanThu",
+      "reference": "GameScr.yRecThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hLI",
+      "owner": "nso/GameScr",
+      "old": "field_hL_89a5c739",
+      "new": "wRecThanThu",
+      "reference": "GameScr.wRecThanThu",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    },
+    {
+      "original": "dg.hS[[I",
+      "owner": "nso/GameScr",
+      "old": "field_hS_83d2a561",
+      "new": "arrNgocKhamEXP",
+      "reference": "GameScr.arrNgocKhamEXP",
+      "reason": "Lucky-draw packet fields/timers, clan beast panel geometry and exact gem EXP table."
+    }
+  ]
+}

@@ -1,0 +1,3364 @@
+{
+  "generatedFrom": "mapping/symbols.json",
+  "references": {
+    "a": "MobTemplate",
+    "aa": "MyVector",
+    "ab": "SmallImage",
+    "ac": "Lanterns",
+    "ad": "TField",
+    "ae": "InfoMe",
+    "af": "TileMap",
+    "ag": "mScreen",
+    "ah": "Waypoint",
+    "ai": "FrameEff",
+    "aj": "FrameImage",
+    "ak": "MyImage",
+    "al": "MobAttack",
+    "am": "Res",
+    "an": "Controller",
+    "ao": "RegisterScr",
+    "ap": "ServerEffect",
+    "ar": "SkillInfoPaint",
+    "as": "MainObject",
+    "at": "NinjaUtil",
+    "au": "Effect2",
+    "av": "TaskOrder",
+    "aw": "ChatTextField",
+    "ax": "Arrow",
+    "ay": "Paint",
+    "az": "AnimateEffect",
+    "b": "InfoDlg",
+    "ba": "EPosition",
+    "bc": "Skills",
+    "bd": "Command",
+    "be": "EffectPaint",
+    "bf": "Timer",
+    "bg": "ChatManager",
+    "bh": "CreateCharScr",
+    "bi": "NpcTemplate",
+    "bk": "MobSoul",
+    "bl": "EffectAuto",
+    "bn": "Member",
+    "bp": "Char",
+    "bq": "ChatTab",
+    "br": "MsgDlg",
+    "bt": "EggMonters",
+    "bu": "ItemStands",
+    "bv": "PartImage",
+    "bw": "Scroll",
+    "bx": "Arrowpaint",
+    "by": "Item",
+    "bz": "ItemTemplate",
+    "c": "Lightning",
+    "ca": "ItemTree",
+    "cb": "ChatPopup",
+    "cc": "EffAtutoTemp",
+    "cd": "MovePoint",
+    "ce": "Message",
+    "cf": "Ranked",
+    "cg": "ItemOption",
+    "ch": "StaticObj",
+    "ci": "Mob",
+    "cj": "SplashScr",
+    "ck": "Position",
+    "cl": "PartFrame",
+    "cm": "SkillOptionTemplate",
+    "cn": "ScrollResult",
+    "co": "SelectServerScr",
+    "cq": "mHashtable",
+    "cr": "SkillOption",
+    "cs": "IActionListener",
+    "ct": "Frame",
+    "cu": "GameData",
+    "cv": "ImageInfo",
+    "cw": "InfoItem",
+    "cx": "NClass",
+    "cy": "Npc",
+    "cz": "Friend",
+    "d": "ImageIcon",
+    "da": "Readmsg",
+    "db": "Party",
+    "dc": "LoginScr",
+    "dd": "mFont",
+    "de": "Input2Dlg",
+    "df": "mResources",
+    "dg": "GameScr",
+    "dh": "Session_ME",
+    "di": "EffectInfoPaint",
+    "dj": "EffectTemplate",
+    "dk": "BuNhin",
+    "dl": "ItemMap",
+    "dm": "CharPartInfo",
+    "do": "ItemOptionTemplate",
+    "dp": "MonsterDart",
+    "dq": "Service",
+    "dr": "Part",
+    "ds": "Menu",
+    "dv": "DunItem",
+    "e": "ItemTemplates",
+    "f": "SMS",
+    "g": "EffectCharPaint",
+    "h": "Task",
+    "i": "Dialog",
+    "j": "SkillTemplate",
+    "k": "Set",
+    "l": "LanguageScr",
+    "m": "Effect",
+    "main/a": "GameCanvas",
+    "main/b": "MotherCanvas",
+    "main/GameMidlet": "GameMidlet",
+    "n": "SkillPaint",
+    "o": "Clan_ThanThu",
+    "p": "InputDlg",
+    "q": "MapScr",
+    "r": "Clan",
+    "s": "TimecountDown",
+    "t": "mGraphics",
+    "u": "SelectCharScr",
+    "v": "Domsang",
+    "w": "RMS",
+    "x": "Info",
+    "y": "DataSkillEff",
+    "z": "Skill"
+  },
+  "mapped": {
+    "a": "nso/MobTemplate",
+    "aa": "nso/MyVector",
+    "ab": "nso/SmallImage",
+    "ac": "nso/Lanterns",
+    "ad": "nso/TField",
+    "ae": "nso/InfoMe",
+    "af": "nso/TileMap",
+    "ag": "nso/mScreen",
+    "ah": "nso/Waypoint",
+    "ai": "nso/FrameEff",
+    "aj": "nso/FrameImage",
+    "ak": "nso/MyImage",
+    "al": "nso/MobAttack",
+    "am": "nso/Res",
+    "an": "nso/Controller",
+    "ao": "nso/RegisterScr",
+    "ap": "nso/ServerEffect",
+    "aq": "nso/SessionSender",
+    "ar": "nso/SkillInfoPaint",
+    "as": "nso/MainObject",
+    "at": "nso/NinjaUtil",
+    "au": "nso/Effect2",
+    "av": "nso/TaskOrder",
+    "aw": "nso/ChatTextField",
+    "ax": "nso/Arrow",
+    "ay": "nso/Paint",
+    "az": "nso/AnimateEffect",
+    "b": "nso/InfoDlg",
+    "ba": "nso/EPosition",
+    "bb": "nso/NativeTextBoxListener",
+    "bc": "nso/Skills",
+    "bd": "nso/Command",
+    "be": "nso/EffectPaint",
+    "bf": "nso/Timer",
+    "bg": "nso/ChatManager",
+    "bh": "nso/CreateCharScr",
+    "bi": "nso/NpcTemplate",
+    "bj": "nso/EmptyAnimationAction",
+    "bk": "nso/MobSoul",
+    "bl": "nso/EffectAuto",
+    "bm": "nso/StringHashtable",
+    "bn": "nso/Member",
+    "bo": "nso/AnimationAction",
+    "bp": "nso/Char",
+    "bq": "nso/ChatTab",
+    "br": "nso/MsgDlg",
+    "bs": "nso/SessionConnector",
+    "bt": "nso/EggMonters",
+    "bu": "nso/ItemStands",
+    "bv": "nso/PartImage",
+    "bw": "nso/Scroll",
+    "bx": "nso/Arrowpaint",
+    "by": "nso/Item",
+    "bz": "nso/ItemTemplate",
+    "c": "nso/Lightning",
+    "ca": "nso/ItemTree",
+    "cb": "nso/ChatPopup",
+    "cc": "nso/EffAtutoTemp",
+    "cd": "nso/MovePoint",
+    "ce": "nso/Message",
+    "cf": "nso/Ranked",
+    "cg": "nso/ItemOption",
+    "ch": "nso/StaticObj",
+    "ci": "nso/Mob",
+    "cj": "nso/SplashScr",
+    "ck": "nso/Position",
+    "cl": "nso/PartFrame",
+    "cm": "nso/SkillOptionTemplate",
+    "cn": "nso/ScrollResult",
+    "co": "nso/SelectServerScr",
+    "cp": "nso/PacketBuffer",
+    "cq": "nso/mHashtable",
+    "cr": "nso/SkillOption",
+    "cs": "nso/IActionListener",
+    "ct": "nso/Frame",
+    "cu": "nso/GameData",
+    "cv": "nso/ImageInfo",
+    "cw": "nso/InfoItem",
+    "cx": "nso/NClass",
+    "cy": "nso/Npc",
+    "cz": "nso/Friend",
+    "d": "nso/ImageIcon",
+    "da": "nso/Readmsg",
+    "db": "nso/Party",
+    "dc": "nso/LoginScr",
+    "dd": "nso/mFont",
+    "de": "nso/Input2Dlg",
+    "df": "nso/mResources",
+    "dg": "nso/GameScr",
+    "dh": "nso/Session_ME",
+    "di": "nso/EffectInfoPaint",
+    "dj": "nso/EffectTemplate",
+    "dk": "nso/BuNhin",
+    "dl": "nso/ItemMap",
+    "dm": "nso/CharPartInfo",
+    "dn": "nso/SessionReceiver",
+    "do": "nso/ItemOptionTemplate",
+    "dp": "nso/MonsterDart",
+    "dq": "nso/Service",
+    "dr": "nso/Part",
+    "ds": "nso/Menu",
+    "dt": "nso/ConnectionTimeout",
+    "du": "nso/SmsSender",
+    "dv": "nso/DunItem",
+    "e": "nso/ItemTemplates",
+    "f": "nso/SMS",
+    "g": "nso/EffectCharPaint",
+    "h": "nso/Task",
+    "i": "nso/Dialog",
+    "j": "nso/SkillTemplate",
+    "k": "nso/Set",
+    "l": "nso/LanguageScr",
+    "m": "nso/Effect",
+    "main/a": "main/GameCanvas",
+    "main/b": "main/MotherCanvas",
+    "main/c": "main/CanvasAdapter",
+    "main/GameMidlet": "main/GameMidlet",
+    "n": "nso/SkillPaint",
+    "o": "nso/Clan_ThanThu",
+    "p": "nso/InputDlg",
+    "q": "nso/MapScr",
+    "r": "nso/Clan",
+    "s": "nso/TimecountDown",
+    "t": "nso/mGraphics",
+    "u": "nso/SelectCharScr",
+    "v": "nso/Domsang",
+    "w": "nso/RMS",
+    "x": "nso/Info",
+    "y": "nso/DataSkillEff",
+    "z": "nso/Skill"
+  },
+  "evidence": {
+    "a": {
+      "kind": "structural_correspondence",
+      "score": 0.78,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 0.5,
+      "bindings": {
+        "cv": [
+          "ImageInfo"
+        ],
+        "ct": [
+          "Frame"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ]
+      ]
+    },
+    "aa": {
+      "kind": "reviewed_structure",
+      "reason": "JVM extends java.util.Vector; wrapper collection methods correspond to MyVector."
+    },
+    "ab": {
+      "kind": "structural_correspondence",
+      "score": 0.76471,
+      "fieldSequenceRatio": 0.8235,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.765,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ]
+    },
+    "ac": {
+      "kind": "reviewed_structure",
+      "reason": "Fields x,y,dy=3,yStart,isEnd and constructor x,y with yStart=y."
+    },
+    "ad": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "abc2",
+        "abc2áàảãạâấầẩẫậăắằẳẵặ2",
+        "def3",
+        "def3đéèẻẽẹêếềểễệ3",
+        "ghi4",
+        "ghi4íìỉĩị4",
+        "jkl5",
+        "mno6"
+      ],
+      "sharedCount": 14
+    },
+    "ae": {
+      "kind": "reviewed_structure",
+      "reason": "Bottom ticker at GameCanvas.h-23, queue of InfoItem, same five-state animation as InfoMe.paint/update."
+    },
+    "af": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "/map/"
+      ],
+      "sharedCount": 1
+    },
+    "ag": {
+      "kind": "reviewed_structure",
+      "reason": "Superclass of GameScr, LoginScr, RegisterScr and CreateCharScr; command fields and screen lifecycle."
+    },
+    "ah": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "ai": {
+      "kind": "reviewed_structure",
+      "reason": "Two MyVector fields for top/bottom parts and constructor accepting both lists; shadow offsets absent in JVM."
+    },
+    "aj": {
+      "kind": "reviewed_structure",
+      "reason": "Image frame width/height/count, per-frame y offsets and region drawing."
+    },
+    "ak": {
+      "kind": "reviewed_structure",
+      "reason": "Image plus zero timestamp and current-time timestamp; EffectAuto image cache wrapper."
+    },
+    "al": {
+      "kind": "reviewed_constructor_and_use_sites",
+      "reason": "Projectile update exactly matches MobAttack.update, including status 1..3, gravity, angle pursuit and maxIndex table."
+    },
+    "am": {
+      "kind": "structural_correspondence",
+      "score": 0.8768,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.64,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "an": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "GET UPDATE_DATA ",
+        "GET UPDATE_ITEM ",
+        "GET UPDATE_MAP ",
+        "GET UPDATE_SKILL ",
+        "ImgEffect ",
+        "err add effAuto",
+        "err addMob",
+        "err getImgEffAuto"
+      ],
+      "sharedCount": 30
+    },
+    "ao": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "* Dưới 18 tuổi chỉ có thể chơi 180p 1 ngày",
+        "CMND",
+        "Họ và tên",
+        "Nơi cấp",
+        "Số điện thoại, địa chỉ thư điện tử (nếu có).",
+        "Địa chỉ thường trú"
+      ],
+      "sharedCount": 6
+    },
+    "ap": {
+      "kind": "structural_correspondence",
+      "score": 0.985,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 2,
+      "conflicts": 0,
+      "methodCountRatio": 0.875,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ]
+      ]
+    },
+    "aq": {
+      "name": "SessionSender",
+      "reason": "Runnable drains Session_ME message send queue and writes packets.",
+      "reference": false
+    },
+    "ar": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ]
+      ]
+    },
+    "as": {
+      "kind": "reviewed_structure",
+      "reason": "Superclass of Char and Mob with shared object operations and vector."
+    },
+    "at": {
+      "kind": "structural_correspondence",
+      "score": 0.904,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.867,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "au": {
+      "kind": "reviewed_structure",
+      "reason": "Effect superclass with four global effect vectors, paint and update hooks."
+    },
+    "av": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    "aw": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "chat"
+      ],
+      "sharedCount": 1
+    },
+    "ax": {
+      "kind": "reviewed_structure",
+      "reason": "Char owner, Arrowpaint definition, projectile coordinates and matching 25-frame/18-angle transform tables."
+    },
+    "ay": {
+      "kind": "reviewed_structure",
+      "reason": "Theme palette and static popup/command bar/background drawing helpers."
+    },
+    "az": {
+      "kind": "structural_correspondence",
+      "score": 0.88655,
+      "fieldSequenceRatio": 0.9333,
+      "knownReferenceMatches": 3,
+      "conflicts": 0,
+      "methodCountRatio": 0.455,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    "b": {
+      "kind": "structural_correspondence",
+      "score": 0.82286,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 0.857,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "ba": {
+      "kind": "reviewed_structure",
+      "reason": "Position x/y with byte flags and short default -1; coordinate constructors."
+    },
+    "bb": {
+      "name": "NativeTextBoxListener",
+      "reason": "JVM CommandListener adapter between MIDP TextBox and TField.",
+      "reference": false
+    },
+    "bc": {
+      "kind": "reviewed_structure",
+      "reason": "Static short-key registry exclusively accepts and returns Skill."
+    },
+    "bd": {
+      "kind": "reviewed_structure",
+      "reason": "String labels, IActionListener target, integer action, images, geometry, Object argument."
+    },
+    "be": {
+      "kind": "structural_correspondence",
+      "score": 1.0,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 3,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "bf": {
+      "kind": "reviewed_structure",
+      "reason": "Static action ID, execution timestamp and active boolean; callback field optimized out of JVM."
+    },
+    "bg": {
+      "kind": "structural_correspondence",
+      "score": 0.94353,
+      "fieldSequenceRatio": 0.9412,
+      "knownReferenceMatches": 2,
+      "conflicts": 0,
+      "methodCountRatio": 0.882,
+      "bindings": {
+        "bg": [
+          "ChatManager"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    "bh": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "CreateCharScr.paint(): "
+      ],
+      "sharedCount": 1
+    },
+    "bi": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    },
+    "bj": {
+      "name": "EmptyAnimationAction",
+      "reason": "Empty specialized animation action class; original constructor kept.",
+      "reference": false
+    },
+    "bk": {
+      "kind": "structural_correspondence",
+      "score": 0.92,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ]
+      ]
+    },
+    "bl": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "Err update effauto:",
+        "effauto "
+      ],
+      "sharedCount": 2
+    },
+    "bm": {
+      "name": "StringHashtable",
+      "reason": "JVM-specific java.util.Hashtable subclass with String-key get/put helpers.",
+      "reference": false
+    },
+    "bn": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    "bo": {
+      "name": "AnimationAction",
+      "reason": "Empty superclass retained for original class coverage.",
+      "reference": false
+    },
+    "bp": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "Char.bagSort()",
+        "Char.boxSort()",
+        "Char.itemBagToBox()",
+        "Char.itemBodyToBag()",
+        "Char.itemBoxToBag()"
+      ],
+      "sharedCount": 5
+    },
+    "bq": {
+      "kind": "structural_correspondence",
+      "score": 0.896,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.8,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "br": {
+      "kind": "reviewed_structure",
+      "reason": "Dialog subclass with wrapped message lines, wait indicator and auto-close countdown."
+    },
+    "bs": {
+      "name": "SessionConnector",
+      "reason": "Runnable opens socket, starts sender/receiver and sends handshake -27.",
+      "reference": false
+    },
+    "bt": {
+      "kind": "structural_correspondence",
+      "score": 0.86,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.5,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    },
+    "bu": {
+      "kind": "structural_correspondence",
+      "score": 0.78,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 0.5,
+      "bindings": {
+        "by": [
+          "Item"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "bv": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "bw": {
+      "kind": "structural_correspondence",
+      "score": 0.79316,
+      "fieldSequenceRatio": 0.9804,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 0.727,
+      "bindings": {
+        "bw": [
+          "Scroll"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          25
+        ]
+      ]
+    },
+    "bx": {
+      "kind": "reviewed_structure",
+      "reason": "Arrow definition holds three image IDs; matching shared arrow frame/angle/transform tables are dead in JVM."
+    },
+    "by": {
+      "kind": "structural_correspondence",
+      "score": 0.95886,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 2,
+      "conflicts": 0,
+      "methodCountRatio": 0.657,
+      "bindings": {
+        "bz": [
+          "ItemTemplate"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ]
+      ]
+    },
+    "bz": {
+      "kind": "structural_correspondence",
+      "score": 0.768,
+      "fieldSequenceRatio": 0.9,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ]
+      ]
+    },
+    "c": {
+      "kind": "structural_correspondence",
+      "score": 0.91536,
+      "fieldSequenceRatio": 0.9565,
+      "knownReferenceMatches": 3,
+      "conflicts": 0,
+      "methodCountRatio": 0.556,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ]
+    },
+    "ca": {
+      "kind": "reviewed_structure",
+      "reason": "Tree ID and map-cell-to-pixel x/y constructor; image lookup in TileMap and bottom-center paint."
+    },
+    "cb": {
+      "kind": "structural_correspondence",
+      "score": 0.952,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 2,
+      "conflicts": 0,
+      "methodCountRatio": 0.6,
+      "bindings": {
+        "cb": [
+          "ChatPopup"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ]
+      ]
+    },
+    "cc": {
+      "kind": "structural_correspondence",
+      "score": 0.87455,
+      "fieldSequenceRatio": 0.9091,
+      "knownReferenceMatches": 2,
+      "conflicts": 0,
+      "methodCountRatio": 0.5,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    "cd": {
+      "kind": "reviewed_constructor_and_use_sites",
+      "reason": "Both four-int and two-int constructors correspond to MovePoint; fourth direction parameter is optimized away in JVM."
+    },
+    "ce": {
+      "kind": "reviewed_structure",
+      "reason": "Byte command plus input/output byte streams, binary reader and binary writer."
+    },
+    "cf": {
+      "kind": "reviewed_constructor_and_use_sites",
+      "reason": "Controller packet 121 reads Ranked.name, ranked and stt in the exact UTF/int/UTF order."
+    },
+    "cg": {
+      "kind": "structural_correspondence",
+      "score": 0.82,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 0.833,
+      "bindings": {
+        "do": [
+          "ItemOptionTemplate"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "ch": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ]
+      ]
+    },
+    "ci": {
+      "kind": "reviewed_structure",
+      "reason": "MainObject subclass, mob templates, Char targets, health, movement, mob effect state and draw/update methods."
+    },
+    "cj": {
+      "kind": "reviewed_constructor_and_use_sites",
+      "reason": "mScreen startup delay checks language after five frames, then switches to server/language screen."
+    },
+    "ck": {
+      "kind": "reviewed_constructor_and_use_sites",
+      "reason": "Zero-argument constructor initializes x/y to zero; two-int constructor assigns x/y. Used as GameCanvas pointer/background positions, not MovePoint actions."
+    },
+    "cl": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "cm": {
+      "kind": "reviewed_structure",
+      "reason": "Option template with int id and String name; referenced by SkillOption."
+    },
+    "cn": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "co": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "indServer"
+      ],
+      "sharedCount": 5
+    },
+    "cp": {
+      "name": "PacketBuffer",
+      "reason": "Byte-array record with collection allocation in constructor; no exact CLR identity asserted.",
+      "reference": false
+    },
+    "cq": {
+      "kind": "reviewed_structure",
+      "reason": "Owns a java.util.Hashtable and forwards get, put and equals; CLR mHashtable owns the same backing table."
+    },
+    "cr": {
+      "kind": "reviewed_structure",
+      "reason": "Option parameter, SkillOptionTemplate and cached option string."
+    },
+    "cs": {
+      "kind": "reviewed_structure",
+      "reason": "Action callback interface is implemented by the screens and TField; signature int,Object."
+    },
+    "ct": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "cu": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "/eff_auto/",
+        "effect "
+      ],
+      "sharedCount": 3
+    },
+    "cv": {
+      "kind": "structural_correspondence",
+      "score": 0.76,
+      "fieldSequenceRatio": 0.8889,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "cw": {
+      "kind": "structural_correspondence",
+      "score": 0.92,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "cx": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {
+        "j": [
+          "SkillTemplate"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "cy": {
+      "kind": "reviewed_structure",
+      "reason": "Char subclass holding an NpcTemplate and its template array."
+    },
+    "cz": {
+      "kind": "reviewed_structure",
+      "reason": "Name and byte friend-state record."
+    },
+    "d": {
+      "kind": "reviewed_structure",
+      "reason": "Image and last-use timestamp record in SmallImage cache."
+    },
+    "da": {
+      "kind": "reviewed_structure",
+      "reason": "Message subcommand dispatcher for character pet/equipment/countdown changes."
+    },
+    "db": {
+      "kind": "structural_correspondence",
+      "score": 0.896,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.8,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    "dc": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "3G/Wifi",
+        "Bạn chưa nhập Email/số di động, Email/số di động giúp bạn lấy lại mật khẩu khi mất mật khẩu",
+        "Email/số di động",
+        "GPRS",
+        "http://dd.ninjaschool.vn/app/index.php?for=event&do=resetpass",
+        "http://ninjaschool.vn",
+        "isGPRS"
+      ],
+      "sharedCount": 10
+    },
+    "dd": {
+      "kind": "reviewed_structure",
+      "reason": "Font image, character atlas coordinates, named static font instances and string drawing/wrapping."
+    },
+    "de": {
+      "kind": "structural_correspondence",
+      "score": 0.92533,
+      "fieldSequenceRatio": 0.9333,
+      "knownReferenceMatches": 2,
+      "conflicts": 0,
+      "methodCountRatio": 0.778,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    "df": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "     Nhập giá trị phần trăm thấp tối thiểu            (Từ 10 đến 90)",
+        " After separation will be back to begining form",
+        " Sau khi tách xong sẽ như lúc đầu",
+        " Vật phẩm bán được chịu thuế là 5%",
+        " You are promoted to team leader.",
+        " at ",
+        " bắt đầu cừu sát bạn",
+        " lần"
+      ],
+      "sharedCount": 1428
+    },
+    "dg": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        " vs ",
+        ", Khoảng thời gian nạp: ",
+        ", Mệnh giá: ",
+        ", Số seri: ",
+        "/e/sp",
+        "Chúc tết",
+        "Loại thẻ: ",
+        "Lời chúc: "
+      ],
+      "sharedCount": 26
+    },
+    "dh": {
+      "kind": "reviewed_structure",
+      "reason": "SocketConnection and binary input/output, key stream, connect/read/send threads and controller."
+    },
+    "di": {
+      "kind": "reviewed_structure",
+      "reason": "Three-int effect frame record used in EffectCharPaint."
+    },
+    "dj": {
+      "kind": "structural_correspondence",
+      "score": 0.73714,
+      "fieldSequenceRatio": 0.8571,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "dk": {
+      "kind": "reviewed_structure",
+      "reason": "Name, short coordinates, bool flag record constructed with String,short,short."
+    },
+    "dl": {
+      "kind": "structural_correspondence",
+      "score": 0.752,
+      "fieldSequenceRatio": 0.8333,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.6,
+      "bindings": {
+        "bz": [
+          "ItemTemplate"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          12
+        ]
+      ]
+    },
+    "dm": {
+      "kind": "structural_correspondence",
+      "score": 0.97,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 9,
+      "conflicts": 0,
+      "methodCountRatio": 0.75,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ]
+      ]
+    },
+    "dn": {
+      "name": "SessionReceiver",
+      "reason": "Runnable reads/encrypts message length/data and dispatches packets.",
+      "reference": false
+    },
+    "do": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "dp": {
+      "kind": "structural_correspondence",
+      "score": 0.92492,
+      "fieldSequenceRatio": 0.9412,
+      "knownReferenceMatches": 3,
+      "conflicts": 0,
+      "methodCountRatio": 0.727,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          23,
+          26
+        ]
+      ]
+    },
+    "dq": {
+      "kind": "reviewed_structure",
+      "reason": "Session_ME singleton with network message construction and command/subcommand send methods."
+    },
+    "dr": {
+      "kind": "reviewed_structure",
+      "reason": "PartImage array used for character body part rendering."
+    },
+    "ds": {
+      "kind": "structural_correspondence",
+      "score": 0.82071,
+      "fieldSequenceRatio": 0.8116,
+      "knownReferenceMatches": 4,
+      "conflicts": 0,
+      "methodCountRatio": 0.636,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          17,
+          22
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          20,
+          26
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          22,
+          28
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          25,
+          31
+        ],
+        [
+          26,
+          32
+        ],
+        [
+          27,
+          33
+        ],
+        [
+          28,
+          34
+        ],
+        [
+          29,
+          35
+        ]
+      ]
+    },
+    "dt": {
+      "name": "ConnectionTimeout",
+      "reason": "Runnable closes a pending connection after 20000 ms.",
+      "reference": false
+    },
+    "du": {
+      "name": "SmsSender",
+      "reason": "Runnable sends javax.wireless.messaging.TextMessage and invokes success/failure callbacks.",
+      "reference": false
+    },
+    "dv": {
+      "kind": "structural_correspondence",
+      "score": 0.78,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 0.5,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "e": {
+      "kind": "reviewed_structure",
+      "reason": "Static short-key registry exclusively accepts and returns ItemTemplate; icon lookup helper."
+    },
+    "f": {
+      "kind": "reviewed_structure",
+      "reason": "SMS entrypoint creates SmsSender thread and also starts session helper thread."
+    },
+    "g": {
+      "kind": "reviewed_structure",
+      "reason": "Effect ID and EffectInfoPaint array used by Char rendering."
+    },
+    "h": {
+      "kind": "structural_correspondence",
+      "score": 0.73714,
+      "fieldSequenceRatio": 0.8571,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    "i": {
+      "kind": "structural_correspondence",
+      "score": 0.87314,
+      "fieldSequenceRatio": 0.8571,
+      "knownReferenceMatches": 3,
+      "conflicts": 0,
+      "methodCountRatio": 0.8,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "j": {
+      "kind": "structural_correspondence",
+      "score": 0.792,
+      "fieldSequenceRatio": 0.9333,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {
+        "z": [
+          "Skill"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    "k": {
+      "kind": "reviewed_constructor_and_use_sites",
+      "reason": "GameScr inlined update matches Set.update: time wrap at 5, mob center x/y and character center x/y; unused coordinate arrays are null in optimized JVM bytecode."
+    },
+    "l": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "indLanguage"
+      ],
+      "sharedCount": 1
+    },
+    "m": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {
+        "dj": [
+          "EffectTemplate"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "main/a": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "/bg/bg",
+        "/e/d",
+        "/e/w",
+        "/hd/bd"
+      ],
+      "sharedCount": 4
+    },
+    "main/b": {
+      "kind": "reviewed_structure",
+      "reason": "Actual MIDP Canvas subclass with delegated canvas and scaled display dimensions."
+    },
+    "main/c": {
+      "name": "CanvasAdapter",
+      "reason": "JVM-specific drawing/input adapter superclass of GameCanvas; no direct CLR class identity asserted.",
+      "reference": false
+    },
+    "main/GameMidlet": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        ", PROVIDER: ",
+        "AGENT: ",
+        "NJlink",
+        "Tekkan(New):nj9.teamobi.com:14445:0:0,Fukiya:nj5.teamobi.com:14444:3:0,Sensha:27.0.14.122:14444:0:0,Tone:nj5.teamobi.com:14444:0:0,Bokken:nj1.teamobi.com:14444:0:0,Shuriken:nj2.teamobi.com:14444:0:0,Tessen:nj2.teamobi.com:14444:1:0,Kunai:nj4.teamobi.com:14444:0:0,Katana:nj3.teamobi.com:14444:0:0,Sanzu:nj5.teamobi.com:14444:1:0,Hirosaki:nj6.teamobi.com:14444:0:1,Haruna (NEW):nj8.teamobi.com:14444:0:1",
+        "http://teamobi.com/srvips/NJEN.txt",
+        "http://teamobi.com/srvips/NJVI.txt"
+      ],
+      "sharedCount": 6
+    },
+    "n": {
+      "kind": "structural_correspondence",
+      "score": 0.82,
+      "fieldSequenceRatio": 0.75,
+      "knownReferenceMatches": 2,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "o": {
+      "kind": "structural_correspondence",
+      "score": 0.92,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ]
+      ]
+    },
+    "p": {
+      "kind": "structural_correspondence",
+      "score": 0.88571,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.714,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "q": {
+      "kind": "structural_correspondence",
+      "score": 0.84,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {
+        "q": [
+          "MapScr"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ]
+      ]
+    },
+    "r": {
+      "kind": "structural_correspondence",
+      "score": 0.776,
+      "fieldSequenceRatio": 0.8,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 1.0,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          23
+        ]
+      ]
+    },
+    "s": {
+      "kind": "structural_correspondence",
+      "score": 0.8,
+      "fieldSequenceRatio": 1.0,
+      "knownReferenceMatches": 0,
+      "conflicts": 0,
+      "methodCountRatio": 0.667,
+      "bindings": {},
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    },
+    "t": {
+      "kind": "reviewed_structure",
+      "reason": "JVM wraps javax.microedition.lcdui.Graphics and its drawing operations."
+    },
+    "u": {
+      "kind": "structural_correspondence",
+      "score": 0.86171,
+      "fieldSequenceRatio": 0.9524,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.8,
+      "bindings": {
+        "u": [
+          "SelectCharScr"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          20
+        ]
+      ]
+    },
+    "v": {
+      "kind": "reviewed_structure",
+      "reason": "x/y,frame,typeEff,dem fields; type-dependent animated decoration update and paint."
+    },
+    "w": {
+      "kind": "distinctive_literals_and_structure",
+      "literals": [
+        "killVersion"
+      ],
+      "sharedCount": 12
+    },
+    "x": {
+      "kind": "reviewed_structure",
+      "reason": "Top ticker with public height 15 and InfoItem queue; matches Info.paint/update."
+    },
+    "y": {
+      "kind": "structural_correspondence",
+      "score": 0.77394,
+      "fieldSequenceRatio": 0.7527,
+      "knownReferenceMatches": 8,
+      "conflicts": 0,
+      "methodCountRatio": 0.6,
+      "bindings": {
+        "ab": [
+          "SmallImage"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          17
+        ],
+        [
+          9,
+          28
+        ],
+        [
+          10,
+          29
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          12,
+          32
+        ],
+        [
+          13,
+          33
+        ],
+        [
+          14,
+          34
+        ],
+        [
+          15,
+          35
+        ],
+        [
+          16,
+          36
+        ],
+        [
+          17,
+          37
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          39
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          21,
+          41
+        ],
+        [
+          22,
+          42
+        ],
+        [
+          23,
+          43
+        ],
+        [
+          24,
+          44
+        ],
+        [
+          25,
+          45
+        ],
+        [
+          26,
+          46
+        ],
+        [
+          27,
+          47
+        ],
+        [
+          28,
+          48
+        ],
+        [
+          29,
+          49
+        ],
+        [
+          30,
+          51
+        ],
+        [
+          31,
+          52
+        ],
+        [
+          32,
+          53
+        ],
+        [
+          33,
+          54
+        ],
+        [
+          34,
+          55
+        ]
+      ]
+    },
+    "z": {
+      "kind": "structural_correspondence",
+      "score": 0.8432,
+      "fieldSequenceRatio": 0.96,
+      "knownReferenceMatches": 1,
+      "conflicts": 0,
+      "methodCountRatio": 0.6,
+      "bindings": {
+        "j": [
+          "SkillTemplate"
+        ]
+      },
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ]
+      ]
+    }
+  },
+  "jvmOnlyBehavioralIdentities": [
+    "aq",
+    "bb",
+    "bj",
+    "bm",
+    "bo",
+    "bs",
+    "cp",
+    "dn",
+    "dt",
+    "du",
+    "main/c"
+  ],
+  "unresolved": [],
+  "scope": "Final reviewed class identities and names. Initial structural candidates/iterations are retained separately as historical evidence, not silently reaccepted."
+}

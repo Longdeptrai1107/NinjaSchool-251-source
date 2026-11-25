@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "dependencies": [
+    {
+      "name": "ecj-3.33.0.jar",
+      "sha256": "f7686c4960cf70c2ebc5c500a73a8cfc04541b730c18f1c5c21329889b137f45",
+      "url": "https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.33.0/ecj-3.33.0.jar"
+    },
+    {
+      "name": "cldcapi11-2.0.4.jar",
+      "sha256": "f86f41bfb4097e4bd9cdfeca528960f6977cbda0f5785342adef9909a6a3baef",
+      "url": "https://repo.maven.apache.org/maven2/org/microemu/cldcapi11/2.0.4/cldcapi11-2.0.4.jar"
+    },
+    {
+      "name": "midpapi20-2.0.4.jar",
+      "sha256": "b7f6ed5e0344c7000643ecc114e6edff3587e8e77face546af0e12ffd6dbe826",
+      "url": "https://repo.maven.apache.org/maven2/org/microemu/midpapi20/2.0.4/midpapi20-2.0.4.jar"
+    },
+    {
+      "name": "microemulator-2.0.4.jar",
+      "sha256": "dbd5f3eb8365d3e839d6a203149e0e3776fc1a0585e16ac1fc23f76c9fcae1c6",
+      "url": "https://repo.maven.apache.org/maven2/org/microemu/microemulator/2.0.4/microemulator-2.0.4.jar"
+    },
+    {
+      "name": "microemu-jsr-120-2.0.4.jar",
+      "sha256": "6d3f599901a297568c763e389c68aa921f4d5c03740e5c167b18159f0dac2c78",
+      "url": "https://repo.maven.apache.org/maven2/org/microemu/microemu-jsr-120/2.0.4/microemu-jsr-120-2.0.4.jar"
+    }
+  ]
+}

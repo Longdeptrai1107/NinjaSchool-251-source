@@ -1,0 +1,51 @@
+# Original binaries, prior reconstruction and personal runtime data stay local.
+/NinjaSchool-src/
+/NSO PC/
+/*.jar
+/*.jad
+/*.zip
+/*.rar
+/*.7z
+/backup/
+/extracted/
+/decompiled/
+/work/
+
+# Same public-source policy/layout as D:\NRO.
+/source/src/main/resources/
+/source/lib/*.jar
+/source/toolchain/java/
+/source/bin/
+/source/dist/
+/source/debug-dist/
+/source/.build/
+/source/.runtime/
+
+# Only curated verification summaries are public.
+/reports/*
+!/reports/*.md
+!/reports/verification-summary.json
+
+**/__pycache__/
+*.py[cod]
+*.class
+*.log
+*.tmp
+*.mdmp
+hs_err_pid*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*token*.txt
+login_codes_generated.txt
+.venv/
+venv/
+.idea/
+.vscode/settings.json
+*.user
+*.suo
+Thumbs.db
+Desktop.ini

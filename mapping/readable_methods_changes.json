@@ -1,0 +1,3492 @@
+{
+  "classes": [],
+  "methods": [
+    {
+      "original": "ab.b()V",
+      "owner": "nso/SmallImage",
+      "old": "method_b_c3ac11da",
+      "new": "freeBig",
+      "reference": "SmallImage::freeBig|.method public hidebysig static void freeBig () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Nulls the large atlas; constructs the atlas loader; smallImg[id][4] is height, not width.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/SmallImage.java",
+        "startLine": 48,
+        "endLine": 51
+      }
+    },
+    {
+      "original": "ab.d()V",
+      "owner": "nso/SmallImage",
+      "old": "method_d_e5117945",
+      "new": "init",
+      "reference": "SmallImage::init|.method public hidebysig static void 'init' () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Nulls the large atlas; constructs the atlas loader; smallImg[id][4] is height, not width.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/SmallImage.java",
+        "startLine": 64,
+        "endLine": 66
+      }
+    },
+    {
+      "original": "ab.b(I)I",
+      "owner": "nso/SmallImage",
+      "old": "method_b_916ebd9a",
+      "new": "getHeight",
+      "reference": "SmallImage::getHeight|.method public hidebysig static int32 getHeight ( int32 id ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Nulls the large atlas; constructs the atlas loader; smallImg[id][4] is height, not width.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/SmallImage.java",
+        "startLine": 122,
+        "endLine": 124
+      }
+    },
+    {
+      "original": "ad.a()V",
+      "owner": "nso/TField",
+      "old": "method_a_e62922b7",
+      "new": "showNativeTextBox",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Native MIDP TextBox display; backspace at caret; clipped/unclipped paint; multi-tap tick; setters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TField.java",
+        "startLine": 82,
+        "endLine": 101
+      }
+    },
+    {
+      "original": "ad.b()V",
+      "owner": "nso/TField",
+      "old": "method_b_3a619739",
+      "new": "clear",
+      "reference": "TField::clear|.method public hidebysig instance void clear () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Native MIDP TextBox display; backspace at caret; clipped/unclipped paint; multi-tap tick; setters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TField.java",
+        "startLine": 117,
+        "endLine": 124
+      }
+    },
+    {
+      "original": "ad.a(Lt;)V",
+      "owner": "nso/TField",
+      "old": "method_a_d0f2f531",
+      "new": "paint",
+      "reference": "TField::paint|.method public hidebysig instance void paint ( class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Native MIDP TextBox display; backspace at caret; clipped/unclipped paint; multi-tap tick; setters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TField.java",
+        "startLine": 289,
+        "endLine": 307
+      }
+    },
+    {
+      "original": "ad.b(Lt;)V",
+      "owner": "nso/TField",
+      "old": "method_b_29797519",
+      "new": "paint_NonSetClip",
+      "reference": "TField::paint_NonSetClip|.method public hidebysig instance void paint_NonSetClip ( class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Native MIDP TextBox display; backspace at caret; clipped/unclipped paint; multi-tap tick; setters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TField.java",
+        "startLine": 309,
+        "endLine": 325
+      }
+    },
+    {
+      "original": "ad.c()V",
+      "owner": "nso/TField",
+      "old": "method_c_4b171038",
+      "new": "update",
+      "reference": "TField::update|.method public hidebysig instance void update () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Native MIDP TextBox display; backspace at caret; clipped/unclipped paint; multi-tap tick; setters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TField.java",
+        "startLine": 339,
+        "endLine": 374
+      }
+    },
+    {
+      "original": "ad.b(I)V",
+      "owner": "nso/TField",
+      "old": "method_b_90e84e4e",
+      "new": "setMaxTextLenght",
+      "reference": "TField::setMaxTextLenght|.method public hidebysig instance void setMaxTextLenght ( int32 maxTextLenght ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Native MIDP TextBox display; backspace at caret; clipped/unclipped paint; multi-tap tick; setters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TField.java",
+        "startLine": 393,
+        "endLine": 395
+      }
+    },
+    {
+      "original": "ad.c(I)V",
+      "owner": "nso/TField",
+      "old": "method_c_56268039",
+      "new": "setIputType",
+      "reference": "TField::setIputType|.method public hidebysig instance void setIputType ( int32 iputType ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Native MIDP TextBox display; backspace at caret; clipped/unclipped paint; multi-tap tick; setters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TField.java",
+        "startLine": 397,
+        "endLine": 399
+      }
+    },
+    {
+      "original": "af.c()V",
+      "owner": "nso/TileMap",
+      "old": "method_c_5b56fcbe",
+      "new": "freeTileImage",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Frees tile sheet; sets/clears bit 512 (optimized t argument); snaps Y/X in caller collision code; reads /map/; reloads /t/ and /t/mini_ sheets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TileMap.java",
+        "startLine": 162,
+        "endLine": 165
+      }
+    },
+    {
+      "original": "af.b(III)V",
+      "owner": "nso/TileMap",
+      "old": "method_b_df6294a1",
+      "new": "setTileTypeAtPixel",
+      "reference": "TileMap::setTileTypeAtPixel|.method public hidebysig static void setTileTypeAtPixel ( int32 px, int32 py, int32 t ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Frees tile sheet; sets/clears bit 512 (optimized t argument); snaps Y/X in caller collision code; reads /map/; reloads /t/ and /t/mini_ sheets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TileMap.java",
+        "startLine": 675,
+        "endLine": 677
+      }
+    },
+    {
+      "original": "af.c(III)V",
+      "owner": "nso/TileMap",
+      "old": "method_c_4a052a92",
+      "new": "killTileTypeAt",
+      "reference": "TileMap::killTileTypeAt|.method public hidebysig static void killTileTypeAt ( int32 px, int32 py, int32 t ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Frees tile sheet; sets/clears bit 512 (optimized t argument); snaps Y/X in caller collision code; reads /map/; reloads /t/ and /t/mini_ sheets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TileMap.java",
+        "startLine": 679,
+        "endLine": 681
+      }
+    },
+    {
+      "original": "af.b(I)I",
+      "owner": "nso/TileMap",
+      "old": "method_b_e52edbc4",
+      "new": "tileYofPixel",
+      "reference": "TileMap::tileYofPixel|.method public hidebysig static int32 tileYofPixel ( int32 py ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Frees tile sheet; sets/clears bit 512 (optimized t argument); snaps Y/X in caller collision code; reads /map/; reloads /t/ and /t/mini_ sheets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TileMap.java",
+        "startLine": 683,
+        "endLine": 685
+      }
+    },
+    {
+      "original": "af.c(I)I",
+      "owner": "nso/TileMap",
+      "old": "method_c_eb597140",
+      "new": "tileXofPixel",
+      "reference": "TileMap::tileXofPixel|.method public hidebysig static int32 tileXofPixel ( int32 px ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Frees tile sheet; sets/clears bit 512 (optimized t argument); snaps Y/X in caller collision code; reads /map/; reloads /t/ and /t/mini_ sheets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TileMap.java",
+        "startLine": 687,
+        "endLine": 689
+      }
+    },
+    {
+      "original": "af.e()V",
+      "owner": "nso/TileMap",
+      "old": "method_e_b90d45c5",
+      "new": "loadMapFromResource",
+      "reference": "TileMap::loadMapFromResource|.method public hidebysig static void loadMapFromResource ( int16 mapID ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Frees tile sheet; sets/clears bit 512 (optimized t argument); snaps Y/X in caller collision code; reads /map/; reloads /t/ and /t/mini_ sheets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TileMap.java",
+        "startLine": 691,
+        "endLine": 703
+      }
+    },
+    {
+      "original": "af.f()V",
+      "owner": "nso/TileMap",
+      "old": "method_f_4cc522cf",
+      "new": "reloadTileSheets",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Frees tile sheet; sets/clears bit 512 (optimized t argument); snaps Y/X in caller collision code; reads /map/; reloads /t/ and /t/mini_ sheets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/TileMap.java",
+        "startLine": 705,
+        "endLine": 710
+      }
+    },
+    {
+      "original": "ag.e()V",
+      "owner": "nso/mScreen",
+      "old": "method_e_dfe89ba9",
+      "new": "unLoad",
+      "reference": "mScreen::unLoad|.method public hidebysig newslot virtual instance void unLoad () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Screen switch invokes this on the outgoing screen; base hook is intentionally empty.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mScreen.java",
+        "startLine": 36,
+        "endLine": 37
+      }
+    },
+    {
+      "original": "am.a(II)I",
+      "owner": "nso/Res",
+      "old": "method_a_19e544a3",
+      "new": "angle",
+      "reference": "Res::angle|.method public hidebysig static int32 angle ( int32 dx, int32 dy ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Tangent inverse with quadrant handling; one-turn angle normalization; cosine/sine velocity; Random bounds; absolute value.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Res.java",
+        "startLine": 52,
+        "endLine": 80
+      }
+    },
+    {
+      "original": "am.c(I)I",
+      "owner": "nso/Res",
+      "old": "method_c_6955b485",
+      "new": "fixangle",
+      "reference": "Res::fixangle|.method public hidebysig static int32 fixangle ( int32 angle ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Tangent inverse with quadrant handling; one-turn angle normalization; cosine/sine velocity; Random bounds; absolute value.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Res.java",
+        "startLine": 82,
+        "endLine": 90
+      }
+    },
+    {
+      "original": "am.b(II)I",
+      "owner": "nso/Res",
+      "old": "method_b_35d69224",
+      "new": "xetVX",
+      "reference": "Res::xetVX|.method public hidebysig static int32 xetVX ( int32 goc, int32 d ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Tangent inverse with quadrant handling; one-turn angle normalization; cosine/sine velocity; Random bounds; absolute value.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Res.java",
+        "startLine": 92,
+        "endLine": 94
+      }
+    },
+    {
+      "original": "am.c(II)I",
+      "owner": "nso/Res",
+      "old": "method_c_216dc361",
+      "new": "xetVY",
+      "reference": "Res::xetVY|.method public hidebysig static int32 xetVY ( int32 goc, int32 d ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Tangent inverse with quadrant handling; one-turn angle normalization; cosine/sine velocity; Random bounds; absolute value.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Res.java",
+        "startLine": 96,
+        "endLine": 98
+      }
+    },
+    {
+      "original": "am.d(II)I",
+      "owner": "nso/Res",
+      "old": "method_d_61aaace4",
+      "new": "random",
+      "reference": "Res::random|.method public hidebysig static int32 random ( int32 a, int32 b ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Tangent inverse with quadrant handling; one-turn angle normalization; cosine/sine velocity; Random bounds; absolute value.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Res.java",
+        "startLine": 100,
+        "endLine": 102
+      }
+    },
+    {
+      "original": "am.d(I)I",
+      "owner": "nso/Res",
+      "old": "method_d_12d46fff",
+      "new": "rnd",
+      "reference": "Res::rnd|.method public hidebysig static int32 rnd ( int32 a ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Tangent inverse with quadrant handling; one-turn angle normalization; cosine/sine velocity; Random bounds; absolute value.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Res.java",
+        "startLine": 116,
+        "endLine": 118
+      }
+    },
+    {
+      "original": "am.e(I)I",
+      "owner": "nso/Res",
+      "old": "method_e_bf88a9e1",
+      "new": "abs",
+      "reference": "Res::abs|.method public hidebysig static int32 abs ( int32 i ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Tangent inverse with quadrant handling; one-turn angle normalization; cosine/sine velocity; Random bounds; absolute value.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Res.java",
+        "startLine": 120,
+        "endLine": 122
+      }
+    },
+    {
+      "original": "an.b()V",
+      "owner": "nso/Controller",
+      "old": "method_b_f6e4f642",
+      "new": "onConnectionError",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "All failed/disconnected socket paths show SERVER_MAINTENANCE; effect subtype handlers add instance, receive data/image, or attach effect to actor.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Controller.java",
+        "startLine": 26,
+        "endLine": 28
+      }
+    },
+    {
+      "original": "an.j(Lce;)V",
+      "owner": "nso/Controller",
+      "old": "method_j_7d50497d",
+      "new": "addEffAuto",
+      "reference": "Controller::addEffAuto|.method public hidebysig instance void addEffAuto ( class Message msg ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "All failed/disconnected socket paths show SERVER_MAINTENANCE; effect subtype handlers add instance, receive data/image, or attach effect to actor.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Controller.java",
+        "startLine": 4740,
+        "endLine": 4752
+      }
+    },
+    {
+      "original": "an.k(Lce;)V",
+      "owner": "nso/Controller",
+      "old": "method_k_e050cce9",
+      "new": "getDataEffAuto",
+      "reference": "Controller::getDataEffAuto|.method public hidebysig instance void getDataEffAuto ( class Message msg ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "All failed/disconnected socket paths show SERVER_MAINTENANCE; effect subtype handlers add instance, receive data/image, or attach effect to actor.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Controller.java",
+        "startLine": 4754,
+        "endLine": 4768
+      }
+    },
+    {
+      "original": "an.l(Lce;)V",
+      "owner": "nso/Controller",
+      "old": "method_l_75e9eff9",
+      "new": "getImgEffAuto",
+      "reference": "Controller::getImgEffAuto|.method public hidebysig instance void getImgEffAuto ( class Message msg ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "All failed/disconnected socket paths show SERVER_MAINTENANCE; effect subtype handlers add instance, receive data/image, or attach effect to actor.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Controller.java",
+        "startLine": 4770,
+        "endLine": 4779
+      }
+    },
+    {
+      "original": "an.n(Lce;)V",
+      "owner": "nso/Controller",
+      "old": "method_n_0968a470",
+      "new": "addEffect",
+      "reference": "Controller::addEffect|.method public hidebysig instance void addEffect ( class Message msg ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "All failed/disconnected socket paths show SERVER_MAINTENANCE; effect subtype handlers add instance, receive data/image, or attach effect to actor.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Controller.java",
+        "startLine": 4822,
+        "endLine": 4868
+      }
+    },
+    {
+      "original": "ap.b(ILbp;I)V",
+      "owner": "nso/ServerEffect",
+      "old": "method_b_fbfb1a04",
+      "new": "addServerEffectWithTime",
+      "reference": "ServerEffect::addServerEffectWithTime|.method public hidebysig static void addServerEffectWithTime ( int32 id, class Char c, int64 timeLengthInSecond ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Sets effect/actor and endTime in seconds before adding to Effect2.vEffect2; unlike the separate loop-count overload. CLR duration is long, Java is int.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ServerEffect.java",
+        "startLine": 53,
+        "endLine": 59
+      }
+    },
+    {
+      "original": "as.a(Lt;III)V",
+      "owner": "nso/MainObject",
+      "old": "method_a_8b6add81",
+      "new": "paintTopDataEff",
+      "reference": "MainObject::paintTopDataEff|.method public hidebysig instance void paintTopDataEff ( class mGraphics g, int32 x, int32 y, int32 dy ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Actor effects use DataSkillEff's top/bottom two-coordinate routines, with isHead offset. The two-coordinate a routine is TOP, unlike its four-coordinate overload.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/MainObject.java",
+        "startLine": 10,
+        "endLine": 21
+      }
+    },
+    {
+      "original": "as.b(Lt;III)V",
+      "owner": "nso/MainObject",
+      "old": "method_b_0a7d1b84",
+      "new": "paintBottomDataEff",
+      "reference": "MainObject::paintBottomDataEff|.method public hidebysig instance void paintBottomDataEff ( class mGraphics g, int32 x, int32 y, int32 dy ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Actor effects use DataSkillEff's top/bottom two-coordinate routines, with isHead offset. The two-coordinate a routine is TOP, unlike its four-coordinate overload.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/MainObject.java",
+        "startLine": 23,
+        "endLine": 34
+      }
+    },
+    {
+      "original": "at.a(Lce;)[B",
+      "owner": "nso/NinjaUtil",
+      "old": "method_a_15ac2655",
+      "new": "readByteArray_Int",
+      "reference": "NinjaUtil::readByteArray_Int|.method public hidebysig static int8[] readByteArray_Int ( class Message msg ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Both read an int length and byte payload; CLR retains both identical helpers in this order.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/NinjaUtil.java",
+        "startLine": 23,
+        "endLine": 32
+      }
+    },
+    {
+      "original": "at.b(Lce;)[B",
+      "owner": "nso/NinjaUtil",
+      "old": "method_b_05dee44f",
+      "new": "readByteArray",
+      "reference": "NinjaUtil::readByteArray|.method public hidebysig static int8[] readByteArray ( class Message msg ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Both read an int length and byte payload; CLR retains both identical helpers in this order.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/NinjaUtil.java",
+        "startLine": 34,
+        "endLine": 43
+      }
+    },
+    {
+      "original": "aw.a(ILdg;Ljava/lang/String;)V",
+      "owner": "nso/ChatTextField",
+      "old": "method_a_3e8de41f",
+      "new": "startChat",
+      "reference": "ChatTextField::startChat|.method public hidebysig instance void startChat ( int32 firstCharacter, class IChatable parentScreen, string 'to' ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "First-character entry assigns parentScreen and destination; destination-only entry opens chat/native TextBox without assigning a parent.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ChatTextField.java",
+        "startLine": 40,
+        "endLine": 49
+      }
+    },
+    {
+      "original": "aw.a(Ljava/lang/String;)V",
+      "owner": "nso/ChatTextField",
+      "old": "method_a_226c60ca",
+      "new": "showChat",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "First-character entry assigns parentScreen and destination; destination-only entry opens chat/native TextBox without assigning a parent.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ChatTextField.java",
+        "startLine": 51,
+        "endLine": 61
+      }
+    },
+    {
+      "original": "ay.a(Lt;Lbd;Lbd;Lbd;)V",
+      "owner": "nso/Paint",
+      "old": "method_a_fd4ab30b",
+      "new": "paintCmdBar",
+      "reference": "Paint::paintCmdBar|.method public hidebysig instance void paintCmdBar ( class mGraphics g, class Command left, class Command center, class Command right ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Three soft-key commands; non-touch bottom strip only (not full background); input atlas with/without setClip; panel fill, border and selected fill.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Paint.java",
+        "startLine": 26,
+        "endLine": 82
+      }
+    },
+    {
+      "original": "ay.a(Lt;)V",
+      "owner": "nso/Paint",
+      "old": "method_a_81403689",
+      "new": "paintCommandBarBackground",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Three soft-key commands; non-touch bottom strip only (not full background); input atlas with/without setClip; panel fill, border and selected fill.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Paint.java",
+        "startLine": 84,
+        "endLine": 91
+      }
+    },
+    {
+      "original": "ay.a(Lt;ZIIIIIILjava/lang/String;)V",
+      "owner": "nso/Paint",
+      "old": "method_a_dee10814",
+      "new": "paintInputTf",
+      "reference": "Paint::paintInputTf|.method public hidebysig instance void paintInputTf ( class mGraphics g, bool isz, int32 x, int32 y, int32 w, int32 h, int32 xText, int32 yText, string text ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Three soft-key commands; non-touch bottom strip only (not full background); input atlas with/without setClip; panel fill, border and selected fill.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Paint.java",
+        "startLine": 93,
+        "endLine": 112
+      }
+    },
+    {
+      "original": "ay.a(Lt;ZIIIIILjava/lang/String;)V",
+      "owner": "nso/Paint",
+      "old": "method_a_06696e7c",
+      "new": "paintInputTf_new",
+      "reference": "Paint::paintInputTf_new|.method public hidebysig instance void paintInputTf_new ( class mGraphics g, bool isz, int32 x, int32 y, int32 w, int32 h, int32 xText, int32 yText, string text ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Three soft-key commands; non-touch bottom strip only (not full background); input atlas with/without setClip; panel fill, border and selected fill.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Paint.java",
+        "startLine": 114,
+        "endLine": 132
+      }
+    },
+    {
+      "original": "ay.a(IIIILt;)V",
+      "owner": "nso/Paint",
+      "old": "method_a_ddaad7f2",
+      "new": "paintFrame",
+      "reference": "Paint::paintFrame|.method public hidebysig instance void paintFrame ( int32 x, int32 y, int32 w, int32 h, class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Three soft-key commands; non-touch bottom strip only (not full background); input atlas with/without setClip; panel fill, border and selected fill.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Paint.java",
+        "startLine": 155,
+        "endLine": 171
+      }
+    },
+    {
+      "original": "ay.b(IIIILt;)V",
+      "owner": "nso/Paint",
+      "old": "method_b_f82753b9",
+      "new": "paintFrameBorder",
+      "reference": "Paint::paintFrameBorder|.method public hidebysig instance void paintFrameBorder ( int32 x, int32 y, int32 w, int32 h, class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Three soft-key commands; non-touch bottom strip only (not full background); input atlas with/without setClip; panel fill, border and selected fill.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Paint.java",
+        "startLine": 173,
+        "endLine": 187
+      }
+    },
+    {
+      "original": "ay.c(IIIILt;)V",
+      "owner": "nso/Paint",
+      "old": "method_c_df26d894",
+      "new": "paintFrameInside",
+      "reference": "Paint::paintFrameInside|.method public hidebysig instance void paintFrameInside ( int32 x, int32 y, int32 w, int32 h, class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Three soft-key commands; non-touch bottom strip only (not full background); input atlas with/without setClip; panel fill, border and selected fill.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Paint.java",
+        "startLine": 189,
+        "endLine": 192
+      }
+    },
+    {
+      "original": "ay.d(IIIILt;)V",
+      "owner": "nso/Paint",
+      "old": "method_d_01aaddf3",
+      "new": "paintFrameInsideSelected",
+      "reference": "Paint::paintFrameInsideSelected|.method public hidebysig instance void paintFrameInsideSelected ( int32 x, int32 y, int32 w, int32 h, class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Three soft-key commands; non-touch bottom strip only (not full background); input atlas with/without setClip; panel fill, border and selected fill.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Paint.java",
+        "startLine": 194,
+        "endLine": 197
+      }
+    },
+    {
+      "original": "az.a(Lck;)V",
+      "owner": "nso/AnimateEffect",
+      "old": "method_a_b7377d7e",
+      "new": "rndPos",
+      "reference": "AnimateEffect::rndPos|.method private hidebysig instance void rndPos ( class Position pos ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Randomizes particle world position and snow frame within camera bounds.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/AnimateEffect.java",
+        "startLine": 133,
+        "endLine": 141
+      }
+    },
+    {
+      "original": "bg.a()V",
+      "owner": "nso/ChatManager",
+      "old": "method_a_2d9f23da",
+      "new": "switchToNextTab",
+      "reference": "ChatManager::switchToNextTab|.method public hidebysig instance void switchToNextTab () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Increment/decrement with wrap, last-tab assignment, and singleton reset.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ChatManager.java",
+        "startLine": 23,
+        "endLine": 28
+      }
+    },
+    {
+      "original": "bg.b()V",
+      "owner": "nso/ChatManager",
+      "old": "method_b_6d163039",
+      "new": "switchToPreviousTab",
+      "reference": "ChatManager::switchToPreviousTab|.method public hidebysig instance void switchToPreviousTab () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Increment/decrement with wrap, last-tab assignment, and singleton reset.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ChatManager.java",
+        "startLine": 30,
+        "endLine": 35
+      }
+    },
+    {
+      "original": "bg.c()V",
+      "owner": "nso/ChatManager",
+      "old": "method_c_93bc5e5e",
+      "new": "switchToLastTab",
+      "reference": "ChatManager::switchToLastTab|.method public hidebysig instance void switchToLastTab () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Increment/decrement with wrap, last-tab assignment, and singleton reset.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ChatManager.java",
+        "startLine": 45,
+        "endLine": 47
+      }
+    },
+    {
+      "original": "bg.f()V",
+      "owner": "nso/ChatManager",
+      "old": "method_f_52d97b2e",
+      "new": "clear",
+      "reference": "ChatManager::clear|.method public hidebysig instance void clear () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Increment/decrement with wrap, last-tab assignment, and singleton reset.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ChatManager.java",
+        "startLine": 126,
+        "endLine": 128
+      }
+    },
+    {
+      "original": "bm.a(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;",
+      "owner": "nso/StringHashtable",
+      "old": "method_a_f599d44b",
+      "new": "put",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Synchronized String-key overloads directly delegate to java.util.Hashtable.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/StringHashtable.java",
+        "startLine": 10,
+        "endLine": 12
+      }
+    },
+    {
+      "original": "bm.a(Ljava/lang/String;)Ljava/lang/Object;",
+      "owner": "nso/StringHashtable",
+      "old": "method_a_a2aab812",
+      "new": "get",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Synchronized String-key overloads directly delegate to java.util.Hashtable.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/StringHashtable.java",
+        "startLine": 22,
+        "endLine": 24
+      }
+    },
+    {
+      "original": "bp.E()I",
+      "owner": "nso/Char",
+      "old": "method_E_a948c62c",
+      "new": "getdxSkill",
+      "reference": "Char::getdxSkill|.method public hidebysig instance int32 getdxSkill () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 567,
+        "endLine": 569
+      }
+    },
+    {
+      "original": "bp.F()I",
+      "owner": "nso/Char",
+      "old": "method_F_bc8396e8",
+      "new": "getdySkill",
+      "reference": "Char::getdySkill|.method public hidebysig instance int32 getdySkill () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 571,
+        "endLine": 573
+      }
+    },
+    {
+      "original": "bp.a()I",
+      "owner": "nso/Char",
+      "old": "method_a_68bfe918",
+      "new": "getSys",
+      "reference": "Char::getSys|.method public hidebysig instance int32 getSys () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 651,
+        "endLine": 659
+      }
+    },
+    {
+      "original": "bp.a(Lce;)V",
+      "owner": "nso/Char",
+      "old": "method_a_5086c3e2",
+      "new": "readParam",
+      "reference": "Char::readParam|.method public hidebysig instance void readParam ( class Message msg, string pos ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 692,
+        "endLine": 701
+      }
+    },
+    {
+      "original": "bp.f(I)I",
+      "owner": "nso/Char",
+      "old": "method_f_076b69ab",
+      "new": "abs",
+      "reference": "Char::abs|.method public hidebysig static int32 abs ( int32 i ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2081,
+        "endLine": 2083
+      }
+    },
+    {
+      "original": "bp.j()V",
+      "owner": "nso/Char",
+      "old": "method_j_14b21bab",
+      "new": "setDefaultPart",
+      "reference": "Char::setDefaultPart|.method public hidebysig instance void setDefaultPart () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2353,
+        "endLine": 2357
+      }
+    },
+    {
+      "original": "bp.k()V",
+      "owner": "nso/Char",
+      "old": "method_k_5bfb1edf",
+      "new": "setDefaultWeapon",
+      "reference": "Char::setDefaultWeapon|.method public hidebysig instance void setDefaultWeapon () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2359,
+        "endLine": 2361
+      }
+    },
+    {
+      "original": "bp.b(I)Ldr;",
+      "owner": "nso/Char",
+      "old": "method_b_01647565",
+      "new": "getDefaultHead",
+      "reference": "Char::getDefaultHead|.method public hidebysig instance class Part getDefaultHead ( int32 gender ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2363,
+        "endLine": 2369
+      }
+    },
+    {
+      "original": "bp.o()Z",
+      "owner": "nso/Char",
+      "old": "method_o_02397731",
+      "new": "isHaveWolf",
+      "reference": "Char::isHaveWolf|.method public hidebysig instance bool isHaveWolf () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2567,
+        "endLine": 2569
+      }
+    },
+    {
+      "original": "bp.p()Z",
+      "owner": "nso/Char",
+      "old": "method_p_279445c6",
+      "new": "isHaveMoto",
+      "reference": "Char::isHaveMoto|.method public hidebysig instance bool isHaveMoto () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2571,
+        "endLine": 2573
+      }
+    },
+    {
+      "original": "bp.U()[I",
+      "owner": "nso/Char",
+      "old": "method_U_3b8e96cc",
+      "new": "getEffmoto",
+      "reference": "Char::getEffmoto|.method public hidebysig instance int32[] getEffmoto () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2876,
+        "endLine": 2882
+      }
+    },
+    {
+      "original": "bp.V()[I",
+      "owner": "nso/Char",
+      "old": "method_V_306c1da3",
+      "new": "getEffwolf",
+      "reference": "Char::getEffwolf|.method public hidebysig instance int32[] getEffwolf () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2884,
+        "endLine": 2890
+      }
+    },
+    {
+      "original": "bp.t()I",
+      "owner": "nso/Char",
+      "old": "method_t_607a8685",
+      "new": "getClassColor",
+      "reference": "Char::getClassColor|.method public hidebysig instance int32 getClassColor () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Skill dx/dy; class pair to system 1/2/3; readParam error literal and speed/max HP/MP packet; default parts; wolf IDs 443/523 and moto 485/524; effect sprite arrays; class palette.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 2927,
+        "endLine": 2937
+      }
+    },
+    {
+      "original": "bp.g(I)I",
+      "owner": "nso/Char",
+      "old": "method_g_8cabe3b7",
+      "new": "getFrameHorseui",
+      "reference": "Char::getFrameHorseui|.method public hidebysig instance int32 getFrameHorseui ( int32 fr ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3133,
+        "endLine": 3135
+      }
+    },
+    {
+      "original": "bp.X()I",
+      "owner": "nso/Char",
+      "old": "method_X_19b05682",
+      "new": "getFrameBienHinh",
+      "reference": "Char::getFrameBienHinh|.method public hidebysig instance int32 getFrameBienHinh () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3152,
+        "endLine": 3158
+      }
+    },
+    {
+      "original": "bp.Y()I",
+      "owner": "nso/Char",
+      "old": "method_Y_1ac10d4d",
+      "new": "getFrameLeg",
+      "reference": "Char::getFrameLeg|.method public hidebysig instance int32 getFrameLeg () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3160,
+        "endLine": 3166
+      }
+    },
+    {
+      "original": "bp.Z()I",
+      "owner": "nso/Char",
+      "old": "method_Z_51a9547e",
+      "new": "getFrameMatna",
+      "reference": "Char::getFrameMatna|.method public hidebysig instance int32 getFrameMatna () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3168,
+        "endLine": 3174
+      }
+    },
+    {
+      "original": "bp.aa()I",
+      "owner": "nso/Char",
+      "old": "method_aa_1cb38c7b",
+      "new": "getFrameWeapone",
+      "reference": "Char::getFrameWeapone|.method public hidebysig instance int32 getFrameWeapone () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3176,
+        "endLine": 3182
+      }
+    },
+    {
+      "original": "bp.ab()I",
+      "owner": "nso/Char",
+      "old": "method_ab_0c786421",
+      "new": "getFrameBody",
+      "reference": "Char::getFrameBody|.method public hidebysig instance int32 getFrameBody () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3184,
+        "endLine": 3190
+      }
+    },
+    {
+      "original": "bp.ac()I",
+      "owner": "nso/Char",
+      "old": "method_ac_9f907a80",
+      "new": "getFrameHair",
+      "reference": "Char::getFrameHair|.method public hidebysig instance int32 getFrameHair () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3192,
+        "endLine": 3198
+      }
+    },
+    {
+      "original": "bp.ad()I",
+      "owner": "nso/Char",
+      "old": "method_ad_9bb79ece",
+      "new": "getFramePP",
+      "reference": "Char::getFramePP|.method public hidebysig instance int32 getFramePP () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3200,
+        "endLine": 3206
+      }
+    },
+    {
+      "original": "bp.h(I)I",
+      "owner": "nso/Char",
+      "old": "method_h_4e281834",
+      "new": "getFramePP",
+      "reference": "Char::getFramePP|.method public hidebysig instance int32 getFramePP ( int32 fr ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3208,
+        "endLine": 3210
+      }
+    },
+    {
+      "original": "bp.i(I)I",
+      "owner": "nso/Char",
+      "old": "method_i_32f80339",
+      "new": "getFrameHeadUI",
+      "reference": "Char::getFrameHeadUI|.method public hidebysig instance int32 getFrameHeadUI ( int32 fr ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3212,
+        "endLine": 3214
+      }
+    },
+    {
+      "original": "bp.j(I)I",
+      "owner": "nso/Char",
+      "old": "method_j_f712a56a",
+      "new": "getFrameBodyUI",
+      "reference": "Char::getFrameBodyUI|.method public hidebysig instance int32 getFrameBodyUI ( int32 fr ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3216,
+        "endLine": 3218
+      }
+    },
+    {
+      "original": "bp.k(I)I",
+      "owner": "nso/Char",
+      "old": "method_k_9e51e382",
+      "new": "getFrameLegUI",
+      "reference": "Char::getFrameLegUI|.method public hidebysig instance int32 getFrameLegUI ( int32 fr ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3220,
+        "endLine": 3222
+      }
+    },
+    {
+      "original": "bp.l(I)I",
+      "owner": "nso/Char",
+      "old": "method_l_6bb3a134",
+      "new": "getFrameWeaponUI",
+      "reference": "Char::getFrameWeaponUI|.method public hidebysig instance int32 getFrameWeaponUI ( int32 fr ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3245,
+        "endLine": 3247
+      }
+    },
+    {
+      "original": "bp.m(I)I",
+      "owner": "nso/Char",
+      "old": "method_m_b7d3a2be",
+      "new": "getFrameMatNaUI",
+      "reference": "Char::getFrameMatNaUI|.method public hidebysig instance int32 getFrameMatNaUI ( int32 fr ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Each getter selects its own named equipment frame bank at a stride of thirty, including mounted run frames and UI counters.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3249,
+        "endLine": 3251
+      }
+    },
+    {
+      "original": "bp.c(Lt;III)V",
+      "owner": "nso/Char",
+      "old": "method_c_c8c53db9",
+      "new": "paintPPUIBot",
+      "reference": "Char::paintPPUIBot|.method public hidebysig instance void paintPPUIBot ( class mGraphics g, int32 cx, int32 cy, int32 f ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3224,
+        "endLine": 3229
+      }
+    },
+    {
+      "original": "bp.f(Lt;III)V",
+      "owner": "nso/Char",
+      "old": "method_f_7f203e7f",
+      "new": "paintWeaponUITop",
+      "reference": "Char::paintWeaponUITop|.method public hidebysig instance void paintWeaponUITop ( class mGraphics g, int32 cx, int32 cy, int32 f ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3268,
+        "endLine": 3280
+      }
+    },
+    {
+      "original": "bp.g(Lt;III)V",
+      "owner": "nso/Char",
+      "old": "method_g_804e3cc7",
+      "new": "paintWeaponUIBot",
+      "reference": "Char::paintWeaponUIBot|.method public hidebysig instance void paintWeaponUIBot ( class mGraphics g, int32 cx, int32 cy, int32 f ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3282,
+        "endLine": 3294
+      }
+    },
+    {
+      "original": "bp.a(Lt;IIILy;)V",
+      "owner": "nso/Char",
+      "old": "method_a_04505c87",
+      "new": "paintWeaponBot",
+      "reference": "Char::paintWeaponBot|.method public hidebysig instance void paintWeaponBot ( class mGraphics g, int32 cx, int32 cy, int32 f, class DataSkillEff partWeapon ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3341,
+        "endLine": 3372
+      }
+    },
+    {
+      "original": "bp.b(Lt;IIILy;)V",
+      "owner": "nso/Char",
+      "old": "method_b_33dec64d",
+      "new": "paintWeaponTop",
+      "reference": "Char::paintWeaponTop|.method public hidebysig instance void paintWeaponTop ( class mGraphics g, int32 cx, int32 cy, int32 f, class DataSkillEff partWeapon ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3374,
+        "endLine": 3405
+      }
+    },
+    {
+      "original": "bp.k(Lt;III)V",
+      "owner": "nso/Char",
+      "old": "method_k_ba446a40",
+      "new": "paintBody",
+      "reference": "Char::paintBody|.method public hidebysig instance void paintBody ( class mGraphics g, int32 cx, int32 cy, int32 f ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3407,
+        "endLine": 3417
+      }
+    },
+    {
+      "original": "bp.l(Lt;III)V",
+      "owner": "nso/Char",
+      "old": "method_l_dec3beb0",
+      "new": "paintHair",
+      "reference": "Char::paintHair|.method public hidebysig instance void paintHair ( class mGraphics g, int32 cx, int32 cy, int32 f ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3467,
+        "endLine": 3477
+      }
+    },
+    {
+      "original": "bp.d(Lt;)V",
+      "owner": "nso/Char",
+      "old": "method_d_438a56a1",
+      "new": "paintPP_Bot",
+      "reference": "Char::paintPP_Bot|.method public hidebysig instance void paintPP_Bot ( class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3509,
+        "endLine": 3576
+      }
+    },
+    {
+      "original": "bp.e(Lt;)V",
+      "owner": "nso/Char",
+      "old": "method_e_98cb4b10",
+      "new": "paintPP_Top",
+      "reference": "Char::paintPP_Top|.method public hidebysig instance void paintPP_Top ( class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Equipment IDs and frame getters match; bottom routines call the four-coordinate DataSkillEff a overload/listPartBottom, top routines call b/listPartTop. Body/hair draw both layers.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 3578,
+        "endLine": 3645
+      }
+    },
+    {
+      "original": "bp.c(Lt;II)V",
+      "owner": "nso/Char",
+      "old": "method_c_53a7dba9",
+      "new": "paintClanEffect",
+      "reference": "Char::paintClanEffect|.method public hidebysig instance void paintClanEffect ( class mGraphics g, int32 x, int32 y ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 7551,
+        "endLine": 7565
+      }
+    },
+    {
+      "original": "bp.d(Lt;II)V",
+      "owner": "nso/Char",
+      "old": "method_d_de4a3814",
+      "new": "paintClanEffect2",
+      "reference": "Char::paintClanEffect2|.method public hidebysig instance void paintClanEffect2 ( class mGraphics g, int32 x, int32 y ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 7585,
+        "endLine": 7590
+      }
+    },
+    {
+      "original": "bp.n(I)V",
+      "owner": "nso/Char",
+      "old": "method_n_9f03dc71",
+      "new": "callEff",
+      "reference": "Char::callEff|.method public hidebysig instance void callEff ( int32 effId ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 7592,
+        "endLine": 7595
+      }
+    },
+    {
+      "original": "bp.c(I)V",
+      "owner": "nso/Char",
+      "old": "method_c_64202900",
+      "new": "callEffTask",
+      "reference": "Char::callEffTask|.method public hidebysig instance void callEffTask ( int32 effId ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 7597,
+        "endLine": 7600
+      }
+    },
+    {
+      "original": "bp.a(SS)V",
+      "owner": "nso/Char",
+      "old": "method_a_e238b8ba",
+      "new": "waitToDie",
+      "reference": "Char::waitToDie|.method public hidebysig instance void waitToDie ( int16 toX, int16 toY ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 8646,
+        "endLine": 8649
+      }
+    },
+    {
+      "original": "bp.an()V",
+      "owner": "nso/Char",
+      "old": "method_an_e46ffcf3",
+      "new": "changeStatusStand",
+      "reference": "Char::changeStatusStand|.method public hidebysig instance void changeStatusStand () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 8651,
+        "endLine": 8655
+      }
+    },
+    {
+      "original": "bp.ao()Z",
+      "owner": "nso/Char",
+      "old": "method_ao_ad1611be",
+      "new": "isLang",
+      "reference": "Char::isLang|.method public hidebysig instance bool isLang () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 8679,
+        "endLine": 8681
+      }
+    },
+    {
+      "original": "bp.A()Z",
+      "owner": "nso/Char",
+      "old": "method_A_b4c2fb80",
+      "new": "isHumanz",
+      "reference": "Char::isHumanz|.method public hidebysig instance bool isHumanz () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 8751,
+        "endLine": 8753
+      }
+    },
+    {
+      "original": "bp.B()Z",
+      "owner": "nso/Char",
+      "old": "method_B_0648147f",
+      "new": "isNhanbanz",
+      "reference": "Char::isNhanbanz|.method public hidebysig instance bool isNhanbanz () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 8755,
+        "endLine": 8757
+      }
+    },
+    {
+      "original": "bp.a(Lt;Ldr;Ldr;[I)V",
+      "owner": "nso/Char",
+      "old": "method_a_a0287b23",
+      "new": "paintNewMount",
+      "reference": "Char::paintNewMount|.method public hidebysig instance void paintNewMount ( class mGraphics g, class Part pW, class Part ph, int32[] idCoat, class DataSkillEff partMatna ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Clan frames 0-3 animate and frame 4 is static; effect/task resets; wdx/wdy death destination; stand resets wheelie; village map IDs; boolean accessors; frameMount with body/head/coat offsets.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Char.java",
+        "startLine": 8810,
+        "endLine": 8841
+      }
+    },
+    {
+      "original": "bw.b()Lcn;",
+      "owner": "nso/Scroll",
+      "old": "method_b_6e6f093c",
+      "new": "updateKey",
+      "reference": "Scroll::updateKey|.method public hidebysig instance class ScrollResult updateKey () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "styleUPDOWN dispatch with inlined vertical/horizontal pointer scroll logic and ScrollResult flags; not only the highest-scoring vertical helper.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Scroll.java",
+        "startLine": 87,
+        "endLine": 265
+      }
+    },
+    {
+      "original": "by.b()Z",
+      "owner": "nso/Item",
+      "old": "method_b_09d8a2ba",
+      "new": "isTypeBody",
+      "reference": "Item::isTypeBody|.method public hidebysig instance bool isTypeBody () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 112,
+        "endLine": 114
+      }
+    },
+    {
+      "original": "by.c()Z",
+      "owner": "nso/Item",
+      "old": "method_c_02d4e521",
+      "new": "isTypeMounts",
+      "reference": "Item::isTypeMounts|.method public hidebysig instance bool isTypeMounts () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 116,
+        "endLine": 118
+      }
+    },
+    {
+      "original": "by.d()Z",
+      "owner": "nso/Item",
+      "old": "method_d_48c3d1ad",
+      "new": "isTypeNgocKham",
+      "reference": "Item::isTypeNgocKham|.method public hidebysig instance bool isTypeNgocKham () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 120,
+        "endLine": 122
+      }
+    },
+    {
+      "original": "by.g()V",
+      "owner": "nso/Item",
+      "old": "method_g_f2d8ac52",
+      "new": "clearExpire",
+      "reference": "Item::clearExpire|.method public hidebysig instance void clearExpire () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 155,
+        "endLine": 159
+      }
+    },
+    {
+      "original": "by.i()Z",
+      "owner": "nso/Item",
+      "old": "method_i_c6accae5",
+      "new": "isTypeUIShopView",
+      "reference": "Item::isTypeUIShopView|.method public hidebysig instance bool isTypeUIShopView () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 165,
+        "endLine": 167
+      }
+    },
+    {
+      "original": "by.l()Z",
+      "owner": "nso/Item",
+      "old": "method_l_067f3f70",
+      "new": "isTypeUIStore",
+      "reference": "Item::isTypeUIStore|.method public hidebysig instance bool isTypeUIStore () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 177,
+        "endLine": 179
+      }
+    },
+    {
+      "original": "by.m()Z",
+      "owner": "nso/Item",
+      "old": "method_m_1fb001ab",
+      "new": "isTypeUIBook",
+      "reference": "Item::isTypeUIBook|.method public hidebysig instance bool isTypeUIBook () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 181,
+        "endLine": 183
+      }
+    },
+    {
+      "original": "by.n()Z",
+      "owner": "nso/Item",
+      "old": "method_n_f282965a",
+      "new": "isTypeUIFashion",
+      "reference": "Item::isTypeUIFashion|.method public hidebysig instance bool isTypeUIFashion () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 185,
+        "endLine": 187
+      }
+    },
+    {
+      "original": "by.o()Z",
+      "owner": "nso/Item",
+      "old": "method_o_c5bba055",
+      "new": "isTypeUIClanShop",
+      "reference": "Item::isTypeUIClanShop|.method public hidebysig instance bool isTypeUIClanShop () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 189,
+        "endLine": 191
+      }
+    },
+    {
+      "original": "by.p()Z",
+      "owner": "nso/Item",
+      "old": "method_p_95201af7",
+      "new": "isUpMax",
+      "reference": "Item::isUpMax|.method public hidebysig instance bool isUpMax () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 193,
+        "endLine": 195
+      }
+    },
+    {
+      "original": "by.t()Z",
+      "owner": "nso/Item",
+      "old": "method_t_4111be11",
+      "new": "isTypeWeapon",
+      "reference": "Item::isTypeWeapon|.method public hidebysig instance bool isTypeWeapon () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Exact template.type ranges 0-15, 29-33, 34 and 1; typeUI IDs 14/15/32/34; shop-view aggregation; non-mount expiry; getUpMax equals upgrade.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Item.java",
+        "startLine": 217,
+        "endLine": 219
+      }
+    },
+    {
+      "original": "ce.d()V",
+      "owner": "nso/Message",
+      "old": "method_d_b82495cd",
+      "new": "cleanup",
+      "reference": "Message::cleanup|.method public hidebysig instance void cleanup () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Closes message input/output streams when non-null.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Message.java",
+        "startLine": 48,
+        "endLine": 59
+      }
+    },
+    {
+      "original": "cg.a(I)Ljava/lang/String;",
+      "owner": "nso/ItemOption",
+      "old": "method_a_e88f5458",
+      "new": "getValuePercent",
+      "reference": "ItemOption::getValuePercent|.method public hidebysig instance string getValuePercent ( int32 'value' ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Formats integer hundredths as a decimal percentage with trailing zero handling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ItemOption.java",
+        "startLine": 28,
+        "endLine": 34
+      }
+    },
+    {
+      "original": "ci.b(Lbp;)V",
+      "owner": "nso/Mob",
+      "old": "method_b_2ae571f8",
+      "new": "attackOtherChar",
+      "reference": "Mob::attackOtherChar|.method public hidebysig instance void attackOtherChar ( class Char charToAttack ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns charToAttack; indexes appear/disappear frame tables; onTop==0 draws BOTTOM boss parts despite top candidate's higher similarity score.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Mob.java",
+        "startLine": 1638,
+        "endLine": 1640
+      }
+    },
+    {
+      "original": "ci.c(I)I",
+      "owner": "nso/Mob",
+      "old": "method_c_42d502d0",
+      "new": "setFrameAppear",
+      "reference": "Mob::setFrameAppear|.method private hidebysig instance int32 setFrameAppear ( int32 Gametick ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns charToAttack; indexes appear/disappear frame tables; onTop==0 draws BOTTOM boss parts despite top candidate's higher similarity score.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Mob.java",
+        "startLine": 1722,
+        "endLine": 1729
+      }
+    },
+    {
+      "original": "ci.e(I)I",
+      "owner": "nso/Mob",
+      "old": "method_e_54aae07f",
+      "new": "setFrameDisappear",
+      "reference": "Mob::setFrameDisappear|.method private hidebysig instance int32 setFrameDisappear ( int32 Gametick ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns charToAttack; indexes appear/disappear frame tables; onTop==0 draws BOTTOM boss parts despite top candidate's higher similarity score.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Mob.java",
+        "startLine": 1826,
+        "endLine": 1833
+      }
+    },
+    {
+      "original": "ci.b(Lt;)V",
+      "owner": "nso/Mob",
+      "old": "method_b_f6f6eb1a",
+      "new": "paintBottomMobNew",
+      "reference": "Mob::paintBottomMobNew|.method public hidebysig instance void paintBottomMobNew ( class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns charToAttack; indexes appear/disappear frame tables; onTop==0 draws BOTTOM boss parts despite top candidate's higher similarity score.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Mob.java",
+        "startLine": 1981,
+        "endLine": 2024
+      }
+    },
+    {
+      "original": "co.i()V",
+      "owner": "nso/SelectServerScr",
+      "old": "method_i_7f4c8721",
+      "new": "doViewFAQ",
+      "reference": "SelectServerScr::doViewFAQ|.method public hidebysig instance void doViewFAQ () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "FAQ command connects if necessary then opens PLEASEWAIT dialog; reference performs the same role with a different diagnostic connect argument.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/SelectServerScr.java",
+        "startLine": 225,
+        "endLine": 230
+      }
+    },
+    {
+      "original": "dc.e()V",
+      "owner": "nso/LoginScr",
+      "old": "method_e_dfe89ba9",
+      "new": "unLoad",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Override of outgoing-screen unLoad only invokes the base hook; no invented body.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/LoginScr.java",
+        "startLine": 277,
+        "endLine": 279
+      }
+    },
+    {
+      "original": "dd.a()V",
+      "owner": "nso/mFont",
+      "old": "method_a_75ea164e",
+      "new": "reloadImage",
+      "reference": "mFont::reloadImage|.method public hidebysig instance void reloadImage () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Loads/nulls imgFont; sums atlas glyph widths plus spacing; alignment-aware atlas rendering; converts splitFontVector to String array. CLR uses a different font backend.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mFont.java",
+        "startLine": 95,
+        "endLine": 97
+      }
+    },
+    {
+      "original": "dd.b()V",
+      "owner": "nso/mFont",
+      "old": "method_b_6cabf056",
+      "new": "freeImage",
+      "reference": "mFont::freeImage|.method public hidebysig instance void freeImage () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Loads/nulls imgFont; sums atlas glyph widths plus spacing; alignment-aware atlas rendering; converts splitFontVector to String array. CLR uses a different font backend.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mFont.java",
+        "startLine": 99,
+        "endLine": 101
+      }
+    },
+    {
+      "original": "dd.a(Ljava/lang/String;)I",
+      "owner": "nso/mFont",
+      "old": "method_a_ec39e9b4",
+      "new": "getWidth",
+      "reference": "mFont::getWidth|.method public hidebysig instance int32 getWidth ( string s ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Loads/nulls imgFont; sums atlas glyph widths plus spacing; alignment-aware atlas rendering; converts splitFontVector to String array. CLR uses a different font backend.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mFont.java",
+        "startLine": 107,
+        "endLine": 117
+      }
+    },
+    {
+      "original": "dd.a(Lt;Ljava/lang/String;III)V",
+      "owner": "nso/mFont",
+      "old": "method_a_ce141ce3",
+      "new": "drawString",
+      "reference": "mFont::drawString|.method public hidebysig instance void drawString ( class mGraphics g, string st, int32 x, int32 y, int32 align ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Loads/nulls imgFont; sums atlas glyph widths plus spacing; alignment-aware atlas rendering; converts splitFontVector to String array. CLR uses a different font backend.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mFont.java",
+        "startLine": 119,
+        "endLine": 137
+      }
+    },
+    {
+      "original": "dd.b(Ljava/lang/String;I)[Ljava/lang/String;",
+      "owner": "nso/mFont",
+      "old": "method_b_c4cc19fb",
+      "new": "splitFontArray",
+      "reference": "mFont::splitFontArray|.method public hidebysig instance string[] splitFontArray ( string src, int32 lineWidth ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Loads/nulls imgFont; sums atlas glyph widths plus spacing; alignment-aware atlas rendering; converts splitFontVector to String array. CLR uses a different font backend.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mFont.java",
+        "startLine": 191,
+        "endLine": 198
+      }
+    },
+    {
+      "original": "dg.g()V",
+      "owner": "nso/GameScr",
+      "old": "method_g_61fc3500",
+      "new": "loadSkillShortcut",
+      "reference": "GameScr::loadSkillShortcut|.method public hidebysig instance void loadSkillShortcut () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1016,
+        "endLine": 1020
+      }
+    },
+    {
+      "original": "dg.h()V",
+      "owner": "nso/GameScr",
+      "old": "method_h_185fd4f7",
+      "new": "loadSkillShortcutNhanban",
+      "reference": "GameScr::loadSkillShortcutNhanban|.method public hidebysig instance void loadSkillShortcutNhanban () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1022,
+        "endLine": 1026
+      }
+    },
+    {
+      "original": "dg.X()V",
+      "owner": "nso/GameScr",
+      "old": "method_X_bb6daf1f",
+      "new": "doBiJuu",
+      "reference": "GameScr::doBiJuu|.method public hidebysig instance void doBiJuu () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1228,
+        "endLine": 1233
+      }
+    },
+    {
+      "original": "dg.Y()V",
+      "owner": "nso/GameScr",
+      "old": "method_Y_7680b061",
+      "new": "doBiJuu_Point",
+      "reference": "GameScr::doBiJuu_Point|.method public hidebysig instance void doBiJuu_Point () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1235,
+        "endLine": 1240
+      }
+    },
+    {
+      "original": "dg.Z()V",
+      "owner": "nso/GameScr",
+      "old": "method_Z_868f96ee",
+      "new": "doBiJuu_Skill",
+      "reference": "GameScr::doBiJuu_Skill|.method public hidebysig instance void doBiJuu_Skill () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1242,
+        "endLine": 1247
+      }
+    },
+    {
+      "original": "dg.ab()V",
+      "owner": "nso/GameScr",
+      "old": "method_ab_a617d9ed",
+      "new": "doUpPotential",
+      "reference": "GameScr::doUpPotential|.method public hidebysig instance void doUpPotential () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1551,
+        "endLine": 1555
+      }
+    },
+    {
+      "original": "dg.ac()V",
+      "owner": "nso/GameScr",
+      "old": "method_ac_77db4bec",
+      "new": "doUpSkill",
+      "reference": "GameScr::doUpSkill|.method public hidebysig instance void doUpSkill () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1557,
+        "endLine": 1561
+      }
+    },
+    {
+      "original": "dg.q()V",
+      "owner": "nso/GameScr",
+      "old": "method_q_69894b5d",
+      "new": "doShowRankedListUI",
+      "reference": "GameScr::doShowRankedListUI|.method public hidebysig instance void doShowRankedListUI () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1721,
+        "endLine": 1729
+      }
+    },
+    {
+      "original": "dg.r()V",
+      "owner": "nso/GameScr",
+      "old": "method_r_5d57d9cd",
+      "new": "doShowListUI",
+      "reference": "GameScr::doShowListUI|.method public hidebysig instance void doShowListUI () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1731,
+        "endLine": 1739
+      }
+    },
+    {
+      "original": "dg.ao()V",
+      "owner": "nso/GameScr",
+      "old": "method_ao_80e3c1a7",
+      "new": "doShowMap",
+      "reference": "GameScr::doShowMap|.method family hidebysig instance void doShowMap () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "KSkill/OSkill/CSkill loads (two identical CLR helpers); Bijuu subtabs 0/1/2; named potential/skill commands; ranked/list panel flags; MapScr switch outside typeMap 1.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 1794,
+        "endLine": 1798
+      }
+    },
+    {
+      "original": "dg.a(Lt;Ljava/lang/String;ZLjava/lang/String;II)V",
+      "owner": "nso/GameScr",
+      "old": "method_a_d13dce2e",
+      "new": "paintCheckBox",
+      "reference": "GameScr::paintCheckBox|.method private hidebysig instance void paintCheckBox ( class mGraphics g, string title, bool isCheck, string 'value', int32 x, int32 y ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 5102,
+        "endLine": 5119
+      }
+    },
+    {
+      "original": "dg.g(Lt;)V",
+      "owner": "nso/GameScr",
+      "old": "method_g_d9f068bb",
+      "new": "paintFoodEffect",
+      "reference": "GameScr::paintFoodEffect|.method private hidebysig instance void paintFoodEffect ( class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 5214,
+        "endLine": 5278
+      }
+    },
+    {
+      "original": "dg.a(II)V",
+      "owner": "nso/GameScr",
+      "old": "method_a_c21b35c3",
+      "new": "startLanterns",
+      "reference": "GameScr::startLanterns|.method public hidebysig static void startLanterns ( int32 x, int32 y ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 5585,
+        "endLine": 5587
+      }
+    },
+    {
+      "original": "dg.av()V",
+      "owner": "nso/GameScr",
+      "old": "method_av_64ebbc04",
+      "new": "updateKeyUIInforMe",
+      "reference": "GameScr::updateKeyUIInforMe|.method public hidebysig instance void updateKeyUIInforMe () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 6303,
+        "endLine": 6834
+      }
+    },
+    {
+      "original": "dg.aw()Lbn;",
+      "owner": "nso/GameScr",
+      "old": "method_aw_15ad0736",
+      "new": "curMemberSelected",
+      "reference": "GameScr::curMemberSelected|.method private hidebysig instance class Member curMemberSelected () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 6836,
+        "endLine": 6838
+      }
+    },
+    {
+      "original": "dg.aG()Z",
+      "owner": "nso/GameScr",
+      "old": "method_aG_1e295c61",
+      "new": "isPaintPopup",
+      "reference": "GameScr::isPaintPopup|.method public hidebysig instance bool isPaintPopup () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 7050,
+        "endLine": 7052
+      }
+    },
+    {
+      "original": "dg.A()Z",
+      "owner": "nso/GameScr",
+      "old": "method_A_a8ff34f4",
+      "new": "isPaintUI",
+      "reference": "GameScr::isPaintUI|.method public hidebysig instance bool isPaintUI () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 7064,
+        "endLine": 7066
+      }
+    },
+    {
+      "original": "dg.aI()Z",
+      "owner": "nso/GameScr",
+      "old": "method_aI_15fe0c42",
+      "new": "isOpenUI",
+      "reference": "GameScr::isOpenUI|.method public hidebysig instance bool isOpenUI () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 7068,
+        "endLine": 7070
+      }
+    },
+    {
+      "original": "dg.B()V",
+      "owner": "nso/GameScr",
+      "old": "method_B_134725ae",
+      "new": "updateKeyBuyItemUI",
+      "reference": "GameScr::updateKeyBuyItemUI|.method public hidebysig instance void updateKeyBuyItemUI () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 7105,
+        "endLine": 7974
+      }
+    },
+    {
+      "original": "dg.a(IILt;)V",
+      "owner": "nso/GameScr",
+      "old": "method_a_96582aa7",
+      "new": "paintSelectHighlight",
+      "reference": "GameScr::paintSelectHighlight|.method private hidebysig instance void paintSelectHighlight ( int32 x, int32 y, class mGraphics g ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 9310,
+        "endLine": 9312
+      }
+    },
+    {
+      "original": "dg.i(I)I",
+      "owner": "nso/GameScr",
+      "old": "method_i_465e253a",
+      "new": "upgradeEffectY",
+      "reference": "GameScr::upgradeEffectY|.method private hidebysig instance int32 upgradeEffectY ( int32 tick ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 9314,
+        "endLine": 9323
+      }
+    },
+    {
+      "original": "dg.j(I)I",
+      "owner": "nso/GameScr",
+      "old": "method_j_b2a786a7",
+      "new": "upgradeEffectX",
+      "reference": "GameScr::upgradeEffectX|.method private hidebysig instance int32 upgradeEffectX ( int32 tick ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Check box/timed buff HUD; Lanterns constructor; combined keyboard/touch info and item UIs; selected vClan entry; distinct panel-flag sets; select texture; perimeter Y starts at zero, X advances on first side.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 9325,
+        "endLine": 9334
+      }
+    },
+    {
+      "original": "dg.D()V",
+      "owner": "nso/GameScr",
+      "old": "method_D_422a66bc",
+      "new": "loadImg",
+      "reference": "GameScr::loadImg|.method public hidebysig static void loadImg () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Delegates TileMap.loadTileImage; mapTasks versus tasks lookup; clears alert content; moves alert scroll to last line; popup-width wrapping; large-screen info geometry.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 10754,
+        "endLine": 10756
+      }
+    },
+    {
+      "original": "dg.E()B",
+      "owner": "nso/GameScr",
+      "old": "method_E_8671479d",
+      "new": "getTaskMapId",
+      "reference": "GameScr::getTaskMapId|.method public hidebysig instance int8 getTaskMapId () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Delegates TileMap.loadTileImage; mapTasks versus tasks lookup; clears alert content; moves alert scroll to last line; popup-width wrapping; large-screen info geometry.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 10913,
+        "endLine": 10935
+      }
+    },
+    {
+      "original": "dg.F()B",
+      "owner": "nso/GameScr",
+      "old": "method_F_21d53dc3",
+      "new": "getTaskNpcId",
+      "reference": "GameScr::getTaskNpcId|.method public hidebysig instance int8 getTaskNpcId () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Delegates TileMap.loadTileImage; mapTasks versus tasks lookup; clears alert content; moves alert scroll to last line; popup-width wrapping; large-screen info geometry.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 10937,
+        "endLine": 10963
+      }
+    },
+    {
+      "original": "dg.H()V",
+      "owner": "nso/GameScr",
+      "old": "method_H_fce51f08",
+      "new": "doCloseAlert",
+      "reference": "GameScr::doCloseAlert|.method public hidebysig instance void doCloseAlert () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Delegates TileMap.loadTileImage; mapTasks versus tasks lookup; clears alert content; moves alert scroll to last line; popup-width wrapping; large-screen info geometry.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 11113,
+        "endLine": 11119
+      }
+    },
+    {
+      "original": "dg.I()V",
+      "owner": "nso/GameScr",
+      "old": "method_I_588bf26e",
+      "new": "scrollDownAlert",
+      "reference": "GameScr::scrollDownAlert|.method public hidebysig instance void scrollDownAlert () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Delegates TileMap.loadTileImage; mapTasks versus tasks lookup; clears alert content; moves alert scroll to last line; popup-width wrapping; large-screen info geometry.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 11121,
+        "endLine": 11126
+      }
+    },
+    {
+      "original": "dg.a(Ldd;Ljava/lang/String;)[Ljava/lang/String;",
+      "owner": "nso/GameScr",
+      "old": "method_a_0b1498d7",
+      "new": "splitMultiLine",
+      "reference": "GameScr::splitMultiLine|.method public hidebysig instance string[] splitMultiLine ( class mFont f, string str ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Delegates TileMap.loadTileImage; mapTasks versus tasks lookup; clears alert content; moves alert scroll to last line; popup-width wrapping; large-screen info geometry.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 11582,
+        "endLine": 11584
+      }
+    },
+    {
+      "original": "dg.aU()V",
+      "owner": "nso/GameScr",
+      "old": "method_aU_1ba05000",
+      "new": "setInfoFrameForLargeScreen",
+      "reference": "GameScr::setInfoFrameForLargeScreen|.method private hidebysig instance void setInfoFrameForLargeScreen () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Delegates TileMap.loadTileImage; mapTasks versus tasks lookup; clears alert content; moves alert scroll to last line; popup-width wrapping; large-screen info geometry.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 12099,
+        "endLine": 12122
+      }
+    },
+    {
+      "original": "dg.bF()V",
+      "owner": "nso/GameScr",
+      "old": "method_bF_dec17b74",
+      "new": "actLuyenThachSelect",
+      "reference": "GameScr::actLuyenThachSelect|.method private hidebysig instance void actLuyenThachSelect () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 14772,
+        "endLine": 14782
+      }
+    },
+    {
+      "original": "dg.bG()V",
+      "owner": "nso/GameScr",
+      "old": "method_bG_76c88fff",
+      "new": "actUpPearlSelect",
+      "reference": "GameScr::actUpPearlSelect|.method private hidebysig instance void actUpPearlSelect () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 14784,
+        "endLine": 14794
+      }
+    },
+    {
+      "original": "dg.bM()V",
+      "owner": "nso/GameScr",
+      "old": "method_bM_35d9fe08",
+      "new": "actItemConvertMoveOut",
+      "reference": "GameScr::actItemConvertMoveOut|.method private hidebysig instance void actItemConvertMoveOut () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 14998,
+        "endLine": 15005
+      }
+    },
+    {
+      "original": "dg.bR()V",
+      "owner": "nso/GameScr",
+      "old": "method_bR_ef32dab5",
+      "new": "actTrangBiCenter",
+      "reference": "GameScr::actTrangBiCenter|.method private hidebysig instance void actTrangBiCenter () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15063,
+        "endLine": 15071
+      }
+    },
+    {
+      "original": "dg.bT()V",
+      "owner": "nso/GameScr",
+      "old": "method_bT_0ba2e6df",
+      "new": "actBuyQuanNam",
+      "reference": "GameScr::actBuyQuanNam|.method private hidebysig instance void actBuyQuanNam ( class Item item ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15084,
+        "endLine": 15089
+      }
+    },
+    {
+      "original": "dg.cb()V",
+      "owner": "nso/GameScr",
+      "old": "method_cb_8acccd37",
+      "new": "actSendSMSRight",
+      "reference": "GameScr::actSendSMSRight|.method private hidebysig instance void actSendSMSRight () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15195,
+        "endLine": 15201
+      }
+    },
+    {
+      "original": "dg.cd()V",
+      "owner": "nso/GameScr",
+      "old": "method_cd_68858d31",
+      "new": "actOpenWebCancel",
+      "reference": "GameScr::actOpenWebCancel|.method private hidebysig instance void actOpenWebCancel () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15231,
+        "endLine": 15237
+      }
+    },
+    {
+      "original": "dg.e(Lby;)V",
+      "owner": "nso/GameScr",
+      "old": "method_e_2de714a9",
+      "new": "doActionSaleOk",
+      "reference": "GameScr::doActionSaleOk|.method private hidebysig instance void doActionSaleOk ( class Item item ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15274,
+        "endLine": 15293
+      }
+    },
+    {
+      "original": "dg.f(Lby;)V",
+      "owner": "nso/GameScr",
+      "old": "method_f_5e62cf43",
+      "new": "doActionBuy",
+      "reference": "GameScr::doActionBuy|.method private hidebysig instance void doActionBuy ( class Item item ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15295,
+        "endLine": 15316
+      }
+    },
+    {
+      "original": "dg.cm()V",
+      "owner": "nso/GameScr",
+      "old": "method_cm_08c0bebf",
+      "new": "actOpenAlertURL",
+      "reference": "GameScr::actOpenAlertURL|.method private hidebysig instance void actOpenAlertURL () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "BEGIN command IDs 1600/11062 distinguish stone/pearl; move-out write order and action 14015; typeViewInfo toggle; BUY IDs 110851/110852 identify actBuyQuanNam (not actStoreBuy's 110201/110202); cancel IDs 11075/11069 distinguish identical SMS/web cleanup; validates sale/buy quantity; platformRequest alertURL.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15403,
+        "endLine": 15409
+      }
+    },
+    {
+      "original": "dg.co()V",
+      "owner": "nso/GameScr",
+      "old": "method_co_95307f76",
+      "new": "actBoxSort",
+      "reference": "GameScr::actBoxSort|.method private hidebysig instance void actBoxSort () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15416,
+        "endLine": 15418
+      }
+    },
+    {
+      "original": "dg.cp()V",
+      "owner": "nso/GameScr",
+      "old": "method_cp_f9b1bff0",
+      "new": "actCreateTeam",
+      "reference": "GameScr::actCreateTeam|.method private hidebysig instance void actCreateTeam () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15420,
+        "endLine": 15422
+      }
+    },
+    {
+      "original": "dg.cq()V",
+      "owner": "nso/GameScr",
+      "old": "method_cq_6ea4c037",
+      "new": "actRefreshFindTeam",
+      "reference": "GameScr::actRefreshFindTeam|.method private hidebysig instance void actRefreshFindTeam () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15424,
+        "endLine": 15427
+      }
+    },
+    {
+      "original": "dg.m(I)V",
+      "owner": "nso/GameScr",
+      "old": "method_m_7db233f2",
+      "new": "actsubMenuOrder_PK",
+      "reference": "GameScr::actsubMenuOrder_PK|.method private hidebysig instance void actsubMenuOrder_PK ( int32 'type' ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15436,
+        "endLine": 15447
+      }
+    },
+    {
+      "original": "dg.cs()V",
+      "owner": "nso/GameScr",
+      "old": "method_cs_78a9f030",
+      "new": "actCoinIn",
+      "reference": "GameScr::actCoinIn|.method private hidebysig instance void actCoinIn () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15449,
+        "endLine": 15470
+      }
+    },
+    {
+      "original": "dg.ct()V",
+      "owner": "nso/GameScr",
+      "old": "method_ct_418886f7",
+      "new": "actionCoinTradeAccept",
+      "reference": "GameScr::actionCoinTradeAccept|.method private hidebysig instance void actionCoinTradeAccept () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15472,
+        "endLine": 15494
+      }
+    },
+    {
+      "original": "dg.cu()V",
+      "owner": "nso/GameScr",
+      "old": "method_cu_91e1644c",
+      "new": "actCoinOut",
+      "reference": "GameScr::actCoinOut|.method private hidebysig instance void actCoinOut () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15496,
+        "endLine": 15517
+      }
+    },
+    {
+      "original": "dg.cz()V",
+      "owner": "nso/GameScr",
+      "old": "method_cz_fbbe62e8",
+      "new": "actMenu41",
+      "reference": "GameScr::actMenu41|.method private hidebysig instance void actMenu41 () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15602,
+        "endLine": 15611
+      }
+    },
+    {
+      "original": "dg.cC()V",
+      "owner": "nso/GameScr",
+      "old": "method_cC_f5b35cf9",
+      "new": "actBagSortItem",
+      "reference": "GameScr::actBagSortItem|.method private hidebysig instance void actBagSortItem () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15625,
+        "endLine": 15627
+      }
+    },
+    {
+      "original": "dg.cG()V",
+      "owner": "nso/GameScr",
+      "old": "method_cG_b7170749",
+      "new": "actConvertMoveOut",
+      "reference": "GameScr::actConvertMoveOut|.method private hidebysig instance void actConvertMoveOut () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15658,
+        "endLine": 15664
+      }
+    },
+    {
+      "original": "dg.c(B)V",
+      "owner": "nso/GameScr",
+      "old": "method_c_8a53fff9",
+      "new": "actBuys",
+      "reference": "GameScr::actBuys|.method private hidebysig instance void actBuys ( int8 itembuys ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15874,
+        "endLine": 15876
+      }
+    },
+    {
+      "original": "dg.dc()V",
+      "owner": "nso/GameScr",
+      "old": "method_dc_3d4f5d14",
+      "new": "actAddPotential",
+      "reference": "GameScr::actAddPotential|.method private hidebysig instance void actAddPotential () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15883,
+        "endLine": 15904
+      }
+    },
+    {
+      "original": "dg.dd()V",
+      "owner": "nso/GameScr",
+      "old": "method_dd_6a58134a",
+      "new": "actSkillUpPoint",
+      "reference": "GameScr::actSkillUpPoint|.method private hidebysig instance void actSkillUpPoint () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Service boxSort/createParty/openFindParty; PK mappings 1->0, 2->1, 3->3; xu/xuInBox/coinTrade input roles; logout timer 9999; bagSort; convert action 14014; multi-buy prompts; pPoint/upPotential and sPoint/upSkill callbacks.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 15906,
+        "endLine": 15927
+      }
+    },
+    {
+      "original": "dg.N()V",
+      "owner": "nso/GameScr",
+      "old": "method_N_7adab195",
+      "new": "resetCaptcha",
+      "reference": "GameScr::resetCaptcha|.method public hidebysig instance void resetCaptcha () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Six -1 captcha arrows and direction key handling; clears clan beast vector; Bijuu commands 5043/5053. Java callbacks reuse pPoint/sPoint code unlike CLR bijuu counters; names identify command roles, not claimed cross-platform code equality.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 16207,
+        "endLine": 16209
+      }
+    },
+    {
+      "original": "dg.dj()V",
+      "owner": "nso/GameScr",
+      "old": "method_dj_d6cab8ee",
+      "new": "updateKeyCaptcha",
+      "reference": "GameScr::updateKeyCaptcha|.method public hidebysig instance void updateKeyCaptcha () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Six -1 captcha arrows and direction key handling; clears clan beast vector; Bijuu commands 5043/5053. Java callbacks reuse pPoint/sPoint code unlike CLR bijuu counters; names identify command roles, not claimed cross-platform code equality.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 16211,
+        "endLine": 16224
+      }
+    },
+    {
+      "original": "dg.O()V",
+      "owner": "nso/GameScr",
+      "old": "method_O_d6522e97",
+      "new": "clearVecThanThu",
+      "reference": "GameScr::clearVecThanThu|.method public hidebysig instance void clearVecThanThu () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Six -1 captcha arrows and direction key handling; clears clan beast vector; Bijuu commands 5043/5053. Java callbacks reuse pPoint/sPoint code unlike CLR bijuu counters; names identify command roles, not claimed cross-platform code equality.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 16333,
+        "endLine": 16335
+      }
+    },
+    {
+      "original": "dg.dv()V",
+      "owner": "nso/GameScr",
+      "old": "method_dv_3204dba4",
+      "new": "doBijuuUpPoint",
+      "reference": "GameScr::doBijuuUpPoint|.method public hidebysig instance void doBijuuUpPoint () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Six -1 captcha arrows and direction key handling; clears clan beast vector; Bijuu commands 5043/5053. Java callbacks reuse pPoint/sPoint code unlike CLR bijuu counters; names identify command roles, not claimed cross-platform code equality.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 17152,
+        "endLine": 17156
+      }
+    },
+    {
+      "original": "dg.dw()V",
+      "owner": "nso/GameScr",
+      "old": "method_dw_ecbb48e1",
+      "new": "actBijuuUpPoint",
+      "reference": "GameScr::actBijuuUpPoint|.method private hidebysig instance void actBijuuUpPoint () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Six -1 captcha arrows and direction key handling; clears clan beast vector; Bijuu commands 5043/5053. Java callbacks reuse pPoint/sPoint code unlike CLR bijuu counters; names identify command roles, not claimed cross-platform code equality.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 17158,
+        "endLine": 17179
+      }
+    },
+    {
+      "original": "dg.dy()V",
+      "owner": "nso/GameScr",
+      "old": "method_dy_28586c66",
+      "new": "doBijuuUpSkill",
+      "reference": "GameScr::doBijuuUpSkill|.method public hidebysig instance void doBijuuUpSkill () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Six -1 captcha arrows and direction key handling; clears clan beast vector; Bijuu commands 5043/5053. Java callbacks reuse pPoint/sPoint code unlike CLR bijuu counters; names identify command roles, not claimed cross-platform code equality.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 17188,
+        "endLine": 17192
+      }
+    },
+    {
+      "original": "dg.dz()V",
+      "owner": "nso/GameScr",
+      "old": "method_dz_a7f78ed7",
+      "new": "actBijSkillUpPoint",
+      "reference": "GameScr::actBijSkillUpPoint|.method private hidebysig instance void actBijSkillUpPoint () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Six -1 captcha arrows and direction key handling; clears clan beast vector; Bijuu commands 5043/5053. Java callbacks reuse pPoint/sPoint code unlike CLR bijuu counters; names identify command roles, not claimed cross-platform code equality.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/GameScr.java",
+        "startLine": 17194,
+        "endLine": 17215
+      }
+    },
+    {
+      "original": "dh.a(Lan;)V",
+      "owner": "nso/Session_ME",
+      "old": "method_a_0be944d6",
+      "new": "setHandler",
+      "reference": "Session_ME::setHandler|.method public final hidebysig newslot virtual instance void setHandler ( class IMessageHandler msgHandler ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Assigns message handler; starts a URL-based connection (CLR host/port differs); enqueues outgoing message; XOR advances curW; closes/reset socket streams and encryption state.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 64,
+        "endLine": 66
+      }
+    },
+    {
+      "original": "dh.a(Ljava/lang/String;)V",
+      "owner": "nso/Session_ME",
+      "old": "method_a_03840146",
+      "new": "connect",
+      "reference": "Session_ME::connect|.method public final hidebysig newslot virtual instance void connect ( string host, int32 port ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Assigns message handler; starts a URL-based connection (CLR host/port differs); enqueues outgoing message; XOR advances curW; closes/reset socket streams and encryption state.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 68,
+        "endLine": 76
+      }
+    },
+    {
+      "original": "dh.a(Lce;)V",
+      "owner": "nso/Session_ME",
+      "old": "method_a_f297f3d2",
+      "new": "sendMessage",
+      "reference": "Session_ME::sendMessage|.method public final hidebysig newslot virtual instance void sendMessage ( class Message message ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns message handler; starts a URL-based connection (CLR host/port differs); enqueues outgoing message; XOR advances curW; closes/reset socket streams and encryption state.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 78,
+        "endLine": 82
+      }
+    },
+    {
+      "original": "dh.a(B)B",
+      "owner": "nso/Session_ME",
+      "old": "method_a_430dcd17",
+      "new": "writeKey",
+      "reference": "Session_ME::writeKey|.method public hidebysig static int8 writeKey ( int8 b ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns message handler; starts a URL-based connection (CLR host/port differs); enqueues outgoing message; XOR advances curW; closes/reset socket streams and encryption state.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 121,
+        "endLine": 127
+      }
+    },
+    {
+      "original": "dh.c()V",
+      "owner": "nso/Session_ME",
+      "old": "method_c_53cf5c33",
+      "new": "close",
+      "reference": "Session_ME::close|.method public final hidebysig newslot virtual instance void close () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns message handler; starts a URL-based connection (CLR host/port differs); enqueues outgoing message; XOR advances curW; closes/reset socket streams and encryption state.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 129,
+        "endLine": 131
+      }
+    },
+    {
+      "original": "dh.d()V",
+      "owner": "nso/Session_ME",
+      "old": "method_d_7a165f4a",
+      "new": "cleanNetwork",
+      "reference": "Session_ME::cleanNetwork|.method private hidebysig static void cleanNetwork () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns message handler; starts a URL-based connection (CLR host/port differs); enqueues outgoing message; XOR advances curW; closes/reset socket streams and encryption state.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 133,
+        "endLine": 157
+      }
+    },
+    {
+      "original": "dh.a(Ldh;Ljava/io/DataOutputStream;)V",
+      "owner": "nso/Session_ME",
+      "old": "method_a_415e5e72",
+      "new": "setOutputStream",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Preserved Java synthetic access helpers for private session members: output assignment, sender/queue getters, synchronous send, queue setter, cleanup and curR XOR. No corresponding CLR helper declarations are assumed.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 159,
+        "endLine": 161
+      }
+    },
+    {
+      "original": "dh.a(Ldh;)Laq;",
+      "owner": "nso/Session_ME",
+      "old": "method_a_d1926403",
+      "new": "getSender",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Preserved Java synthetic access helpers for private session members: output assignment, sender/queue getters, synchronous send, queue setter, cleanup and curR XOR. No corresponding CLR helper declarations are assumed.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 163,
+        "endLine": 165
+      }
+    },
+    {
+      "original": "dh.a(Ldh;Lce;)V",
+      "owner": "nso/Session_ME",
+      "old": "method_a_877472ee",
+      "new": "sendMessageNow",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Preserved Java synthetic access helpers for private session members: output assignment, sender/queue getters, synchronous send, queue setter, cleanup and curR XOR. No corresponding CLR helper declarations are assumed.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 167,
+        "endLine": 169
+      }
+    },
+    {
+      "original": "dh.a(Ldh;Laa;)V",
+      "owner": "nso/Session_ME",
+      "old": "method_a_5af3a6de",
+      "new": "setSendQueue",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Preserved Java synthetic access helpers for private session members: output assignment, sender/queue getters, synchronous send, queue setter, cleanup and curR XOR. No corresponding CLR helper declarations are assumed.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 171,
+        "endLine": 173
+      }
+    },
+    {
+      "original": "dh.b(Ldh;)Laa;",
+      "owner": "nso/Session_ME",
+      "old": "method_b_8198c81f",
+      "new": "getSendQueue",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Preserved Java synthetic access helpers for private session members: output assignment, sender/queue getters, synchronous send, queue setter, cleanup and curR XOR. No corresponding CLR helper declarations are assumed.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 175,
+        "endLine": 177
+      }
+    },
+    {
+      "original": "dh.c(Ldh;)V",
+      "owner": "nso/Session_ME",
+      "old": "method_c_13132044",
+      "new": "cleanNetwork",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Preserved Java synthetic access helpers for private session members: output assignment, sender/queue getters, synchronous send, queue setter, cleanup and curR XOR. No corresponding CLR helper declarations are assumed.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 179,
+        "endLine": 181
+      }
+    },
+    {
+      "original": "dh.a(Ldh;B)B",
+      "owner": "nso/Session_ME",
+      "old": "method_a_633f30d6",
+      "new": "readKey",
+      "reference": "Session_ME::readKey|.method public hidebysig static int8 readKey ( int8 b ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Preserved Java synthetic access helpers for private session members: output assignment, sender/queue getters, synchronous send, queue setter, cleanup and curR XOR. No corresponding CLR helper declarations are assumed.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Session_ME.java",
+        "startLine": 183,
+        "endLine": 191
+      }
+    },
+    {
+      "original": "dn.a(Lce;)V",
+      "owner": "nso/SessionReceiver",
+      "old": "method_a_b6416129",
+      "new": "getKey",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Receives key length/bytes, cumulative XOR-decodes adjacent bytes and sets getKeyComplete; CLR implements this in its nested collector.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/SessionReceiver.java",
+        "startLine": 84,
+        "endLine": 94
+      }
+    },
+    {
+      "original": "dq.b(II)V",
+      "owner": "nso/Service",
+      "old": "method_b_3705d77d",
+      "new": "charMove",
+      "reference": "Service::charMove|.method public hidebysig instance void charMove ( string pos, int32 xSend, int32 ySend ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Movement packet command 1 writes changed x/y and tracks xx/yy. Command 93 writes character name and Java-only byte 0; view-info callers identify the role, NOT changeClanType/changeName suggested by signature similarity.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Service.java",
+        "startLine": 130,
+        "endLine": 145
+      }
+    },
+    {
+      "original": "dq.a(Ljava/lang/String;I)V",
+      "owner": "nso/Service",
+      "old": "method_a_a14b08cb",
+      "new": "viewInfo",
+      "reference": "Service::viewInfo|.method public hidebysig instance void viewInfo ( string cName ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Movement packet command 1 writes changed x/y and tracks xx/yy. Command 93 writes character name and Java-only byte 0; view-info callers identify the role, NOT changeClanType/changeName suggested by signature similarity.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Service.java",
+        "startLine": 1153,
+        "endLine": 1164
+      }
+    },
+    {
+      "original": "ds.a(Laa;)V",
+      "owner": "nso/Menu",
+      "old": "method_a_c0e4d075",
+      "new": "startAt",
+      "reference": "Menu::startAt|.method public hidebysig instance void startAt ( class MyVector menuItems, int32 pos ) cil managed",
+      "referenceSignatureComparable": false,
+      "reason": "Initializes menu entries, widths, target/current Y, selected index and visibility; CLR retains an extra position argument.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/Menu.java",
+        "startLine": 71,
+        "endLine": 111
+      }
+    },
+    {
+      "original": "e.b(S)S",
+      "owner": "nso/ItemTemplates",
+      "old": "method_b_ae5a9932",
+      "new": "getIcon",
+      "reference": "ItemTemplates::getIcon|.method public hidebysig static int16 getIcon ( int16 itemTemplateID ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Returns ItemTemplates.get(id).iconID.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/ItemTemplates.java",
+        "startLine": 18,
+        "endLine": 20
+      }
+    },
+    {
+      "original": "f.a(Ljava/lang/String;Ljava/lang/String;Lbd;Lbd;)V",
+      "owner": "nso/SMS",
+      "old": "method_a_00669533",
+      "new": "sendSMS",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "WMA worker sends message/destination with two callbacks; the separate preserved helper starts Session_ME.instance.initThread, not an SMS tick.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/SMS.java",
+        "startLine": 8,
+        "endLine": 11
+      }
+    },
+    {
+      "original": "f.a()V",
+      "owner": "nso/SMS",
+      "old": "method_a_a39868bd",
+      "new": "startConnectionThread",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "WMA worker sends message/destination with two callbacks; the separate preserved helper starts Session_ME.instance.initThread, not an SMS tick.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/SMS.java",
+        "startLine": 13,
+        "endLine": 15
+      }
+    },
+    {
+      "original": "main/a.a(I)V",
+      "owner": "main/GameCanvas",
+      "old": "method_a_c12e12ff",
+      "new": "connect",
+      "reference": "GameCanvas::connect|.method public hidebysig static void connect ( int32 i ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 305,
+        "endLine": 316
+      }
+    },
+    {
+      "original": "main/a.c()V",
+      "owner": "main/GameCanvas",
+      "old": "method_c_c2051ecb",
+      "new": "startGameLoop",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 330,
+        "endLine": 332
+      }
+    },
+    {
+      "original": "main/a.d()V",
+      "owner": "main/GameCanvas",
+      "old": "method_d_f7b4b7ef",
+      "new": "updateBallEffect",
+      "reference": "GameCanvas::updateBallEffect|.method public hidebysig instance void updateBallEffect () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 433,
+        "endLine": 437
+      }
+    },
+    {
+      "original": "main/a.f()V",
+      "owner": "main/GameCanvas",
+      "old": "method_f_dd59c0c7",
+      "new": "freeBackgroundImages",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 587,
+        "endLine": 591
+      }
+    },
+    {
+      "original": "main/a.c(I)V",
+      "owner": "main/GameCanvas",
+      "old": "method_c_766da1ae",
+      "new": "keyPressed",
+      "reference": "GameCanvas::keyPressed|.method public hidebysig instance void keyPressed ( int32 keyCode ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 819,
+        "endLine": 943
+      }
+    },
+    {
+      "original": "main/a.d(I)V",
+      "owner": "main/GameCanvas",
+      "old": "method_d_ac25028d",
+      "new": "keyReleased",
+      "reference": "GameCanvas::keyReleased|.method public hidebysig instance void keyReleased ( int32 keyCode ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 945,
+        "endLine": 1040
+      }
+    },
+    {
+      "original": "main/a.a(IIII)Z",
+      "owner": "main/GameCanvas",
+      "old": "method_a_ff103df8",
+      "new": "isPointerInGame",
+      "reference": "GameCanvas::isPointerInGame|.method public hidebysig static bool isPointerInGame ( int32 x, int32 y, int32 w, int32 h ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1076,
+        "endLine": 1080
+      }
+    },
+    {
+      "original": "main/a.b(IIII)Z",
+      "owner": "main/GameCanvas",
+      "old": "method_b_9cdf9064",
+      "new": "isPointerHoldIn",
+      "reference": "GameCanvas::isPointerHoldIn|.method public hidebysig static bool isPointerHoldIn ( int32 x, int32 y, int32 w, int32 h ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1088,
+        "endLine": 1090
+      }
+    },
+    {
+      "original": "main/a.h()V",
+      "owner": "main/GameCanvas",
+      "old": "method_h_38418460",
+      "new": "clearKeyPressed",
+      "reference": "GameCanvas::clearKeyPressed|.method public hidebysig static void clearKeyPressed () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1092,
+        "endLine": 1097
+      }
+    },
+    {
+      "original": "main/a.i()V",
+      "owner": "main/GameCanvas",
+      "old": "method_i_0c80a754",
+      "new": "clearKeyHold",
+      "reference": "GameCanvas::clearKeyHold|.method public hidebysig static void clearKeyHold () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1099,
+        "endLine": 1103
+      }
+    },
+    {
+      "original": "main/a.a(Ljavax/microedition/lcdui/Graphics;)V",
+      "owner": "main/GameCanvas",
+      "old": "method_a_04ff502c",
+      "new": "paint",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1105,
+        "endLine": 1134
+      }
+    },
+    {
+      "original": "main/a.k()V",
+      "owner": "main/GameCanvas",
+      "old": "method_k_894e13df",
+      "new": "startWaitDlg",
+      "reference": "GameCanvas::startWaitDlg|.method public hidebysig static void startWaitDlg () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1158,
+        "endLine": 1160
+      }
+    },
+    {
+      "original": "main/a.d(II)Z",
+      "owner": "main/GameCanvas",
+      "old": "method_d_c8e566b5",
+      "new": "startWaterSplash",
+      "reference": "GameCanvas::startWaterSplash|.method public hidebysig instance bool startWaterSplash ( int32 x, int32 y ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1237,
+        "endLine": 1249
+      }
+    },
+    {
+      "original": "main/a.m()V",
+      "owner": "main/GameCanvas",
+      "old": "method_m_cc352d97",
+      "new": "updateDust",
+      "reference": "GameCanvas::updateDust|.method public hidebysig instance void updateDust () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1251,
+        "endLine": 1268
+      }
+    },
+    {
+      "original": "main/a.c(IIII)Z",
+      "owner": "main/GameCanvas",
+      "old": "method_c_93f077d8",
+      "new": "isPointer",
+      "reference": "GameCanvas::isPointer|.method public hidebysig static bool isPointer ( int32 x, int32 y, int32 w, int32 h ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Socket URL/platform suffixes; Thread(this) start; effect expiry; imgBG/imgCloud/imgSun release; MotherCanvas callbacks with inlined key maps; world versus screen pointer bounds (Scroll uses isPointer); key state clearing; raw Graphics renderer callback; PLEASEWAIT; splash/dust slots.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameCanvas.java",
+        "startLine": 1300,
+        "endLine": 1302
+      }
+    },
+    {
+      "original": "main/b.a(Lmain/c;)V",
+      "owner": "main/MotherCanvas",
+      "old": "method_a_1064ae41",
+      "new": "setCanvasAdapter",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Assigns active Java ME adapter; returns real or zoom-adjusted height/width according to the corresponding newHeight/newWidth field.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/MotherCanvas.java",
+        "startLine": 41,
+        "endLine": 43
+      }
+    },
+    {
+      "original": "main/b.a()I",
+      "owner": "main/MotherCanvas",
+      "old": "method_a_fa692380",
+      "new": "getHeight_new",
+      "reference": "MotherCanvas::getHeight_new|.method public hidebysig instance int32 getHeight_new () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns active Java ME adapter; returns real or zoom-adjusted height/width according to the corresponding newHeight/newWidth field.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/MotherCanvas.java",
+        "startLine": 75,
+        "endLine": 77
+      }
+    },
+    {
+      "original": "main/b.b()I",
+      "owner": "main/MotherCanvas",
+      "old": "method_b_7e762b53",
+      "new": "getWidth_new",
+      "reference": "MotherCanvas::getWidth_new|.method public hidebysig instance int32 getWidth_new () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Assigns active Java ME adapter; returns real or zoom-adjusted height/width according to the corresponding newHeight/newWidth field.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/MotherCanvas.java",
+        "startLine": 79,
+        "endLine": 81
+      }
+    },
+    {
+      "original": "main/c.a(Ljavax/microedition/lcdui/Graphics;)V",
+      "owner": "main/CanvasAdapter",
+      "old": "method_a_04ff502c",
+      "new": "paint",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Abstract Java-only callbacks implemented by GameCanvas and called by MotherCanvas; names remain identical across the override family.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/CanvasAdapter.java",
+        "startLine": 10,
+        "endLine": 10
+      }
+    },
+    {
+      "original": "main/c.c(I)V",
+      "owner": "main/CanvasAdapter",
+      "old": "method_c_766da1ae",
+      "new": "keyPressed",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Abstract Java-only callbacks implemented by GameCanvas and called by MotherCanvas; names remain identical across the override family.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/CanvasAdapter.java",
+        "startLine": 12,
+        "endLine": 12
+      }
+    },
+    {
+      "original": "main/c.d(I)V",
+      "owner": "main/CanvasAdapter",
+      "old": "method_d_ac25028d",
+      "new": "keyReleased",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Abstract Java-only callbacks implemented by GameCanvas and called by MotherCanvas; names remain identical across the override family.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/CanvasAdapter.java",
+        "startLine": 14,
+        "endLine": 14
+      }
+    },
+    {
+      "original": "main/GameMidlet.a()V",
+      "owner": "main/GameMidlet",
+      "old": "method_a_13b0a73c",
+      "new": "exit",
+      "reference": "GameMidlet::exit|.method public hidebysig instance void exit () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Stops loop/destroys MIDlet; platformRequest followed by notifyDestroyed; delegates GPS packet without inventing unavailable location acquisition; finds language-selected and final Vietnamese server indices.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameMidlet.java",
+        "startLine": 87,
+        "endLine": 91
+      }
+    },
+    {
+      "original": "main/GameMidlet.a(Ljava/lang/String;)V",
+      "owner": "main/GameMidlet",
+      "old": "method_a_8a54542f",
+      "new": "openUrlAndExit",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Stops loop/destroys MIDlet; platformRequest followed by notifyDestroyed; delegates GPS packet without inventing unavailable location acquisition; finds language-selected and final Vietnamese server indices.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameMidlet.java",
+        "startLine": 93,
+        "endLine": 102
+      }
+    },
+    {
+      "original": "main/GameMidlet.b()V",
+      "owner": "main/GameMidlet",
+      "old": "method_b_4f82da3c",
+      "new": "sendGPS",
+      "reference": null,
+      "referenceSignatureComparable": false,
+      "reason": "Stops loop/destroys MIDlet; platformRequest followed by notifyDestroyed; delegates GPS packet without inventing unavailable location acquisition; finds language-selected and final Vietnamese server indices.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameMidlet.java",
+        "startLine": 117,
+        "endLine": 119
+      }
+    },
+    {
+      "original": "main/GameMidlet.e()I",
+      "owner": "main/GameMidlet",
+      "old": "method_e_76431e0b",
+      "new": "GetWorldIndex",
+      "reference": "GameMidlet::GetWorldIndex|.method public hidebysig static int32 GetWorldIndex () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Stops loop/destroys MIDlet; platformRequest followed by notifyDestroyed; delegates GPS packet without inventing unavailable location acquisition; finds language-selected and final Vietnamese server indices.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameMidlet.java",
+        "startLine": 223,
+        "endLine": 234
+      }
+    },
+    {
+      "original": "main/GameMidlet.f()I",
+      "owner": "main/GameMidlet",
+      "old": "method_f_1cb1a9d0",
+      "new": "GetLastIndex",
+      "reference": "GameMidlet::GetLastIndex|.method public hidebysig static int32 GetLastIndex () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Stops loop/destroys MIDlet; platformRequest followed by notifyDestroyed; delegates GPS packet without inventing unavailable location acquisition; finds language-selected and final Vietnamese server indices.",
+      "reviewedSource": {
+        "file": "source/src/main/java/main/GameMidlet.java",
+        "startLine": 236,
+        "endLine": 243
+      }
+    },
+    {
+      "original": "q.e()V",
+      "owner": "nso/MapScr",
+      "old": "method_e_dfe89ba9",
+      "new": "unLoad",
+      "reference": "MapScr::unLoad|.method public hidebysig virtual instance void unLoad () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Outgoing map screen releases imgMap/imgX and reloads tile sheets, large atlases and font images.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/MapScr.java",
+        "startLine": 178,
+        "endLine": 200
+      }
+    },
+    {
+      "original": "t.a(IIII)V",
+      "owner": "nso/mGraphics",
+      "old": "method_a_54dc15d9",
+      "new": "drawLine",
+      "reference": "mGraphics::drawLine|.method public hidebysig instance void drawLine ( int32 x1, int32 y1, int32 x2, int32 y2 ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 25,
+        "endLine": 31
+      }
+    },
+    {
+      "original": "t.b(IIII)V",
+      "owner": "nso/mGraphics",
+      "old": "method_b_404e05ca",
+      "new": "drawRect",
+      "reference": "mGraphics::drawRect|.method public hidebysig instance void drawRect ( int32 x, int32 y, int32 w, int32 h ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 33,
+        "endLine": 39
+      }
+    },
+    {
+      "original": "t.a(IIIIII)V",
+      "owner": "nso/mGraphics",
+      "old": "method_a_45fd63a9",
+      "new": "drawRoundRect",
+      "reference": "mGraphics::drawRoundRect|.method public hidebysig instance void drawRoundRect ( int32 x, int32 y, int32 w, int32 h, int32 arcWidth, int32 arcHeight ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 51,
+        "endLine": 59
+      }
+    },
+    {
+      "original": "t.c(IIII)V",
+      "owner": "nso/mGraphics",
+      "old": "method_c_85d44a31",
+      "new": "fillRect",
+      "reference": "mGraphics::fillRect|.method public hidebysig instance void fillRect ( int32 x, int32 y, int32 w, int32 h ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 61,
+        "endLine": 67
+      }
+    },
+    {
+      "original": "t.b(IIIIII)V",
+      "owner": "nso/mGraphics",
+      "old": "method_b_c99493f9",
+      "new": "fillRoundRect",
+      "reference": "mGraphics::fillRoundRect|.method public hidebysig instance void fillRoundRect ( int32 x, int32 y, int32 width, int32 height, int32 arcWidth, int32 arcHeight ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 69,
+        "endLine": 77
+      }
+    },
+    {
+      "original": "t.a()I",
+      "owner": "nso/mGraphics",
+      "old": "method_a_ab3d99b4",
+      "new": "getTranslateX",
+      "reference": "mGraphics::getTranslateX|.method public hidebysig instance int32 getTranslateX () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 79,
+        "endLine": 81
+      }
+    },
+    {
+      "original": "t.b()I",
+      "owner": "nso/mGraphics",
+      "old": "method_b_b9ded2a7",
+      "new": "getTranslateY",
+      "reference": "mGraphics::getTranslateY|.method public hidebysig instance int32 getTranslateY () cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 83,
+        "endLine": 85
+      }
+    },
+    {
+      "original": "t.d(IIII)V",
+      "owner": "nso/mGraphics",
+      "old": "method_d_500ed702",
+      "new": "setClip",
+      "reference": "mGraphics::setClip|.method public hidebysig instance void setClip ( int32 x, int32 y, int32 w, int32 h ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 87,
+        "endLine": 93
+      }
+    },
+    {
+      "original": "t.a(I)V",
+      "owner": "nso/mGraphics",
+      "old": "method_a_fbf62375",
+      "new": "setColor",
+      "reference": "mGraphics::setColor|.method public hidebysig instance void setColor ( int32 rgb ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 95,
+        "endLine": 97
+      }
+    },
+    {
+      "original": "t.a(Ljavax/microedition/lcdui/Image;)I",
+      "owner": "nso/mGraphics",
+      "old": "method_a_0f51aa3d",
+      "new": "getImageWidth",
+      "reference": "mGraphics::getImageWidth|.method public hidebysig static int32 getImageWidth ( class Image image ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 105,
+        "endLine": 107
+      }
+    },
+    {
+      "original": "t.b(Ljavax/microedition/lcdui/Image;)I",
+      "owner": "nso/mGraphics",
+      "old": "method_b_f125901f",
+      "new": "getImageHeight",
+      "reference": "mGraphics::getImageHeight|.method public hidebysig static int32 getImageHeight ( class Image image ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Every method delegates to the same named javax.microedition.lcdui Graphics/Image operation with the documented integer zoom scaling.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/mGraphics.java",
+        "startLine": 109,
+        "endLine": 111
+      }
+    },
+    {
+      "original": "w.a(Ljava/lang/String;[B)V",
+      "owner": "nso/RMS",
+      "old": "method_a_9fc6c471",
+      "new": "saveRMS",
+      "reference": "RMS::saveRMS|.method public hidebysig static void saveRMS ( string filename, int8[] data ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "vj-prefixed MIDP RecordStore record 1 write/read; image-specific write helper is called by SmallImage/EffectAuto image receivers. CLR uses PlayerPrefs, not this backend.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/RMS.java",
+        "startLine": 10,
+        "endLine": 21
+      }
+    },
+    {
+      "original": "w.a(Ljava/lang/String;)[B",
+      "owner": "nso/RMS",
+      "old": "method_a_6e10f2d2",
+      "new": "loadRMS",
+      "reference": "RMS::loadRMS|.method public hidebysig static int8[] loadRMS ( string filename ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "vj-prefixed MIDP RecordStore record 1 write/read; image-specific write helper is called by SmallImage/EffectAuto image receivers. CLR uses PlayerPrefs, not this backend.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/RMS.java",
+        "startLine": 23,
+        "endLine": 32
+      }
+    },
+    {
+      "original": "w.b(Ljava/lang/String;[B)V",
+      "owner": "nso/RMS",
+      "old": "method_b_feab7350",
+      "new": "saveRMSImage",
+      "reference": "RMS::saveRMSImage|.method public hidebysig static void saveRMSImage ( string idImage, int8[] data ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "vj-prefixed MIDP RecordStore record 1 write/read; image-specific write helper is called by SmallImage/EffectAuto image receivers. CLR uses PlayerPrefs, not this backend.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/RMS.java",
+        "startLine": 73,
+        "endLine": 85
+      }
+    },
+    {
+      "original": "y.a([B)V",
+      "owner": "nso/DataSkillEff",
+      "old": "method_a_042b35a6",
+      "new": "loadnew",
+      "reference": "DataSkillEff::loadnew|.method public hidebysig instance void loadnew ( int8[] 'array' ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Cached effect payload/request then loadData; decimal string vector to bytes; listPartBottom/listPartTop decides the layer. Both two-coordinate helpers log the same bottom error text, which is not layer evidence.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/DataSkillEff.java",
+        "startLine": 121,
+        "endLine": 139
+      }
+    },
+    {
+      "original": "y.a(Laa;)[B",
+      "owner": "nso/DataSkillEff",
+      "old": "method_a_38535190",
+      "new": "vector2arr",
+      "reference": "DataSkillEff::vector2arr|.method public hidebysig instance int8[] vector2arr ( class MyVector vec ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Cached effect payload/request then loadData; decimal string vector to bytes; listPartBottom/listPartTop decides the layer. Both two-coordinate helpers log the same bottom error text, which is not layer evidence.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/DataSkillEff.java",
+        "startLine": 305,
+        "endLine": 312
+      }
+    },
+    {
+      "original": "y.a(Lt;IIII)V",
+      "owner": "nso/DataSkillEff",
+      "old": "method_a_195f8c03",
+      "new": "paintBottomEff_new",
+      "reference": "DataSkillEff::paintBottomEff_new|.method public hidebysig instance void paintBottomEff_new ( class mGraphics g, int32 x, int32 y, int32 Frame, int32 rotale ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Cached effect payload/request then loadData; decimal string vector to bytes; listPartBottom/listPartTop decides the layer. Both two-coordinate helpers log the same bottom error text, which is not layer evidence.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/DataSkillEff.java",
+        "startLine": 322,
+        "endLine": 370
+      }
+    },
+    {
+      "original": "y.b(Lt;IIII)V",
+      "owner": "nso/DataSkillEff",
+      "old": "method_b_ea0fcdf8",
+      "new": "paintTopEff_new",
+      "reference": "DataSkillEff::paintTopEff_new|.method public hidebysig instance void paintTopEff_new ( class mGraphics g, int32 x, int32 y, int32 Frame, int32 rotale ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Cached effect payload/request then loadData; decimal string vector to bytes; listPartBottom/listPartTop decides the layer. Both two-coordinate helpers log the same bottom error text, which is not layer evidence.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/DataSkillEff.java",
+        "startLine": 372,
+        "endLine": 420
+      }
+    },
+    {
+      "original": "y.a(Lt;II)V",
+      "owner": "nso/DataSkillEff",
+      "old": "method_a_0afea528",
+      "new": "paintTopEff",
+      "reference": "DataSkillEff::paintTopEff|.method public hidebysig instance void paintTopEff ( class mGraphics g, int32 x, int32 y ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Cached effect payload/request then loadData; decimal string vector to bytes; listPartBottom/listPartTop decides the layer. Both two-coordinate helpers log the same bottom error text, which is not layer evidence.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/DataSkillEff.java",
+        "startLine": 422,
+        "endLine": 463
+      }
+    },
+    {
+      "original": "y.b(Lt;II)V",
+      "owner": "nso/DataSkillEff",
+      "old": "method_b_16753e5c",
+      "new": "paintBottomEff",
+      "reference": "DataSkillEff::paintBottomEff|.method public hidebysig instance void paintBottomEff ( class mGraphics g, int32 x, int32 y ) cil managed",
+      "referenceSignatureComparable": true,
+      "reason": "Cached effect payload/request then loadData; decimal string vector to bytes; listPartBottom/listPartTop decides the layer. Both two-coordinate helpers log the same bottom error text, which is not layer evidence.",
+      "reviewedSource": {
+        "file": "source/src/main/java/nso/DataSkillEff.java",
+        "startLine": 465,
+        "endLine": 506
+      }
+    }
+  ],
+  "fields": []
+}

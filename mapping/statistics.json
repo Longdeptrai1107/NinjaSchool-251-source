@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "classes": 130,
+    "methods": 1349,
+    "fields": 2322,
+    "locals": 3767
+  },
+  "statuses": {
+    "classes": {
+      "reference_proposal": 118,
+      "behavioral_name": 11,
+      "preserved": 1
+    },
+    "methods": {
+      "preserved": 211,
+      "reference_proposal": 1110,
+      "behavioral_name": 28
+    },
+    "fields": {
+      "reference_proposal": 2260,
+      "behavioral_name": 62
+    },
+    "locals": {
+      "receiver": 922,
+      "reference_parameter_proposal": 795,
+      "unresolved": 2050
+    }
+  },
+  "sourceDeclarations": 5043,
+  "mappedSourceMethods": 1311,
+  "mappedSourceFields": 2322,
+  "unmappedSourceMethods": 0,
+  "unmappedSourceFields": 0,
+  "originalCallSites": 20181,
+  "originalFieldAccessSites": 43871,
+  "originalLocalDebugNames": 0,
+  "semanticNameRecoveryIsComplete": false,
+  "readableNameRefactor": {
+    "fields": {
+      "renamed": 461,
+      "referenceProposals": 404,
+      "behavioralNames": 57
+    },
+    "methods": {
+      "renamed": 249,
+      "referenceProposals": 222,
+      "behavioralNames": 27
+    }
+  },
+  "remainingHashedFields": 0,
+  "remainingHashedMethods": 0
+}

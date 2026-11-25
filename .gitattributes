@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.java text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.properties text eol=lf
+*.png binary
+*.jar binary
+*.zip binary
+*.dll binary
+source/config/MANIFEST.MF text eol=lf whitespace=-blank-at-eof

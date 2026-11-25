@@ -1,0 +1,3540 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "source": {
+    "counts": {
+      "classes": 130,
+      "methods": 1349,
+      "fields": 2322,
+      "locals": 3767
+    },
+    "statuses": {
+      "classes": {
+        "reference_proposal": 118,
+        "behavioral_name": 11,
+        "preserved": 1
+      },
+      "methods": {
+        "preserved": 211,
+        "reference_proposal": 1110,
+        "behavioral_name": 28
+      },
+      "fields": {
+        "reference_proposal": 2260,
+        "behavioral_name": 62
+      },
+      "locals": {
+        "receiver": 922,
+        "reference_parameter_proposal": 795,
+        "unresolved": 2050
+      }
+    },
+    "sourceDeclarations": 5043,
+    "mappedSourceMethods": 1311,
+    "mappedSourceFields": 2322,
+    "unmappedSourceMethods": 0,
+    "unmappedSourceFields": 0,
+    "originalCallSites": 20181,
+    "originalFieldAccessSites": 43871,
+    "originalLocalDebugNames": 0,
+    "semanticNameRecoveryIsComplete": false,
+    "readableNameRefactor": {
+      "fields": {
+        "renamed": 461,
+        "referenceProposals": 404,
+        "behavioralNames": 57
+      },
+      "methods": {
+        "renamed": 249,
+        "referenceProposals": 222,
+        "behavioralNames": 27
+      }
+    },
+    "remainingHashedFields": 0,
+    "remainingHashedMethods": 0
+  },
+  "cleanBuildRounds": {
+    "passed": true,
+    "completed": 10,
+    "sourceFiles": 130,
+    "resources": 239,
+    "sha256": {
+      "release": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0",
+      "debug": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+    },
+    "originalSourcesUnchanged": true,
+    "releaseAndDebugCanonicalClassMatches": 130,
+    "passes": [
+      {
+        "pass": 1,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 2,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 3,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 4,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 5,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 6,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 7,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 8,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 9,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      },
+      {
+        "pass": 10,
+        "passed": true,
+        "release": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": false,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+        },
+        "debug": {
+          "passed": true,
+          "compiler": "ECJ 3.33.0",
+          "source_files": 130,
+          "class_files": 130,
+          "classfile_version": "45.3",
+          "debug_symbols": true,
+          "compile_only": false,
+          "resources": 239,
+          "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+        }
+      }
+    ],
+    "seconds": 160.45,
+    "scope": "Ten clean release and debug source rebuilds through the new PowerShell/Java builder, deterministic per-mode JAR hashes, all current Java source bytes unchanged, exact name-normalized ECJ baseline class comparison, and full bytecode linkage. Does not prove all original online gameplay semantics."
+  },
+  "canonicalBytecode": {
+    "release": {
+      "passed": true,
+      "classesCompared": 130,
+      "fieldDeclarations": 2322,
+      "methodDeclarations": 1350,
+      "executableMethods": 1341,
+      "instructionsCompared": 193867,
+      "exceptionHandlersCompared": 1479,
+      "mutationSensitivityTests": {
+        "branchTarget": true,
+        "opcodeConstant": true,
+        "localIndex": true,
+        "exceptionHandlerOrder": true,
+        "fieldConstant": true,
+        "methodAccess": true,
+        "maxStack": true,
+        "fieldTarget": true,
+        "methodTarget": true,
+        "stringConstant": true
+      },
+      "baselineJarSHA256": "e8d5d105ea4d538534dd4f34c540ba8437ff1eb2297b659ffcc28b680ec4cf6f",
+      "currentJarSHA256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0",
+      "differentClasses": [],
+      "classes": [
+        {
+          "class": "a",
+          "passed": true,
+          "beforeCanonicalSHA256": "edc37da13e8e56e727867120c52e5d35990e1e5ff1d07ef48a966ac27c574ad5",
+          "afterCanonicalSHA256": "edc37da13e8e56e727867120c52e5d35990e1e5ff1d07ef48a966ac27c574ad5"
+        },
+        {
+          "class": "aa",
+          "passed": true,
+          "beforeCanonicalSHA256": "77d65475185d6ad801ae9d06b9dddeec5de42e27c2d175dfad4d83a0225f48fa",
+          "afterCanonicalSHA256": "77d65475185d6ad801ae9d06b9dddeec5de42e27c2d175dfad4d83a0225f48fa"
+        },
+        {
+          "class": "ab",
+          "passed": true,
+          "beforeCanonicalSHA256": "e643d1fdb2f765ed058a6a8e5c54dfc8092a688bbd0856327d25d8bf24c4e7b5",
+          "afterCanonicalSHA256": "e643d1fdb2f765ed058a6a8e5c54dfc8092a688bbd0856327d25d8bf24c4e7b5"
+        },
+        {
+          "class": "ac",
+          "passed": true,
+          "beforeCanonicalSHA256": "753574ed8d66a7b24cbce5dd26f4cf8b05ebdf707873a5fb840e43a100d2c6ba",
+          "afterCanonicalSHA256": "753574ed8d66a7b24cbce5dd26f4cf8b05ebdf707873a5fb840e43a100d2c6ba"
+        },
+        {
+          "class": "ad",
+          "passed": true,
+          "beforeCanonicalSHA256": "3e5dae0d5acdc07448bdab600bf68ae97cee2379e0a8f08069e53409703c1ed3",
+          "afterCanonicalSHA256": "3e5dae0d5acdc07448bdab600bf68ae97cee2379e0a8f08069e53409703c1ed3"
+        },
+        {
+          "class": "ae",
+          "passed": true,
+          "beforeCanonicalSHA256": "4d4b1506c68f91bdfe0168ca12f8db5efcfb2731ed9d6821a99395553825a832",
+          "afterCanonicalSHA256": "4d4b1506c68f91bdfe0168ca12f8db5efcfb2731ed9d6821a99395553825a832"
+        },
+        {
+          "class": "af",
+          "passed": true,
+          "beforeCanonicalSHA256": "8a1207e67d26d92fd38e1244118c86105b70871e4d013787d9c0adb2fb63f094",
+          "afterCanonicalSHA256": "8a1207e67d26d92fd38e1244118c86105b70871e4d013787d9c0adb2fb63f094"
+        },
+        {
+          "class": "ag",
+          "passed": true,
+          "beforeCanonicalSHA256": "c28b69f4c09969311829037e3f151a470ebf051479c6133b31eeccca2518cdeb",
+          "afterCanonicalSHA256": "c28b69f4c09969311829037e3f151a470ebf051479c6133b31eeccca2518cdeb"
+        },
+        {
+          "class": "ah",
+          "passed": true,
+          "beforeCanonicalSHA256": "58a9912c25387ee9fea04f306d5ee71142768465125c39b4cd28d3a02ace06fc",
+          "afterCanonicalSHA256": "58a9912c25387ee9fea04f306d5ee71142768465125c39b4cd28d3a02ace06fc"
+        },
+        {
+          "class": "ai",
+          "passed": true,
+          "beforeCanonicalSHA256": "984532802dfa543a73944423dc0e58b944a3d8878b91147f4d4fce29dc4fdbce",
+          "afterCanonicalSHA256": "984532802dfa543a73944423dc0e58b944a3d8878b91147f4d4fce29dc4fdbce"
+        },
+        {
+          "class": "aj",
+          "passed": true,
+          "beforeCanonicalSHA256": "5b3f8f5311bb6ea05755389fd55a1898aadbad6415a129396e10c7184c8c2ede",
+          "afterCanonicalSHA256": "5b3f8f5311bb6ea05755389fd55a1898aadbad6415a129396e10c7184c8c2ede"
+        },
+        {
+          "class": "ak",
+          "passed": true,
+          "beforeCanonicalSHA256": "a4fa112ded681c1e17c49d6da5ab9f6039bda58e5fd4080f783e4fa8b295aa5a",
+          "afterCanonicalSHA256": "a4fa112ded681c1e17c49d6da5ab9f6039bda58e5fd4080f783e4fa8b295aa5a"
+        },
+        {
+          "class": "al",
+          "passed": true,
+          "beforeCanonicalSHA256": "a765d0093110b9fe665a762f8375260b3e20380af89cd47170507e460906fa52",
+          "afterCanonicalSHA256": "a765d0093110b9fe665a762f8375260b3e20380af89cd47170507e460906fa52"
+        },
+        {
+          "class": "am",
+          "passed": true,
+          "beforeCanonicalSHA256": "07c9914e82a2fa0ee8422eb1ea4eb60ab76bd4c3d58b46ffd0ebd8ab174cde06",
+          "afterCanonicalSHA256": "07c9914e82a2fa0ee8422eb1ea4eb60ab76bd4c3d58b46ffd0ebd8ab174cde06"
+        },
+        {
+          "class": "an",
+          "passed": true,
+          "beforeCanonicalSHA256": "471ffbfeaada2807e07ccb83b1370bf53a19be6b73488e5cea33d1ea650dbefe",
+          "afterCanonicalSHA256": "471ffbfeaada2807e07ccb83b1370bf53a19be6b73488e5cea33d1ea650dbefe"
+        },
+        {
+          "class": "ao",
+          "passed": true,
+          "beforeCanonicalSHA256": "5cfe30592d952ce9f96d96f4848d514852e1ff04b911b7051e36e6a3a21bee36",
+          "afterCanonicalSHA256": "5cfe30592d952ce9f96d96f4848d514852e1ff04b911b7051e36e6a3a21bee36"
+        },
+        {
+          "class": "ap",
+          "passed": true,
+          "beforeCanonicalSHA256": "023ff63d6e13a95d6c0e5908f17982e31c4ee6fb3eaa9b476c957362b969be1f",
+          "afterCanonicalSHA256": "023ff63d6e13a95d6c0e5908f17982e31c4ee6fb3eaa9b476c957362b969be1f"
+        },
+        {
+          "class": "aq",
+          "passed": true,
+          "beforeCanonicalSHA256": "e68b37458492ef644836510575d52de2723a2e622c6eb35e8a747360720b5d58",
+          "afterCanonicalSHA256": "e68b37458492ef644836510575d52de2723a2e622c6eb35e8a747360720b5d58"
+        },
+        {
+          "class": "ar",
+          "passed": true,
+          "beforeCanonicalSHA256": "6c794c426c71eb51f0fd7a0ccc8f023717ff0e1755d815a205ec228d2c024543",
+          "afterCanonicalSHA256": "6c794c426c71eb51f0fd7a0ccc8f023717ff0e1755d815a205ec228d2c024543"
+        },
+        {
+          "class": "as",
+          "passed": true,
+          "beforeCanonicalSHA256": "738b9ec3c4a7821becea745ee13088a4eacb6c9c79e2caa1099b24d6ceb504fe",
+          "afterCanonicalSHA256": "738b9ec3c4a7821becea745ee13088a4eacb6c9c79e2caa1099b24d6ceb504fe"
+        },
+        {
+          "class": "at",
+          "passed": true,
+          "beforeCanonicalSHA256": "8bca8e58015022b2ad69d208b3813cf6db2368d6789631fa4ae63fa213c5a2bc",
+          "afterCanonicalSHA256": "8bca8e58015022b2ad69d208b3813cf6db2368d6789631fa4ae63fa213c5a2bc"
+        },
+        {
+          "class": "au",
+          "passed": true,
+          "beforeCanonicalSHA256": "d214dcd664b9b92a6aeeeb6f8e04da2beb78658483e96d9c79c4830930debf74",
+          "afterCanonicalSHA256": "d214dcd664b9b92a6aeeeb6f8e04da2beb78658483e96d9c79c4830930debf74"
+        },
+        {
+          "class": "av",
+          "passed": true,
+          "beforeCanonicalSHA256": "b6ecde4175c692259a3d704e8e0dfb5b77dc14f22d2a53581ac7d5c6eddc9c5a",
+          "afterCanonicalSHA256": "b6ecde4175c692259a3d704e8e0dfb5b77dc14f22d2a53581ac7d5c6eddc9c5a"
+        },
+        {
+          "class": "aw",
+          "passed": true,
+          "beforeCanonicalSHA256": "7b7a06fd0ac12e48520603a1b67f23f4612b83bcbd997464175bb4dabff272f3",
+          "afterCanonicalSHA256": "7b7a06fd0ac12e48520603a1b67f23f4612b83bcbd997464175bb4dabff272f3"
+        },
+        {
+          "class": "ax",
+          "passed": true,
+          "beforeCanonicalSHA256": "819ff42f2622748199bb5744cb3ee11ecbe330c67c773dbf9d41a9102463aa33",
+          "afterCanonicalSHA256": "819ff42f2622748199bb5744cb3ee11ecbe330c67c773dbf9d41a9102463aa33"
+        },
+        {
+          "class": "ay",
+          "passed": true,
+          "beforeCanonicalSHA256": "890f0eec51394eb7e261cb52bc2ef8425a8c2e6f582d1db545c986a47fdd142d",
+          "afterCanonicalSHA256": "890f0eec51394eb7e261cb52bc2ef8425a8c2e6f582d1db545c986a47fdd142d"
+        },
+        {
+          "class": "az",
+          "passed": true,
+          "beforeCanonicalSHA256": "af63f9f6f314d395d2c1fdc37be65367a3b2f33790db49fd10fe17fd59fc2a10",
+          "afterCanonicalSHA256": "af63f9f6f314d395d2c1fdc37be65367a3b2f33790db49fd10fe17fd59fc2a10"
+        },
+        {
+          "class": "b",
+          "passed": true,
+          "beforeCanonicalSHA256": "90635b43f431fdbb0cfdfd3a55d4785d4a95c11af139629f9d4a8d13d3ad2e65",
+          "afterCanonicalSHA256": "90635b43f431fdbb0cfdfd3a55d4785d4a95c11af139629f9d4a8d13d3ad2e65"
+        },
+        {
+          "class": "ba",
+          "passed": true,
+          "beforeCanonicalSHA256": "58fcd2e50bf536bcedd1ece08c2c2b9caeefb222f30bdfe6129483524326a811",
+          "afterCanonicalSHA256": "58fcd2e50bf536bcedd1ece08c2c2b9caeefb222f30bdfe6129483524326a811"
+        },
+        {
+          "class": "bb",
+          "passed": true,
+          "beforeCanonicalSHA256": "2b49a1bfea1512e22ce780a1e18de7c1ff954027e6484cfb8f72e1073bb7921f",
+          "afterCanonicalSHA256": "2b49a1bfea1512e22ce780a1e18de7c1ff954027e6484cfb8f72e1073bb7921f"
+        },
+        {
+          "class": "bc",
+          "passed": true,
+          "beforeCanonicalSHA256": "3fc6eb56d674bc327caf130edaf789a08c61f15f4a8dce26beff951986e9910c",
+          "afterCanonicalSHA256": "3fc6eb56d674bc327caf130edaf789a08c61f15f4a8dce26beff951986e9910c"
+        },
+        {
+          "class": "bd",
+          "passed": true,
+          "beforeCanonicalSHA256": "b9b36563f1fc2345c4654e4639810a2db5052ea4469c258f3406e3797608b92d",
+          "afterCanonicalSHA256": "b9b36563f1fc2345c4654e4639810a2db5052ea4469c258f3406e3797608b92d"
+        },
+        {
+          "class": "be",
+          "passed": true,
+          "beforeCanonicalSHA256": "1f0772a0ad598d1d5963c8d355f6ea0bce7be5d31489d5ef5778ceb5186252a0",
+          "afterCanonicalSHA256": "1f0772a0ad598d1d5963c8d355f6ea0bce7be5d31489d5ef5778ceb5186252a0"
+        },
+        {
+          "class": "bf",
+          "passed": true,
+          "beforeCanonicalSHA256": "99039e9a7481f37add820489ee54c7d6cb11a34021858629470769e4ff40251f",
+          "afterCanonicalSHA256": "99039e9a7481f37add820489ee54c7d6cb11a34021858629470769e4ff40251f"
+        },
+        {
+          "class": "bg",
+          "passed": true,
+          "beforeCanonicalSHA256": "9495fbb0326873c4de304ca449d15d3d3a4e813f2aa3ce5f29e32f2b77376685",
+          "afterCanonicalSHA256": "9495fbb0326873c4de304ca449d15d3d3a4e813f2aa3ce5f29e32f2b77376685"
+        },
+        {
+          "class": "bh",
+          "passed": true,
+          "beforeCanonicalSHA256": "f0097d9d55ad1a3acf3df57863fad319f951fb5eb2a1b83d1ff04f66f6ee0530",
+          "afterCanonicalSHA256": "f0097d9d55ad1a3acf3df57863fad319f951fb5eb2a1b83d1ff04f66f6ee0530"
+        },
+        {
+          "class": "bi",
+          "passed": true,
+          "beforeCanonicalSHA256": "efc6e78c3c9855cede8665a8bbfbe13c70936f0fd18c81a2a0e3a1bf819287b8",
+          "afterCanonicalSHA256": "efc6e78c3c9855cede8665a8bbfbe13c70936f0fd18c81a2a0e3a1bf819287b8"
+        },
+        {
+          "class": "bj",
+          "passed": true,
+          "beforeCanonicalSHA256": "4290557b3bf4579a36868beaa6883362e272de9499dbbffb51d27160e2eb8a00",
+          "afterCanonicalSHA256": "4290557b3bf4579a36868beaa6883362e272de9499dbbffb51d27160e2eb8a00"
+        },
+        {
+          "class": "bk",
+          "passed": true,
+          "beforeCanonicalSHA256": "3e5c1cbca57d3d4964bce1945d29067ab72f32e689446bb541465784c63b282f",
+          "afterCanonicalSHA256": "3e5c1cbca57d3d4964bce1945d29067ab72f32e689446bb541465784c63b282f"
+        },
+        {
+          "class": "bl",
+          "passed": true,
+          "beforeCanonicalSHA256": "1b905e8847f381e66e9f82371164a0d1ebc0c44f99e7da74fa4f1f92a87e9c69",
+          "afterCanonicalSHA256": "1b905e8847f381e66e9f82371164a0d1ebc0c44f99e7da74fa4f1f92a87e9c69"
+        },
+        {
+          "class": "bm",
+          "passed": true,
+          "beforeCanonicalSHA256": "28a57cbe91e96b59e380535e0a7ecebfd66499cf9a4582d98c8d31946a778140",
+          "afterCanonicalSHA256": "28a57cbe91e96b59e380535e0a7ecebfd66499cf9a4582d98c8d31946a778140"
+        },
+        {
+          "class": "bn",
+          "passed": true,
+          "beforeCanonicalSHA256": "f5021b5264387e31e2d5470ff6494426db8e5af02443d36c41ee4186582d7c82",
+          "afterCanonicalSHA256": "f5021b5264387e31e2d5470ff6494426db8e5af02443d36c41ee4186582d7c82"
+        },
+        {
+          "class": "bo",
+          "passed": true,
+          "beforeCanonicalSHA256": "09a9a51f835d4afdd8af1d8698a0a0c96918931ec8daf50534e568f673574464",
+          "afterCanonicalSHA256": "09a9a51f835d4afdd8af1d8698a0a0c96918931ec8daf50534e568f673574464"
+        },
+        {
+          "class": "bp",
+          "passed": true,
+          "beforeCanonicalSHA256": "9a080ba190527f2ac80eede33e1f968395c978f1d95da99999c2b0ce11faccd6",
+          "afterCanonicalSHA256": "9a080ba190527f2ac80eede33e1f968395c978f1d95da99999c2b0ce11faccd6"
+        },
+        {
+          "class": "bq",
+          "passed": true,
+          "beforeCanonicalSHA256": "1c8f35609165c2244fd7ecd6162fb5f3c92747fda35c8f58613b0d3324ec3013",
+          "afterCanonicalSHA256": "1c8f35609165c2244fd7ecd6162fb5f3c92747fda35c8f58613b0d3324ec3013"
+        },
+        {
+          "class": "br",
+          "passed": true,
+          "beforeCanonicalSHA256": "6bc896ea3445bdbc95e3dd20d5aa30853808eacc5c2252376ef69fb423660d09",
+          "afterCanonicalSHA256": "6bc896ea3445bdbc95e3dd20d5aa30853808eacc5c2252376ef69fb423660d09"
+        },
+        {
+          "class": "bs",
+          "passed": true,
+          "beforeCanonicalSHA256": "f682be761b84a9b75e2c3101dd3855ed2c5f2a6d5946308e187c5bd1338b39bf",
+          "afterCanonicalSHA256": "f682be761b84a9b75e2c3101dd3855ed2c5f2a6d5946308e187c5bd1338b39bf"
+        },
+        {
+          "class": "bt",
+          "passed": true,
+          "beforeCanonicalSHA256": "9d9be0b07e0648bd166bae558b0ed37052ce5e4767912963bd19b806c38f54cc",
+          "afterCanonicalSHA256": "9d9be0b07e0648bd166bae558b0ed37052ce5e4767912963bd19b806c38f54cc"
+        },
+        {
+          "class": "bu",
+          "passed": true,
+          "beforeCanonicalSHA256": "87da58020ee10551dd38c230e490802b7f98ea91409e432d7300f9df19205bb4",
+          "afterCanonicalSHA256": "87da58020ee10551dd38c230e490802b7f98ea91409e432d7300f9df19205bb4"
+        },
+        {
+          "class": "bv",
+          "passed": true,
+          "beforeCanonicalSHA256": "f7a3be31465edda6db13afd83791e8d2576932dffd86b2f7f7cc55806ae3eb73",
+          "afterCanonicalSHA256": "f7a3be31465edda6db13afd83791e8d2576932dffd86b2f7f7cc55806ae3eb73"
+        },
+        {
+          "class": "bw",
+          "passed": true,
+          "beforeCanonicalSHA256": "f8b80f8c02426b3bd76713426a16f0e5a2c30fd400d6677939b1d9102890ed9a",
+          "afterCanonicalSHA256": "f8b80f8c02426b3bd76713426a16f0e5a2c30fd400d6677939b1d9102890ed9a"
+        },
+        {
+          "class": "bx",
+          "passed": true,
+          "beforeCanonicalSHA256": "6402d94d13fdfb2f83785bfa1c99f434eff2ad17986164b0148dfb1577461724",
+          "afterCanonicalSHA256": "6402d94d13fdfb2f83785bfa1c99f434eff2ad17986164b0148dfb1577461724"
+        },
+        {
+          "class": "by",
+          "passed": true,
+          "beforeCanonicalSHA256": "74ef9f7ff743ea615724718a20e86e3d1101e6430e06652fa1011464ce026b8e",
+          "afterCanonicalSHA256": "74ef9f7ff743ea615724718a20e86e3d1101e6430e06652fa1011464ce026b8e"
+        },
+        {
+          "class": "bz",
+          "passed": true,
+          "beforeCanonicalSHA256": "a6472100c8b0305525ccbb21abb742dbc02b3a24382660d7f2334003dfd785c9",
+          "afterCanonicalSHA256": "a6472100c8b0305525ccbb21abb742dbc02b3a24382660d7f2334003dfd785c9"
+        },
+        {
+          "class": "c",
+          "passed": true,
+          "beforeCanonicalSHA256": "fc92553ff69ab6f6149c2bb2273c760497792c31b878bca783d787925bd65d69",
+          "afterCanonicalSHA256": "fc92553ff69ab6f6149c2bb2273c760497792c31b878bca783d787925bd65d69"
+        },
+        {
+          "class": "ca",
+          "passed": true,
+          "beforeCanonicalSHA256": "e86ca4a4c8244d42cf6175b58ab8aafb32be06b17a35a39d56a5cf3db1a5500b",
+          "afterCanonicalSHA256": "e86ca4a4c8244d42cf6175b58ab8aafb32be06b17a35a39d56a5cf3db1a5500b"
+        },
+        {
+          "class": "cb",
+          "passed": true,
+          "beforeCanonicalSHA256": "545c7788c23155de116c3788da43bb71c0240f4fa8dcd2aa72488df453fe110f",
+          "afterCanonicalSHA256": "545c7788c23155de116c3788da43bb71c0240f4fa8dcd2aa72488df453fe110f"
+        },
+        {
+          "class": "cc",
+          "passed": true,
+          "beforeCanonicalSHA256": "48e444e524c33cf9a3197eb551a19935ba9beec3483381a7ff425954db278ecf",
+          "afterCanonicalSHA256": "48e444e524c33cf9a3197eb551a19935ba9beec3483381a7ff425954db278ecf"
+        },
+        {
+          "class": "cd",
+          "passed": true,
+          "beforeCanonicalSHA256": "95b6995cc8f3bf276464f54b31f831ea6efcb2beed135f3e2b23a16266c3effe",
+          "afterCanonicalSHA256": "95b6995cc8f3bf276464f54b31f831ea6efcb2beed135f3e2b23a16266c3effe"
+        },
+        {
+          "class": "ce",
+          "passed": true,
+          "beforeCanonicalSHA256": "c21776d48221d8355ffdc92eec3a6dc3d65e122f8a30356a2f53004afcedf552",
+          "afterCanonicalSHA256": "c21776d48221d8355ffdc92eec3a6dc3d65e122f8a30356a2f53004afcedf552"
+        },
+        {
+          "class": "cf",
+          "passed": true,
+          "beforeCanonicalSHA256": "4deb757bdc18404a8367fdd1234c1571553fa56b71fc184fc2f9cdec2fa5c3b1",
+          "afterCanonicalSHA256": "4deb757bdc18404a8367fdd1234c1571553fa56b71fc184fc2f9cdec2fa5c3b1"
+        },
+        {
+          "class": "cg",
+          "passed": true,
+          "beforeCanonicalSHA256": "d7d39ef4b04ef07e14830c4b085eab0eda5b4e8fa5bf99d75735443e783b9ad4",
+          "afterCanonicalSHA256": "d7d39ef4b04ef07e14830c4b085eab0eda5b4e8fa5bf99d75735443e783b9ad4"
+        },
+        {
+          "class": "ch",
+          "passed": true,
+          "beforeCanonicalSHA256": "c30cbad37415a166bbb0b63e6266f14c54abc756ecf31750d53b9ee38c92788e",
+          "afterCanonicalSHA256": "c30cbad37415a166bbb0b63e6266f14c54abc756ecf31750d53b9ee38c92788e"
+        },
+        {
+          "class": "ci",
+          "passed": true,
+          "beforeCanonicalSHA256": "0f42dde4d2356c41c782180cba8a9e1f825087c7a0980ce80c87cac1afdd2dc8",
+          "afterCanonicalSHA256": "0f42dde4d2356c41c782180cba8a9e1f825087c7a0980ce80c87cac1afdd2dc8"
+        },
+        {
+          "class": "cj",
+          "passed": true,
+          "beforeCanonicalSHA256": "08a328f22de04c6465c299cb7ca7be809e72bd8de09a1cdc7145d660194d5038",
+          "afterCanonicalSHA256": "08a328f22de04c6465c299cb7ca7be809e72bd8de09a1cdc7145d660194d5038"
+        },
+        {
+          "class": "ck",
+          "passed": true,
+          "beforeCanonicalSHA256": "7a4aa72db3552aa9c2868ccd1fd1deab5f78d45656fd3d64d71a647fb51dc96e",
+          "afterCanonicalSHA256": "7a4aa72db3552aa9c2868ccd1fd1deab5f78d45656fd3d64d71a647fb51dc96e"
+        },
+        {
+          "class": "cl",
+          "passed": true,
+          "beforeCanonicalSHA256": "47db3ccdaddaefb77d0f95906fde7dd3be2a489c8bffb6df34447cf669e2388e",
+          "afterCanonicalSHA256": "47db3ccdaddaefb77d0f95906fde7dd3be2a489c8bffb6df34447cf669e2388e"
+        },
+        {
+          "class": "cm",
+          "passed": true,
+          "beforeCanonicalSHA256": "f8429ec6ce6b2c7a1a9dd309d0e8beb02095e3c5e8295c4d22f12429e8c4708f",
+          "afterCanonicalSHA256": "f8429ec6ce6b2c7a1a9dd309d0e8beb02095e3c5e8295c4d22f12429e8c4708f"
+        },
+        {
+          "class": "cn",
+          "passed": true,
+          "beforeCanonicalSHA256": "73b95c41e72953c7336350122c515eb78a34c13dff8b3b414db0c1fef93b0db9",
+          "afterCanonicalSHA256": "73b95c41e72953c7336350122c515eb78a34c13dff8b3b414db0c1fef93b0db9"
+        },
+        {
+          "class": "co",
+          "passed": true,
+          "beforeCanonicalSHA256": "fa95e1f7574a75e24f63020c2635df0fada05132b1b5500c482d545edf92b999",
+          "afterCanonicalSHA256": "fa95e1f7574a75e24f63020c2635df0fada05132b1b5500c482d545edf92b999"
+        },
+        {
+          "class": "cp",
+          "passed": true,
+          "beforeCanonicalSHA256": "e61e552860436804cd161ec7659e642a163892561475088fb0cc4b559a7779d6",
+          "afterCanonicalSHA256": "e61e552860436804cd161ec7659e642a163892561475088fb0cc4b559a7779d6"
+        },
+        {
+          "class": "cq",
+          "passed": true,
+          "beforeCanonicalSHA256": "f51950d89caba674ec417a58862f185a0671f0f80eef6f07d97c3ac242fd9196",
+          "afterCanonicalSHA256": "f51950d89caba674ec417a58862f185a0671f0f80eef6f07d97c3ac242fd9196"
+        },
+        {
+          "class": "cr",
+          "passed": true,
+          "beforeCanonicalSHA256": "8c157907ca3bb13a3d7b47fcb13334d8c8570681db5374c29e645d05b5c9a873",
+          "afterCanonicalSHA256": "8c157907ca3bb13a3d7b47fcb13334d8c8570681db5374c29e645d05b5c9a873"
+        },
+        {
+          "class": "cs",
+          "passed": true,
+          "beforeCanonicalSHA256": "b2eb7ee47082de0f4159dec0473a1091ed3bcb5f656c3d62d15120823c7fc32b",
+          "afterCanonicalSHA256": "b2eb7ee47082de0f4159dec0473a1091ed3bcb5f656c3d62d15120823c7fc32b"
+        },
+        {
+          "class": "ct",
+          "passed": true,
+          "beforeCanonicalSHA256": "8cd61db7d96117ce9ae8c444a12e3250792a61dadff467e003a00820f4ead8f0",
+          "afterCanonicalSHA256": "8cd61db7d96117ce9ae8c444a12e3250792a61dadff467e003a00820f4ead8f0"
+        },
+        {
+          "class": "cu",
+          "passed": true,
+          "beforeCanonicalSHA256": "20799da72419bad1744f6f59ef531b38e8f85ee7471cb134b00b4af2e0b7e436",
+          "afterCanonicalSHA256": "20799da72419bad1744f6f59ef531b38e8f85ee7471cb134b00b4af2e0b7e436"
+        },
+        {
+          "class": "cv",
+          "passed": true,
+          "beforeCanonicalSHA256": "1ef6697bf16eac6bd8281ee95c7f48f67f549293a7ca876ba387f8d05810411f",
+          "afterCanonicalSHA256": "1ef6697bf16eac6bd8281ee95c7f48f67f549293a7ca876ba387f8d05810411f"
+        },
+        {
+          "class": "cw",
+          "passed": true,
+          "beforeCanonicalSHA256": "df5b252501df7277e13e149cb2f0bdf1c4540d53ae33fe900de8c14aa07e0a7d",
+          "afterCanonicalSHA256": "df5b252501df7277e13e149cb2f0bdf1c4540d53ae33fe900de8c14aa07e0a7d"
+        },
+        {
+          "class": "cx",
+          "passed": true,
+          "beforeCanonicalSHA256": "7a87307669deb1c3eca5ffd1661c30c83592aaeebdb815907bfbfc01614277f9",
+          "afterCanonicalSHA256": "7a87307669deb1c3eca5ffd1661c30c83592aaeebdb815907bfbfc01614277f9"
+        },
+        {
+          "class": "cy",
+          "passed": true,
+          "beforeCanonicalSHA256": "c5f1f90b7373efcd213f1a65a6c095ce826f7ba83bc67fe1838bf2758db097bc",
+          "afterCanonicalSHA256": "c5f1f90b7373efcd213f1a65a6c095ce826f7ba83bc67fe1838bf2758db097bc"
+        },
+        {
+          "class": "cz",
+          "passed": true,
+          "beforeCanonicalSHA256": "ea274190c6817a7c066e46a9ba0fdf92929e8b520cf1c48cdf007dfb2d579358",
+          "afterCanonicalSHA256": "ea274190c6817a7c066e46a9ba0fdf92929e8b520cf1c48cdf007dfb2d579358"
+        },
+        {
+          "class": "d",
+          "passed": true,
+          "beforeCanonicalSHA256": "b5de662cba5daf9c722976ad1f3ab8d0b2841c33dcfe721a7be6e8e7fe525a59",
+          "afterCanonicalSHA256": "b5de662cba5daf9c722976ad1f3ab8d0b2841c33dcfe721a7be6e8e7fe525a59"
+        },
+        {
+          "class": "da",
+          "passed": true,
+          "beforeCanonicalSHA256": "dc4e128eb6414ca0bb52e8d1fb0dd40f49562ddda147dc425512b26a5b47a708",
+          "afterCanonicalSHA256": "dc4e128eb6414ca0bb52e8d1fb0dd40f49562ddda147dc425512b26a5b47a708"
+        },
+        {
+          "class": "db",
+          "passed": true,
+          "beforeCanonicalSHA256": "df6624180b224d19991c12ba50fdff4b89a30af35a4425141dc4fac1fce461a2",
+          "afterCanonicalSHA256": "df6624180b224d19991c12ba50fdff4b89a30af35a4425141dc4fac1fce461a2"
+        },
+        {
+          "class": "dc",
+          "passed": true,
+          "beforeCanonicalSHA256": "7e36a06363df3d96573759b256aefa9720ab859a3299ac09a4c213c4bb2866c3",
+          "afterCanonicalSHA256": "7e36a06363df3d96573759b256aefa9720ab859a3299ac09a4c213c4bb2866c3"
+        },
+        {
+          "class": "dd",
+          "passed": true,
+          "beforeCanonicalSHA256": "0d6a22e6982eb22ef30bcace7ed24c27d0533cc425979273002f3ef99891bb7f",
+          "afterCanonicalSHA256": "0d6a22e6982eb22ef30bcace7ed24c27d0533cc425979273002f3ef99891bb7f"
+        },
+        {
+          "class": "de",
+          "passed": true,
+          "beforeCanonicalSHA256": "8c62fec069bbbff9481468a388eaced6f3971e1f7bcbc24e8f64f98a0d1f4889",
+          "afterCanonicalSHA256": "8c62fec069bbbff9481468a388eaced6f3971e1f7bcbc24e8f64f98a0d1f4889"
+        },
+        {
+          "class": "df",
+          "passed": true,
+          "beforeCanonicalSHA256": "9eb8c7beb918fe62550964cd1ae9783077d6097bcdd38b3ada68377b6bc2634f",
+          "afterCanonicalSHA256": "9eb8c7beb918fe62550964cd1ae9783077d6097bcdd38b3ada68377b6bc2634f"
+        },
+        {
+          "class": "dg",
+          "passed": true,
+          "beforeCanonicalSHA256": "7fb01d94f8a65eb18b28ef8cee9bfd0f1b9c7ab8859f8e090c166d49972c800f",
+          "afterCanonicalSHA256": "7fb01d94f8a65eb18b28ef8cee9bfd0f1b9c7ab8859f8e090c166d49972c800f"
+        },
+        {
+          "class": "dh",
+          "passed": true,
+          "beforeCanonicalSHA256": "eac7ba2273db09c311bbf6e06cd9d457ccf206cf2dc0e4c1d48125d360577c34",
+          "afterCanonicalSHA256": "eac7ba2273db09c311bbf6e06cd9d457ccf206cf2dc0e4c1d48125d360577c34"
+        },
+        {
+          "class": "di",
+          "passed": true,
+          "beforeCanonicalSHA256": "99a13638129dbf5879635c15ee1de57ae6b4561968b650fbfd88e19f419a55cb",
+          "afterCanonicalSHA256": "99a13638129dbf5879635c15ee1de57ae6b4561968b650fbfd88e19f419a55cb"
+        },
+        {
+          "class": "dj",
+          "passed": true,
+          "beforeCanonicalSHA256": "b2db292e13959991c8ae1487c28be689f902275beeffbeebd4711b7b6acaa4d6",
+          "afterCanonicalSHA256": "b2db292e13959991c8ae1487c28be689f902275beeffbeebd4711b7b6acaa4d6"
+        },
+        {
+          "class": "dk",
+          "passed": true,
+          "beforeCanonicalSHA256": "962948338498c4334588458d328e621067c93f85a7ab049254e353cb79b0b35c",
+          "afterCanonicalSHA256": "962948338498c4334588458d328e621067c93f85a7ab049254e353cb79b0b35c"
+        },
+        {
+          "class": "dl",
+          "passed": true,
+          "beforeCanonicalSHA256": "a4be5a4852964329013d5926f8b26b9c8a0237fb0641ada0f34f27e328f8913e",
+          "afterCanonicalSHA256": "a4be5a4852964329013d5926f8b26b9c8a0237fb0641ada0f34f27e328f8913e"
+        },
+        {
+          "class": "dm",
+          "passed": true,
+          "beforeCanonicalSHA256": "2dc32e3441370ef0254c06d273dbe731c4aaeb326e0899b2303f50f51692b0a7",
+          "afterCanonicalSHA256": "2dc32e3441370ef0254c06d273dbe731c4aaeb326e0899b2303f50f51692b0a7"
+        },
+        {
+          "class": "dn",
+          "passed": true,
+          "beforeCanonicalSHA256": "e0822820cdd2c32c57401da1863eb9be3e87e7a6b2060db08856dfc0ad7d166f",
+          "afterCanonicalSHA256": "e0822820cdd2c32c57401da1863eb9be3e87e7a6b2060db08856dfc0ad7d166f"
+        },
+        {
+          "class": "do",
+          "passed": true,
+          "beforeCanonicalSHA256": "5e10cc66e40accf98456d3a0f2e76cf1691e6afb72c73c119f4144de5a9e0499",
+          "afterCanonicalSHA256": "5e10cc66e40accf98456d3a0f2e76cf1691e6afb72c73c119f4144de5a9e0499"
+        },
+        {
+          "class": "dp",
+          "passed": true,
+          "beforeCanonicalSHA256": "c90e003210b2ece415b99dc1561c1bb2696ae0ad2f26f684774719067f92f8ba",
+          "afterCanonicalSHA256": "c90e003210b2ece415b99dc1561c1bb2696ae0ad2f26f684774719067f92f8ba"
+        },
+        {
+          "class": "dq",
+          "passed": true,
+          "beforeCanonicalSHA256": "25a016bb05dd024c690dee00deb0bee837bf700f982723a9fb11b1a0e5fe6ba8",
+          "afterCanonicalSHA256": "25a016bb05dd024c690dee00deb0bee837bf700f982723a9fb11b1a0e5fe6ba8"
+        },
+        {
+          "class": "dr",
+          "passed": true,
+          "beforeCanonicalSHA256": "8fb06711ff7728bad497bcfa3d278265a84eb05c5b180ce19d8a2fd6ca6a96b9",
+          "afterCanonicalSHA256": "8fb06711ff7728bad497bcfa3d278265a84eb05c5b180ce19d8a2fd6ca6a96b9"
+        },
+        {
+          "class": "ds",
+          "passed": true,
+          "beforeCanonicalSHA256": "f928fecaf5f0ceaf8efbaebcd1830b4ddb775566d36776f6ac39d0301beeb834",
+          "afterCanonicalSHA256": "f928fecaf5f0ceaf8efbaebcd1830b4ddb775566d36776f6ac39d0301beeb834"
+        },
+        {
+          "class": "dt",
+          "passed": true,
+          "beforeCanonicalSHA256": "76a8aacdb55c43fbf51f38858bcec9511a8c462287e24283325d9e46069c170f",
+          "afterCanonicalSHA256": "76a8aacdb55c43fbf51f38858bcec9511a8c462287e24283325d9e46069c170f"
+        },
+        {
+          "class": "du",
+          "passed": true,
+          "beforeCanonicalSHA256": "c36c00617511559bb529f82dc94a46f40571f3c9ef03c42836879b05ed42b6b6",
+          "afterCanonicalSHA256": "c36c00617511559bb529f82dc94a46f40571f3c9ef03c42836879b05ed42b6b6"
+        },
+        {
+          "class": "dv",
+          "passed": true,
+          "beforeCanonicalSHA256": "dd785fb89d4288d50c33ca472c5221cb29df4ea166d978e53261119ba5dfb257",
+          "afterCanonicalSHA256": "dd785fb89d4288d50c33ca472c5221cb29df4ea166d978e53261119ba5dfb257"
+        },
+        {
+          "class": "e",
+          "passed": true,
+          "beforeCanonicalSHA256": "3fa30fdf454c53699084454d846d1e17a43d219cddb37be8708132e4d36804ce",
+          "afterCanonicalSHA256": "3fa30fdf454c53699084454d846d1e17a43d219cddb37be8708132e4d36804ce"
+        },
+        {
+          "class": "f",
+          "passed": true,
+          "beforeCanonicalSHA256": "d6566f8c6cb5201f526781195db7929ec65af9fc8917856219e65f648bca1904",
+          "afterCanonicalSHA256": "d6566f8c6cb5201f526781195db7929ec65af9fc8917856219e65f648bca1904"
+        },
+        {
+          "class": "g",
+          "passed": true,
+          "beforeCanonicalSHA256": "dd6b8b4d3978edb6cedcb7a4b1bfd3b2f6e91b8433011bbd9e7a267fc9cb1563",
+          "afterCanonicalSHA256": "dd6b8b4d3978edb6cedcb7a4b1bfd3b2f6e91b8433011bbd9e7a267fc9cb1563"
+        },
+        {
+          "class": "h",
+          "passed": true,
+          "beforeCanonicalSHA256": "319124b80f5176d22e2a3a5f3ee43f33d0f0c2d64544f28c71c64f2c0465a714",
+          "afterCanonicalSHA256": "319124b80f5176d22e2a3a5f3ee43f33d0f0c2d64544f28c71c64f2c0465a714"
+        },
+        {
+          "class": "i",
+          "passed": true,
+          "beforeCanonicalSHA256": "00e8fe4b812fc1ac947519be1a3351308f66ee8683ded879240fc88f0e6675b2",
+          "afterCanonicalSHA256": "00e8fe4b812fc1ac947519be1a3351308f66ee8683ded879240fc88f0e6675b2"
+        },
+        {
+          "class": "j",
+          "passed": true,
+          "beforeCanonicalSHA256": "78dae8b089b07048a59bccaeaa3e84cf36346d14fd4ec192c92e9aa1bd023b03",
+          "afterCanonicalSHA256": "78dae8b089b07048a59bccaeaa3e84cf36346d14fd4ec192c92e9aa1bd023b03"
+        },
+        {
+          "class": "k",
+          "passed": true,
+          "beforeCanonicalSHA256": "e5e9a86d41e07498f9170ca8c8c8175191e6c905bc1e481be61efae70db46c74",
+          "afterCanonicalSHA256": "e5e9a86d41e07498f9170ca8c8c8175191e6c905bc1e481be61efae70db46c74"
+        },
+        {
+          "class": "l",
+          "passed": true,
+          "beforeCanonicalSHA256": "b48b0590ba6a75110b97af3d399b7ee398d94a3e0905c0d87753c2276ab981a6",
+          "afterCanonicalSHA256": "b48b0590ba6a75110b97af3d399b7ee398d94a3e0905c0d87753c2276ab981a6"
+        },
+        {
+          "class": "m",
+          "passed": true,
+          "beforeCanonicalSHA256": "c2ffc82e18f9f445911bb86bffaf0dbc18b07cbd7ee80d397b31319111b5660c",
+          "afterCanonicalSHA256": "c2ffc82e18f9f445911bb86bffaf0dbc18b07cbd7ee80d397b31319111b5660c"
+        },
+        {
+          "class": "main/GameMidlet",
+          "passed": true,
+          "beforeCanonicalSHA256": "fe312f4a85eac7590181aab9fccb12adb58dc1ea85d4d32926886ad288acee46",
+          "afterCanonicalSHA256": "fe312f4a85eac7590181aab9fccb12adb58dc1ea85d4d32926886ad288acee46"
+        },
+        {
+          "class": "main/a",
+          "passed": true,
+          "beforeCanonicalSHA256": "af8f6585970d67d77b7173c8ebec7db670aaacc7d9bedab0da8d5e0e0e73745b",
+          "afterCanonicalSHA256": "af8f6585970d67d77b7173c8ebec7db670aaacc7d9bedab0da8d5e0e0e73745b"
+        },
+        {
+          "class": "main/b",
+          "passed": true,
+          "beforeCanonicalSHA256": "14691cfdd3e42269a350c169bbd80051628afacbb88088cf1aa1dce59f09b550",
+          "afterCanonicalSHA256": "14691cfdd3e42269a350c169bbd80051628afacbb88088cf1aa1dce59f09b550"
+        },
+        {
+          "class": "main/c",
+          "passed": true,
+          "beforeCanonicalSHA256": "a192ec04b00f267e169d04115bc7b897431b655ec95e604323192494d71e73ba",
+          "afterCanonicalSHA256": "a192ec04b00f267e169d04115bc7b897431b655ec95e604323192494d71e73ba"
+        },
+        {
+          "class": "n",
+          "passed": true,
+          "beforeCanonicalSHA256": "611083e7d7ad8637688b2cc7bf6a17e823443416e42c48d3ce7bc4ae5ba7991b",
+          "afterCanonicalSHA256": "611083e7d7ad8637688b2cc7bf6a17e823443416e42c48d3ce7bc4ae5ba7991b"
+        },
+        {
+          "class": "o",
+          "passed": true,
+          "beforeCanonicalSHA256": "9220b2babed9a8e0077fbebf480d638ae98212e624a67a8ff33d310a117a52b4",
+          "afterCanonicalSHA256": "9220b2babed9a8e0077fbebf480d638ae98212e624a67a8ff33d310a117a52b4"
+        },
+        {
+          "class": "p",
+          "passed": true,
+          "beforeCanonicalSHA256": "e3cda6d705224ec9e04b0da0df82b3614a63750124232205390a7cc8555f4379",
+          "afterCanonicalSHA256": "e3cda6d705224ec9e04b0da0df82b3614a63750124232205390a7cc8555f4379"
+        },
+        {
+          "class": "q",
+          "passed": true,
+          "beforeCanonicalSHA256": "6a26993a4c6b31a634c16f1e6b7c333f004950379e9c41d8bfcfa059031e598d",
+          "afterCanonicalSHA256": "6a26993a4c6b31a634c16f1e6b7c333f004950379e9c41d8bfcfa059031e598d"
+        },
+        {
+          "class": "r",
+          "passed": true,
+          "beforeCanonicalSHA256": "b35e4ef730708908e66c4f05d1fe5fd194f2012c4e06ff45f491ff8200888fd0",
+          "afterCanonicalSHA256": "b35e4ef730708908e66c4f05d1fe5fd194f2012c4e06ff45f491ff8200888fd0"
+        },
+        {
+          "class": "s",
+          "passed": true,
+          "beforeCanonicalSHA256": "9e532a6e0a9ce7dd48696a839ca48be596df629b96b087626af4740ab5edba35",
+          "afterCanonicalSHA256": "9e532a6e0a9ce7dd48696a839ca48be596df629b96b087626af4740ab5edba35"
+        },
+        {
+          "class": "t",
+          "passed": true,
+          "beforeCanonicalSHA256": "4e1fba0ede56ab16f6a6982b40ba955b5a2571e9e6cb6c9ece2fe2db99d57cf2",
+          "afterCanonicalSHA256": "4e1fba0ede56ab16f6a6982b40ba955b5a2571e9e6cb6c9ece2fe2db99d57cf2"
+        },
+        {
+          "class": "u",
+          "passed": true,
+          "beforeCanonicalSHA256": "46aa72f16d5e31884ada465b5bc7faad6a7b51ac69d17be72e48477ac8db9a56",
+          "afterCanonicalSHA256": "46aa72f16d5e31884ada465b5bc7faad6a7b51ac69d17be72e48477ac8db9a56"
+        },
+        {
+          "class": "v",
+          "passed": true,
+          "beforeCanonicalSHA256": "4556d0479c7cd4f867f37cee50d9c7c85d230ad770317a764cb6cf44fe3f069b",
+          "afterCanonicalSHA256": "4556d0479c7cd4f867f37cee50d9c7c85d230ad770317a764cb6cf44fe3f069b"
+        },
+        {
+          "class": "w",
+          "passed": true,
+          "beforeCanonicalSHA256": "419c5cc218613d71beb566bf7e3bfcc23aba6b9cd4206ebbc59d2ae0a12dd499",
+          "afterCanonicalSHA256": "419c5cc218613d71beb566bf7e3bfcc23aba6b9cd4206ebbc59d2ae0a12dd499"
+        },
+        {
+          "class": "x",
+          "passed": true,
+          "beforeCanonicalSHA256": "ccd15a108a7421efb6da9095a9dcb682a19fe1941a920b0e888615d5a53aec51",
+          "afterCanonicalSHA256": "ccd15a108a7421efb6da9095a9dcb682a19fe1941a920b0e888615d5a53aec51"
+        },
+        {
+          "class": "y",
+          "passed": true,
+          "beforeCanonicalSHA256": "3281d42231e3f7ce9265bd4ec703db8455f8197ba881855c2bc5c8b4ed1d76d2",
+          "afterCanonicalSHA256": "3281d42231e3f7ce9265bd4ec703db8455f8197ba881855c2bc5c8b4ed1d76d2"
+        },
+        {
+          "class": "z",
+          "passed": true,
+          "beforeCanonicalSHA256": "52241450cbbe9f758eeb4758a6c01cec53989b538a46445c10155ed72f960173",
+          "afterCanonicalSHA256": "52241450cbbe9f758eeb4758a6c01cec53989b538a46445c10155ed72f960173"
+        }
+      ],
+      "scope": "Exact canonical class bytes after descriptor-aware inverse name remapping on both ECJ builds. Debug attributes/stack-map frames excluded; instructions, branch targets, ordered exception tables, member/access metadata, constants, maxStack/maxLocals included. This validates this name-only refactor against the already-rebuilt baseline, not full equivalence to the original JAR or recovery of pre-obfuscation names."
+    },
+    "debug": {
+      "passed": true,
+      "classesCompared": 130,
+      "fieldDeclarations": 2322,
+      "methodDeclarations": 1350,
+      "executableMethods": 1341,
+      "instructionsCompared": 193867,
+      "exceptionHandlersCompared": 1479,
+      "mutationSensitivityTests": {
+        "branchTarget": true,
+        "opcodeConstant": true,
+        "localIndex": true,
+        "exceptionHandlerOrder": true,
+        "fieldConstant": true,
+        "methodAccess": true,
+        "maxStack": true,
+        "fieldTarget": true,
+        "methodTarget": true,
+        "stringConstant": true
+      },
+      "baselineJarSHA256": "e8d5d105ea4d538534dd4f34c540ba8437ff1eb2297b659ffcc28b680ec4cf6f",
+      "currentJarSHA256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a",
+      "differentClasses": [],
+      "classes": [
+        {
+          "class": "a",
+          "passed": true,
+          "beforeCanonicalSHA256": "edc37da13e8e56e727867120c52e5d35990e1e5ff1d07ef48a966ac27c574ad5",
+          "afterCanonicalSHA256": "edc37da13e8e56e727867120c52e5d35990e1e5ff1d07ef48a966ac27c574ad5"
+        },
+        {
+          "class": "aa",
+          "passed": true,
+          "beforeCanonicalSHA256": "77d65475185d6ad801ae9d06b9dddeec5de42e27c2d175dfad4d83a0225f48fa",
+          "afterCanonicalSHA256": "77d65475185d6ad801ae9d06b9dddeec5de42e27c2d175dfad4d83a0225f48fa"
+        },
+        {
+          "class": "ab",
+          "passed": true,
+          "beforeCanonicalSHA256": "e643d1fdb2f765ed058a6a8e5c54dfc8092a688bbd0856327d25d8bf24c4e7b5",
+          "afterCanonicalSHA256": "e643d1fdb2f765ed058a6a8e5c54dfc8092a688bbd0856327d25d8bf24c4e7b5"
+        },
+        {
+          "class": "ac",
+          "passed": true,
+          "beforeCanonicalSHA256": "753574ed8d66a7b24cbce5dd26f4cf8b05ebdf707873a5fb840e43a100d2c6ba",
+          "afterCanonicalSHA256": "753574ed8d66a7b24cbce5dd26f4cf8b05ebdf707873a5fb840e43a100d2c6ba"
+        },
+        {
+          "class": "ad",
+          "passed": true,
+          "beforeCanonicalSHA256": "3e5dae0d5acdc07448bdab600bf68ae97cee2379e0a8f08069e53409703c1ed3",
+          "afterCanonicalSHA256": "3e5dae0d5acdc07448bdab600bf68ae97cee2379e0a8f08069e53409703c1ed3"
+        },
+        {
+          "class": "ae",
+          "passed": true,
+          "beforeCanonicalSHA256": "4d4b1506c68f91bdfe0168ca12f8db5efcfb2731ed9d6821a99395553825a832",
+          "afterCanonicalSHA256": "4d4b1506c68f91bdfe0168ca12f8db5efcfb2731ed9d6821a99395553825a832"
+        },
+        {
+          "class": "af",
+          "passed": true,
+          "beforeCanonicalSHA256": "8a1207e67d26d92fd38e1244118c86105b70871e4d013787d9c0adb2fb63f094",
+          "afterCanonicalSHA256": "8a1207e67d26d92fd38e1244118c86105b70871e4d013787d9c0adb2fb63f094"
+        },
+        {
+          "class": "ag",
+          "passed": true,
+          "beforeCanonicalSHA256": "c28b69f4c09969311829037e3f151a470ebf051479c6133b31eeccca2518cdeb",
+          "afterCanonicalSHA256": "c28b69f4c09969311829037e3f151a470ebf051479c6133b31eeccca2518cdeb"
+        },
+        {
+          "class": "ah",
+          "passed": true,
+          "beforeCanonicalSHA256": "58a9912c25387ee9fea04f306d5ee71142768465125c39b4cd28d3a02ace06fc",
+          "afterCanonicalSHA256": "58a9912c25387ee9fea04f306d5ee71142768465125c39b4cd28d3a02ace06fc"
+        },
+        {
+          "class": "ai",
+          "passed": true,
+          "beforeCanonicalSHA256": "984532802dfa543a73944423dc0e58b944a3d8878b91147f4d4fce29dc4fdbce",
+          "afterCanonicalSHA256": "984532802dfa543a73944423dc0e58b944a3d8878b91147f4d4fce29dc4fdbce"
+        },
+        {
+          "class": "aj",
+          "passed": true,
+          "beforeCanonicalSHA256": "5b3f8f5311bb6ea05755389fd55a1898aadbad6415a129396e10c7184c8c2ede",
+          "afterCanonicalSHA256": "5b3f8f5311bb6ea05755389fd55a1898aadbad6415a129396e10c7184c8c2ede"
+        },
+        {
+          "class": "ak",
+          "passed": true,
+          "beforeCanonicalSHA256": "a4fa112ded681c1e17c49d6da5ab9f6039bda58e5fd4080f783e4fa8b295aa5a",
+          "afterCanonicalSHA256": "a4fa112ded681c1e17c49d6da5ab9f6039bda58e5fd4080f783e4fa8b295aa5a"
+        },
+        {
+          "class": "al",
+          "passed": true,
+          "beforeCanonicalSHA256": "a765d0093110b9fe665a762f8375260b3e20380af89cd47170507e460906fa52",
+          "afterCanonicalSHA256": "a765d0093110b9fe665a762f8375260b3e20380af89cd47170507e460906fa52"
+        },
+        {
+          "class": "am",
+          "passed": true,
+          "beforeCanonicalSHA256": "07c9914e82a2fa0ee8422eb1ea4eb60ab76bd4c3d58b46ffd0ebd8ab174cde06",
+          "afterCanonicalSHA256": "07c9914e82a2fa0ee8422eb1ea4eb60ab76bd4c3d58b46ffd0ebd8ab174cde06"
+        },
+        {
+          "class": "an",
+          "passed": true,
+          "beforeCanonicalSHA256": "471ffbfeaada2807e07ccb83b1370bf53a19be6b73488e5cea33d1ea650dbefe",
+          "afterCanonicalSHA256": "471ffbfeaada2807e07ccb83b1370bf53a19be6b73488e5cea33d1ea650dbefe"
+        },
+        {
+          "class": "ao",
+          "passed": true,
+          "beforeCanonicalSHA256": "5cfe30592d952ce9f96d96f4848d514852e1ff04b911b7051e36e6a3a21bee36",
+          "afterCanonicalSHA256": "5cfe30592d952ce9f96d96f4848d514852e1ff04b911b7051e36e6a3a21bee36"
+        },
+        {
+          "class": "ap",
+          "passed": true,
+          "beforeCanonicalSHA256": "023ff63d6e13a95d6c0e5908f17982e31c4ee6fb3eaa9b476c957362b969be1f",
+          "afterCanonicalSHA256": "023ff63d6e13a95d6c0e5908f17982e31c4ee6fb3eaa9b476c957362b969be1f"
+        },
+        {
+          "class": "aq",
+          "passed": true,
+          "beforeCanonicalSHA256": "e68b37458492ef644836510575d52de2723a2e622c6eb35e8a747360720b5d58",
+          "afterCanonicalSHA256": "e68b37458492ef644836510575d52de2723a2e622c6eb35e8a747360720b5d58"
+        },
+        {
+          "class": "ar",
+          "passed": true,
+          "beforeCanonicalSHA256": "6c794c426c71eb51f0fd7a0ccc8f023717ff0e1755d815a205ec228d2c024543",
+          "afterCanonicalSHA256": "6c794c426c71eb51f0fd7a0ccc8f023717ff0e1755d815a205ec228d2c024543"
+        },
+        {
+          "class": "as",
+          "passed": true,
+          "beforeCanonicalSHA256": "738b9ec3c4a7821becea745ee13088a4eacb6c9c79e2caa1099b24d6ceb504fe",
+          "afterCanonicalSHA256": "738b9ec3c4a7821becea745ee13088a4eacb6c9c79e2caa1099b24d6ceb504fe"
+        },
+        {
+          "class": "at",
+          "passed": true,
+          "beforeCanonicalSHA256": "8bca8e58015022b2ad69d208b3813cf6db2368d6789631fa4ae63fa213c5a2bc",
+          "afterCanonicalSHA256": "8bca8e58015022b2ad69d208b3813cf6db2368d6789631fa4ae63fa213c5a2bc"
+        },
+        {
+          "class": "au",
+          "passed": true,
+          "beforeCanonicalSHA256": "d214dcd664b9b92a6aeeeb6f8e04da2beb78658483e96d9c79c4830930debf74",
+          "afterCanonicalSHA256": "d214dcd664b9b92a6aeeeb6f8e04da2beb78658483e96d9c79c4830930debf74"
+        },
+        {
+          "class": "av",
+          "passed": true,
+          "beforeCanonicalSHA256": "b6ecde4175c692259a3d704e8e0dfb5b77dc14f22d2a53581ac7d5c6eddc9c5a",
+          "afterCanonicalSHA256": "b6ecde4175c692259a3d704e8e0dfb5b77dc14f22d2a53581ac7d5c6eddc9c5a"
+        },
+        {
+          "class": "aw",
+          "passed": true,
+          "beforeCanonicalSHA256": "7b7a06fd0ac12e48520603a1b67f23f4612b83bcbd997464175bb4dabff272f3",
+          "afterCanonicalSHA256": "7b7a06fd0ac12e48520603a1b67f23f4612b83bcbd997464175bb4dabff272f3"
+        },
+        {
+          "class": "ax",
+          "passed": true,
+          "beforeCanonicalSHA256": "819ff42f2622748199bb5744cb3ee11ecbe330c67c773dbf9d41a9102463aa33",
+          "afterCanonicalSHA256": "819ff42f2622748199bb5744cb3ee11ecbe330c67c773dbf9d41a9102463aa33"
+        },
+        {
+          "class": "ay",
+          "passed": true,
+          "beforeCanonicalSHA256": "890f0eec51394eb7e261cb52bc2ef8425a8c2e6f582d1db545c986a47fdd142d",
+          "afterCanonicalSHA256": "890f0eec51394eb7e261cb52bc2ef8425a8c2e6f582d1db545c986a47fdd142d"
+        },
+        {
+          "class": "az",
+          "passed": true,
+          "beforeCanonicalSHA256": "af63f9f6f314d395d2c1fdc37be65367a3b2f33790db49fd10fe17fd59fc2a10",
+          "afterCanonicalSHA256": "af63f9f6f314d395d2c1fdc37be65367a3b2f33790db49fd10fe17fd59fc2a10"
+        },
+        {
+          "class": "b",
+          "passed": true,
+          "beforeCanonicalSHA256": "90635b43f431fdbb0cfdfd3a55d4785d4a95c11af139629f9d4a8d13d3ad2e65",
+          "afterCanonicalSHA256": "90635b43f431fdbb0cfdfd3a55d4785d4a95c11af139629f9d4a8d13d3ad2e65"
+        },
+        {
+          "class": "ba",
+          "passed": true,
+          "beforeCanonicalSHA256": "58fcd2e50bf536bcedd1ece08c2c2b9caeefb222f30bdfe6129483524326a811",
+          "afterCanonicalSHA256": "58fcd2e50bf536bcedd1ece08c2c2b9caeefb222f30bdfe6129483524326a811"
+        },
+        {
+          "class": "bb",
+          "passed": true,
+          "beforeCanonicalSHA256": "2b49a1bfea1512e22ce780a1e18de7c1ff954027e6484cfb8f72e1073bb7921f",
+          "afterCanonicalSHA256": "2b49a1bfea1512e22ce780a1e18de7c1ff954027e6484cfb8f72e1073bb7921f"
+        },
+        {
+          "class": "bc",
+          "passed": true,
+          "beforeCanonicalSHA256": "3fc6eb56d674bc327caf130edaf789a08c61f15f4a8dce26beff951986e9910c",
+          "afterCanonicalSHA256": "3fc6eb56d674bc327caf130edaf789a08c61f15f4a8dce26beff951986e9910c"
+        },
+        {
+          "class": "bd",
+          "passed": true,
+          "beforeCanonicalSHA256": "b9b36563f1fc2345c4654e4639810a2db5052ea4469c258f3406e3797608b92d",
+          "afterCanonicalSHA256": "b9b36563f1fc2345c4654e4639810a2db5052ea4469c258f3406e3797608b92d"
+        },
+        {
+          "class": "be",
+          "passed": true,
+          "beforeCanonicalSHA256": "1f0772a0ad598d1d5963c8d355f6ea0bce7be5d31489d5ef5778ceb5186252a0",
+          "afterCanonicalSHA256": "1f0772a0ad598d1d5963c8d355f6ea0bce7be5d31489d5ef5778ceb5186252a0"
+        },
+        {
+          "class": "bf",
+          "passed": true,
+          "beforeCanonicalSHA256": "99039e9a7481f37add820489ee54c7d6cb11a34021858629470769e4ff40251f",
+          "afterCanonicalSHA256": "99039e9a7481f37add820489ee54c7d6cb11a34021858629470769e4ff40251f"
+        },
+        {
+          "class": "bg",
+          "passed": true,
+          "beforeCanonicalSHA256": "9495fbb0326873c4de304ca449d15d3d3a4e813f2aa3ce5f29e32f2b77376685",
+          "afterCanonicalSHA256": "9495fbb0326873c4de304ca449d15d3d3a4e813f2aa3ce5f29e32f2b77376685"
+        },
+        {
+          "class": "bh",
+          "passed": true,
+          "beforeCanonicalSHA256": "f0097d9d55ad1a3acf3df57863fad319f951fb5eb2a1b83d1ff04f66f6ee0530",
+          "afterCanonicalSHA256": "f0097d9d55ad1a3acf3df57863fad319f951fb5eb2a1b83d1ff04f66f6ee0530"
+        },
+        {
+          "class": "bi",
+          "passed": true,
+          "beforeCanonicalSHA256": "efc6e78c3c9855cede8665a8bbfbe13c70936f0fd18c81a2a0e3a1bf819287b8",
+          "afterCanonicalSHA256": "efc6e78c3c9855cede8665a8bbfbe13c70936f0fd18c81a2a0e3a1bf819287b8"
+        },
+        {
+          "class": "bj",
+          "passed": true,
+          "beforeCanonicalSHA256": "4290557b3bf4579a36868beaa6883362e272de9499dbbffb51d27160e2eb8a00",
+          "afterCanonicalSHA256": "4290557b3bf4579a36868beaa6883362e272de9499dbbffb51d27160e2eb8a00"
+        },
+        {
+          "class": "bk",
+          "passed": true,
+          "beforeCanonicalSHA256": "3e5c1cbca57d3d4964bce1945d29067ab72f32e689446bb541465784c63b282f",
+          "afterCanonicalSHA256": "3e5c1cbca57d3d4964bce1945d29067ab72f32e689446bb541465784c63b282f"
+        },
+        {
+          "class": "bl",
+          "passed": true,
+          "beforeCanonicalSHA256": "1b905e8847f381e66e9f82371164a0d1ebc0c44f99e7da74fa4f1f92a87e9c69",
+          "afterCanonicalSHA256": "1b905e8847f381e66e9f82371164a0d1ebc0c44f99e7da74fa4f1f92a87e9c69"
+        },
+        {
+          "class": "bm",
+          "passed": true,
+          "beforeCanonicalSHA256": "28a57cbe91e96b59e380535e0a7ecebfd66499cf9a4582d98c8d31946a778140",
+          "afterCanonicalSHA256": "28a57cbe91e96b59e380535e0a7ecebfd66499cf9a4582d98c8d31946a778140"
+        },
+        {
+          "class": "bn",
+          "passed": true,
+          "beforeCanonicalSHA256": "f5021b5264387e31e2d5470ff6494426db8e5af02443d36c41ee4186582d7c82",
+          "afterCanonicalSHA256": "f5021b5264387e31e2d5470ff6494426db8e5af02443d36c41ee4186582d7c82"
+        },
+        {
+          "class": "bo",
+          "passed": true,
+          "beforeCanonicalSHA256": "09a9a51f835d4afdd8af1d8698a0a0c96918931ec8daf50534e568f673574464",
+          "afterCanonicalSHA256": "09a9a51f835d4afdd8af1d8698a0a0c96918931ec8daf50534e568f673574464"
+        },
+        {
+          "class": "bp",
+          "passed": true,
+          "beforeCanonicalSHA256": "9a080ba190527f2ac80eede33e1f968395c978f1d95da99999c2b0ce11faccd6",
+          "afterCanonicalSHA256": "9a080ba190527f2ac80eede33e1f968395c978f1d95da99999c2b0ce11faccd6"
+        },
+        {
+          "class": "bq",
+          "passed": true,
+          "beforeCanonicalSHA256": "1c8f35609165c2244fd7ecd6162fb5f3c92747fda35c8f58613b0d3324ec3013",
+          "afterCanonicalSHA256": "1c8f35609165c2244fd7ecd6162fb5f3c92747fda35c8f58613b0d3324ec3013"
+        },
+        {
+          "class": "br",
+          "passed": true,
+          "beforeCanonicalSHA256": "6bc896ea3445bdbc95e3dd20d5aa30853808eacc5c2252376ef69fb423660d09",
+          "afterCanonicalSHA256": "6bc896ea3445bdbc95e3dd20d5aa30853808eacc5c2252376ef69fb423660d09"
+        },
+        {
+          "class": "bs",
+          "passed": true,
+          "beforeCanonicalSHA256": "f682be761b84a9b75e2c3101dd3855ed2c5f2a6d5946308e187c5bd1338b39bf",
+          "afterCanonicalSHA256": "f682be761b84a9b75e2c3101dd3855ed2c5f2a6d5946308e187c5bd1338b39bf"
+        },
+        {
+          "class": "bt",
+          "passed": true,
+          "beforeCanonicalSHA256": "9d9be0b07e0648bd166bae558b0ed37052ce5e4767912963bd19b806c38f54cc",
+          "afterCanonicalSHA256": "9d9be0b07e0648bd166bae558b0ed37052ce5e4767912963bd19b806c38f54cc"
+        },
+        {
+          "class": "bu",
+          "passed": true,
+          "beforeCanonicalSHA256": "87da58020ee10551dd38c230e490802b7f98ea91409e432d7300f9df19205bb4",
+          "afterCanonicalSHA256": "87da58020ee10551dd38c230e490802b7f98ea91409e432d7300f9df19205bb4"
+        },
+        {
+          "class": "bv",
+          "passed": true,
+          "beforeCanonicalSHA256": "f7a3be31465edda6db13afd83791e8d2576932dffd86b2f7f7cc55806ae3eb73",
+          "afterCanonicalSHA256": "f7a3be31465edda6db13afd83791e8d2576932dffd86b2f7f7cc55806ae3eb73"
+        },
+        {
+          "class": "bw",
+          "passed": true,
+          "beforeCanonicalSHA256": "f8b80f8c02426b3bd76713426a16f0e5a2c30fd400d6677939b1d9102890ed9a",
+          "afterCanonicalSHA256": "f8b80f8c02426b3bd76713426a16f0e5a2c30fd400d6677939b1d9102890ed9a"
+        },
+        {
+          "class": "bx",
+          "passed": true,
+          "beforeCanonicalSHA256": "6402d94d13fdfb2f83785bfa1c99f434eff2ad17986164b0148dfb1577461724",
+          "afterCanonicalSHA256": "6402d94d13fdfb2f83785bfa1c99f434eff2ad17986164b0148dfb1577461724"
+        },
+        {
+          "class": "by",
+          "passed": true,
+          "beforeCanonicalSHA256": "74ef9f7ff743ea615724718a20e86e3d1101e6430e06652fa1011464ce026b8e",
+          "afterCanonicalSHA256": "74ef9f7ff743ea615724718a20e86e3d1101e6430e06652fa1011464ce026b8e"
+        },
+        {
+          "class": "bz",
+          "passed": true,
+          "beforeCanonicalSHA256": "a6472100c8b0305525ccbb21abb742dbc02b3a24382660d7f2334003dfd785c9",
+          "afterCanonicalSHA256": "a6472100c8b0305525ccbb21abb742dbc02b3a24382660d7f2334003dfd785c9"
+        },
+        {
+          "class": "c",
+          "passed": true,
+          "beforeCanonicalSHA256": "fc92553ff69ab6f6149c2bb2273c760497792c31b878bca783d787925bd65d69",
+          "afterCanonicalSHA256": "fc92553ff69ab6f6149c2bb2273c760497792c31b878bca783d787925bd65d69"
+        },
+        {
+          "class": "ca",
+          "passed": true,
+          "beforeCanonicalSHA256": "e86ca4a4c8244d42cf6175b58ab8aafb32be06b17a35a39d56a5cf3db1a5500b",
+          "afterCanonicalSHA256": "e86ca4a4c8244d42cf6175b58ab8aafb32be06b17a35a39d56a5cf3db1a5500b"
+        },
+        {
+          "class": "cb",
+          "passed": true,
+          "beforeCanonicalSHA256": "545c7788c23155de116c3788da43bb71c0240f4fa8dcd2aa72488df453fe110f",
+          "afterCanonicalSHA256": "545c7788c23155de116c3788da43bb71c0240f4fa8dcd2aa72488df453fe110f"
+        },
+        {
+          "class": "cc",
+          "passed": true,
+          "beforeCanonicalSHA256": "48e444e524c33cf9a3197eb551a19935ba9beec3483381a7ff425954db278ecf",
+          "afterCanonicalSHA256": "48e444e524c33cf9a3197eb551a19935ba9beec3483381a7ff425954db278ecf"
+        },
+        {
+          "class": "cd",
+          "passed": true,
+          "beforeCanonicalSHA256": "95b6995cc8f3bf276464f54b31f831ea6efcb2beed135f3e2b23a16266c3effe",
+          "afterCanonicalSHA256": "95b6995cc8f3bf276464f54b31f831ea6efcb2beed135f3e2b23a16266c3effe"
+        },
+        {
+          "class": "ce",
+          "passed": true,
+          "beforeCanonicalSHA256": "c21776d48221d8355ffdc92eec3a6dc3d65e122f8a30356a2f53004afcedf552",
+          "afterCanonicalSHA256": "c21776d48221d8355ffdc92eec3a6dc3d65e122f8a30356a2f53004afcedf552"
+        },
+        {
+          "class": "cf",
+          "passed": true,
+          "beforeCanonicalSHA256": "4deb757bdc18404a8367fdd1234c1571553fa56b71fc184fc2f9cdec2fa5c3b1",
+          "afterCanonicalSHA256": "4deb757bdc18404a8367fdd1234c1571553fa56b71fc184fc2f9cdec2fa5c3b1"
+        },
+        {
+          "class": "cg",
+          "passed": true,
+          "beforeCanonicalSHA256": "d7d39ef4b04ef07e14830c4b085eab0eda5b4e8fa5bf99d75735443e783b9ad4",
+          "afterCanonicalSHA256": "d7d39ef4b04ef07e14830c4b085eab0eda5b4e8fa5bf99d75735443e783b9ad4"
+        },
+        {
+          "class": "ch",
+          "passed": true,
+          "beforeCanonicalSHA256": "c30cbad37415a166bbb0b63e6266f14c54abc756ecf31750d53b9ee38c92788e",
+          "afterCanonicalSHA256": "c30cbad37415a166bbb0b63e6266f14c54abc756ecf31750d53b9ee38c92788e"
+        },
+        {
+          "class": "ci",
+          "passed": true,
+          "beforeCanonicalSHA256": "0f42dde4d2356c41c782180cba8a9e1f825087c7a0980ce80c87cac1afdd2dc8",
+          "afterCanonicalSHA256": "0f42dde4d2356c41c782180cba8a9e1f825087c7a0980ce80c87cac1afdd2dc8"
+        },
+        {
+          "class": "cj",
+          "passed": true,
+          "beforeCanonicalSHA256": "08a328f22de04c6465c299cb7ca7be809e72bd8de09a1cdc7145d660194d5038",
+          "afterCanonicalSHA256": "08a328f22de04c6465c299cb7ca7be809e72bd8de09a1cdc7145d660194d5038"
+        },
+        {
+          "class": "ck",
+          "passed": true,
+          "beforeCanonicalSHA256": "7a4aa72db3552aa9c2868ccd1fd1deab5f78d45656fd3d64d71a647fb51dc96e",
+          "afterCanonicalSHA256": "7a4aa72db3552aa9c2868ccd1fd1deab5f78d45656fd3d64d71a647fb51dc96e"
+        },
+        {
+          "class": "cl",
+          "passed": true,
+          "beforeCanonicalSHA256": "47db3ccdaddaefb77d0f95906fde7dd3be2a489c8bffb6df34447cf669e2388e",
+          "afterCanonicalSHA256": "47db3ccdaddaefb77d0f95906fde7dd3be2a489c8bffb6df34447cf669e2388e"
+        },
+        {
+          "class": "cm",
+          "passed": true,
+          "beforeCanonicalSHA256": "f8429ec6ce6b2c7a1a9dd309d0e8beb02095e3c5e8295c4d22f12429e8c4708f",
+          "afterCanonicalSHA256": "f8429ec6ce6b2c7a1a9dd309d0e8beb02095e3c5e8295c4d22f12429e8c4708f"
+        },
+        {
+          "class": "cn",
+          "passed": true,
+          "beforeCanonicalSHA256": "73b95c41e72953c7336350122c515eb78a34c13dff8b3b414db0c1fef93b0db9",
+          "afterCanonicalSHA256": "73b95c41e72953c7336350122c515eb78a34c13dff8b3b414db0c1fef93b0db9"
+        },
+        {
+          "class": "co",
+          "passed": true,
+          "beforeCanonicalSHA256": "fa95e1f7574a75e24f63020c2635df0fada05132b1b5500c482d545edf92b999",
+          "afterCanonicalSHA256": "fa95e1f7574a75e24f63020c2635df0fada05132b1b5500c482d545edf92b999"
+        },
+        {
+          "class": "cp",
+          "passed": true,
+          "beforeCanonicalSHA256": "e61e552860436804cd161ec7659e642a163892561475088fb0cc4b559a7779d6",
+          "afterCanonicalSHA256": "e61e552860436804cd161ec7659e642a163892561475088fb0cc4b559a7779d6"
+        },
+        {
+          "class": "cq",
+          "passed": true,
+          "beforeCanonicalSHA256": "f51950d89caba674ec417a58862f185a0671f0f80eef6f07d97c3ac242fd9196",
+          "afterCanonicalSHA256": "f51950d89caba674ec417a58862f185a0671f0f80eef6f07d97c3ac242fd9196"
+        },
+        {
+          "class": "cr",
+          "passed": true,
+          "beforeCanonicalSHA256": "8c157907ca3bb13a3d7b47fcb13334d8c8570681db5374c29e645d05b5c9a873",
+          "afterCanonicalSHA256": "8c157907ca3bb13a3d7b47fcb13334d8c8570681db5374c29e645d05b5c9a873"
+        },
+        {
+          "class": "cs",
+          "passed": true,
+          "beforeCanonicalSHA256": "b2eb7ee47082de0f4159dec0473a1091ed3bcb5f656c3d62d15120823c7fc32b",
+          "afterCanonicalSHA256": "b2eb7ee47082de0f4159dec0473a1091ed3bcb5f656c3d62d15120823c7fc32b"
+        },
+        {
+          "class": "ct",
+          "passed": true,
+          "beforeCanonicalSHA256": "8cd61db7d96117ce9ae8c444a12e3250792a61dadff467e003a00820f4ead8f0",
+          "afterCanonicalSHA256": "8cd61db7d96117ce9ae8c444a12e3250792a61dadff467e003a00820f4ead8f0"
+        },
+        {
+          "class": "cu",
+          "passed": true,
+          "beforeCanonicalSHA256": "20799da72419bad1744f6f59ef531b38e8f85ee7471cb134b00b4af2e0b7e436",
+          "afterCanonicalSHA256": "20799da72419bad1744f6f59ef531b38e8f85ee7471cb134b00b4af2e0b7e436"
+        },
+        {
+          "class": "cv",
+          "passed": true,
+          "beforeCanonicalSHA256": "1ef6697bf16eac6bd8281ee95c7f48f67f549293a7ca876ba387f8d05810411f",
+          "afterCanonicalSHA256": "1ef6697bf16eac6bd8281ee95c7f48f67f549293a7ca876ba387f8d05810411f"
+        },
+        {
+          "class": "cw",
+          "passed": true,
+          "beforeCanonicalSHA256": "df5b252501df7277e13e149cb2f0bdf1c4540d53ae33fe900de8c14aa07e0a7d",
+          "afterCanonicalSHA256": "df5b252501df7277e13e149cb2f0bdf1c4540d53ae33fe900de8c14aa07e0a7d"
+        },
+        {
+          "class": "cx",
+          "passed": true,
+          "beforeCanonicalSHA256": "7a87307669deb1c3eca5ffd1661c30c83592aaeebdb815907bfbfc01614277f9",
+          "afterCanonicalSHA256": "7a87307669deb1c3eca5ffd1661c30c83592aaeebdb815907bfbfc01614277f9"
+        },
+        {
+          "class": "cy",
+          "passed": true,
+          "beforeCanonicalSHA256": "c5f1f90b7373efcd213f1a65a6c095ce826f7ba83bc67fe1838bf2758db097bc",
+          "afterCanonicalSHA256": "c5f1f90b7373efcd213f1a65a6c095ce826f7ba83bc67fe1838bf2758db097bc"
+        },
+        {
+          "class": "cz",
+          "passed": true,
+          "beforeCanonicalSHA256": "ea274190c6817a7c066e46a9ba0fdf92929e8b520cf1c48cdf007dfb2d579358",
+          "afterCanonicalSHA256": "ea274190c6817a7c066e46a9ba0fdf92929e8b520cf1c48cdf007dfb2d579358"
+        },
+        {
+          "class": "d",
+          "passed": true,
+          "beforeCanonicalSHA256": "b5de662cba5daf9c722976ad1f3ab8d0b2841c33dcfe721a7be6e8e7fe525a59",
+          "afterCanonicalSHA256": "b5de662cba5daf9c722976ad1f3ab8d0b2841c33dcfe721a7be6e8e7fe525a59"
+        },
+        {
+          "class": "da",
+          "passed": true,
+          "beforeCanonicalSHA256": "dc4e128eb6414ca0bb52e8d1fb0dd40f49562ddda147dc425512b26a5b47a708",
+          "afterCanonicalSHA256": "dc4e128eb6414ca0bb52e8d1fb0dd40f49562ddda147dc425512b26a5b47a708"
+        },
+        {
+          "class": "db",
+          "passed": true,
+          "beforeCanonicalSHA256": "df6624180b224d19991c12ba50fdff4b89a30af35a4425141dc4fac1fce461a2",
+          "afterCanonicalSHA256": "df6624180b224d19991c12ba50fdff4b89a30af35a4425141dc4fac1fce461a2"
+        },
+        {
+          "class": "dc",
+          "passed": true,
+          "beforeCanonicalSHA256": "7e36a06363df3d96573759b256aefa9720ab859a3299ac09a4c213c4bb2866c3",
+          "afterCanonicalSHA256": "7e36a06363df3d96573759b256aefa9720ab859a3299ac09a4c213c4bb2866c3"
+        },
+        {
+          "class": "dd",
+          "passed": true,
+          "beforeCanonicalSHA256": "0d6a22e6982eb22ef30bcace7ed24c27d0533cc425979273002f3ef99891bb7f",
+          "afterCanonicalSHA256": "0d6a22e6982eb22ef30bcace7ed24c27d0533cc425979273002f3ef99891bb7f"
+        },
+        {
+          "class": "de",
+          "passed": true,
+          "beforeCanonicalSHA256": "8c62fec069bbbff9481468a388eaced6f3971e1f7bcbc24e8f64f98a0d1f4889",
+          "afterCanonicalSHA256": "8c62fec069bbbff9481468a388eaced6f3971e1f7bcbc24e8f64f98a0d1f4889"
+        },
+        {
+          "class": "df",
+          "passed": true,
+          "beforeCanonicalSHA256": "9eb8c7beb918fe62550964cd1ae9783077d6097bcdd38b3ada68377b6bc2634f",
+          "afterCanonicalSHA256": "9eb8c7beb918fe62550964cd1ae9783077d6097bcdd38b3ada68377b6bc2634f"
+        },
+        {
+          "class": "dg",
+          "passed": true,
+          "beforeCanonicalSHA256": "7fb01d94f8a65eb18b28ef8cee9bfd0f1b9c7ab8859f8e090c166d49972c800f",
+          "afterCanonicalSHA256": "7fb01d94f8a65eb18b28ef8cee9bfd0f1b9c7ab8859f8e090c166d49972c800f"
+        },
+        {
+          "class": "dh",
+          "passed": true,
+          "beforeCanonicalSHA256": "eac7ba2273db09c311bbf6e06cd9d457ccf206cf2dc0e4c1d48125d360577c34",
+          "afterCanonicalSHA256": "eac7ba2273db09c311bbf6e06cd9d457ccf206cf2dc0e4c1d48125d360577c34"
+        },
+        {
+          "class": "di",
+          "passed": true,
+          "beforeCanonicalSHA256": "99a13638129dbf5879635c15ee1de57ae6b4561968b650fbfd88e19f419a55cb",
+          "afterCanonicalSHA256": "99a13638129dbf5879635c15ee1de57ae6b4561968b650fbfd88e19f419a55cb"
+        },
+        {
+          "class": "dj",
+          "passed": true,
+          "beforeCanonicalSHA256": "b2db292e13959991c8ae1487c28be689f902275beeffbeebd4711b7b6acaa4d6",
+          "afterCanonicalSHA256": "b2db292e13959991c8ae1487c28be689f902275beeffbeebd4711b7b6acaa4d6"
+        },
+        {
+          "class": "dk",
+          "passed": true,
+          "beforeCanonicalSHA256": "962948338498c4334588458d328e621067c93f85a7ab049254e353cb79b0b35c",
+          "afterCanonicalSHA256": "962948338498c4334588458d328e621067c93f85a7ab049254e353cb79b0b35c"
+        },
+        {
+          "class": "dl",
+          "passed": true,
+          "beforeCanonicalSHA256": "a4be5a4852964329013d5926f8b26b9c8a0237fb0641ada0f34f27e328f8913e",
+          "afterCanonicalSHA256": "a4be5a4852964329013d5926f8b26b9c8a0237fb0641ada0f34f27e328f8913e"
+        },
+        {
+          "class": "dm",
+          "passed": true,
+          "beforeCanonicalSHA256": "2dc32e3441370ef0254c06d273dbe731c4aaeb326e0899b2303f50f51692b0a7",
+          "afterCanonicalSHA256": "2dc32e3441370ef0254c06d273dbe731c4aaeb326e0899b2303f50f51692b0a7"
+        },
+        {
+          "class": "dn",
+          "passed": true,
+          "beforeCanonicalSHA256": "e0822820cdd2c32c57401da1863eb9be3e87e7a6b2060db08856dfc0ad7d166f",
+          "afterCanonicalSHA256": "e0822820cdd2c32c57401da1863eb9be3e87e7a6b2060db08856dfc0ad7d166f"
+        },
+        {
+          "class": "do",
+          "passed": true,
+          "beforeCanonicalSHA256": "5e10cc66e40accf98456d3a0f2e76cf1691e6afb72c73c119f4144de5a9e0499",
+          "afterCanonicalSHA256": "5e10cc66e40accf98456d3a0f2e76cf1691e6afb72c73c119f4144de5a9e0499"
+        },
+        {
+          "class": "dp",
+          "passed": true,
+          "beforeCanonicalSHA256": "c90e003210b2ece415b99dc1561c1bb2696ae0ad2f26f684774719067f92f8ba",
+          "afterCanonicalSHA256": "c90e003210b2ece415b99dc1561c1bb2696ae0ad2f26f684774719067f92f8ba"
+        },
+        {
+          "class": "dq",
+          "passed": true,
+          "beforeCanonicalSHA256": "25a016bb05dd024c690dee00deb0bee837bf700f982723a9fb11b1a0e5fe6ba8",
+          "afterCanonicalSHA256": "25a016bb05dd024c690dee00deb0bee837bf700f982723a9fb11b1a0e5fe6ba8"
+        },
+        {
+          "class": "dr",
+          "passed": true,
+          "beforeCanonicalSHA256": "8fb06711ff7728bad497bcfa3d278265a84eb05c5b180ce19d8a2fd6ca6a96b9",
+          "afterCanonicalSHA256": "8fb06711ff7728bad497bcfa3d278265a84eb05c5b180ce19d8a2fd6ca6a96b9"
+        },
+        {
+          "class": "ds",
+          "passed": true,
+          "beforeCanonicalSHA256": "f928fecaf5f0ceaf8efbaebcd1830b4ddb775566d36776f6ac39d0301beeb834",
+          "afterCanonicalSHA256": "f928fecaf5f0ceaf8efbaebcd1830b4ddb775566d36776f6ac39d0301beeb834"
+        },
+        {
+          "class": "dt",
+          "passed": true,
+          "beforeCanonicalSHA256": "76a8aacdb55c43fbf51f38858bcec9511a8c462287e24283325d9e46069c170f",
+          "afterCanonicalSHA256": "76a8aacdb55c43fbf51f38858bcec9511a8c462287e24283325d9e46069c170f"
+        },
+        {
+          "class": "du",
+          "passed": true,
+          "beforeCanonicalSHA256": "c36c00617511559bb529f82dc94a46f40571f3c9ef03c42836879b05ed42b6b6",
+          "afterCanonicalSHA256": "c36c00617511559bb529f82dc94a46f40571f3c9ef03c42836879b05ed42b6b6"
+        },
+        {
+          "class": "dv",
+          "passed": true,
+          "beforeCanonicalSHA256": "dd785fb89d4288d50c33ca472c5221cb29df4ea166d978e53261119ba5dfb257",
+          "afterCanonicalSHA256": "dd785fb89d4288d50c33ca472c5221cb29df4ea166d978e53261119ba5dfb257"
+        },
+        {
+          "class": "e",
+          "passed": true,
+          "beforeCanonicalSHA256": "3fa30fdf454c53699084454d846d1e17a43d219cddb37be8708132e4d36804ce",
+          "afterCanonicalSHA256": "3fa30fdf454c53699084454d846d1e17a43d219cddb37be8708132e4d36804ce"
+        },
+        {
+          "class": "f",
+          "passed": true,
+          "beforeCanonicalSHA256": "d6566f8c6cb5201f526781195db7929ec65af9fc8917856219e65f648bca1904",
+          "afterCanonicalSHA256": "d6566f8c6cb5201f526781195db7929ec65af9fc8917856219e65f648bca1904"
+        },
+        {
+          "class": "g",
+          "passed": true,
+          "beforeCanonicalSHA256": "dd6b8b4d3978edb6cedcb7a4b1bfd3b2f6e91b8433011bbd9e7a267fc9cb1563",
+          "afterCanonicalSHA256": "dd6b8b4d3978edb6cedcb7a4b1bfd3b2f6e91b8433011bbd9e7a267fc9cb1563"
+        },
+        {
+          "class": "h",
+          "passed": true,
+          "beforeCanonicalSHA256": "319124b80f5176d22e2a3a5f3ee43f33d0f0c2d64544f28c71c64f2c0465a714",
+          "afterCanonicalSHA256": "319124b80f5176d22e2a3a5f3ee43f33d0f0c2d64544f28c71c64f2c0465a714"
+        },
+        {
+          "class": "i",
+          "passed": true,
+          "beforeCanonicalSHA256": "00e8fe4b812fc1ac947519be1a3351308f66ee8683ded879240fc88f0e6675b2",
+          "afterCanonicalSHA256": "00e8fe4b812fc1ac947519be1a3351308f66ee8683ded879240fc88f0e6675b2"
+        },
+        {
+          "class": "j",
+          "passed": true,
+          "beforeCanonicalSHA256": "78dae8b089b07048a59bccaeaa3e84cf36346d14fd4ec192c92e9aa1bd023b03",
+          "afterCanonicalSHA256": "78dae8b089b07048a59bccaeaa3e84cf36346d14fd4ec192c92e9aa1bd023b03"
+        },
+        {
+          "class": "k",
+          "passed": true,
+          "beforeCanonicalSHA256": "e5e9a86d41e07498f9170ca8c8c8175191e6c905bc1e481be61efae70db46c74",
+          "afterCanonicalSHA256": "e5e9a86d41e07498f9170ca8c8c8175191e6c905bc1e481be61efae70db46c74"
+        },
+        {
+          "class": "l",
+          "passed": true,
+          "beforeCanonicalSHA256": "b48b0590ba6a75110b97af3d399b7ee398d94a3e0905c0d87753c2276ab981a6",
+          "afterCanonicalSHA256": "b48b0590ba6a75110b97af3d399b7ee398d94a3e0905c0d87753c2276ab981a6"
+        },
+        {
+          "class": "m",
+          "passed": true,
+          "beforeCanonicalSHA256": "c2ffc82e18f9f445911bb86bffaf0dbc18b07cbd7ee80d397b31319111b5660c",
+          "afterCanonicalSHA256": "c2ffc82e18f9f445911bb86bffaf0dbc18b07cbd7ee80d397b31319111b5660c"
+        },
+        {
+          "class": "main/GameMidlet",
+          "passed": true,
+          "beforeCanonicalSHA256": "fe312f4a85eac7590181aab9fccb12adb58dc1ea85d4d32926886ad288acee46",
+          "afterCanonicalSHA256": "fe312f4a85eac7590181aab9fccb12adb58dc1ea85d4d32926886ad288acee46"
+        },
+        {
+          "class": "main/a",
+          "passed": true,
+          "beforeCanonicalSHA256": "af8f6585970d67d77b7173c8ebec7db670aaacc7d9bedab0da8d5e0e0e73745b",
+          "afterCanonicalSHA256": "af8f6585970d67d77b7173c8ebec7db670aaacc7d9bedab0da8d5e0e0e73745b"
+        },
+        {
+          "class": "main/b",
+          "passed": true,
+          "beforeCanonicalSHA256": "14691cfdd3e42269a350c169bbd80051628afacbb88088cf1aa1dce59f09b550",
+          "afterCanonicalSHA256": "14691cfdd3e42269a350c169bbd80051628afacbb88088cf1aa1dce59f09b550"
+        },
+        {
+          "class": "main/c",
+          "passed": true,
+          "beforeCanonicalSHA256": "a192ec04b00f267e169d04115bc7b897431b655ec95e604323192494d71e73ba",
+          "afterCanonicalSHA256": "a192ec04b00f267e169d04115bc7b897431b655ec95e604323192494d71e73ba"
+        },
+        {
+          "class": "n",
+          "passed": true,
+          "beforeCanonicalSHA256": "611083e7d7ad8637688b2cc7bf6a17e823443416e42c48d3ce7bc4ae5ba7991b",
+          "afterCanonicalSHA256": "611083e7d7ad8637688b2cc7bf6a17e823443416e42c48d3ce7bc4ae5ba7991b"
+        },
+        {
+          "class": "o",
+          "passed": true,
+          "beforeCanonicalSHA256": "9220b2babed9a8e0077fbebf480d638ae98212e624a67a8ff33d310a117a52b4",
+          "afterCanonicalSHA256": "9220b2babed9a8e0077fbebf480d638ae98212e624a67a8ff33d310a117a52b4"
+        },
+        {
+          "class": "p",
+          "passed": true,
+          "beforeCanonicalSHA256": "e3cda6d705224ec9e04b0da0df82b3614a63750124232205390a7cc8555f4379",
+          "afterCanonicalSHA256": "e3cda6d705224ec9e04b0da0df82b3614a63750124232205390a7cc8555f4379"
+        },
+        {
+          "class": "q",
+          "passed": true,
+          "beforeCanonicalSHA256": "6a26993a4c6b31a634c16f1e6b7c333f004950379e9c41d8bfcfa059031e598d",
+          "afterCanonicalSHA256": "6a26993a4c6b31a634c16f1e6b7c333f004950379e9c41d8bfcfa059031e598d"
+        },
+        {
+          "class": "r",
+          "passed": true,
+          "beforeCanonicalSHA256": "b35e4ef730708908e66c4f05d1fe5fd194f2012c4e06ff45f491ff8200888fd0",
+          "afterCanonicalSHA256": "b35e4ef730708908e66c4f05d1fe5fd194f2012c4e06ff45f491ff8200888fd0"
+        },
+        {
+          "class": "s",
+          "passed": true,
+          "beforeCanonicalSHA256": "9e532a6e0a9ce7dd48696a839ca48be596df629b96b087626af4740ab5edba35",
+          "afterCanonicalSHA256": "9e532a6e0a9ce7dd48696a839ca48be596df629b96b087626af4740ab5edba35"
+        },
+        {
+          "class": "t",
+          "passed": true,
+          "beforeCanonicalSHA256": "4e1fba0ede56ab16f6a6982b40ba955b5a2571e9e6cb6c9ece2fe2db99d57cf2",
+          "afterCanonicalSHA256": "4e1fba0ede56ab16f6a6982b40ba955b5a2571e9e6cb6c9ece2fe2db99d57cf2"
+        },
+        {
+          "class": "u",
+          "passed": true,
+          "beforeCanonicalSHA256": "46aa72f16d5e31884ada465b5bc7faad6a7b51ac69d17be72e48477ac8db9a56",
+          "afterCanonicalSHA256": "46aa72f16d5e31884ada465b5bc7faad6a7b51ac69d17be72e48477ac8db9a56"
+        },
+        {
+          "class": "v",
+          "passed": true,
+          "beforeCanonicalSHA256": "4556d0479c7cd4f867f37cee50d9c7c85d230ad770317a764cb6cf44fe3f069b",
+          "afterCanonicalSHA256": "4556d0479c7cd4f867f37cee50d9c7c85d230ad770317a764cb6cf44fe3f069b"
+        },
+        {
+          "class": "w",
+          "passed": true,
+          "beforeCanonicalSHA256": "419c5cc218613d71beb566bf7e3bfcc23aba6b9cd4206ebbc59d2ae0a12dd499",
+          "afterCanonicalSHA256": "419c5cc218613d71beb566bf7e3bfcc23aba6b9cd4206ebbc59d2ae0a12dd499"
+        },
+        {
+          "class": "x",
+          "passed": true,
+          "beforeCanonicalSHA256": "ccd15a108a7421efb6da9095a9dcb682a19fe1941a920b0e888615d5a53aec51",
+          "afterCanonicalSHA256": "ccd15a108a7421efb6da9095a9dcb682a19fe1941a920b0e888615d5a53aec51"
+        },
+        {
+          "class": "y",
+          "passed": true,
+          "beforeCanonicalSHA256": "3281d42231e3f7ce9265bd4ec703db8455f8197ba881855c2bc5c8b4ed1d76d2",
+          "afterCanonicalSHA256": "3281d42231e3f7ce9265bd4ec703db8455f8197ba881855c2bc5c8b4ed1d76d2"
+        },
+        {
+          "class": "z",
+          "passed": true,
+          "beforeCanonicalSHA256": "52241450cbbe9f758eeb4758a6c01cec53989b538a46445c10155ed72f960173",
+          "afterCanonicalSHA256": "52241450cbbe9f758eeb4758a6c01cec53989b538a46445c10155ed72f960173"
+        }
+      ],
+      "scope": "Exact canonical class bytes after descriptor-aware inverse name remapping on both ECJ builds. Debug attributes/stack-map frames excluded; instructions, branch targets, ordered exception tables, member/access metadata, constants, maxStack/maxLocals included. This validates this name-only refactor against the already-rebuilt baseline, not full equivalence to the original JAR or recovery of pre-obfuscation names."
+    }
+  },
+  "linkage": {
+    "release": {
+      "jar": "source/dist/NinjaSchool_251-source-rebuilt.jar",
+      "verifiedClasses": [
+        {
+          "class": "main/CanvasAdapter",
+          "methods": 7,
+          "fields": 0
+        },
+        {
+          "class": "main/GameCanvas",
+          "methods": 45,
+          "fields": 91
+        },
+        {
+          "class": "main/GameMidlet",
+          "methods": 15,
+          "fields": 20
+        },
+        {
+          "class": "main/MotherCanvas",
+          "methods": 11,
+          "fields": 6
+        },
+        {
+          "class": "nso/AnimateEffect",
+          "methods": 5,
+          "fields": 7
+        },
+        {
+          "class": "nso/AnimationAction",
+          "methods": 1,
+          "fields": 0
+        },
+        {
+          "class": "nso/Arrow",
+          "methods": 5,
+          "fields": 14
+        },
+        {
+          "class": "nso/Arrowpaint",
+          "methods": 2,
+          "fields": 1
+        },
+        {
+          "class": "nso/BuNhin",
+          "methods": 1,
+          "fields": 4
+        },
+        {
+          "class": "nso/Char",
+          "methods": 131,
+          "fields": 277
+        },
+        {
+          "class": "nso/CharPartInfo",
+          "methods": 3,
+          "fields": 12
+        },
+        {
+          "class": "nso/ChatManager",
+          "methods": 15,
+          "fields": 8
+        },
+        {
+          "class": "nso/ChatPopup",
+          "methods": 6,
+          "fields": 13
+        },
+        {
+          "class": "nso/ChatTab",
+          "methods": 5,
+          "fields": 3
+        },
+        {
+          "class": "nso/ChatTextField",
+          "methods": 6,
+          "fields": 9
+        },
+        {
+          "class": "nso/Clan",
+          "methods": 2,
+          "fields": 16
+        },
+        {
+          "class": "nso/Clan_ThanThu",
+          "methods": 1,
+          "fields": 10
+        },
+        {
+          "class": "nso/Command",
+          "methods": 9,
+          "fields": 13
+        },
+        {
+          "class": "nso/ConnectionTimeout",
+          "methods": 2,
+          "fields": 0
+        },
+        {
+          "class": "nso/Controller",
+          "methods": 27,
+          "fields": 2
+        },
+        {
+          "class": "nso/CreateCharScr",
+          "methods": 9,
+          "fields": 11
+        },
+        {
+          "class": "nso/DataSkillEff",
+          "methods": 15,
+          "fields": 35
+        },
+        {
+          "class": "nso/Dialog",
+          "methods": 4,
+          "fields": 3
+        },
+        {
+          "class": "nso/Domsang",
+          "methods": 3,
+          "fields": 5
+        },
+        {
+          "class": "nso/DunItem",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/EPosition",
+          "methods": 3,
+          "fields": 5
+        },
+        {
+          "class": "nso/EffAtutoTemp",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/Effect",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/Effect2",
+          "methods": 4,
+          "fields": 4
+        },
+        {
+          "class": "nso/EffectAuto",
+          "methods": 11,
+          "fields": 12
+        },
+        {
+          "class": "nso/EffectCharPaint",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/EffectInfoPaint",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/EffectPaint",
+          "methods": 2,
+          "fields": 5
+        },
+        {
+          "class": "nso/EffectTemplate",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/EggMonters",
+          "methods": 2,
+          "fields": 6
+        },
+        {
+          "class": "nso/EmptyAnimationAction",
+          "methods": 1,
+          "fields": 0
+        },
+        {
+          "class": "nso/Frame",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/FrameEff",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/FrameImage",
+          "methods": 2,
+          "fields": 6
+        },
+        {
+          "class": "nso/Friend",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/GameData",
+          "methods": 4,
+          "fields": 3
+        },
+        {
+          "class": "nso/GameScr",
+          "methods": 366,
+          "fields": 455
+        },
+        {
+          "class": "nso/IActionListener",
+          "methods": 1,
+          "fields": 0
+        },
+        {
+          "class": "nso/ImageIcon",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/ImageInfo",
+          "methods": 1,
+          "fields": 4
+        },
+        {
+          "class": "nso/Info",
+          "methods": 5,
+          "fields": 8
+        },
+        {
+          "class": "nso/InfoDlg",
+          "methods": 6,
+          "fields": 5
+        },
+        {
+          "class": "nso/InfoItem",
+          "methods": 2,
+          "fields": 3
+        },
+        {
+          "class": "nso/InfoMe",
+          "methods": 8,
+          "fields": 8
+        },
+        {
+          "class": "nso/Input2Dlg",
+          "methods": 7,
+          "fields": 7
+        },
+        {
+          "class": "nso/InputDlg",
+          "methods": 5,
+          "fields": 3
+        },
+        {
+          "class": "nso/Item",
+          "methods": 23,
+          "fields": 21
+        },
+        {
+          "class": "nso/ItemMap",
+          "methods": 3,
+          "fields": 10
+        },
+        {
+          "class": "nso/ItemOption",
+          "methods": 5,
+          "fields": 3
+        },
+        {
+          "class": "nso/ItemOptionTemplate",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/ItemStands",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/ItemTemplate",
+          "methods": 1,
+          "fields": 9
+        },
+        {
+          "class": "nso/ItemTemplates",
+          "methods": 5,
+          "fields": 1
+        },
+        {
+          "class": "nso/ItemTree",
+          "methods": 3,
+          "fields": 3
+        },
+        {
+          "class": "nso/LanguageScr",
+          "methods": 8,
+          "fields": 5
+        },
+        {
+          "class": "nso/Lanterns",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/Lightning",
+          "methods": 5,
+          "fields": 11
+        },
+        {
+          "class": "nso/LoginScr",
+          "methods": 13,
+          "fields": 25
+        },
+        {
+          "class": "nso/MainObject",
+          "methods": 4,
+          "fields": 1
+        },
+        {
+          "class": "nso/MapScr",
+          "methods": 10,
+          "fields": 34
+        },
+        {
+          "class": "nso/Member",
+          "methods": 1,
+          "fields": 7
+        },
+        {
+          "class": "nso/Menu",
+          "methods": 7,
+          "fields": 30
+        },
+        {
+          "class": "nso/Message",
+          "methods": 7,
+          "fields": 5
+        },
+        {
+          "class": "nso/Mob",
+          "methods": 29,
+          "fields": 58
+        },
+        {
+          "class": "nso/MobAttack",
+          "methods": 3,
+          "fields": 10
+        },
+        {
+          "class": "nso/MobSoul",
+          "methods": 4,
+          "fields": 11
+        },
+        {
+          "class": "nso/MobTemplate",
+          "methods": 1,
+          "fields": 15
+        },
+        {
+          "class": "nso/MonsterDart",
+          "methods": 8,
+          "fields": 24
+        },
+        {
+          "class": "nso/MovePoint",
+          "methods": 2,
+          "fields": 3
+        },
+        {
+          "class": "nso/MsgDlg",
+          "methods": 5,
+          "fields": 5
+        },
+        {
+          "class": "nso/MyImage",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/MyVector",
+          "methods": 7,
+          "fields": 0
+        },
+        {
+          "class": "nso/NClass",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/NativeTextBoxListener",
+          "methods": 2,
+          "fields": 2
+        },
+        {
+          "class": "nso/NinjaUtil",
+          "methods": 13,
+          "fields": 1
+        },
+        {
+          "class": "nso/Npc",
+          "methods": 4,
+          "fields": 2
+        },
+        {
+          "class": "nso/NpcTemplate",
+          "methods": 1,
+          "fields": 6
+        },
+        {
+          "class": "nso/PacketBuffer",
+          "methods": 1,
+          "fields": 1
+        },
+        {
+          "class": "nso/Paint",
+          "methods": 11,
+          "fields": 7
+        },
+        {
+          "class": "nso/Part",
+          "methods": 1,
+          "fields": 1
+        },
+        {
+          "class": "nso/PartFrame",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/PartImage",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/Party",
+          "methods": 4,
+          "fields": 7
+        },
+        {
+          "class": "nso/Position",
+          "methods": 2,
+          "fields": 6
+        },
+        {
+          "class": "nso/RMS",
+          "methods": 10,
+          "fields": 0
+        },
+        {
+          "class": "nso/Ranked",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/Readmsg",
+          "methods": 2,
+          "fields": 0
+        },
+        {
+          "class": "nso/RegisterScr",
+          "methods": 7,
+          "fields": 12
+        },
+        {
+          "class": "nso/Res",
+          "methods": 16,
+          "fields": 4
+        },
+        {
+          "class": "nso/SMS",
+          "methods": 3,
+          "fields": 0
+        },
+        {
+          "class": "nso/Scroll",
+          "methods": 8,
+          "fields": 25
+        },
+        {
+          "class": "nso/ScrollResult",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/SelectCharScr",
+          "methods": 8,
+          "fields": 20
+        },
+        {
+          "class": "nso/SelectServerScr",
+          "methods": 12,
+          "fields": 17
+        },
+        {
+          "class": "nso/ServerEffect",
+          "methods": 7,
+          "fields": 8
+        },
+        {
+          "class": "nso/Service",
+          "methods": 151,
+          "fields": 4
+        },
+        {
+          "class": "nso/SessionConnector",
+          "methods": 2,
+          "fields": 2
+        },
+        {
+          "class": "nso/SessionReceiver",
+          "methods": 3,
+          "fields": 1
+        },
+        {
+          "class": "nso/SessionSender",
+          "methods": 2,
+          "fields": 1
+        },
+        {
+          "class": "nso/Session_ME",
+          "methods": 18,
+          "fields": 21
+        },
+        {
+          "class": "nso/Set",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/Skill",
+          "methods": 3,
+          "fields": 12
+        },
+        {
+          "class": "nso/SkillInfoPaint",
+          "methods": 1,
+          "fields": 13
+        },
+        {
+          "class": "nso/SkillOption",
+          "methods": 2,
+          "fields": 3
+        },
+        {
+          "class": "nso/SkillOptionTemplate",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/SkillPaint",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/SkillTemplate",
+          "methods": 1,
+          "fields": 7
+        },
+        {
+          "class": "nso/Skills",
+          "methods": 4,
+          "fields": 1
+        },
+        {
+          "class": "nso/SmallImage",
+          "methods": 13,
+          "fields": 7
+        },
+        {
+          "class": "nso/SmsSender",
+          "methods": 2,
+          "fields": 5
+        },
+        {
+          "class": "nso/SplashScr",
+          "methods": 2,
+          "fields": 1
+        },
+        {
+          "class": "nso/StaticObj",
+          "methods": 2,
+          "fields": 10
+        },
+        {
+          "class": "nso/StringHashtable",
+          "methods": 5,
+          "fields": 0
+        },
+        {
+          "class": "nso/TField",
+          "methods": 17,
+          "fields": 33
+        },
+        {
+          "class": "nso/Task",
+          "methods": 1,
+          "fields": 6
+        },
+        {
+          "class": "nso/TaskOrder",
+          "methods": 1,
+          "fields": 7
+        },
+        {
+          "class": "nso/TileMap",
+          "methods": 21,
+          "fields": 51
+        },
+        {
+          "class": "nso/TimecountDown",
+          "methods": 4,
+          "fields": 6
+        },
+        {
+          "class": "nso/Timer",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/Waypoint",
+          "methods": 1,
+          "fields": 4
+        },
+        {
+          "class": "nso/mFont",
+          "methods": 10,
+          "fields": 27
+        },
+        {
+          "class": "nso/mGraphics",
+          "methods": 17,
+          "fields": 2
+        },
+        {
+          "class": "nso/mHashtable",
+          "methods": 4,
+          "fields": 1
+        },
+        {
+          "class": "nso/mResources",
+          "methods": 4,
+          "fields": 508
+        },
+        {
+          "class": "nso/mScreen",
+          "methods": 10,
+          "fields": 7
+        }
+      ],
+      "callSites": 19828,
+      "fieldSites": 43970,
+      "errors": [],
+      "passed": true,
+      "classInitialization": false
+    },
+    "debug": {
+      "jar": "source/debug-dist/NinjaSchool_251-source-rebuilt.jar",
+      "verifiedClasses": [
+        {
+          "class": "main/CanvasAdapter",
+          "methods": 7,
+          "fields": 0
+        },
+        {
+          "class": "main/GameCanvas",
+          "methods": 45,
+          "fields": 91
+        },
+        {
+          "class": "main/GameMidlet",
+          "methods": 15,
+          "fields": 20
+        },
+        {
+          "class": "main/MotherCanvas",
+          "methods": 11,
+          "fields": 6
+        },
+        {
+          "class": "nso/AnimateEffect",
+          "methods": 5,
+          "fields": 7
+        },
+        {
+          "class": "nso/AnimationAction",
+          "methods": 1,
+          "fields": 0
+        },
+        {
+          "class": "nso/Arrow",
+          "methods": 5,
+          "fields": 14
+        },
+        {
+          "class": "nso/Arrowpaint",
+          "methods": 2,
+          "fields": 1
+        },
+        {
+          "class": "nso/BuNhin",
+          "methods": 1,
+          "fields": 4
+        },
+        {
+          "class": "nso/Char",
+          "methods": 131,
+          "fields": 277
+        },
+        {
+          "class": "nso/CharPartInfo",
+          "methods": 3,
+          "fields": 12
+        },
+        {
+          "class": "nso/ChatManager",
+          "methods": 15,
+          "fields": 8
+        },
+        {
+          "class": "nso/ChatPopup",
+          "methods": 6,
+          "fields": 13
+        },
+        {
+          "class": "nso/ChatTab",
+          "methods": 5,
+          "fields": 3
+        },
+        {
+          "class": "nso/ChatTextField",
+          "methods": 6,
+          "fields": 9
+        },
+        {
+          "class": "nso/Clan",
+          "methods": 2,
+          "fields": 16
+        },
+        {
+          "class": "nso/Clan_ThanThu",
+          "methods": 1,
+          "fields": 10
+        },
+        {
+          "class": "nso/Command",
+          "methods": 9,
+          "fields": 13
+        },
+        {
+          "class": "nso/ConnectionTimeout",
+          "methods": 2,
+          "fields": 0
+        },
+        {
+          "class": "nso/Controller",
+          "methods": 27,
+          "fields": 2
+        },
+        {
+          "class": "nso/CreateCharScr",
+          "methods": 9,
+          "fields": 11
+        },
+        {
+          "class": "nso/DataSkillEff",
+          "methods": 15,
+          "fields": 35
+        },
+        {
+          "class": "nso/Dialog",
+          "methods": 4,
+          "fields": 3
+        },
+        {
+          "class": "nso/Domsang",
+          "methods": 3,
+          "fields": 5
+        },
+        {
+          "class": "nso/DunItem",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/EPosition",
+          "methods": 3,
+          "fields": 5
+        },
+        {
+          "class": "nso/EffAtutoTemp",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/Effect",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/Effect2",
+          "methods": 4,
+          "fields": 4
+        },
+        {
+          "class": "nso/EffectAuto",
+          "methods": 11,
+          "fields": 12
+        },
+        {
+          "class": "nso/EffectCharPaint",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/EffectInfoPaint",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/EffectPaint",
+          "methods": 2,
+          "fields": 5
+        },
+        {
+          "class": "nso/EffectTemplate",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/EggMonters",
+          "methods": 2,
+          "fields": 6
+        },
+        {
+          "class": "nso/EmptyAnimationAction",
+          "methods": 1,
+          "fields": 0
+        },
+        {
+          "class": "nso/Frame",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/FrameEff",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/FrameImage",
+          "methods": 2,
+          "fields": 6
+        },
+        {
+          "class": "nso/Friend",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/GameData",
+          "methods": 4,
+          "fields": 3
+        },
+        {
+          "class": "nso/GameScr",
+          "methods": 366,
+          "fields": 455
+        },
+        {
+          "class": "nso/IActionListener",
+          "methods": 1,
+          "fields": 0
+        },
+        {
+          "class": "nso/ImageIcon",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/ImageInfo",
+          "methods": 1,
+          "fields": 4
+        },
+        {
+          "class": "nso/Info",
+          "methods": 5,
+          "fields": 8
+        },
+        {
+          "class": "nso/InfoDlg",
+          "methods": 6,
+          "fields": 5
+        },
+        {
+          "class": "nso/InfoItem",
+          "methods": 2,
+          "fields": 3
+        },
+        {
+          "class": "nso/InfoMe",
+          "methods": 8,
+          "fields": 8
+        },
+        {
+          "class": "nso/Input2Dlg",
+          "methods": 7,
+          "fields": 7
+        },
+        {
+          "class": "nso/InputDlg",
+          "methods": 5,
+          "fields": 3
+        },
+        {
+          "class": "nso/Item",
+          "methods": 23,
+          "fields": 21
+        },
+        {
+          "class": "nso/ItemMap",
+          "methods": 3,
+          "fields": 10
+        },
+        {
+          "class": "nso/ItemOption",
+          "methods": 5,
+          "fields": 3
+        },
+        {
+          "class": "nso/ItemOptionTemplate",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/ItemStands",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/ItemTemplate",
+          "methods": 1,
+          "fields": 9
+        },
+        {
+          "class": "nso/ItemTemplates",
+          "methods": 5,
+          "fields": 1
+        },
+        {
+          "class": "nso/ItemTree",
+          "methods": 3,
+          "fields": 3
+        },
+        {
+          "class": "nso/LanguageScr",
+          "methods": 8,
+          "fields": 5
+        },
+        {
+          "class": "nso/Lanterns",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/Lightning",
+          "methods": 5,
+          "fields": 11
+        },
+        {
+          "class": "nso/LoginScr",
+          "methods": 13,
+          "fields": 25
+        },
+        {
+          "class": "nso/MainObject",
+          "methods": 4,
+          "fields": 1
+        },
+        {
+          "class": "nso/MapScr",
+          "methods": 10,
+          "fields": 34
+        },
+        {
+          "class": "nso/Member",
+          "methods": 1,
+          "fields": 7
+        },
+        {
+          "class": "nso/Menu",
+          "methods": 7,
+          "fields": 30
+        },
+        {
+          "class": "nso/Message",
+          "methods": 7,
+          "fields": 5
+        },
+        {
+          "class": "nso/Mob",
+          "methods": 29,
+          "fields": 58
+        },
+        {
+          "class": "nso/MobAttack",
+          "methods": 3,
+          "fields": 10
+        },
+        {
+          "class": "nso/MobSoul",
+          "methods": 4,
+          "fields": 11
+        },
+        {
+          "class": "nso/MobTemplate",
+          "methods": 1,
+          "fields": 15
+        },
+        {
+          "class": "nso/MonsterDart",
+          "methods": 8,
+          "fields": 24
+        },
+        {
+          "class": "nso/MovePoint",
+          "methods": 2,
+          "fields": 3
+        },
+        {
+          "class": "nso/MsgDlg",
+          "methods": 5,
+          "fields": 5
+        },
+        {
+          "class": "nso/MyImage",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/MyVector",
+          "methods": 7,
+          "fields": 0
+        },
+        {
+          "class": "nso/NClass",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/NativeTextBoxListener",
+          "methods": 2,
+          "fields": 2
+        },
+        {
+          "class": "nso/NinjaUtil",
+          "methods": 13,
+          "fields": 1
+        },
+        {
+          "class": "nso/Npc",
+          "methods": 4,
+          "fields": 2
+        },
+        {
+          "class": "nso/NpcTemplate",
+          "methods": 1,
+          "fields": 6
+        },
+        {
+          "class": "nso/PacketBuffer",
+          "methods": 1,
+          "fields": 1
+        },
+        {
+          "class": "nso/Paint",
+          "methods": 11,
+          "fields": 7
+        },
+        {
+          "class": "nso/Part",
+          "methods": 1,
+          "fields": 1
+        },
+        {
+          "class": "nso/PartFrame",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/PartImage",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/Party",
+          "methods": 4,
+          "fields": 7
+        },
+        {
+          "class": "nso/Position",
+          "methods": 2,
+          "fields": 6
+        },
+        {
+          "class": "nso/RMS",
+          "methods": 10,
+          "fields": 0
+        },
+        {
+          "class": "nso/Ranked",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/Readmsg",
+          "methods": 2,
+          "fields": 0
+        },
+        {
+          "class": "nso/RegisterScr",
+          "methods": 7,
+          "fields": 12
+        },
+        {
+          "class": "nso/Res",
+          "methods": 16,
+          "fields": 4
+        },
+        {
+          "class": "nso/SMS",
+          "methods": 3,
+          "fields": 0
+        },
+        {
+          "class": "nso/Scroll",
+          "methods": 8,
+          "fields": 25
+        },
+        {
+          "class": "nso/ScrollResult",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/SelectCharScr",
+          "methods": 8,
+          "fields": 20
+        },
+        {
+          "class": "nso/SelectServerScr",
+          "methods": 12,
+          "fields": 17
+        },
+        {
+          "class": "nso/ServerEffect",
+          "methods": 7,
+          "fields": 8
+        },
+        {
+          "class": "nso/Service",
+          "methods": 151,
+          "fields": 4
+        },
+        {
+          "class": "nso/SessionConnector",
+          "methods": 2,
+          "fields": 2
+        },
+        {
+          "class": "nso/SessionReceiver",
+          "methods": 3,
+          "fields": 1
+        },
+        {
+          "class": "nso/SessionSender",
+          "methods": 2,
+          "fields": 1
+        },
+        {
+          "class": "nso/Session_ME",
+          "methods": 18,
+          "fields": 21
+        },
+        {
+          "class": "nso/Set",
+          "methods": 1,
+          "fields": 5
+        },
+        {
+          "class": "nso/Skill",
+          "methods": 3,
+          "fields": 12
+        },
+        {
+          "class": "nso/SkillInfoPaint",
+          "methods": 1,
+          "fields": 13
+        },
+        {
+          "class": "nso/SkillOption",
+          "methods": 2,
+          "fields": 3
+        },
+        {
+          "class": "nso/SkillOptionTemplate",
+          "methods": 1,
+          "fields": 2
+        },
+        {
+          "class": "nso/SkillPaint",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/SkillTemplate",
+          "methods": 1,
+          "fields": 7
+        },
+        {
+          "class": "nso/Skills",
+          "methods": 4,
+          "fields": 1
+        },
+        {
+          "class": "nso/SmallImage",
+          "methods": 13,
+          "fields": 7
+        },
+        {
+          "class": "nso/SmsSender",
+          "methods": 2,
+          "fields": 5
+        },
+        {
+          "class": "nso/SplashScr",
+          "methods": 2,
+          "fields": 1
+        },
+        {
+          "class": "nso/StaticObj",
+          "methods": 2,
+          "fields": 10
+        },
+        {
+          "class": "nso/StringHashtable",
+          "methods": 5,
+          "fields": 0
+        },
+        {
+          "class": "nso/TField",
+          "methods": 17,
+          "fields": 33
+        },
+        {
+          "class": "nso/Task",
+          "methods": 1,
+          "fields": 6
+        },
+        {
+          "class": "nso/TaskOrder",
+          "methods": 1,
+          "fields": 7
+        },
+        {
+          "class": "nso/TileMap",
+          "methods": 21,
+          "fields": 51
+        },
+        {
+          "class": "nso/TimecountDown",
+          "methods": 4,
+          "fields": 6
+        },
+        {
+          "class": "nso/Timer",
+          "methods": 1,
+          "fields": 3
+        },
+        {
+          "class": "nso/Waypoint",
+          "methods": 1,
+          "fields": 4
+        },
+        {
+          "class": "nso/mFont",
+          "methods": 10,
+          "fields": 27
+        },
+        {
+          "class": "nso/mGraphics",
+          "methods": 17,
+          "fields": 2
+        },
+        {
+          "class": "nso/mHashtable",
+          "methods": 4,
+          "fields": 1
+        },
+        {
+          "class": "nso/mResources",
+          "methods": 4,
+          "fields": 508
+        },
+        {
+          "class": "nso/mScreen",
+          "methods": 10,
+          "fields": 7
+        }
+      ],
+      "callSites": 19828,
+      "fieldSites": 43970,
+      "errors": [],
+      "passed": true,
+      "classInitialization": false
+    }
+  },
+  "microEmulator": {
+    "release": {
+      "passed": true,
+      "emulatorVersion": "2.0.4",
+      "javaVersion": "17.0.21.1",
+      "frames": [
+        {
+          "phase": "01-startup",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SplashScr",
+          "tick": 1,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1,
+          "pixelSHA256": "3e14b2601844a2daafd8051a77962169e56f03a2bef38afd657ed5fa7a332a9c"
+        },
+        {
+          "phase": "02-idle",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SelectServerScr",
+          "tick": 97,
+          "selection": -1,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1035,
+          "pixelSHA256": "7c1d1e8f1de6982ddaee3abba00d799c97c5a9fec4176c701456a066ec876bb5"
+        },
+        {
+          "phase": "03-down",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SelectServerScr",
+          "tick": 108,
+          "selection": 0,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1094,
+          "pixelSHA256": "0c76fc8212a2df985fb6e15dd944c8aad342d1c17c64405d6d2ce84b5256766d"
+        },
+        {
+          "phase": "04-up",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SelectServerScr",
+          "tick": 119,
+          "selection": 3,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1073,
+          "pixelSHA256": "3ae352e765dc0909822814331b50dc01d9e0bf2e98cd15c06598f1cdc9073354"
+        },
+        {
+          "phase": "05-resumed",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SelectServerScr",
+          "tick": 143,
+          "selection": 3,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1078,
+          "pixelSHA256": "af6ec63662c84594b0b966d995970a7000a1f18c46e5961c373e7933b906d4bf"
+        },
+        {
+          "phase": "06-login-screen",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.LoginScr",
+          "tick": 167,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1040,
+          "pixelSHA256": "566349dfa5a0a92fd252b947700895f97c56585e47e68893b28ff64cfa2c39a5"
+        }
+      ],
+      "actions": [
+        {
+          "input": 6,
+          "keyCode": -2
+        },
+        {
+          "input": 1,
+          "keyCode": -1
+        },
+        {
+          "inputCheck": "server menu reacts to DOWN and UP",
+          "passed": true
+        },
+        {
+          "lifecycle": "pauseApp",
+          "passed": true
+        },
+        {
+          "navigation": "server menu to login form",
+          "passed": true
+        },
+        {
+          "lifecycle": "destroyApp",
+          "passed": true
+        }
+      ],
+      "decodedPngCount": 166,
+      "allPngDecodesPassed": true,
+      "inspection": "programmatic framebuffer/pixel/image checks"
+    },
+    "debug": {
+      "passed": true,
+      "emulatorVersion": "2.0.4",
+      "javaVersion": "17.0.21.1",
+      "frames": [
+        {
+          "phase": "01-startup",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SplashScr",
+          "tick": 1,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1,
+          "pixelSHA256": "3e14b2601844a2daafd8051a77962169e56f03a2bef38afd657ed5fa7a332a9c"
+        },
+        {
+          "phase": "02-idle",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SelectServerScr",
+          "tick": 97,
+          "selection": -1,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1126,
+          "pixelSHA256": "e6e15de850a7925e5dc6aee5f80604f589d9e07da932a7237295f574b05a4468"
+        },
+        {
+          "phase": "03-down",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SelectServerScr",
+          "tick": 109,
+          "selection": 0,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1186,
+          "pixelSHA256": "86cd0be4a7f962c9b19ba56c5cfba8e071b36ca66ec5180be9f7cd0f24e881ac"
+        },
+        {
+          "phase": "04-up",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SelectServerScr",
+          "tick": 120,
+          "selection": 3,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1183,
+          "pixelSHA256": "86d102f7caa2c26b7abdf34e8fcee67794664da4fc6eb92deb3d4b787cad0257"
+        },
+        {
+          "phase": "05-resumed",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.SelectServerScr",
+          "tick": 144,
+          "selection": 3,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1169,
+          "pixelSHA256": "03c41bb87e209688fd4face3cbe9f46ac4aaa0acb0bdc064e516ff316dc9dea4"
+        },
+        {
+          "phase": "06-login-screen",
+          "midlet": "main.GameMidlet",
+          "displayable": "main.MotherCanvas",
+          "screen": "nso.LoginScr",
+          "tick": 169,
+          "width": 176,
+          "height": 220,
+          "uniqueColors": 1042,
+          "pixelSHA256": "c49f4e89e7adcc40c5f5ddb8fbedec76055db0836c9598214441f5d500151c45"
+        }
+      ],
+      "actions": [
+        {
+          "input": 6,
+          "keyCode": -2
+        },
+        {
+          "input": 1,
+          "keyCode": -1
+        },
+        {
+          "inputCheck": "server menu reacts to DOWN and UP",
+          "passed": true
+        },
+        {
+          "lifecycle": "pauseApp",
+          "passed": true
+        },
+        {
+          "navigation": "server menu to login form",
+          "passed": true
+        },
+        {
+          "lifecycle": "destroyApp",
+          "passed": true
+        }
+      ],
+      "decodedPngCount": 166,
+      "allPngDecodesPassed": true,
+      "inspection": "programmatic framebuffer/pixel/image checks"
+    }
+  },
+  "scope": "Build/refactor verification against the preserved reconstructed ECJ baseline; not proof of complete original-JAR or online gameplay equivalence.",
+  "freshCheckout": {
+    "export": {
+      "passed": true,
+      "trackedFiles": 307,
+      "trackedBytes": 76808868,
+      "javaSourceFiles": 130,
+      "secretPatternFindings": 0,
+      "sourceTextMatchesVerifiedReconstruction": true,
+      "lineEndings": "LF in Git; original local copies may use CRLF"
+    },
+    "compile-only": {
+      "passed": true,
+      "compiler": "ECJ 3.33.0",
+      "source_files": 130,
+      "class_files": 130,
+      "classfile_version": "45.3",
+      "debug_symbols": false,
+      "compile_only": true,
+      "resources": 0,
+      "sha256": ""
+    },
+    "release": {
+      "passed": true,
+      "compiler": "ECJ 3.33.0",
+      "source_files": 130,
+      "class_files": 130,
+      "classfile_version": "45.3",
+      "debug_symbols": false,
+      "compile_only": false,
+      "resources": 239,
+      "sha256": "1d8a8672583143927ddd229453ed5df169a1922fbebf914590223d0431b3f4e0"
+    },
+    "debug": {
+      "passed": true,
+      "compiler": "ECJ 3.33.0",
+      "source_files": 130,
+      "class_files": 130,
+      "classfile_version": "45.3",
+      "debug_symbols": true,
+      "compile_only": false,
+      "resources": 239,
+      "sha256": "3190c93cc994a02e6fbd5b4a698940d614765c821265d34428632991d2ebd35a"
+    },
+    "passed": true,
+    "dependenciesRestoredFromPinnedUrls": 5,
+    "resourcesImportedFromOriginalJar": 239,
+    "bundledJdkInCheckout": false
+  },
+  "debugLauncher": {
+    "passed": true,
+    "launcher": "source/run.ps1 -Debug",
+    "bindAddress": "127.0.0.1",
+    "jdwpHandshake": true,
+    "stoppedOnlyOwnProcessTree": true
+  }
+}
